@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2561E717818A9EA6CBA80969A2564B14 /* Vertex.h in Headers */ = {isa = PBXBuildFile; fileRef = B23D4B44168AB4EE96C838A1106284FE /* Vertex.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		58676E53AB0808D757F40CC6D9E20ACF /* Shader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA52CF73D9F46D5240DA99C738A47D7 /* Shader.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5EEE8C5FFE39BBDE0A50D96B6D741E0E /* Pods-OpenGLZeroStudyDemo(1)UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEEA1897BB7C91AEFAF53C4D9A9D21A /* Pods-OpenGLZeroStudyDemo(1)UITests-dummy.m */; };
+		9B33A3AA3FF428B30A3B8D2C488F5E05 /* Pods-OpenGLZeroStudyDemo(1)Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCE9F33BE2ACE831BF7C7BA5C3F311E /* Pods-OpenGLZeroStudyDemo(1)Tests-dummy.m */; };
+		A5B75A72D2FB2773FF9040E4EE6B2A37 /* OpenGLUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 482A18D2D4CCE328B7F1F4A8C470D32C /* OpenGLUtils-dummy.m */; };
+		D503BDE47FEC37E434CE7A6DB95B9CFD /* Pods-OpenGLZeroStudyDemo(1)-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 233FB4F9DB08BC46F3770A34D36F79C6 /* Pods-OpenGLZeroStudyDemo(1)-dummy.m */; };
+		DC43DE4D006FFDF817F3D0563E65A748 /* Shader.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D51650106ED851B08BA62904DFA28A /* Shader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E844FCEF9C2BD25E4C72BD7B72AA517E /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4053D24836FE395ED004130A40F1692F /* Vertex.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FDF611011DE4466B820051910042E08B /* OpenGLUtilsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BDA2E706EB14D173DDA57372E7FB787 /* OpenGLUtilsHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36017204AF99347F5956605F41CFA8CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6AD3BF50F1B71DF4870D488AF10009F;
+			remoteInfo = "Pods-OpenGLZeroStudyDemo(1)";
+		};
+		BE2158EEACB040F1E56BC9BB28EB46DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6AD3BF50F1B71DF4870D488AF10009F;
+			remoteInfo = "Pods-OpenGLZeroStudyDemo(1)";
+		};
+		E6C627B1B230C315E5BDA1B130598A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2AD87B04B7F2F4E70DD02ACAFACDAF6;
+			remoteInfo = OpenGLUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0464C47FDF4995222F795DAAD0DB0964 /* Pods-OpenGLZeroStudyDemo(1).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenGLZeroStudyDemo(1).debug.xcconfig"; sourceTree = "<group>"; };
+		0A8983438A4F202D6320DCCCDA2291C7 /* libPods-OpenGLZeroStudyDemo(1)UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OpenGLZeroStudyDemo(1)UITests.a"; path = "libPods-OpenGLZeroStudyDemo(1)UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F642179F8B4E02067D9292E5296118D /* OpenGLUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenGLUtils.xcconfig; sourceTree = "<group>"; };
+		145EEEF75E587C162A7BD1CF2F2E435A /* libOpenGLUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libOpenGLUtils.a; path = libOpenGLUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EEEA1897BB7C91AEFAF53C4D9A9D21A /* Pods-OpenGLZeroStudyDemo(1)UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenGLZeroStudyDemo(1)UITests-dummy.m"; sourceTree = "<group>"; };
+		1EF7072332F9EE0E1A94AA061E898999 /* Pods-OpenGLZeroStudyDemo(1)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenGLZeroStudyDemo(1)UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		233FB4F9DB08BC46F3770A34D36F79C6 /* Pods-OpenGLZeroStudyDemo(1)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenGLZeroStudyDemo(1)-dummy.m"; sourceTree = "<group>"; };
+		2910F2515F2E7DC181B8DF3EC54384EB /* Pods-OpenGLZeroStudyDemo(1)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenGLZeroStudyDemo(1)-acknowledgements.plist"; sourceTree = "<group>"; };
+		2BDA2E706EB14D173DDA57372E7FB787 /* OpenGLUtilsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpenGLUtilsHeader.h; path = Classes/OpenGLUtilsHeader.h; sourceTree = "<group>"; };
+		2FA52CF73D9F46D5240DA99C738A47D7 /* Shader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Shader.m; path = Classes/Shader.m; sourceTree = "<group>"; };
+		34E9E6E67D30BC37C12907500D77E0A3 /* Pods-OpenGLZeroStudyDemo(1)Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenGLZeroStudyDemo(1)Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4053D24836FE395ED004130A40F1692F /* Vertex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Vertex.m; path = Classes/Vertex.m; sourceTree = "<group>"; };
+		482A18D2D4CCE328B7F1F4A8C470D32C /* OpenGLUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenGLUtils-dummy.m"; sourceTree = "<group>"; };
+		592883E2A09910F48E8EEEA10D0CC7D8 /* libPods-OpenGLZeroStudyDemo(1)Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OpenGLZeroStudyDemo(1)Tests.a"; path = "libPods-OpenGLZeroStudyDemo(1)Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		643668CB4915C2A19A3A7AD3737239C2 /* OpenGLUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OpenGLUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95020BA4B62D8CDC22113924EAA4049E /* Pods-OpenGLZeroStudyDemo(1).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenGLZeroStudyDemo(1).release.xcconfig"; sourceTree = "<group>"; };
+		992B305FA3AC1007851EE65023F7E702 /* OpenGLUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenGLUtils-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D9771D5F59A8821448EFDCEF14347D9 /* Pods-OpenGLZeroStudyDemo(1)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenGLZeroStudyDemo(1)Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B23D4B44168AB4EE96C838A1106284FE /* Vertex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Vertex.h; path = Classes/Vertex.h; sourceTree = "<group>"; };
+		B977974A673588D615EAAB9B356D2669 /* Pods-OpenGLZeroStudyDemo(1)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenGLZeroStudyDemo(1)Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BB3117A939281FA4B62271FED7818168 /* libPods-OpenGLZeroStudyDemo(1).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OpenGLZeroStudyDemo(1).a"; path = "libPods-OpenGLZeroStudyDemo(1).a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCE9F33BE2ACE831BF7C7BA5C3F311E /* Pods-OpenGLZeroStudyDemo(1)Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenGLZeroStudyDemo(1)Tests-dummy.m"; sourceTree = "<group>"; };
+		C9D51650106ED851B08BA62904DFA28A /* Shader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Shader.h; path = Classes/Shader.h; sourceTree = "<group>"; };
+		CDE1C309A6A8A816EDC1DB0050C158AB /* Pods-OpenGLZeroStudyDemo(1)UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenGLZeroStudyDemo(1)UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D3D625227342999E9A2AAA6169A1D79D /* Pods-OpenGLZeroStudyDemo(1)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenGLZeroStudyDemo(1)UITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF382962355FA513D5F6489D2FFC4E65 /* Pods-OpenGLZeroStudyDemo(1)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenGLZeroStudyDemo(1)-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EBFCE173B1FDE24B6A4393675203B90E /* Pods-OpenGLZeroStudyDemo(1)Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenGLZeroStudyDemo(1)Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE852B54D1F7A6C3AAE8E885F7139957 /* Pods-OpenGLZeroStudyDemo(1)UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenGLZeroStudyDemo(1)UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88A70FC1AEEDCD29786291AB0051FBB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B225ECE2FA3C27E808F681D2CDFCDD6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76E91626F01980CBEB153C30B33EC6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EF39E619491BF1D356EEF8CB02A609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7BC9B97F22DABBAD273096CD554743 /* Pods-OpenGLZeroStudyDemo(1)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				34E9E6E67D30BC37C12907500D77E0A3 /* Pods-OpenGLZeroStudyDemo(1)Tests-acknowledgements.markdown */,
+				EBFCE173B1FDE24B6A4393675203B90E /* Pods-OpenGLZeroStudyDemo(1)Tests-acknowledgements.plist */,
+				BBCE9F33BE2ACE831BF7C7BA5C3F311E /* Pods-OpenGLZeroStudyDemo(1)Tests-dummy.m */,
+				9D9771D5F59A8821448EFDCEF14347D9 /* Pods-OpenGLZeroStudyDemo(1)Tests.debug.xcconfig */,
+				B977974A673588D615EAAB9B356D2669 /* Pods-OpenGLZeroStudyDemo(1)Tests.release.xcconfig */,
+			);
+			name = "Pods-OpenGLZeroStudyDemo(1)Tests";
+			path = "Target Support Files/Pods-OpenGLZeroStudyDemo(1)Tests";
+			sourceTree = "<group>";
+		};
+		1817E4B42C19AC3C664AC4A8ADCEB188 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F78E888845B522018545C0FBD05FCDB /* Pods-OpenGLZeroStudyDemo(1) */,
+				0F7BC9B97F22DABBAD273096CD554743 /* Pods-OpenGLZeroStudyDemo(1)Tests */,
+				58980D4293C3B003B7221E31CC6843D1 /* Pods-OpenGLZeroStudyDemo(1)UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2DCE5F908C74EF490291EBDD330A199C /* OpenGLUtils */ = {
+			isa = PBXGroup;
+			children = (
+				2BDA2E706EB14D173DDA57372E7FB787 /* OpenGLUtilsHeader.h */,
+				C9D51650106ED851B08BA62904DFA28A /* Shader.h */,
+				2FA52CF73D9F46D5240DA99C738A47D7 /* Shader.m */,
+				B23D4B44168AB4EE96C838A1106284FE /* Vertex.h */,
+				4053D24836FE395ED004130A40F1692F /* Vertex.m */,
+				42CC54E7FEA60DEC31FF29318DCC3B07 /* Pod */,
+				A3BD7ACB7566035FE1E32A4263E2C1DB /* Support Files */,
+			);
+			name = OpenGLUtils;
+			path = ../../openGL;
+			sourceTree = "<group>";
+		};
+		42CC54E7FEA60DEC31FF29318DCC3B07 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				643668CB4915C2A19A3A7AD3737239C2 /* OpenGLUtils.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		58980D4293C3B003B7221E31CC6843D1 /* Pods-OpenGLZeroStudyDemo(1)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDE1C309A6A8A816EDC1DB0050C158AB /* Pods-OpenGLZeroStudyDemo(1)UITests-acknowledgements.markdown */,
+				EE852B54D1F7A6C3AAE8E885F7139957 /* Pods-OpenGLZeroStudyDemo(1)UITests-acknowledgements.plist */,
+				1EEEA1897BB7C91AEFAF53C4D9A9D21A /* Pods-OpenGLZeroStudyDemo(1)UITests-dummy.m */,
+				1EF7072332F9EE0E1A94AA061E898999 /* Pods-OpenGLZeroStudyDemo(1)UITests.debug.xcconfig */,
+				D3D625227342999E9A2AAA6169A1D79D /* Pods-OpenGLZeroStudyDemo(1)UITests.release.xcconfig */,
+			);
+			name = "Pods-OpenGLZeroStudyDemo(1)UITests";
+			path = "Target Support Files/Pods-OpenGLZeroStudyDemo(1)UITests";
+			sourceTree = "<group>";
+		};
+		5F78E888845B522018545C0FBD05FCDB /* Pods-OpenGLZeroStudyDemo(1) */ = {
+			isa = PBXGroup;
+			children = (
+				DF382962355FA513D5F6489D2FFC4E65 /* Pods-OpenGLZeroStudyDemo(1)-acknowledgements.markdown */,
+				2910F2515F2E7DC181B8DF3EC54384EB /* Pods-OpenGLZeroStudyDemo(1)-acknowledgements.plist */,
+				233FB4F9DB08BC46F3770A34D36F79C6 /* Pods-OpenGLZeroStudyDemo(1)-dummy.m */,
+				0464C47FDF4995222F795DAAD0DB0964 /* Pods-OpenGLZeroStudyDemo(1).debug.xcconfig */,
+				95020BA4B62D8CDC22113924EAA4049E /* Pods-OpenGLZeroStudyDemo(1).release.xcconfig */,
+			);
+			name = "Pods-OpenGLZeroStudyDemo(1)";
+			path = "Target Support Files/Pods-OpenGLZeroStudyDemo(1)";
+			sourceTree = "<group>";
+		};
+		97093B1B9511543460493AB57B19788B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				145EEEF75E587C162A7BD1CF2F2E435A /* libOpenGLUtils.a */,
+				BB3117A939281FA4B62271FED7818168 /* libPods-OpenGLZeroStudyDemo(1).a */,
+				592883E2A09910F48E8EEEA10D0CC7D8 /* libPods-OpenGLZeroStudyDemo(1)Tests.a */,
+				0A8983438A4F202D6320DCCCDA2291C7 /* libPods-OpenGLZeroStudyDemo(1)UITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97743DE3621E5C5BB62EE1068FE23BA2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DCE5F908C74EF490291EBDD330A199C /* OpenGLUtils */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A3BD7ACB7566035FE1E32A4263E2C1DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F642179F8B4E02067D9292E5296118D /* OpenGLUtils.xcconfig */,
+				482A18D2D4CCE328B7F1F4A8C470D32C /* OpenGLUtils-dummy.m */,
+				992B305FA3AC1007851EE65023F7E702 /* OpenGLUtils-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../OpenGLZeroStudyDemo(1)/Pods/Target Support Files/OpenGLUtils";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				97743DE3621E5C5BB62EE1068FE23BA2 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				97093B1B9511543460493AB57B19788B /* Products */,
+				1817E4B42C19AC3C664AC4A8ADCEB188 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6660E5391BC79FEA58CA138E6A020ED8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93720E78325F8F9FC4B532D336A814A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF611011DE4466B820051910042E08B /* OpenGLUtilsHeader.h in Headers */,
+				DC43DE4D006FFDF817F3D0563E65A748 /* Shader.h in Headers */,
+				2561E717818A9EA6CBA80969A2564B14 /* Vertex.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98B5ED546C1BB8CEF099BED5D57CC81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5EA72F8A460BB062DD0165498DA0B8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B3A782BB44E42323DABEF8144134204 /* Pods-OpenGLZeroStudyDemo(1)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06143B719E99D828666C6B8A0A2E8AA /* Build configuration list for PBXNativeTarget "Pods-OpenGLZeroStudyDemo(1)Tests" */;
+			buildPhases = (
+				A98B5ED546C1BB8CEF099BED5D57CC81 /* Headers */,
+				ED4B92C013EB1E6D8F7D7B6343F099C2 /* Sources */,
+				F9EF39E619491BF1D356EEF8CB02A609 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				241D64A5DC1AD22228866166E18A5C7D /* PBXTargetDependency */,
+			);
+			name = "Pods-OpenGLZeroStudyDemo(1)Tests";
+			productName = "Pods-OpenGLZeroStudyDemo(1)Tests";
+			productReference = 592883E2A09910F48E8EEEA10D0CC7D8 /* libPods-OpenGLZeroStudyDemo(1)Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		63F2EBD2F32FF4994B1A465585B018FE /* Pods-OpenGLZeroStudyDemo(1)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DCF844171FB7384E57200D3CCC079A3 /* Build configuration list for PBXNativeTarget "Pods-OpenGLZeroStudyDemo(1)UITests" */;
+			buildPhases = (
+				D5EA72F8A460BB062DD0165498DA0B8D /* Headers */,
+				F7628F696EFA4CAA3C18811600CE1748 /* Sources */,
+				88A70FC1AEEDCD29786291AB0051FBB3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09FB54EE0D0E2F89D640AA464BD17784 /* PBXTargetDependency */,
+			);
+			name = "Pods-OpenGLZeroStudyDemo(1)UITests";
+			productName = "Pods-OpenGLZeroStudyDemo(1)UITests";
+			productReference = 0A8983438A4F202D6320DCCCDA2291C7 /* libPods-OpenGLZeroStudyDemo(1)UITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C2AD87B04B7F2F4E70DD02ACAFACDAF6 /* OpenGLUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF96A5E750FE5720849A64453300B11 /* Build configuration list for PBXNativeTarget "OpenGLUtils" */;
+			buildPhases = (
+				93720E78325F8F9FC4B532D336A814A4 /* Headers */,
+				8E157AF7BC0333ED3834BEC739FB1720 /* Sources */,
+				B225ECE2FA3C27E808F681D2CDFCDD6B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLUtils;
+			productName = OpenGLUtils;
+			productReference = 145EEEF75E587C162A7BD1CF2F2E435A /* libOpenGLUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C6AD3BF50F1B71DF4870D488AF10009F /* Pods-OpenGLZeroStudyDemo(1) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8D5DA2B96F9C23AAF6AD0A1A0BBCD9 /* Build configuration list for PBXNativeTarget "Pods-OpenGLZeroStudyDemo(1)" */;
+			buildPhases = (
+				6660E5391BC79FEA58CA138E6A020ED8 /* Headers */,
+				4846B21782D3537F70EDE85AADEEE566 /* Sources */,
+				E76E91626F01980CBEB153C30B33EC6A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC655C859F3DA6A877BFB198FAAFB5A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-OpenGLZeroStudyDemo(1)";
+			productName = "Pods-OpenGLZeroStudyDemo(1)";
+			productReference = BB3117A939281FA4B62271FED7818168 /* libPods-OpenGLZeroStudyDemo(1).a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 97093B1B9511543460493AB57B19788B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2AD87B04B7F2F4E70DD02ACAFACDAF6 /* OpenGLUtils */,
+				C6AD3BF50F1B71DF4870D488AF10009F /* Pods-OpenGLZeroStudyDemo(1) */,
+				0B3A782BB44E42323DABEF8144134204 /* Pods-OpenGLZeroStudyDemo(1)Tests */,
+				63F2EBD2F32FF4994B1A465585B018FE /* Pods-OpenGLZeroStudyDemo(1)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4846B21782D3537F70EDE85AADEEE566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D503BDE47FEC37E434CE7A6DB95B9CFD /* Pods-OpenGLZeroStudyDemo(1)-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E157AF7BC0333ED3834BEC739FB1720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B75A72D2FB2773FF9040E4EE6B2A37 /* OpenGLUtils-dummy.m in Sources */,
+				58676E53AB0808D757F40CC6D9E20ACF /* Shader.m in Sources */,
+				E844FCEF9C2BD25E4C72BD7B72AA517E /* Vertex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4B92C013EB1E6D8F7D7B6343F099C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B33A3AA3FF428B30A3B8D2C488F5E05 /* Pods-OpenGLZeroStudyDemo(1)Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7628F696EFA4CAA3C18811600CE1748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEE8C5FFE39BBDE0A50D96B6D741E0E /* Pods-OpenGLZeroStudyDemo(1)UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09FB54EE0D0E2F89D640AA464BD17784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OpenGLZeroStudyDemo(1)";
+			target = C6AD3BF50F1B71DF4870D488AF10009F /* Pods-OpenGLZeroStudyDemo(1) */;
+			targetProxy = BE2158EEACB040F1E56BC9BB28EB46DA /* PBXContainerItemProxy */;
+		};
+		241D64A5DC1AD22228866166E18A5C7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OpenGLZeroStudyDemo(1)";
+			target = C6AD3BF50F1B71DF4870D488AF10009F /* Pods-OpenGLZeroStudyDemo(1) */;
+			targetProxy = 36017204AF99347F5956605F41CFA8CB /* PBXContainerItemProxy */;
+		};
+		FC655C859F3DA6A877BFB198FAAFB5A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OpenGLUtils;
+			target = C2AD87B04B7F2F4E70DD02ACAFACDAF6 /* OpenGLUtils */;
+			targetProxy = E6C627B1B230C315E5BDA1B130598A1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18CC27CBBC4EB8143893DEFF4D1B13B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0464C47FDF4995222F795DAAD0DB0964 /* Pods-OpenGLZeroStudyDemo(1).debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		48C3A1E480690DEE428512AB17DB9858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D9771D5F59A8821448EFDCEF14347D9 /* Pods-OpenGLZeroStudyDemo(1)Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5243066E82CFCC53B8D1AF921E777FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3D625227342999E9A2AAA6169A1D79D /* Pods-OpenGLZeroStudyDemo(1)UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F5580ABB266B36ED3B6CE4EF2C63F8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F642179F8B4E02067D9292E5296118D /* OpenGLUtils.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenGLUtils/OpenGLUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OpenGLUtils;
+				PRODUCT_NAME = OpenGLUtils;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87BCE426211213CE317C20F68B0E7FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F642179F8B4E02067D9292E5296118D /* OpenGLUtils.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenGLUtils/OpenGLUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OpenGLUtils;
+				PRODUCT_NAME = OpenGLUtils;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B231486D36716F59B5ABFD9B99C726A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF7072332F9EE0E1A94AA061E898999 /* Pods-OpenGLZeroStudyDemo(1)UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF447268A354E3A0940151BCFE2BCB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95020BA4B62D8CDC22113924EAA4049E /* Pods-OpenGLZeroStudyDemo(1).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D17794335A6A234D9D4AB09ECCAF40FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B977974A673588D615EAAB9B356D2669 /* Pods-OpenGLZeroStudyDemo(1)Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EF96A5E750FE5720849A64453300B11 /* Build configuration list for PBXNativeTarget "OpenGLUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BCE426211213CE317C20F68B0E7FD5 /* Debug */,
+				7F5580ABB266B36ED3B6CE4EF2C63F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DCF844171FB7384E57200D3CCC079A3 /* Build configuration list for PBXNativeTarget "Pods-OpenGLZeroStudyDemo(1)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B231486D36716F59B5ABFD9B99C726A5 /* Debug */,
+				5243066E82CFCC53B8D1AF921E777FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A8D5DA2B96F9C23AAF6AD0A1A0BBCD9 /* Build configuration list for PBXNativeTarget "Pods-OpenGLZeroStudyDemo(1)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CC27CBBC4EB8143893DEFF4D1B13B9 /* Debug */,
+				BF447268A354E3A0940151BCFE2BCB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06143B719E99D828666C6B8A0A2E8AA /* Build configuration list for PBXNativeTarget "Pods-OpenGLZeroStudyDemo(1)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C3A1E480690DEE428512AB17DB9858 /* Debug */,
+				D17794335A6A234D9D4AB09ECCAF40FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

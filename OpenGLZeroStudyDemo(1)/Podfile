@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+target 'OpenGLZeroStudyDemo(1)' do
+  pod 'OpenGLUtils', :path => '../openGL'
+
+  target 'OpenGLZeroStudyDemo(1)Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'OpenGLZeroStudyDemo(1)UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
