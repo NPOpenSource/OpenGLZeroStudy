@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 -(void)allocVertexNum:(GLsizei)vertexNum andEachVertexNum:(GLsizei)eachVertexNum;
--(void)setVertex:(CGFloat *)vertex index:(NSInteger)index;
+-(void)setVertex:(GLfloat *)vertex index:(NSInteger)index;
 -(void)releaseVertex;
 
 -(void)bindBufferWithUsage: (GLenum) usage;

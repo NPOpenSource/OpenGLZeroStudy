@@ -32,7 +32,10 @@
 }
 
 -(NSInteger)getAllocSpaceByteNum{
-    return sizeof(GLfloat) * self.eachVertexNum*self.vertexNum;
+    return self.getVertexWidth*self.vertexNum;
+}
+-(GLsizei)getVertexWidth{
+    return sizeof(GLfloat) * self.eachVertexNum;
 }
 
 -(void)allocVertexNum:(GLsizei)vertexNum andEachVertexNum:(GLsizei)eachVertexNum{
@@ -40,14 +43,14 @@
     self.vertexNum = vertexNum;
     self.eachVertexNum = eachVertexNum;
      self.vertex =(GLfloat*)malloc(self.getAllocSpaceByteNum);
-    memset( self.vertex, 0,  sizeof(GLfloat)*eachVertexNum*vertexNum);
+    memset( self.vertex, 0,  self.getAllocSpaceByteNum);
 }
 
--(void)setVertex:(CGFloat *)vertex index:(NSInteger)index{
+-(void)setVertex:(GLfloat *)vertex index:(NSInteger)index{
     if (self.vertex) {
         NSInteger offset = index * self.eachVertexNum;
         for (NSInteger i = 0; i<self.eachVertexNum; i++) {
-             _vertex[offset] = vertex[i];
+             self.vertex[offset+i] = vertex[i];
         }
     }else{
         NSLog(@"顶点没有空间");
@@ -69,7 +72,7 @@
                  self.vertexBuffers);
     glBufferData( GL_ARRAY_BUFFER,
                  self.getAllocSpaceByteNum,
-                  self.vertex,
+                 self.vertex,
                  usage);
     
 }
@@ -80,7 +83,7 @@
                           count,               // number of coordinates for attribute
                           GL_FLOAT,            // data is floating point
                           GL_FALSE,            // no fixed point scaling
-                          self.eachVertexNum,         // total num bytes stored per vertex
+                          self.getVertexWidth ,         // total num bytes stored per vertex
                           NULL + offset);
 #ifdef DEBUG
     {  // Report any errors

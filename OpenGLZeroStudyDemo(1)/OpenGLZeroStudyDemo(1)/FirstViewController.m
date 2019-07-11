@@ -43,9 +43,9 @@
 -(void)loadVertex{
     self.vertex = [Vertex new];
     [self.vertex allocVertexNum:3 andEachVertexNum:2];
-    CGFloat vertex[2];
+    GLfloat vertex[2];
     vertex[0]=1;
-    vertex[1]=1;
+    vertex[1]=0;
     [self.vertex setVertex:vertex index:0];
     vertex[0]=0;
     vertex[1]=1;
