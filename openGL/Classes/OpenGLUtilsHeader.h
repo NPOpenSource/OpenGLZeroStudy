@@ -10,4 +10,5 @@
 #define OpenGLUtilsHeader_h
 #import "Shader.h"
 #import "Vertex.h"
+#import "VertexElement.h"
 #endif /* OpenGLUtilsHeader_h */

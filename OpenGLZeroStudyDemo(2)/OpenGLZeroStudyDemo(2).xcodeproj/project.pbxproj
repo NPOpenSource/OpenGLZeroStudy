@@ -1,0 +1,920 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		244D13B122D712C200E3FEBA /* VertexCreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D13B022D712C200E3FEBA /* VertexCreateViewController.m */; };
+		244D13B422D717CD00E3FEBA /* VertexTwoDimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D13B322D717CD00E3FEBA /* VertexTwoDimViewController.m */; };
+		244D13B722D718D700E3FEBA /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 244D13B522D718D700E3FEBA /* Shader.vsh */; };
+		244D13B822D718D700E3FEBA /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 244D13B622D718D700E3FEBA /* Shader.fsh */; };
+		244D13BB22D747BE00E3FEBA /* VertexDimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D13BA22D747BE00E3FEBA /* VertexDimViewController.m */; };
+		244D13BE22D7491000E3FEBA /* VeertexThreeDimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D13BD22D7491000E3FEBA /* VeertexThreeDimViewController.m */; };
+		244D13C122D74A0100E3FEBA /* VertexDimFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D13C022D74A0100E3FEBA /* VertexDimFourViewController.m */; };
+		244D13C422D74B3E00E3FEBA /* VertexOneDimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D13C322D74B3E00E3FEBA /* VertexOneDimViewController.m */; };
+		244D13CA22D75A0000E3FEBA /* VertexDrawModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D13C922D75A0000E3FEBA /* VertexDrawModeController.m */; };
+		244D13CD22D75AE300E3FEBA /* VertexPointDrawModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D13CC22D75AE300E3FEBA /* VertexPointDrawModeController.m */; };
+		244D13D022D8169C00E3FEBA /* VertexDrawModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D13CF22D8169C00E3FEBA /* VertexDrawModeViewController.m */; };
+		244D13D322D8173700E3FEBA /* VertexDrawLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D13D222D8173700E3FEBA /* VertexDrawLineViewController.m */; };
+		244D13D622D8176F00E3FEBA /* VertexBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D13D522D8176F00E3FEBA /* VertexBaseViewController.m */; };
+		244D13D922D8187400E3FEBA /* VertexDrawMode_LINES_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D13D822D8187400E3FEBA /* VertexDrawMode_LINES_ViewController.m */; };
+		244D13DC22D8190D00E3FEBA /* VertexDrawMode_LINE_LOOP_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D13DB22D8190D00E3FEBA /* VertexDrawMode_LINE_LOOP_ViewController.m */; };
+		244D13DF22D819D100E3FEBA /* VertexDrawMode_LINE_STRIP_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D13DE22D819D100E3FEBA /* VertexDrawMode_LINE_STRIP_ViewController.m */; };
+		244D13E222D81AA700E3FEBA /* VertexDrawMode_TRIANGLES_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D13E122D81AA700E3FEBA /* VertexDrawMode_TRIANGLES_ViewController.m */; };
+		244D13E522D81AE700E3FEBA /* VertexDrawAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D13E422D81AE700E3FEBA /* VertexDrawAreaViewController.m */; };
+		2469464D22D81CAB00795D84 /* VertexDrawMode_TRIANGLE_STRIP_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2469464C22D81CAB00795D84 /* VertexDrawMode_TRIANGLE_STRIP_ViewController.m */; };
+		2469465422D8255300795D84 /* VertexDrawMode_TRIANGLE_FAN_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2469465322D8255300795D84 /* VertexDrawMode_TRIANGLE_FAN_ViewController.m */; };
+		24DBEA3422D8590800081420 /* VertexAttViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DBEA3322D8590800081420 /* VertexAttViewController.m */; };
+		24DBEA3722D859BF00081420 /* VertexAttPostionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DBEA3622D859BF00081420 /* VertexAttPostionViewController.m */; };
+		24DBEA3F22D86F7600081420 /* Shader1.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 24DBEA3D22D86F7500081420 /* Shader1.fsh */; };
+		24DBEA4022D86F7600081420 /* Shader1.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 24DBEA3E22D86F7600081420 /* Shader1.vsh */; };
+		24DBEA4322D89A9B00081420 /* VertexDrawAPIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DBEA4222D89A9B00081420 /* VertexDrawAPIViewController.m */; };
+		24DBEA4622D89AC100081420 /* VertexDrawArraysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DBEA4522D89AC100081420 /* VertexDrawArraysViewController.m */; };
+		24DBEA4922D89AD400081420 /* VertexDrawElementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DBEA4822D89AD400081420 /* VertexDrawElementsViewController.m */; };
+		24E0AA7B22D8AB3E00003BF6 /* VertexDrawElementsOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E0AA7A22D8AB3E00003BF6 /* VertexDrawElementsOtherViewController.m */; };
+		24EFADFF22D5D8150042C937 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EFADFE22D5D8150042C937 /* AppDelegate.m */; };
+		24EFAE0222D5D8150042C937 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EFAE0122D5D8150042C937 /* ViewController.m */; };
+		24EFAE0522D5D8150042C937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EFAE0322D5D8150042C937 /* Main.storyboard */; };
+		24EFAE0722D5D8180042C937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24EFAE0622D5D8180042C937 /* Assets.xcassets */; };
+		24EFAE0A22D5D8180042C937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EFAE0822D5D8180042C937 /* LaunchScreen.storyboard */; };
+		24EFAE0D22D5D8180042C937 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EFAE0C22D5D8180042C937 /* main.m */; };
+		24EFAE1722D5D8180042C937 /* OpenGLZeroStudyDemo_2_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EFAE1622D5D8180042C937 /* OpenGLZeroStudyDemo_2_Tests.m */; };
+		24EFAE2222D5D8180042C937 /* OpenGLZeroStudyDemo_2_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EFAE2122D5D8180042C937 /* OpenGLZeroStudyDemo_2_UITests.m */; };
+		2A20362862C0E028480E6A0E /* libPods-OpenGLZeroStudyDemo(2)Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF9BBE1EDB7ED140203852B /* libPods-OpenGLZeroStudyDemo(2)Tests.a */; };
+		5B9661FDC39BD377B1FBBE42 /* libPods-OpenGLZeroStudyDemo(2)UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 089D00B3E06503D190A89809 /* libPods-OpenGLZeroStudyDemo(2)UITests.a */; };
+		F34B238336819D4F5DE790C6 /* libPods-OpenGLZeroStudyDemo(2).a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0168A99AE4C233A353E91C8 /* libPods-OpenGLZeroStudyDemo(2).a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24EFAE1322D5D8180042C937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24EFADF222D5D8150042C937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24EFADF922D5D8150042C937;
+			remoteInfo = "OpenGLZeroStudyDemo(2)";
+		};
+		24EFAE1E22D5D8180042C937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24EFADF222D5D8150042C937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24EFADF922D5D8150042C937;
+			remoteInfo = "OpenGLZeroStudyDemo(2)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089D00B3E06503D190A89809 /* libPods-OpenGLZeroStudyDemo(2)UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(2)UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FD27BB811CAE90BBAC3D899 /* Pods-OpenGLZeroStudyDemo(2)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(2)UITests.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(2)UITests/Pods-OpenGLZeroStudyDemo(2)UITests.release.xcconfig"; sourceTree = "<group>"; };
+		244D13AF22D712C200E3FEBA /* VertexCreateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexCreateViewController.h; sourceTree = "<group>"; };
+		244D13B022D712C200E3FEBA /* VertexCreateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexCreateViewController.m; sourceTree = "<group>"; };
+		244D13B222D717CD00E3FEBA /* VertexTwoDimViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexTwoDimViewController.h; sourceTree = "<group>"; };
+		244D13B322D717CD00E3FEBA /* VertexTwoDimViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexTwoDimViewController.m; sourceTree = "<group>"; };
+		244D13B522D718D700E3FEBA /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = "../../OpenGLZeroStudyDemo(1)/OpenGLZeroStudyDemo(1)/Shader.vsh"; sourceTree = "<group>"; };
+		244D13B622D718D700E3FEBA /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = "../../OpenGLZeroStudyDemo(1)/OpenGLZeroStudyDemo(1)/Shader.fsh"; sourceTree = "<group>"; };
+		244D13B922D747BE00E3FEBA /* VertexDimViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexDimViewController.h; sourceTree = "<group>"; };
+		244D13BA22D747BE00E3FEBA /* VertexDimViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexDimViewController.m; sourceTree = "<group>"; };
+		244D13BC22D7491000E3FEBA /* VeertexThreeDimViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VeertexThreeDimViewController.h; sourceTree = "<group>"; };
+		244D13BD22D7491000E3FEBA /* VeertexThreeDimViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VeertexThreeDimViewController.m; sourceTree = "<group>"; };
+		244D13BF22D74A0100E3FEBA /* VertexDimFourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexDimFourViewController.h; sourceTree = "<group>"; };
+		244D13C022D74A0100E3FEBA /* VertexDimFourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexDimFourViewController.m; sourceTree = "<group>"; };
+		244D13C222D74B3E00E3FEBA /* VertexOneDimViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexOneDimViewController.h; sourceTree = "<group>"; };
+		244D13C322D74B3E00E3FEBA /* VertexOneDimViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexOneDimViewController.m; sourceTree = "<group>"; };
+		244D13C822D75A0000E3FEBA /* VertexDrawModeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexDrawModeController.h; sourceTree = "<group>"; };
+		244D13C922D75A0000E3FEBA /* VertexDrawModeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexDrawModeController.m; sourceTree = "<group>"; };
+		244D13CB22D75AE300E3FEBA /* VertexPointDrawModeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexPointDrawModeController.h; sourceTree = "<group>"; };
+		244D13CC22D75AE300E3FEBA /* VertexPointDrawModeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexPointDrawModeController.m; sourceTree = "<group>"; };
+		244D13CE22D8169C00E3FEBA /* VertexDrawModeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexDrawModeViewController.h; sourceTree = "<group>"; };
+		244D13CF22D8169C00E3FEBA /* VertexDrawModeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexDrawModeViewController.m; sourceTree = "<group>"; };
+		244D13D122D8173700E3FEBA /* VertexDrawLineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexDrawLineViewController.h; sourceTree = "<group>"; };
+		244D13D222D8173700E3FEBA /* VertexDrawLineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexDrawLineViewController.m; sourceTree = "<group>"; };
+		244D13D422D8176F00E3FEBA /* VertexBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexBaseViewController.h; sourceTree = "<group>"; };
+		244D13D522D8176F00E3FEBA /* VertexBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexBaseViewController.m; sourceTree = "<group>"; };
+		244D13D722D8187400E3FEBA /* VertexDrawMode_LINES_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexDrawMode_LINES_ViewController.h; sourceTree = "<group>"; };
+		244D13D822D8187400E3FEBA /* VertexDrawMode_LINES_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexDrawMode_LINES_ViewController.m; sourceTree = "<group>"; };
+		244D13DA22D8190D00E3FEBA /* VertexDrawMode_LINE_LOOP_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexDrawMode_LINE_LOOP_ViewController.h; sourceTree = "<group>"; };
+		244D13DB22D8190D00E3FEBA /* VertexDrawMode_LINE_LOOP_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexDrawMode_LINE_LOOP_ViewController.m; sourceTree = "<group>"; };
+		244D13DD22D819D100E3FEBA /* VertexDrawMode_LINE_STRIP_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexDrawMode_LINE_STRIP_ViewController.h; sourceTree = "<group>"; };
+		244D13DE22D819D100E3FEBA /* VertexDrawMode_LINE_STRIP_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexDrawMode_LINE_STRIP_ViewController.m; sourceTree = "<group>"; };
+		244D13E022D81AA700E3FEBA /* VertexDrawMode_TRIANGLES_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexDrawMode_TRIANGLES_ViewController.h; sourceTree = "<group>"; };
+		244D13E122D81AA700E3FEBA /* VertexDrawMode_TRIANGLES_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexDrawMode_TRIANGLES_ViewController.m; sourceTree = "<group>"; };
+		244D13E322D81AE700E3FEBA /* VertexDrawAreaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexDrawAreaViewController.h; sourceTree = "<group>"; };
+		244D13E422D81AE700E3FEBA /* VertexDrawAreaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexDrawAreaViewController.m; sourceTree = "<group>"; };
+		2469464B22D81CAB00795D84 /* VertexDrawMode_TRIANGLE_STRIP_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexDrawMode_TRIANGLE_STRIP_ViewController.h; sourceTree = "<group>"; };
+		2469464C22D81CAB00795D84 /* VertexDrawMode_TRIANGLE_STRIP_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexDrawMode_TRIANGLE_STRIP_ViewController.m; sourceTree = "<group>"; };
+		2469465222D8255300795D84 /* VertexDrawMode_TRIANGLE_FAN_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexDrawMode_TRIANGLE_FAN_ViewController.h; sourceTree = "<group>"; };
+		2469465322D8255300795D84 /* VertexDrawMode_TRIANGLE_FAN_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexDrawMode_TRIANGLE_FAN_ViewController.m; sourceTree = "<group>"; };
+		24DBEA3222D8590800081420 /* VertexAttViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexAttViewController.h; sourceTree = "<group>"; };
+		24DBEA3322D8590800081420 /* VertexAttViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexAttViewController.m; sourceTree = "<group>"; };
+		24DBEA3522D859BF00081420 /* VertexAttPostionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexAttPostionViewController.h; sourceTree = "<group>"; };
+		24DBEA3622D859BF00081420 /* VertexAttPostionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexAttPostionViewController.m; sourceTree = "<group>"; };
+		24DBEA3D22D86F7500081420 /* Shader1.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader1.fsh; sourceTree = "<group>"; };
+		24DBEA3E22D86F7600081420 /* Shader1.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader1.vsh; sourceTree = "<group>"; };
+		24DBEA4122D89A9B00081420 /* VertexDrawAPIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexDrawAPIViewController.h; sourceTree = "<group>"; };
+		24DBEA4222D89A9B00081420 /* VertexDrawAPIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexDrawAPIViewController.m; sourceTree = "<group>"; };
+		24DBEA4422D89AC100081420 /* VertexDrawArraysViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexDrawArraysViewController.h; sourceTree = "<group>"; };
+		24DBEA4522D89AC100081420 /* VertexDrawArraysViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexDrawArraysViewController.m; sourceTree = "<group>"; };
+		24DBEA4722D89AD400081420 /* VertexDrawElementsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexDrawElementsViewController.h; sourceTree = "<group>"; };
+		24DBEA4822D89AD400081420 /* VertexDrawElementsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexDrawElementsViewController.m; sourceTree = "<group>"; };
+		24E0AA7922D8AB3E00003BF6 /* VertexDrawElementsOtherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexDrawElementsOtherViewController.h; sourceTree = "<group>"; };
+		24E0AA7A22D8AB3E00003BF6 /* VertexDrawElementsOtherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VertexDrawElementsOtherViewController.m; sourceTree = "<group>"; };
+		24EFADFA22D5D8150042C937 /* OpenGLZeroStudyDemo(2).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLZeroStudyDemo(2).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24EFADFD22D5D8150042C937 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24EFADFE22D5D8150042C937 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24EFAE0022D5D8150042C937 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		24EFAE0122D5D8150042C937 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24EFAE0422D5D8150042C937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24EFAE0622D5D8180042C937 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24EFAE0922D5D8180042C937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24EFAE0B22D5D8180042C937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24EFAE0C22D5D8180042C937 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24EFAE1222D5D8180042C937 /* OpenGLZeroStudyDemo(2)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLZeroStudyDemo(2)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24EFAE1622D5D8180042C937 /* OpenGLZeroStudyDemo_2_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLZeroStudyDemo_2_Tests.m; sourceTree = "<group>"; };
+		24EFAE1822D5D8180042C937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24EFAE1D22D5D8180042C937 /* OpenGLZeroStudyDemo(2)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLZeroStudyDemo(2)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24EFAE2122D5D8180042C937 /* OpenGLZeroStudyDemo_2_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLZeroStudyDemo_2_UITests.m; sourceTree = "<group>"; };
+		24EFAE2322D5D8180042C937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		263B3526C5C92AE9EB944C76 /* Pods-OpenGLZeroStudyDemo(2)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(2)UITests.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(2)UITests/Pods-OpenGLZeroStudyDemo(2)UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8547D32A0FFBE817D5F0F690 /* Pods-OpenGLZeroStudyDemo(2)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(2)Tests.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(2)Tests/Pods-OpenGLZeroStudyDemo(2)Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A447B95E7A363041703C02FC /* Pods-OpenGLZeroStudyDemo(2).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(2).debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(2)/Pods-OpenGLZeroStudyDemo(2).debug.xcconfig"; sourceTree = "<group>"; };
+		A81EA55C2010B1F0911F0F1A /* Pods-OpenGLZeroStudyDemo(2).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(2).release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(2)/Pods-OpenGLZeroStudyDemo(2).release.xcconfig"; sourceTree = "<group>"; };
+		D0168A99AE4C233A353E91C8 /* libPods-OpenGLZeroStudyDemo(2).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(2).a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83CDE23C5180E152D5BE95F /* Pods-OpenGLZeroStudyDemo(2)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(2)Tests.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(2)Tests/Pods-OpenGLZeroStudyDemo(2)Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FFF9BBE1EDB7ED140203852B /* libPods-OpenGLZeroStudyDemo(2)Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(2)Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24EFADF722D5D8150042C937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34B238336819D4F5DE790C6 /* libPods-OpenGLZeroStudyDemo(2).a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24EFAE0F22D5D8180042C937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A20362862C0E028480E6A0E /* libPods-OpenGLZeroStudyDemo(2)Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24EFAE1A22D5D8180042C937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9661FDC39BD377B1FBBE42 /* libPods-OpenGLZeroStudyDemo(2)UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		244D13E622D81B5200E3FEBA /* VertexUse */ = {
+			isa = PBXGroup;
+			children = (
+				244D13BC22D7491000E3FEBA /* VeertexThreeDimViewController.h */,
+				244D13BD22D7491000E3FEBA /* VeertexThreeDimViewController.m */,
+				244D13BF22D74A0100E3FEBA /* VertexDimFourViewController.h */,
+				244D13C022D74A0100E3FEBA /* VertexDimFourViewController.m */,
+				244D13C222D74B3E00E3FEBA /* VertexOneDimViewController.h */,
+				244D13C322D74B3E00E3FEBA /* VertexOneDimViewController.m */,
+				244D13B222D717CD00E3FEBA /* VertexTwoDimViewController.h */,
+				244D13B322D717CD00E3FEBA /* VertexTwoDimViewController.m */,
+				244D13AF22D712C200E3FEBA /* VertexCreateViewController.h */,
+				244D13B022D712C200E3FEBA /* VertexCreateViewController.m */,
+			);
+			path = VertexUse;
+			sourceTree = "<group>";
+		};
+		2469464722D81BB000795D84 /* VertexMode */ = {
+			isa = PBXGroup;
+			children = (
+				2469464A22D81BDC00795D84 /* area */,
+				2469464922D81BD700795D84 /* line */,
+				244D13C822D75A0000E3FEBA /* VertexDrawModeController.h */,
+				244D13C922D75A0000E3FEBA /* VertexDrawModeController.m */,
+				244D13CE22D8169C00E3FEBA /* VertexDrawModeViewController.h */,
+				244D13CF22D8169C00E3FEBA /* VertexDrawModeViewController.m */,
+				2469464822D81BC100795D84 /* point */,
+			);
+			path = VertexMode;
+			sourceTree = "<group>";
+		};
+		2469464822D81BC100795D84 /* point */ = {
+			isa = PBXGroup;
+			children = (
+				244D13CB22D75AE300E3FEBA /* VertexPointDrawModeController.h */,
+				244D13CC22D75AE300E3FEBA /* VertexPointDrawModeController.m */,
+			);
+			path = point;
+			sourceTree = "<group>";
+		};
+		2469464922D81BD700795D84 /* line */ = {
+			isa = PBXGroup;
+			children = (
+				244D13D722D8187400E3FEBA /* VertexDrawMode_LINES_ViewController.h */,
+				244D13D822D8187400E3FEBA /* VertexDrawMode_LINES_ViewController.m */,
+				244D13DA22D8190D00E3FEBA /* VertexDrawMode_LINE_LOOP_ViewController.h */,
+				244D13DB22D8190D00E3FEBA /* VertexDrawMode_LINE_LOOP_ViewController.m */,
+				244D13DD22D819D100E3FEBA /* VertexDrawMode_LINE_STRIP_ViewController.h */,
+				244D13DE22D819D100E3FEBA /* VertexDrawMode_LINE_STRIP_ViewController.m */,
+				244D13D122D8173700E3FEBA /* VertexDrawLineViewController.h */,
+				244D13D222D8173700E3FEBA /* VertexDrawLineViewController.m */,
+			);
+			path = line;
+			sourceTree = "<group>";
+		};
+		2469464A22D81BDC00795D84 /* area */ = {
+			isa = PBXGroup;
+			children = (
+				244D13E022D81AA700E3FEBA /* VertexDrawMode_TRIANGLES_ViewController.h */,
+				244D13E122D81AA700E3FEBA /* VertexDrawMode_TRIANGLES_ViewController.m */,
+				244D13E322D81AE700E3FEBA /* VertexDrawAreaViewController.h */,
+				244D13E422D81AE700E3FEBA /* VertexDrawAreaViewController.m */,
+				2469464B22D81CAB00795D84 /* VertexDrawMode_TRIANGLE_STRIP_ViewController.h */,
+				2469464C22D81CAB00795D84 /* VertexDrawMode_TRIANGLE_STRIP_ViewController.m */,
+				2469465222D8255300795D84 /* VertexDrawMode_TRIANGLE_FAN_ViewController.h */,
+				2469465322D8255300795D84 /* VertexDrawMode_TRIANGLE_FAN_ViewController.m */,
+			);
+			path = area;
+			sourceTree = "<group>";
+		};
+		2469465822D8588A00795D84 /* VertexAtt */ = {
+			isa = PBXGroup;
+			children = (
+				24DBEA3D22D86F7500081420 /* Shader1.fsh */,
+				24DBEA3E22D86F7600081420 /* Shader1.vsh */,
+				24DBEA3222D8590800081420 /* VertexAttViewController.h */,
+				24DBEA3322D8590800081420 /* VertexAttViewController.m */,
+				24DBEA3522D859BF00081420 /* VertexAttPostionViewController.h */,
+				24DBEA3622D859BF00081420 /* VertexAttPostionViewController.m */,
+			);
+			path = VertexAtt;
+			sourceTree = "<group>";
+		};
+		24DBEA3822D8691600081420 /* VertexDrawApi */ = {
+			isa = PBXGroup;
+			children = (
+				24DBEA4122D89A9B00081420 /* VertexDrawAPIViewController.h */,
+				24DBEA4222D89A9B00081420 /* VertexDrawAPIViewController.m */,
+				24DBEA4422D89AC100081420 /* VertexDrawArraysViewController.h */,
+				24DBEA4522D89AC100081420 /* VertexDrawArraysViewController.m */,
+				24DBEA4722D89AD400081420 /* VertexDrawElementsViewController.h */,
+				24DBEA4822D89AD400081420 /* VertexDrawElementsViewController.m */,
+				24E0AA7922D8AB3E00003BF6 /* VertexDrawElementsOtherViewController.h */,
+				24E0AA7A22D8AB3E00003BF6 /* VertexDrawElementsOtherViewController.m */,
+			);
+			path = VertexDrawApi;
+			sourceTree = "<group>";
+		};
+		24EFADF122D5D8140042C937 = {
+			isa = PBXGroup;
+			children = (
+				24EFADFC22D5D8150042C937 /* OpenGLZeroStudyDemo(2) */,
+				24EFAE1522D5D8180042C937 /* OpenGLZeroStudyDemo(2)Tests */,
+				24EFAE2022D5D8180042C937 /* OpenGLZeroStudyDemo(2)UITests */,
+				24EFADFB22D5D8150042C937 /* Products */,
+				EBA0BACCF50E78B069D86376 /* Pods */,
+				CB3F4AB0A1628039B62CFD1F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24EFADFB22D5D8150042C937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24EFADFA22D5D8150042C937 /* OpenGLZeroStudyDemo(2).app */,
+				24EFAE1222D5D8180042C937 /* OpenGLZeroStudyDemo(2)Tests.xctest */,
+				24EFAE1D22D5D8180042C937 /* OpenGLZeroStudyDemo(2)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24EFADFC22D5D8150042C937 /* OpenGLZeroStudyDemo(2) */ = {
+			isa = PBXGroup;
+			children = (
+				24DBEA3822D8691600081420 /* VertexDrawApi */,
+				2469465822D8588A00795D84 /* VertexAtt */,
+				2469464722D81BB000795D84 /* VertexMode */,
+				244D13E622D81B5200E3FEBA /* VertexUse */,
+				244D13B622D718D700E3FEBA /* Shader.fsh */,
+				244D13B522D718D700E3FEBA /* Shader.vsh */,
+				244D13B922D747BE00E3FEBA /* VertexDimViewController.h */,
+				244D13BA22D747BE00E3FEBA /* VertexDimViewController.m */,
+				24EFADFD22D5D8150042C937 /* AppDelegate.h */,
+				24EFADFE22D5D8150042C937 /* AppDelegate.m */,
+				24EFAE0022D5D8150042C937 /* ViewController.h */,
+				24EFAE0122D5D8150042C937 /* ViewController.m */,
+				24EFAE0322D5D8150042C937 /* Main.storyboard */,
+				24EFAE0622D5D8180042C937 /* Assets.xcassets */,
+				24EFAE0822D5D8180042C937 /* LaunchScreen.storyboard */,
+				24EFAE0B22D5D8180042C937 /* Info.plist */,
+				24EFAE0C22D5D8180042C937 /* main.m */,
+				244D13D422D8176F00E3FEBA /* VertexBaseViewController.h */,
+				244D13D522D8176F00E3FEBA /* VertexBaseViewController.m */,
+			);
+			path = "OpenGLZeroStudyDemo(2)";
+			sourceTree = "<group>";
+		};
+		24EFAE1522D5D8180042C937 /* OpenGLZeroStudyDemo(2)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				24EFAE1622D5D8180042C937 /* OpenGLZeroStudyDemo_2_Tests.m */,
+				24EFAE1822D5D8180042C937 /* Info.plist */,
+			);
+			path = "OpenGLZeroStudyDemo(2)Tests";
+			sourceTree = "<group>";
+		};
+		24EFAE2022D5D8180042C937 /* OpenGLZeroStudyDemo(2)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				24EFAE2122D5D8180042C937 /* OpenGLZeroStudyDemo_2_UITests.m */,
+				24EFAE2322D5D8180042C937 /* Info.plist */,
+			);
+			path = "OpenGLZeroStudyDemo(2)UITests";
+			sourceTree = "<group>";
+		};
+		CB3F4AB0A1628039B62CFD1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0168A99AE4C233A353E91C8 /* libPods-OpenGLZeroStudyDemo(2).a */,
+				FFF9BBE1EDB7ED140203852B /* libPods-OpenGLZeroStudyDemo(2)Tests.a */,
+				089D00B3E06503D190A89809 /* libPods-OpenGLZeroStudyDemo(2)UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBA0BACCF50E78B069D86376 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A447B95E7A363041703C02FC /* Pods-OpenGLZeroStudyDemo(2).debug.xcconfig */,
+				A81EA55C2010B1F0911F0F1A /* Pods-OpenGLZeroStudyDemo(2).release.xcconfig */,
+				8547D32A0FFBE817D5F0F690 /* Pods-OpenGLZeroStudyDemo(2)Tests.debug.xcconfig */,
+				F83CDE23C5180E152D5BE95F /* Pods-OpenGLZeroStudyDemo(2)Tests.release.xcconfig */,
+				263B3526C5C92AE9EB944C76 /* Pods-OpenGLZeroStudyDemo(2)UITests.debug.xcconfig */,
+				0FD27BB811CAE90BBAC3D899 /* Pods-OpenGLZeroStudyDemo(2)UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24EFADF922D5D8150042C937 /* OpenGLZeroStudyDemo(2) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24EFAE2622D5D8180042C937 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(2)" */;
+			buildPhases = (
+				A0787ADDF39F76EC1743D6AF /* [CP] Check Pods Manifest.lock */,
+				24EFADF622D5D8150042C937 /* Sources */,
+				24EFADF722D5D8150042C937 /* Frameworks */,
+				24EFADF822D5D8150042C937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGLZeroStudyDemo(2)";
+			productName = "OpenGLZeroStudyDemo(2)";
+			productReference = 24EFADFA22D5D8150042C937 /* OpenGLZeroStudyDemo(2).app */;
+			productType = "com.apple.product-type.application";
+		};
+		24EFAE1122D5D8180042C937 /* OpenGLZeroStudyDemo(2)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24EFAE2922D5D8180042C937 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(2)Tests" */;
+			buildPhases = (
+				702975BA8F5B3B180CFC9512 /* [CP] Check Pods Manifest.lock */,
+				24EFAE0E22D5D8180042C937 /* Sources */,
+				24EFAE0F22D5D8180042C937 /* Frameworks */,
+				24EFAE1022D5D8180042C937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24EFAE1422D5D8180042C937 /* PBXTargetDependency */,
+			);
+			name = "OpenGLZeroStudyDemo(2)Tests";
+			productName = "OpenGLZeroStudyDemo(2)Tests";
+			productReference = 24EFAE1222D5D8180042C937 /* OpenGLZeroStudyDemo(2)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24EFAE1C22D5D8180042C937 /* OpenGLZeroStudyDemo(2)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24EFAE2C22D5D8180042C937 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(2)UITests" */;
+			buildPhases = (
+				25AA1F43F066BE45CD63CD9E /* [CP] Check Pods Manifest.lock */,
+				24EFAE1922D5D8180042C937 /* Sources */,
+				24EFAE1A22D5D8180042C937 /* Frameworks */,
+				24EFAE1B22D5D8180042C937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24EFAE1F22D5D8180042C937 /* PBXTargetDependency */,
+			);
+			name = "OpenGLZeroStudyDemo(2)UITests";
+			productName = "OpenGLZeroStudyDemo(2)UITests";
+			productReference = 24EFAE1D22D5D8180042C937 /* OpenGLZeroStudyDemo(2)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24EFADF222D5D8150042C937 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = glodon;
+				TargetAttributes = {
+					24EFADF922D5D8150042C937 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					24EFAE1122D5D8180042C937 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 24EFADF922D5D8150042C937;
+					};
+					24EFAE1C22D5D8180042C937 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 24EFADF922D5D8150042C937;
+					};
+				};
+			};
+			buildConfigurationList = 24EFADF522D5D8150042C937 /* Build configuration list for PBXProject "OpenGLZeroStudyDemo(2)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24EFADF122D5D8140042C937;
+			productRefGroup = 24EFADFB22D5D8150042C937 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24EFADF922D5D8150042C937 /* OpenGLZeroStudyDemo(2) */,
+				24EFAE1122D5D8180042C937 /* OpenGLZeroStudyDemo(2)Tests */,
+				24EFAE1C22D5D8180042C937 /* OpenGLZeroStudyDemo(2)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24EFADF822D5D8150042C937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DBEA3F22D86F7600081420 /* Shader1.fsh in Resources */,
+				244D13B722D718D700E3FEBA /* Shader.vsh in Resources */,
+				24EFAE0A22D5D8180042C937 /* LaunchScreen.storyboard in Resources */,
+				24DBEA4022D86F7600081420 /* Shader1.vsh in Resources */,
+				24EFAE0722D5D8180042C937 /* Assets.xcassets in Resources */,
+				24EFAE0522D5D8150042C937 /* Main.storyboard in Resources */,
+				244D13B822D718D700E3FEBA /* Shader.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24EFAE1022D5D8180042C937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24EFAE1B22D5D8180042C937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25AA1F43F066BE45CD63CD9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(2)UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		702975BA8F5B3B180CFC9512 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(2)Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0787ADDF39F76EC1743D6AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(2)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24EFADF622D5D8150042C937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244D13B422D717CD00E3FEBA /* VertexTwoDimViewController.m in Sources */,
+				244D13D022D8169C00E3FEBA /* VertexDrawModeViewController.m in Sources */,
+				24DBEA3422D8590800081420 /* VertexAttViewController.m in Sources */,
+				2469464D22D81CAB00795D84 /* VertexDrawMode_TRIANGLE_STRIP_ViewController.m in Sources */,
+				244D13BB22D747BE00E3FEBA /* VertexDimViewController.m in Sources */,
+				244D13DC22D8190D00E3FEBA /* VertexDrawMode_LINE_LOOP_ViewController.m in Sources */,
+				244D13B122D712C200E3FEBA /* VertexCreateViewController.m in Sources */,
+				24DBEA4622D89AC100081420 /* VertexDrawArraysViewController.m in Sources */,
+				244D13C422D74B3E00E3FEBA /* VertexOneDimViewController.m in Sources */,
+				244D13E522D81AE700E3FEBA /* VertexDrawAreaViewController.m in Sources */,
+				24E0AA7B22D8AB3E00003BF6 /* VertexDrawElementsOtherViewController.m in Sources */,
+				244D13DF22D819D100E3FEBA /* VertexDrawMode_LINE_STRIP_ViewController.m in Sources */,
+				244D13D922D8187400E3FEBA /* VertexDrawMode_LINES_ViewController.m in Sources */,
+				244D13C122D74A0100E3FEBA /* VertexDimFourViewController.m in Sources */,
+				24DBEA4922D89AD400081420 /* VertexDrawElementsViewController.m in Sources */,
+				24EFAE0222D5D8150042C937 /* ViewController.m in Sources */,
+				244D13CA22D75A0000E3FEBA /* VertexDrawModeController.m in Sources */,
+				24DBEA3722D859BF00081420 /* VertexAttPostionViewController.m in Sources */,
+				244D13E222D81AA700E3FEBA /* VertexDrawMode_TRIANGLES_ViewController.m in Sources */,
+				244D13CD22D75AE300E3FEBA /* VertexPointDrawModeController.m in Sources */,
+				244D13D322D8173700E3FEBA /* VertexDrawLineViewController.m in Sources */,
+				244D13BE22D7491000E3FEBA /* VeertexThreeDimViewController.m in Sources */,
+				244D13D622D8176F00E3FEBA /* VertexBaseViewController.m in Sources */,
+				2469465422D8255300795D84 /* VertexDrawMode_TRIANGLE_FAN_ViewController.m in Sources */,
+				24DBEA4322D89A9B00081420 /* VertexDrawAPIViewController.m in Sources */,
+				24EFAE0D22D5D8180042C937 /* main.m in Sources */,
+				24EFADFF22D5D8150042C937 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24EFAE0E22D5D8180042C937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EFAE1722D5D8180042C937 /* OpenGLZeroStudyDemo_2_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24EFAE1922D5D8180042C937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EFAE2222D5D8180042C937 /* OpenGLZeroStudyDemo_2_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24EFAE1422D5D8180042C937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24EFADF922D5D8150042C937 /* OpenGLZeroStudyDemo(2) */;
+			targetProxy = 24EFAE1322D5D8180042C937 /* PBXContainerItemProxy */;
+		};
+		24EFAE1F22D5D8180042C937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24EFADF922D5D8150042C937 /* OpenGLZeroStudyDemo(2) */;
+			targetProxy = 24EFAE1E22D5D8180042C937 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24EFAE0322D5D8150042C937 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24EFAE0422D5D8150042C937 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24EFAE0822D5D8180042C937 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24EFAE0922D5D8180042C937 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24EFAE2422D5D8180042C937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24EFAE2522D5D8180042C937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24EFAE2722D5D8180042C937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A447B95E7A363041703C02FC /* Pods-OpenGLZeroStudyDemo(2).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(2)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dd.OpenGLZeroStudyDemo-2-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24EFAE2822D5D8180042C937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A81EA55C2010B1F0911F0F1A /* Pods-OpenGLZeroStudyDemo(2).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(2)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dd.OpenGLZeroStudyDemo-2-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24EFAE2A22D5D8180042C937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8547D32A0FFBE817D5F0F690 /* Pods-OpenGLZeroStudyDemo(2)Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(2)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dd.OpenGLZeroStudyDemo-2-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLZeroStudyDemo(2).app/OpenGLZeroStudyDemo(2)";
+			};
+			name = Debug;
+		};
+		24EFAE2B22D5D8180042C937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83CDE23C5180E152D5BE95F /* Pods-OpenGLZeroStudyDemo(2)Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(2)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dd.OpenGLZeroStudyDemo-2-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLZeroStudyDemo(2).app/OpenGLZeroStudyDemo(2)";
+			};
+			name = Release;
+		};
+		24EFAE2D22D5D8180042C937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 263B3526C5C92AE9EB944C76 /* Pods-OpenGLZeroStudyDemo(2)UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(2)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dd.OpenGLZeroStudyDemo-2-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenGLZeroStudyDemo(2)";
+			};
+			name = Debug;
+		};
+		24EFAE2E22D5D8180042C937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD27BB811CAE90BBAC3D899 /* Pods-OpenGLZeroStudyDemo(2)UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(2)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dd.OpenGLZeroStudyDemo-2-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenGLZeroStudyDemo(2)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24EFADF522D5D8150042C937 /* Build configuration list for PBXProject "OpenGLZeroStudyDemo(2)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24EFAE2422D5D8180042C937 /* Debug */,
+				24EFAE2522D5D8180042C937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24EFAE2622D5D8180042C937 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(2)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24EFAE2722D5D8180042C937 /* Debug */,
+				24EFAE2822D5D8180042C937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24EFAE2922D5D8180042C937 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(2)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24EFAE2A22D5D8180042C937 /* Debug */,
+				24EFAE2B22D5D8180042C937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24EFAE2C22D5D8180042C937 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(2)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24EFAE2D22D5D8180042C937 /* Debug */,
+				24EFAE2E22D5D8180042C937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24EFADF222D5D8150042C937 /* Project object */;
+}

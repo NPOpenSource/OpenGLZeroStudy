@@ -43,6 +43,7 @@
     glAttachShader(luint, vertShader);
     // Attach fragment shader to program.
     glAttachShader(luint, fragShader);
+    completeBlock(luint);
     if (![self linkProgram:luint]) {
         NSLog(@"Failed to link program: %d", luint);
         if (vertShader) {
@@ -60,9 +61,9 @@
         
         return NO;
     }
-    completeBlock(luint);
     glUseProgram(luint);
-    
+  
+
     return YES;
 }
 

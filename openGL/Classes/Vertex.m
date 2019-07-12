@@ -77,9 +77,12 @@
     
 }
 
+
 -(void)enableVertexInVertexAttrib:(GLuint)index   numberOfCoordinates:(GLint)count attribOffset:(GLsizeiptr)offset{
+    glBindBuffer(GL_ARRAY_BUFFER,
+                 self.vertexBuffers);
     glEnableVertexAttribArray(index);
-    glVertexAttribPointer( index,               // Identifies the attribute to use
+    glVertexAttribPointer(index,               // Identifies the attribute to use
                           count,               // number of coordinates for attribute
                           GL_FLOAT,            // data is floating point
                           GL_FALSE,            // no fixed point scaling
