@@ -24,9 +24,11 @@
 
 -(BOOL)compileLinkSuccessShaderName:(NSString *)shader completeBlock:(void(^)(GLuint program))completeBlock
 {
+    
     NSURL *vertShaderURL, *fragShaderURL;
     GLuint vertShader, fragShader;
     GLuint luint =self.program;
+    
     vertShaderURL = [[NSBundle mainBundle] URLForResource:shader withExtension:@"vsh"];
     if (![self compileShader:&vertShader type:GL_VERTEX_SHADER URL:vertShaderURL]) {
         NSLog(@"Failed to compile vertex shader");

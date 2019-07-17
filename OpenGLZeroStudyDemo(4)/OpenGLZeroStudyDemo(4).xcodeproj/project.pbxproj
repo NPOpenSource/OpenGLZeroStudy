@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030A08F8EA1F4A1EE8ED6061 /* libPods-OpenGLZeroStudyDemo(4)UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F8DCB9CB869FC3352E82CF /* libPods-OpenGLZeroStudyDemo(4)UITests.a */; };
+		2426A4F622DF0C5A0083C8F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2426A4F522DF0C5A0083C8F1 /* AppDelegate.m */; };
+		2426A4F922DF0C5A0083C8F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2426A4F822DF0C5A0083C8F1 /* ViewController.m */; };
+		2426A4FC22DF0C5A0083C8F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2426A4FA22DF0C5A0083C8F1 /* Main.storyboard */; };
+		2426A4FE22DF0C5D0083C8F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2426A4FD22DF0C5D0083C8F1 /* Assets.xcassets */; };
+		2426A50122DF0C5D0083C8F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2426A4FF22DF0C5D0083C8F1 /* LaunchScreen.storyboard */; };
+		2426A50422DF0C5D0083C8F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2426A50322DF0C5D0083C8F1 /* main.m */; };
+		2426A50E22DF0C5D0083C8F1 /* OpenGLZeroStudyDemo_4_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2426A50D22DF0C5D0083C8F1 /* OpenGLZeroStudyDemo_4_Tests.m */; };
+		2426A51922DF0C5D0083C8F1 /* OpenGLZeroStudyDemo_4_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2426A51822DF0C5D0083C8F1 /* OpenGLZeroStudyDemo_4_UITests.m */; };
+		84CE293DC506FFD2305FFBE3 /* libPods-OpenGLZeroStudyDemo(4)Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95058DDEA90345B5A6E759FC /* libPods-OpenGLZeroStudyDemo(4)Tests.a */; };
+		86FF6F4F9FFE7D5110A99E01 /* libPods-OpenGLZeroStudyDemo(4).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 698608C51F9490B6AFCF280E /* libPods-OpenGLZeroStudyDemo(4).a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2426A50A22DF0C5D0083C8F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2426A4E922DF0C5A0083C8F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2426A4F022DF0C5A0083C8F1;
+			remoteInfo = "OpenGLZeroStudyDemo(4)";
+		};
+		2426A51522DF0C5D0083C8F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2426A4E922DF0C5A0083C8F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2426A4F022DF0C5A0083C8F1;
+			remoteInfo = "OpenGLZeroStudyDemo(4)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00CE4763EBC65CF647AB0D1E /* Pods-OpenGLZeroStudyDemo(4)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(4)Tests.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(4)Tests/Pods-OpenGLZeroStudyDemo(4)Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F93C3D58C4293A1B9779A69 /* Pods-OpenGLZeroStudyDemo(4).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(4).debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(4)/Pods-OpenGLZeroStudyDemo(4).debug.xcconfig"; sourceTree = "<group>"; };
+		2426A4F122DF0C5A0083C8F1 /* OpenGLZeroStudyDemo(4).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLZeroStudyDemo(4).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2426A4F422DF0C5A0083C8F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2426A4F522DF0C5A0083C8F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2426A4F722DF0C5A0083C8F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2426A4F822DF0C5A0083C8F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2426A4FB22DF0C5A0083C8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2426A4FD22DF0C5D0083C8F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2426A50022DF0C5D0083C8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2426A50222DF0C5D0083C8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2426A50322DF0C5D0083C8F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2426A50922DF0C5D0083C8F1 /* OpenGLZeroStudyDemo(4)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLZeroStudyDemo(4)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2426A50D22DF0C5D0083C8F1 /* OpenGLZeroStudyDemo_4_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLZeroStudyDemo_4_Tests.m; sourceTree = "<group>"; };
+		2426A50F22DF0C5D0083C8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2426A51422DF0C5D0083C8F1 /* OpenGLZeroStudyDemo(4)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLZeroStudyDemo(4)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2426A51822DF0C5D0083C8F1 /* OpenGLZeroStudyDemo_4_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLZeroStudyDemo_4_UITests.m; sourceTree = "<group>"; };
+		2426A51A22DF0C5D0083C8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580BE29347F9425CA5C7606F /* Pods-OpenGLZeroStudyDemo(4)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(4)UITests.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(4)UITests/Pods-OpenGLZeroStudyDemo(4)UITests.release.xcconfig"; sourceTree = "<group>"; };
+		698608C51F9490B6AFCF280E /* libPods-OpenGLZeroStudyDemo(4).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(4).a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F8DCB9CB869FC3352E82CF /* libPods-OpenGLZeroStudyDemo(4)UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(4)UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95058DDEA90345B5A6E759FC /* libPods-OpenGLZeroStudyDemo(4)Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(4)Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A4A57CC7FCC05D3BB4C1BC /* Pods-OpenGLZeroStudyDemo(4)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(4)UITests.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(4)UITests/Pods-OpenGLZeroStudyDemo(4)UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5F8ECA434EA987EDF3450F0 /* Pods-OpenGLZeroStudyDemo(4).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(4).release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(4)/Pods-OpenGLZeroStudyDemo(4).release.xcconfig"; sourceTree = "<group>"; };
+		F19202F0AD0E659EC4F0C8B9 /* Pods-OpenGLZeroStudyDemo(4)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(4)Tests.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(4)Tests/Pods-OpenGLZeroStudyDemo(4)Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2426A4EE22DF0C5A0083C8F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FF6F4F9FFE7D5110A99E01 /* libPods-OpenGLZeroStudyDemo(4).a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2426A50622DF0C5D0083C8F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CE293DC506FFD2305FFBE3 /* libPods-OpenGLZeroStudyDemo(4)Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2426A51122DF0C5D0083C8F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030A08F8EA1F4A1EE8ED6061 /* libPods-OpenGLZeroStudyDemo(4)UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2426A4E822DF0C5A0083C8F1 = {
+			isa = PBXGroup;
+			children = (
+				2426A4F322DF0C5A0083C8F1 /* OpenGLZeroStudyDemo(4) */,
+				2426A50C22DF0C5D0083C8F1 /* OpenGLZeroStudyDemo(4)Tests */,
+				2426A51722DF0C5D0083C8F1 /* OpenGLZeroStudyDemo(4)UITests */,
+				2426A4F222DF0C5A0083C8F1 /* Products */,
+				B2F046487943A9CF0BA3FFF3 /* Pods */,
+				5F1B3C0E8EA6DA18A8E64568 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2426A4F222DF0C5A0083C8F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2426A4F122DF0C5A0083C8F1 /* OpenGLZeroStudyDemo(4).app */,
+				2426A50922DF0C5D0083C8F1 /* OpenGLZeroStudyDemo(4)Tests.xctest */,
+				2426A51422DF0C5D0083C8F1 /* OpenGLZeroStudyDemo(4)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2426A4F322DF0C5A0083C8F1 /* OpenGLZeroStudyDemo(4) */ = {
+			isa = PBXGroup;
+			children = (
+				2426A4F422DF0C5A0083C8F1 /* AppDelegate.h */,
+				2426A4F522DF0C5A0083C8F1 /* AppDelegate.m */,
+				2426A4F722DF0C5A0083C8F1 /* ViewController.h */,
+				2426A4F822DF0C5A0083C8F1 /* ViewController.m */,
+				2426A4FA22DF0C5A0083C8F1 /* Main.storyboard */,
+				2426A4FD22DF0C5D0083C8F1 /* Assets.xcassets */,
+				2426A4FF22DF0C5D0083C8F1 /* LaunchScreen.storyboard */,
+				2426A50222DF0C5D0083C8F1 /* Info.plist */,
+				2426A50322DF0C5D0083C8F1 /* main.m */,
+			);
+			path = "OpenGLZeroStudyDemo(4)";
+			sourceTree = "<group>";
+		};
+		2426A50C22DF0C5D0083C8F1 /* OpenGLZeroStudyDemo(4)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2426A50D22DF0C5D0083C8F1 /* OpenGLZeroStudyDemo_4_Tests.m */,
+				2426A50F22DF0C5D0083C8F1 /* Info.plist */,
+			);
+			path = "OpenGLZeroStudyDemo(4)Tests";
+			sourceTree = "<group>";
+		};
+		2426A51722DF0C5D0083C8F1 /* OpenGLZeroStudyDemo(4)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2426A51822DF0C5D0083C8F1 /* OpenGLZeroStudyDemo_4_UITests.m */,
+				2426A51A22DF0C5D0083C8F1 /* Info.plist */,
+			);
+			path = "OpenGLZeroStudyDemo(4)UITests";
+			sourceTree = "<group>";
+		};
+		5F1B3C0E8EA6DA18A8E64568 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				698608C51F9490B6AFCF280E /* libPods-OpenGLZeroStudyDemo(4).a */,
+				95058DDEA90345B5A6E759FC /* libPods-OpenGLZeroStudyDemo(4)Tests.a */,
+				70F8DCB9CB869FC3352E82CF /* libPods-OpenGLZeroStudyDemo(4)UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2F046487943A9CF0BA3FFF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F93C3D58C4293A1B9779A69 /* Pods-OpenGLZeroStudyDemo(4).debug.xcconfig */,
+				D5F8ECA434EA987EDF3450F0 /* Pods-OpenGLZeroStudyDemo(4).release.xcconfig */,
+				00CE4763EBC65CF647AB0D1E /* Pods-OpenGLZeroStudyDemo(4)Tests.debug.xcconfig */,
+				F19202F0AD0E659EC4F0C8B9 /* Pods-OpenGLZeroStudyDemo(4)Tests.release.xcconfig */,
+				A6A4A57CC7FCC05D3BB4C1BC /* Pods-OpenGLZeroStudyDemo(4)UITests.debug.xcconfig */,
+				580BE29347F9425CA5C7606F /* Pods-OpenGLZeroStudyDemo(4)UITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2426A4F022DF0C5A0083C8F1 /* OpenGLZeroStudyDemo(4) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2426A51D22DF0C5D0083C8F1 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(4)" */;
+			buildPhases = (
+				6CFE47C10034456BEE138F10 /* [CP] Check Pods Manifest.lock */,
+				2426A4ED22DF0C5A0083C8F1 /* Sources */,
+				2426A4EE22DF0C5A0083C8F1 /* Frameworks */,
+				2426A4EF22DF0C5A0083C8F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGLZeroStudyDemo(4)";
+			productName = "OpenGLZeroStudyDemo(4)";
+			productReference = 2426A4F122DF0C5A0083C8F1 /* OpenGLZeroStudyDemo(4).app */;
+			productType = "com.apple.product-type.application";
+		};
+		2426A50822DF0C5D0083C8F1 /* OpenGLZeroStudyDemo(4)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2426A52022DF0C5D0083C8F1 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(4)Tests" */;
+			buildPhases = (
+				4F716A7846EB4C4D4D9ED2FC /* [CP] Check Pods Manifest.lock */,
+				2426A50522DF0C5D0083C8F1 /* Sources */,
+				2426A50622DF0C5D0083C8F1 /* Frameworks */,
+				2426A50722DF0C5D0083C8F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2426A50B22DF0C5D0083C8F1 /* PBXTargetDependency */,
+			);
+			name = "OpenGLZeroStudyDemo(4)Tests";
+			productName = "OpenGLZeroStudyDemo(4)Tests";
+			productReference = 2426A50922DF0C5D0083C8F1 /* OpenGLZeroStudyDemo(4)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2426A51322DF0C5D0083C8F1 /* OpenGLZeroStudyDemo(4)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2426A52322DF0C5D0083C8F1 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(4)UITests" */;
+			buildPhases = (
+				698C1E327752609D40F4B07F /* [CP] Check Pods Manifest.lock */,
+				2426A51022DF0C5D0083C8F1 /* Sources */,
+				2426A51122DF0C5D0083C8F1 /* Frameworks */,
+				2426A51222DF0C5D0083C8F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2426A51622DF0C5D0083C8F1 /* PBXTargetDependency */,
+			);
+			name = "OpenGLZeroStudyDemo(4)UITests";
+			productName = "OpenGLZeroStudyDemo(4)UITests";
+			productReference = 2426A51422DF0C5D0083C8F1 /* OpenGLZeroStudyDemo(4)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2426A4E922DF0C5A0083C8F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = glodon;
+				TargetAttributes = {
+					2426A4F022DF0C5A0083C8F1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2426A50822DF0C5D0083C8F1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2426A4F022DF0C5A0083C8F1;
+					};
+					2426A51322DF0C5D0083C8F1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2426A4F022DF0C5A0083C8F1;
+					};
+				};
+			};
+			buildConfigurationList = 2426A4EC22DF0C5A0083C8F1 /* Build configuration list for PBXProject "OpenGLZeroStudyDemo(4)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2426A4E822DF0C5A0083C8F1;
+			productRefGroup = 2426A4F222DF0C5A0083C8F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2426A4F022DF0C5A0083C8F1 /* OpenGLZeroStudyDemo(4) */,
+				2426A50822DF0C5D0083C8F1 /* OpenGLZeroStudyDemo(4)Tests */,
+				2426A51322DF0C5D0083C8F1 /* OpenGLZeroStudyDemo(4)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2426A4EF22DF0C5A0083C8F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2426A50122DF0C5D0083C8F1 /* LaunchScreen.storyboard in Resources */,
+				2426A4FE22DF0C5D0083C8F1 /* Assets.xcassets in Resources */,
+				2426A4FC22DF0C5A0083C8F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2426A50722DF0C5D0083C8F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2426A51222DF0C5D0083C8F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F716A7846EB4C4D4D9ED2FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(4)Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		698C1E327752609D40F4B07F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(4)UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CFE47C10034456BEE138F10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(4)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2426A4ED22DF0C5A0083C8F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2426A4F922DF0C5A0083C8F1 /* ViewController.m in Sources */,
+				2426A50422DF0C5D0083C8F1 /* main.m in Sources */,
+				2426A4F622DF0C5A0083C8F1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2426A50522DF0C5D0083C8F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2426A50E22DF0C5D0083C8F1 /* OpenGLZeroStudyDemo_4_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2426A51022DF0C5D0083C8F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2426A51922DF0C5D0083C8F1 /* OpenGLZeroStudyDemo_4_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2426A50B22DF0C5D0083C8F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2426A4F022DF0C5A0083C8F1 /* OpenGLZeroStudyDemo(4) */;
+			targetProxy = 2426A50A22DF0C5D0083C8F1 /* PBXContainerItemProxy */;
+		};
+		2426A51622DF0C5D0083C8F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2426A4F022DF0C5A0083C8F1 /* OpenGLZeroStudyDemo(4) */;
+			targetProxy = 2426A51522DF0C5D0083C8F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2426A4FA22DF0C5A0083C8F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2426A4FB22DF0C5A0083C8F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2426A4FF22DF0C5D0083C8F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2426A50022DF0C5D0083C8F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2426A51B22DF0C5D0083C8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2426A51C22DF0C5D0083C8F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2426A51E22DF0C5D0083C8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F93C3D58C4293A1B9779A69 /* Pods-OpenGLZeroStudyDemo(4).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(4)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-4-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2426A51F22DF0C5D0083C8F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F8ECA434EA987EDF3450F0 /* Pods-OpenGLZeroStudyDemo(4).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(4)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-4-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2426A52122DF0C5D0083C8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00CE4763EBC65CF647AB0D1E /* Pods-OpenGLZeroStudyDemo(4)Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(4)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-4-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLZeroStudyDemo(4).app/OpenGLZeroStudyDemo(4)";
+			};
+			name = Debug;
+		};
+		2426A52222DF0C5D0083C8F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19202F0AD0E659EC4F0C8B9 /* Pods-OpenGLZeroStudyDemo(4)Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(4)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-4-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLZeroStudyDemo(4).app/OpenGLZeroStudyDemo(4)";
+			};
+			name = Release;
+		};
+		2426A52422DF0C5D0083C8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A4A57CC7FCC05D3BB4C1BC /* Pods-OpenGLZeroStudyDemo(4)UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(4)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-4-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenGLZeroStudyDemo(4)";
+			};
+			name = Debug;
+		};
+		2426A52522DF0C5D0083C8F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 580BE29347F9425CA5C7606F /* Pods-OpenGLZeroStudyDemo(4)UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(4)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-4-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenGLZeroStudyDemo(4)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2426A4EC22DF0C5A0083C8F1 /* Build configuration list for PBXProject "OpenGLZeroStudyDemo(4)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2426A51B22DF0C5D0083C8F1 /* Debug */,
+				2426A51C22DF0C5D0083C8F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2426A51D22DF0C5D0083C8F1 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(4)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2426A51E22DF0C5D0083C8F1 /* Debug */,
+				2426A51F22DF0C5D0083C8F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2426A52022DF0C5D0083C8F1 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(4)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2426A52122DF0C5D0083C8F1 /* Debug */,
+				2426A52222DF0C5D0083C8F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2426A52322DF0C5D0083C8F1 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(4)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2426A52422DF0C5D0083C8F1 /* Debug */,
+				2426A52522DF0C5D0083C8F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2426A4E922DF0C5A0083C8F1 /* Project object */;
+}
