@@ -11,4 +11,6 @@
 #import "Shader.h"
 #import "Vertex.h"
 #import "VertexElement.h"
+#import "TextureUnit.h"
+
 #endif /* OpenGLUtilsHeader_h */

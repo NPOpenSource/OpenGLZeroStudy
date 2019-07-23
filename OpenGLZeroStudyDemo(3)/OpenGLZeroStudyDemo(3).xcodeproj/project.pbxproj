@@ -17,8 +17,8 @@
 		2426A4C922DF01200083C8F1 /* OpenGLZeroStudyDemo_3_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2426A4C822DF01200083C8F1 /* OpenGLZeroStudyDemo_3_Tests.m */; };
 		2426A4D422DF01200083C8F1 /* OpenGLZeroStudyDemo_3_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2426A4D322DF01200083C8F1 /* OpenGLZeroStudyDemo_3_UITests.m */; };
 		2426A4E322DF050F0083C8F1 /* ShaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2426A4E222DF050F0083C8F1 /* ShaderViewController.m */; };
-		2426A4E622DF05B20083C8F1 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2426A4E422DF05B10083C8F1 /* Shader.vsh */; };
-		2426A4E722DF05B20083C8F1 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2426A4E522DF05B20083C8F1 /* Shader.fsh */; };
+		2426A52F22DF0E8A0083C8F1 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2426A52D22DF0E8A0083C8F1 /* Shader.fsh */; };
+		2426A53022DF0E8A0083C8F1 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2426A52E22DF0E8A0083C8F1 /* Shader.vsh */; };
 		96D749939E0A70A8741FB3A1 /* libPods-OpenGLZeroStudyDemo(3)UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB690D7038C138CD30E4DFA /* libPods-OpenGLZeroStudyDemo(3)UITests.a */; };
 		F8444D6E7BD60603C578B3A3 /* libPods-OpenGLZeroStudyDemo(3)Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17371D7A6048387C4A8AB028 /* libPods-OpenGLZeroStudyDemo(3)Tests.a */; };
 /* End PBXBuildFile section */
@@ -61,8 +61,8 @@
 		2426A4D522DF01200083C8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2426A4E122DF050F0083C8F1 /* ShaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderViewController.h; sourceTree = "<group>"; };
 		2426A4E222DF050F0083C8F1 /* ShaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShaderViewController.m; sourceTree = "<group>"; };
-		2426A4E422DF05B10083C8F1 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = "../../OpenGLZeroStudyDemo(1)/OpenGLZeroStudyDemo(1)/Shader.vsh"; sourceTree = "<group>"; };
-		2426A4E522DF05B20083C8F1 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = "../../OpenGLZeroStudyDemo(1)/OpenGLZeroStudyDemo(1)/Shader.fsh"; sourceTree = "<group>"; };
+		2426A52D22DF0E8A0083C8F1 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		2426A52E22DF0E8A0083C8F1 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
 		2575495C926F7452718AEE70 /* Pods-OpenGLZeroStudyDemo(3).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(3).release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(3)/Pods-OpenGLZeroStudyDemo(3).release.xcconfig"; sourceTree = "<group>"; };
 		4996639F8C197191B94F33EA /* Pods-OpenGLZeroStudyDemo(3)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(3)UITests.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(3)UITests/Pods-OpenGLZeroStudyDemo(3)UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		52FEE9D0C1021EA641274632 /* Pods-OpenGLZeroStudyDemo(3)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(3)UITests.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(3)UITests/Pods-OpenGLZeroStudyDemo(3)UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +125,8 @@
 		2426A4AE22DF011C0083C8F1 /* OpenGLZeroStudyDemo(3) */ = {
 			isa = PBXGroup;
 			children = (
+				2426A52D22DF0E8A0083C8F1 /* Shader.fsh */,
+				2426A52E22DF0E8A0083C8F1 /* Shader.vsh */,
 				2426A4AF22DF011C0083C8F1 /* AppDelegate.h */,
 				2426A4B022DF011C0083C8F1 /* AppDelegate.m */,
 				2426A4B222DF011C0083C8F1 /* ViewController.h */,
@@ -134,8 +136,6 @@
 				2426A4BA22DF01200083C8F1 /* LaunchScreen.storyboard */,
 				2426A4BD22DF01200083C8F1 /* Info.plist */,
 				2426A4BE22DF01200083C8F1 /* main.m */,
-				2426A4E522DF05B20083C8F1 /* Shader.fsh */,
-				2426A4E422DF05B10083C8F1 /* Shader.vsh */,
 				2426A4E122DF050F0083C8F1 /* ShaderViewController.h */,
 				2426A4E222DF050F0083C8F1 /* ShaderViewController.m */,
 			);
@@ -289,11 +289,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2426A4E622DF05B20083C8F1 /* Shader.vsh in Resources */,
+				2426A52F22DF0E8A0083C8F1 /* Shader.fsh in Resources */,
 				2426A4BC22DF01200083C8F1 /* LaunchScreen.storyboard in Resources */,
 				2426A4B922DF01200083C8F1 /* Assets.xcassets in Resources */,
 				2426A4B722DF011C0083C8F1 /* Main.storyboard in Resources */,
-				2426A4E722DF05B20083C8F1 /* Shader.fsh in Resources */,
+				2426A53022DF0E8A0083C8F1 /* Shader.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

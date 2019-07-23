@@ -16,6 +16,14 @@
 		2426A50422DF0C5D0083C8F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2426A50322DF0C5D0083C8F1 /* main.m */; };
 		2426A50E22DF0C5D0083C8F1 /* OpenGLZeroStudyDemo_4_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2426A50D22DF0C5D0083C8F1 /* OpenGLZeroStudyDemo_4_Tests.m */; };
 		2426A51922DF0C5D0083C8F1 /* OpenGLZeroStudyDemo_4_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2426A51822DF0C5D0083C8F1 /* OpenGLZeroStudyDemo_4_UITests.m */; };
+		2426A52822DF0D3B0083C8F1 /* ShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2426A52722DF0D3B0083C8F1 /* ShowImageViewController.m */; };
+		2426A53322DF0EA80083C8F1 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2426A53122DF0EA80083C8F1 /* Shader.vsh */; };
+		2426A53422DF0EA80083C8F1 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2426A53222DF0EA80083C8F1 /* Shader.fsh */; };
+		2426A53622DF0FB00083C8F1 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2426A53522DF0FB00083C8F1 /* 2.png */; };
+		2426A54022DF3F160083C8F1 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2426A53F22DF3F160083C8F1 /* 1.jpg */; };
+		2426A54322E013F70083C8F1 /* ShowColorViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 2426A54222E013F70083C8F1 /* ShowColorViewContoller.m */; };
+		2426A54622E014550083C8F1 /* Shader1.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2426A54422E014550083C8F1 /* Shader1.vsh */; };
+		2426A54722E014550083C8F1 /* Shader1.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2426A54522E014550083C8F1 /* Shader1.fsh */; };
 		84CE293DC506FFD2305FFBE3 /* libPods-OpenGLZeroStudyDemo(4)Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95058DDEA90345B5A6E759FC /* libPods-OpenGLZeroStudyDemo(4)Tests.a */; };
 		86FF6F4F9FFE7D5110A99E01 /* libPods-OpenGLZeroStudyDemo(4).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 698608C51F9490B6AFCF280E /* libPods-OpenGLZeroStudyDemo(4).a */; };
 /* End PBXBuildFile section */
@@ -56,6 +64,16 @@
 		2426A51422DF0C5D0083C8F1 /* OpenGLZeroStudyDemo(4)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLZeroStudyDemo(4)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2426A51822DF0C5D0083C8F1 /* OpenGLZeroStudyDemo_4_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLZeroStudyDemo_4_UITests.m; sourceTree = "<group>"; };
 		2426A51A22DF0C5D0083C8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2426A52622DF0D3B0083C8F1 /* ShowImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowImageViewController.h; sourceTree = "<group>"; };
+		2426A52722DF0D3B0083C8F1 /* ShowImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowImageViewController.m; sourceTree = "<group>"; };
+		2426A53122DF0EA80083C8F1 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		2426A53222DF0EA80083C8F1 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		2426A53522DF0FB00083C8F1 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		2426A53F22DF3F160083C8F1 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		2426A54122E013F70083C8F1 /* ShowColorViewContoller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowColorViewContoller.h; sourceTree = "<group>"; };
+		2426A54222E013F70083C8F1 /* ShowColorViewContoller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowColorViewContoller.m; sourceTree = "<group>"; };
+		2426A54422E014550083C8F1 /* Shader1.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader1.vsh; sourceTree = "<group>"; };
+		2426A54522E014550083C8F1 /* Shader1.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader1.fsh; sourceTree = "<group>"; };
 		580BE29347F9425CA5C7606F /* Pods-OpenGLZeroStudyDemo(4)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(4)UITests.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(4)UITests/Pods-OpenGLZeroStudyDemo(4)UITests.release.xcconfig"; sourceTree = "<group>"; };
 		698608C51F9490B6AFCF280E /* libPods-OpenGLZeroStudyDemo(4).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(4).a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F8DCB9CB869FC3352E82CF /* libPods-OpenGLZeroStudyDemo(4)UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(4)UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +136,12 @@
 		2426A4F322DF0C5A0083C8F1 /* OpenGLZeroStudyDemo(4) */ = {
 			isa = PBXGroup;
 			children = (
+				2426A54522E014550083C8F1 /* Shader1.fsh */,
+				2426A54422E014550083C8F1 /* Shader1.vsh */,
+				2426A53522DF0FB00083C8F1 /* 2.png */,
+				2426A53F22DF3F160083C8F1 /* 1.jpg */,
+				2426A53222DF0EA80083C8F1 /* Shader.fsh */,
+				2426A53122DF0EA80083C8F1 /* Shader.vsh */,
 				2426A4F422DF0C5A0083C8F1 /* AppDelegate.h */,
 				2426A4F522DF0C5A0083C8F1 /* AppDelegate.m */,
 				2426A4F722DF0C5A0083C8F1 /* ViewController.h */,
@@ -127,6 +151,10 @@
 				2426A4FF22DF0C5D0083C8F1 /* LaunchScreen.storyboard */,
 				2426A50222DF0C5D0083C8F1 /* Info.plist */,
 				2426A50322DF0C5D0083C8F1 /* main.m */,
+				2426A52622DF0D3B0083C8F1 /* ShowImageViewController.h */,
+				2426A52722DF0D3B0083C8F1 /* ShowImageViewController.m */,
+				2426A54122E013F70083C8F1 /* ShowColorViewContoller.h */,
+				2426A54222E013F70083C8F1 /* ShowColorViewContoller.m */,
 			);
 			path = "OpenGLZeroStudyDemo(4)";
 			sourceTree = "<group>";
@@ -169,7 +197,6 @@
 				A6A4A57CC7FCC05D3BB4C1BC /* Pods-OpenGLZeroStudyDemo(4)UITests.debug.xcconfig */,
 				580BE29347F9425CA5C7606F /* Pods-OpenGLZeroStudyDemo(4)UITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -279,9 +306,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2426A54022DF3F160083C8F1 /* 1.jpg in Resources */,
+				2426A53622DF0FB00083C8F1 /* 2.png in Resources */,
+				2426A54622E014550083C8F1 /* Shader1.vsh in Resources */,
+				2426A53322DF0EA80083C8F1 /* Shader.vsh in Resources */,
 				2426A50122DF0C5D0083C8F1 /* LaunchScreen.storyboard in Resources */,
 				2426A4FE22DF0C5D0083C8F1 /* Assets.xcassets in Resources */,
+				2426A54722E014550083C8F1 /* Shader1.fsh in Resources */,
 				2426A4FC22DF0C5A0083C8F1 /* Main.storyboard in Resources */,
+				2426A53422DF0EA80083C8F1 /* Shader.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,8 +409,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2426A4F922DF0C5A0083C8F1 /* ViewController.m in Sources */,
+				2426A54322E013F70083C8F1 /* ShowColorViewContoller.m in Sources */,
 				2426A50422DF0C5D0083C8F1 /* main.m in Sources */,
 				2426A4F622DF0C5A0083C8F1 /* AppDelegate.m in Sources */,
+				2426A52822DF0D3B0083C8F1 /* ShowImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -536,7 +571,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
