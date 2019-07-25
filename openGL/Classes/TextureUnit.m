@@ -46,7 +46,6 @@
     glActiveTexture(textureUnit);
     self.textureUnitLocation = [self _getTextureBindLocationForTexture:textureUnit];
     glBindTexture(GL_TEXTURE_2D,  _textureBuffer);
- 
     GLubyte *imageData = [self _getImageData:image];
     glTexImage2D(GL_TEXTURE_2D, 0, internalformat , image.size.width, image.size.height, 0, internalformat, GL_UNSIGNED_BYTE, imageData);
     free(imageData);

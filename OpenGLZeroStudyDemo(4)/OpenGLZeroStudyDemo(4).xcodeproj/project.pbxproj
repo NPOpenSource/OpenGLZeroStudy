@@ -24,6 +24,12 @@
 		2426A54322E013F70083C8F1 /* ShowColorViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 2426A54222E013F70083C8F1 /* ShowColorViewContoller.m */; };
 		2426A54622E014550083C8F1 /* Shader1.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2426A54422E014550083C8F1 /* Shader1.vsh */; };
 		2426A54722E014550083C8F1 /* Shader1.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2426A54522E014550083C8F1 /* Shader1.fsh */; };
+		24CBEF6922E7245C00D326DD /* TextureParamerBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CBEF6822E7245C00D326DD /* TextureParamerBaseViewController.m */; };
+		24CBEF6D22E724D200D326DD /* TextureBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CBEF6C22E724D200D326DD /* TextureBaseViewController.m */; };
+		24CBEF7022E7254700D326DD /* TextureParamBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CBEF6F22E7254700D326DD /* TextureParamBaseViewController.m */; };
+		24CBEF7322E7259D00D326DD /* RepeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CBEF7222E7259D00D326DD /* RepeatViewController.m */; };
+		24CBEF7922E734AC00D326DD /* CLAMPTOEDGEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CBEF7822E734AC00D326DD /* CLAMPTOEDGEViewController.m */; };
+		24CBEF7C22E734E000D326DD /* MIRROREDREPEATViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CBEF7B22E734E000D326DD /* MIRROREDREPEATViewController.m */; };
 		84CE293DC506FFD2305FFBE3 /* libPods-OpenGLZeroStudyDemo(4)Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95058DDEA90345B5A6E759FC /* libPods-OpenGLZeroStudyDemo(4)Tests.a */; };
 		86FF6F4F9FFE7D5110A99E01 /* libPods-OpenGLZeroStudyDemo(4).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 698608C51F9490B6AFCF280E /* libPods-OpenGLZeroStudyDemo(4).a */; };
 /* End PBXBuildFile section */
@@ -74,6 +80,18 @@
 		2426A54222E013F70083C8F1 /* ShowColorViewContoller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowColorViewContoller.m; sourceTree = "<group>"; };
 		2426A54422E014550083C8F1 /* Shader1.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader1.vsh; sourceTree = "<group>"; };
 		2426A54522E014550083C8F1 /* Shader1.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader1.fsh; sourceTree = "<group>"; };
+		24CBEF6722E7245C00D326DD /* TextureParamerBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureParamerBaseViewController.h; sourceTree = "<group>"; };
+		24CBEF6822E7245C00D326DD /* TextureParamerBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextureParamerBaseViewController.m; sourceTree = "<group>"; };
+		24CBEF6B22E724D200D326DD /* TextureBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureBaseViewController.h; sourceTree = "<group>"; };
+		24CBEF6C22E724D200D326DD /* TextureBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextureBaseViewController.m; sourceTree = "<group>"; };
+		24CBEF6E22E7254700D326DD /* TextureParamBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureParamBaseViewController.h; sourceTree = "<group>"; };
+		24CBEF6F22E7254700D326DD /* TextureParamBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextureParamBaseViewController.m; sourceTree = "<group>"; };
+		24CBEF7122E7259D00D326DD /* RepeatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepeatViewController.h; sourceTree = "<group>"; };
+		24CBEF7222E7259D00D326DD /* RepeatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepeatViewController.m; sourceTree = "<group>"; };
+		24CBEF7722E734AC00D326DD /* CLAMPTOEDGEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLAMPTOEDGEViewController.h; sourceTree = "<group>"; };
+		24CBEF7822E734AC00D326DD /* CLAMPTOEDGEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLAMPTOEDGEViewController.m; sourceTree = "<group>"; };
+		24CBEF7A22E734E000D326DD /* MIRROREDREPEATViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIRROREDREPEATViewController.h; sourceTree = "<group>"; };
+		24CBEF7B22E734E000D326DD /* MIRROREDREPEATViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIRROREDREPEATViewController.m; sourceTree = "<group>"; };
 		580BE29347F9425CA5C7606F /* Pods-OpenGLZeroStudyDemo(4)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(4)UITests.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(4)UITests/Pods-OpenGLZeroStudyDemo(4)UITests.release.xcconfig"; sourceTree = "<group>"; };
 		698608C51F9490B6AFCF280E /* libPods-OpenGLZeroStudyDemo(4).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(4).a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F8DCB9CB869FC3352E82CF /* libPods-OpenGLZeroStudyDemo(4)UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(4)UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +154,7 @@
 		2426A4F322DF0C5A0083C8F1 /* OpenGLZeroStudyDemo(4) */ = {
 			isa = PBXGroup;
 			children = (
+				24CBEF6A22E7246300D326DD /* paramer */,
 				2426A54522E014550083C8F1 /* Shader1.fsh */,
 				2426A54422E014550083C8F1 /* Shader1.vsh */,
 				2426A53522DF0FB00083C8F1 /* 2.png */,
@@ -151,6 +170,8 @@
 				2426A4FF22DF0C5D0083C8F1 /* LaunchScreen.storyboard */,
 				2426A50222DF0C5D0083C8F1 /* Info.plist */,
 				2426A50322DF0C5D0083C8F1 /* main.m */,
+				24CBEF6722E7245C00D326DD /* TextureParamerBaseViewController.h */,
+				24CBEF6822E7245C00D326DD /* TextureParamerBaseViewController.m */,
 				2426A52622DF0D3B0083C8F1 /* ShowImageViewController.h */,
 				2426A52722DF0D3B0083C8F1 /* ShowImageViewController.m */,
 				2426A54122E013F70083C8F1 /* ShowColorViewContoller.h */,
@@ -175,6 +196,23 @@
 				2426A51A22DF0C5D0083C8F1 /* Info.plist */,
 			);
 			path = "OpenGLZeroStudyDemo(4)UITests";
+			sourceTree = "<group>";
+		};
+		24CBEF6A22E7246300D326DD /* paramer */ = {
+			isa = PBXGroup;
+			children = (
+				24CBEF6B22E724D200D326DD /* TextureBaseViewController.h */,
+				24CBEF6C22E724D200D326DD /* TextureBaseViewController.m */,
+				24CBEF6E22E7254700D326DD /* TextureParamBaseViewController.h */,
+				24CBEF6F22E7254700D326DD /* TextureParamBaseViewController.m */,
+				24CBEF7122E7259D00D326DD /* RepeatViewController.h */,
+				24CBEF7222E7259D00D326DD /* RepeatViewController.m */,
+				24CBEF7722E734AC00D326DD /* CLAMPTOEDGEViewController.h */,
+				24CBEF7822E734AC00D326DD /* CLAMPTOEDGEViewController.m */,
+				24CBEF7A22E734E000D326DD /* MIRROREDREPEATViewController.h */,
+				24CBEF7B22E734E000D326DD /* MIRROREDREPEATViewController.m */,
+			);
+			path = paramer;
 			sourceTree = "<group>";
 		};
 		5F1B3C0E8EA6DA18A8E64568 /* Frameworks */ = {
@@ -408,10 +446,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24CBEF6922E7245C00D326DD /* TextureParamerBaseViewController.m in Sources */,
+				24CBEF7322E7259D00D326DD /* RepeatViewController.m in Sources */,
 				2426A4F922DF0C5A0083C8F1 /* ViewController.m in Sources */,
 				2426A54322E013F70083C8F1 /* ShowColorViewContoller.m in Sources */,
 				2426A50422DF0C5D0083C8F1 /* main.m in Sources */,
+				24CBEF6D22E724D200D326DD /* TextureBaseViewController.m in Sources */,
+				24CBEF7922E734AC00D326DD /* CLAMPTOEDGEViewController.m in Sources */,
 				2426A4F622DF0C5A0083C8F1 /* AppDelegate.m in Sources */,
+				24CBEF7022E7254700D326DD /* TextureParamBaseViewController.m in Sources */,
+				24CBEF7C22E734E000D326DD /* MIRROREDREPEATViewController.m in Sources */,
 				2426A52822DF0D3B0083C8F1 /* ShowImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

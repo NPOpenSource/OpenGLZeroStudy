@@ -103,6 +103,8 @@
     NSAssert([self getAllocSpaceByteNum] >=
              ((first + count) *sizeof(GLfloat) * self.eachVertexNum),
              @"Attempt to draw more vertex data than available.");
+    glBindBuffer(GL_ARRAY_BUFFER,
+                 self.vertexBuffers);
      glDrawArrays(mode, first, count);
 }
 

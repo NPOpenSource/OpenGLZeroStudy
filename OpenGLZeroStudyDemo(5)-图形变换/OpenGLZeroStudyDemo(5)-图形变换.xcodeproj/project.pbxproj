@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2416CD8722E7F2A3007E2B2B /* CubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2416CD8622E7F2A3007E2B2B /* CubeViewController.m */; };
+		2416CD8A22E7F33D007E2B2B /* GLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2416CD8922E7F33D007E2B2B /* GLBaseViewController.m */; };
+		2416CD8D22E7F454007E2B2B /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2416CD8B22E7F454007E2B2B /* Shader.vsh */; };
+		2416CD8E22E7F454007E2B2B /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2416CD8C22E7F454007E2B2B /* Shader.fsh */; };
+		24CBEF8B22E7EE0000D326DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CBEF8A22E7EE0000D326DD /* AppDelegate.m */; };
+		24CBEF8E22E7EE0000D326DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CBEF8D22E7EE0000D326DD /* ViewController.m */; };
+		24CBEF9122E7EE0000D326DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CBEF8F22E7EE0000D326DD /* Main.storyboard */; };
+		24CBEF9322E7EE0300D326DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CBEF9222E7EE0300D326DD /* Assets.xcassets */; };
+		24CBEF9622E7EE0300D326DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CBEF9422E7EE0300D326DD /* LaunchScreen.storyboard */; };
+		24CBEF9922E7EE0300D326DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CBEF9822E7EE0300D326DD /* main.m */; };
+		24CBEFA322E7EE0400D326DD /* OpenGLZeroStudyDemo_5______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CBEFA222E7EE0400D326DD /* OpenGLZeroStudyDemo_5______Tests.m */; };
+		24CBEFAE22E7EE0400D326DD /* OpenGLZeroStudyDemo_5______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CBEFAD22E7EE0400D326DD /* OpenGLZeroStudyDemo_5______UITests.m */; };
+		6774849947DDE846978619B2 /* libPods-OpenGLZeroStudyDemo(5)-图形变换.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DBDBFEBC9EFCE59EA1A0E7 /* libPods-OpenGLZeroStudyDemo(5)-图形变换.a */; };
+		C3A1664FAEEBEBEB09EBEEB3 /* libPods-OpenGLZeroStudyDemo(5)-图形变换UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4307F69F4989EA0AD5D8018C /* libPods-OpenGLZeroStudyDemo(5)-图形变换UITests.a */; };
+		EDB0AC4C43FC59D592B10109 /* libPods-OpenGLZeroStudyDemo(5)-图形变换Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEEF7FFBEFA95C0734872D3 /* libPods-OpenGLZeroStudyDemo(5)-图形变换Tests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24CBEF9F22E7EE0400D326DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24CBEF7E22E7EDFF00D326DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24CBEF8522E7EE0000D326DD;
+			remoteInfo = "OpenGLZeroStudyDemo(5)-图形变换";
+		};
+		24CBEFAA22E7EE0400D326DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24CBEF7E22E7EDFF00D326DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24CBEF8522E7EE0000D326DD;
+			remoteInfo = "OpenGLZeroStudyDemo(5)-图形变换";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03DBDBFEBC9EFCE59EA1A0E7 /* libPods-OpenGLZeroStudyDemo(5)-图形变换.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(5)-图形变换.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2416CD8422E7F26F007E2B2B /* os_cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_cube.h; sourceTree = "<group>"; };
+		2416CD8522E7F2A3007E2B2B /* CubeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeViewController.h; sourceTree = "<group>"; };
+		2416CD8622E7F2A3007E2B2B /* CubeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeViewController.m; sourceTree = "<group>"; };
+		2416CD8822E7F33D007E2B2B /* GLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLBaseViewController.h; sourceTree = "<group>"; };
+		2416CD8922E7F33D007E2B2B /* GLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLBaseViewController.m; sourceTree = "<group>"; };
+		2416CD8B22E7F454007E2B2B /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		2416CD8C22E7F454007E2B2B /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		24CBEF8622E7EE0000D326DD /* OpenGLZeroStudyDemo(5)-图形变换.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLZeroStudyDemo(5)-图形变换.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CBEF8922E7EE0000D326DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24CBEF8A22E7EE0000D326DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24CBEF8C22E7EE0000D326DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		24CBEF8D22E7EE0000D326DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24CBEF9022E7EE0000D326DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24CBEF9222E7EE0300D326DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24CBEF9522E7EE0300D326DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24CBEF9722E7EE0300D326DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24CBEF9822E7EE0300D326DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24CBEF9E22E7EE0400D326DD /* OpenGLZeroStudyDemo(5)-图形变换Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLZeroStudyDemo(5)-图形变换Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CBEFA222E7EE0400D326DD /* OpenGLZeroStudyDemo_5______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGLZeroStudyDemo_5______Tests.m"; sourceTree = "<group>"; };
+		24CBEFA422E7EE0400D326DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24CBEFA922E7EE0400D326DD /* OpenGLZeroStudyDemo(5)-图形变换UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLZeroStudyDemo(5)-图形变换UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CBEFAD22E7EE0400D326DD /* OpenGLZeroStudyDemo_5______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGLZeroStudyDemo_5______UITests.m"; sourceTree = "<group>"; };
+		24CBEFAF22E7EE0400D326DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3917D8EF0992750E294AE3AD /* Pods-OpenGLZeroStudyDemo(5)-图形变换Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(5)-图形变换Tests.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(5)-图形变换Tests/Pods-OpenGLZeroStudyDemo(5)-图形变换Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4307F69F4989EA0AD5D8018C /* libPods-OpenGLZeroStudyDemo(5)-图形变换UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(5)-图形变换UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47284751FD2526F12D9F46E5 /* Pods-OpenGLZeroStudyDemo(5)-图形变换Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(5)-图形变换Tests.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(5)-图形变换Tests/Pods-OpenGLZeroStudyDemo(5)-图形变换Tests.release.xcconfig"; sourceTree = "<group>"; };
+		87A8BA30270CC64680239F21 /* Pods-OpenGLZeroStudyDemo(5)-图形变换.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(5)-图形变换.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(5)-图形变换/Pods-OpenGLZeroStudyDemo(5)-图形变换.release.xcconfig"; sourceTree = "<group>"; };
+		9AB7FB35C01A09EDDECD8DC4 /* Pods-OpenGLZeroStudyDemo(5)-图形变换UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(5)-图形变换UITests.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(5)-图形变换UITests/Pods-OpenGLZeroStudyDemo(5)-图形变换UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6F16228748FF0DA6EE68501 /* Pods-OpenGLZeroStudyDemo(5)-图形变换UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(5)-图形变换UITests.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(5)-图形变换UITests/Pods-OpenGLZeroStudyDemo(5)-图形变换UITests.release.xcconfig"; sourceTree = "<group>"; };
+		EA10988A6EEB8AD9A0200AA4 /* Pods-OpenGLZeroStudyDemo(5)-图形变换.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(5)-图形变换.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(5)-图形变换/Pods-OpenGLZeroStudyDemo(5)-图形变换.debug.xcconfig"; sourceTree = "<group>"; };
+		ECEEF7FFBEFA95C0734872D3 /* libPods-OpenGLZeroStudyDemo(5)-图形变换Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(5)-图形变换Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24CBEF8322E7EE0000D326DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6774849947DDE846978619B2 /* libPods-OpenGLZeroStudyDemo(5)-图形变换.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CBEF9B22E7EE0400D326DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB0AC4C43FC59D592B10109 /* libPods-OpenGLZeroStudyDemo(5)-图形变换Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CBEFA622E7EE0400D326DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A1664FAEEBEBEB09EBEEB3 /* libPods-OpenGLZeroStudyDemo(5)-图形变换UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24CBEF7D22E7EDFF00D326DD = {
+			isa = PBXGroup;
+			children = (
+				24CBEF8822E7EE0000D326DD /* OpenGLZeroStudyDemo(5)-图形变换 */,
+				24CBEFA122E7EE0400D326DD /* OpenGLZeroStudyDemo(5)-图形变换Tests */,
+				24CBEFAC22E7EE0400D326DD /* OpenGLZeroStudyDemo(5)-图形变换UITests */,
+				24CBEF8722E7EE0000D326DD /* Products */,
+				DFE858EBAAFC63B636C302E1 /* Pods */,
+				8D487FE5416E7A7CF033E3B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24CBEF8722E7EE0000D326DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24CBEF8622E7EE0000D326DD /* OpenGLZeroStudyDemo(5)-图形变换.app */,
+				24CBEF9E22E7EE0400D326DD /* OpenGLZeroStudyDemo(5)-图形变换Tests.xctest */,
+				24CBEFA922E7EE0400D326DD /* OpenGLZeroStudyDemo(5)-图形变换UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24CBEF8822E7EE0000D326DD /* OpenGLZeroStudyDemo(5)-图形变换 */ = {
+			isa = PBXGroup;
+			children = (
+				2416CD8C22E7F454007E2B2B /* Shader.fsh */,
+				2416CD8B22E7F454007E2B2B /* Shader.vsh */,
+				2416CD8422E7F26F007E2B2B /* os_cube.h */,
+				24CBEF8922E7EE0000D326DD /* AppDelegate.h */,
+				24CBEF8A22E7EE0000D326DD /* AppDelegate.m */,
+				24CBEF8C22E7EE0000D326DD /* ViewController.h */,
+				24CBEF8D22E7EE0000D326DD /* ViewController.m */,
+				2416CD8522E7F2A3007E2B2B /* CubeViewController.h */,
+				2416CD8622E7F2A3007E2B2B /* CubeViewController.m */,
+				24CBEF8F22E7EE0000D326DD /* Main.storyboard */,
+				24CBEF9222E7EE0300D326DD /* Assets.xcassets */,
+				24CBEF9422E7EE0300D326DD /* LaunchScreen.storyboard */,
+				24CBEF9722E7EE0300D326DD /* Info.plist */,
+				24CBEF9822E7EE0300D326DD /* main.m */,
+				2416CD8822E7F33D007E2B2B /* GLBaseViewController.h */,
+				2416CD8922E7F33D007E2B2B /* GLBaseViewController.m */,
+			);
+			path = "OpenGLZeroStudyDemo(5)-图形变换";
+			sourceTree = "<group>";
+		};
+		24CBEFA122E7EE0400D326DD /* OpenGLZeroStudyDemo(5)-图形变换Tests */ = {
+			isa = PBXGroup;
+			children = (
+				24CBEFA222E7EE0400D326DD /* OpenGLZeroStudyDemo_5______Tests.m */,
+				24CBEFA422E7EE0400D326DD /* Info.plist */,
+			);
+			path = "OpenGLZeroStudyDemo(5)-图形变换Tests";
+			sourceTree = "<group>";
+		};
+		24CBEFAC22E7EE0400D326DD /* OpenGLZeroStudyDemo(5)-图形变换UITests */ = {
+			isa = PBXGroup;
+			children = (
+				24CBEFAD22E7EE0400D326DD /* OpenGLZeroStudyDemo_5______UITests.m */,
+				24CBEFAF22E7EE0400D326DD /* Info.plist */,
+			);
+			path = "OpenGLZeroStudyDemo(5)-图形变换UITests";
+			sourceTree = "<group>";
+		};
+		8D487FE5416E7A7CF033E3B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03DBDBFEBC9EFCE59EA1A0E7 /* libPods-OpenGLZeroStudyDemo(5)-图形变换.a */,
+				ECEEF7FFBEFA95C0734872D3 /* libPods-OpenGLZeroStudyDemo(5)-图形变换Tests.a */,
+				4307F69F4989EA0AD5D8018C /* libPods-OpenGLZeroStudyDemo(5)-图形变换UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFE858EBAAFC63B636C302E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA10988A6EEB8AD9A0200AA4 /* Pods-OpenGLZeroStudyDemo(5)-图形变换.debug.xcconfig */,
+				87A8BA30270CC64680239F21 /* Pods-OpenGLZeroStudyDemo(5)-图形变换.release.xcconfig */,
+				3917D8EF0992750E294AE3AD /* Pods-OpenGLZeroStudyDemo(5)-图形变换Tests.debug.xcconfig */,
+				47284751FD2526F12D9F46E5 /* Pods-OpenGLZeroStudyDemo(5)-图形变换Tests.release.xcconfig */,
+				9AB7FB35C01A09EDDECD8DC4 /* Pods-OpenGLZeroStudyDemo(5)-图形变换UITests.debug.xcconfig */,
+				C6F16228748FF0DA6EE68501 /* Pods-OpenGLZeroStudyDemo(5)-图形变换UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24CBEF8522E7EE0000D326DD /* OpenGLZeroStudyDemo(5)-图形变换 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CBEFB222E7EE0400D326DD /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(5)-图形变换" */;
+			buildPhases = (
+				048F911DDC7CFDCA4278BFEC /* [CP] Check Pods Manifest.lock */,
+				24CBEF8222E7EE0000D326DD /* Sources */,
+				24CBEF8322E7EE0000D326DD /* Frameworks */,
+				24CBEF8422E7EE0000D326DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGLZeroStudyDemo(5)-图形变换";
+			productName = "OpenGLZeroStudyDemo(5)-图形变换";
+			productReference = 24CBEF8622E7EE0000D326DD /* OpenGLZeroStudyDemo(5)-图形变换.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24CBEF9D22E7EE0400D326DD /* OpenGLZeroStudyDemo(5)-图形变换Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CBEFB522E7EE0400D326DD /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(5)-图形变换Tests" */;
+			buildPhases = (
+				8E725044BCC5180D94B18C32 /* [CP] Check Pods Manifest.lock */,
+				24CBEF9A22E7EE0400D326DD /* Sources */,
+				24CBEF9B22E7EE0400D326DD /* Frameworks */,
+				24CBEF9C22E7EE0400D326DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24CBEFA022E7EE0400D326DD /* PBXTargetDependency */,
+			);
+			name = "OpenGLZeroStudyDemo(5)-图形变换Tests";
+			productName = "OpenGLZeroStudyDemo(5)-图形变换Tests";
+			productReference = 24CBEF9E22E7EE0400D326DD /* OpenGLZeroStudyDemo(5)-图形变换Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24CBEFA822E7EE0400D326DD /* OpenGLZeroStudyDemo(5)-图形变换UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CBEFB822E7EE0400D326DD /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(5)-图形变换UITests" */;
+			buildPhases = (
+				8E2887F63E1A875E65A3EF6E /* [CP] Check Pods Manifest.lock */,
+				24CBEFA522E7EE0400D326DD /* Sources */,
+				24CBEFA622E7EE0400D326DD /* Frameworks */,
+				24CBEFA722E7EE0400D326DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24CBEFAB22E7EE0400D326DD /* PBXTargetDependency */,
+			);
+			name = "OpenGLZeroStudyDemo(5)-图形变换UITests";
+			productName = "OpenGLZeroStudyDemo(5)-图形变换UITests";
+			productReference = 24CBEFA922E7EE0400D326DD /* OpenGLZeroStudyDemo(5)-图形变换UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24CBEF7E22E7EDFF00D326DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = glodon;
+				TargetAttributes = {
+					24CBEF8522E7EE0000D326DD = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					24CBEF9D22E7EE0400D326DD = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 24CBEF8522E7EE0000D326DD;
+					};
+					24CBEFA822E7EE0400D326DD = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 24CBEF8522E7EE0000D326DD;
+					};
+				};
+			};
+			buildConfigurationList = 24CBEF8122E7EDFF00D326DD /* Build configuration list for PBXProject "OpenGLZeroStudyDemo(5)-图形变换" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24CBEF7D22E7EDFF00D326DD;
+			productRefGroup = 24CBEF8722E7EE0000D326DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24CBEF8522E7EE0000D326DD /* OpenGLZeroStudyDemo(5)-图形变换 */,
+				24CBEF9D22E7EE0400D326DD /* OpenGLZeroStudyDemo(5)-图形变换Tests */,
+				24CBEFA822E7EE0400D326DD /* OpenGLZeroStudyDemo(5)-图形变换UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24CBEF8422E7EE0000D326DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2416CD8D22E7F454007E2B2B /* Shader.vsh in Resources */,
+				24CBEF9622E7EE0300D326DD /* LaunchScreen.storyboard in Resources */,
+				24CBEF9322E7EE0300D326DD /* Assets.xcassets in Resources */,
+				24CBEF9122E7EE0000D326DD /* Main.storyboard in Resources */,
+				2416CD8E22E7F454007E2B2B /* Shader.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CBEF9C22E7EE0400D326DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CBEFA722E7EE0400D326DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		048F911DDC7CFDCA4278BFEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(5)-图形变换-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E2887F63E1A875E65A3EF6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(5)-图形变换UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E725044BCC5180D94B18C32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(5)-图形变换Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24CBEF8222E7EE0000D326DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CBEF8E22E7EE0000D326DD /* ViewController.m in Sources */,
+				2416CD8722E7F2A3007E2B2B /* CubeViewController.m in Sources */,
+				24CBEF9922E7EE0300D326DD /* main.m in Sources */,
+				2416CD8A22E7F33D007E2B2B /* GLBaseViewController.m in Sources */,
+				24CBEF8B22E7EE0000D326DD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CBEF9A22E7EE0400D326DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CBEFA322E7EE0400D326DD /* OpenGLZeroStudyDemo_5______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CBEFA522E7EE0400D326DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CBEFAE22E7EE0400D326DD /* OpenGLZeroStudyDemo_5______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24CBEFA022E7EE0400D326DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24CBEF8522E7EE0000D326DD /* OpenGLZeroStudyDemo(5)-图形变换 */;
+			targetProxy = 24CBEF9F22E7EE0400D326DD /* PBXContainerItemProxy */;
+		};
+		24CBEFAB22E7EE0400D326DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24CBEF8522E7EE0000D326DD /* OpenGLZeroStudyDemo(5)-图形变换 */;
+			targetProxy = 24CBEFAA22E7EE0400D326DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24CBEF8F22E7EE0000D326DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24CBEF9022E7EE0000D326DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24CBEF9422E7EE0300D326DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24CBEF9522E7EE0300D326DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24CBEFB022E7EE0400D326DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24CBEFB122E7EE0400D326DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24CBEFB322E7EE0400D326DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA10988A6EEB8AD9A0200AA4 /* Pods-OpenGLZeroStudyDemo(5)-图形变换.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(5)-图形变换/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-5------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24CBEFB422E7EE0400D326DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87A8BA30270CC64680239F21 /* Pods-OpenGLZeroStudyDemo(5)-图形变换.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(5)-图形变换/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-5------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24CBEFB622E7EE0400D326DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3917D8EF0992750E294AE3AD /* Pods-OpenGLZeroStudyDemo(5)-图形变换Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(5)-图形变换Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-5------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLZeroStudyDemo(5)-图形变换.app/OpenGLZeroStudyDemo(5)-图形变换";
+			};
+			name = Debug;
+		};
+		24CBEFB722E7EE0400D326DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47284751FD2526F12D9F46E5 /* Pods-OpenGLZeroStudyDemo(5)-图形变换Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(5)-图形变换Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-5------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLZeroStudyDemo(5)-图形变换.app/OpenGLZeroStudyDemo(5)-图形变换";
+			};
+			name = Release;
+		};
+		24CBEFB922E7EE0400D326DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AB7FB35C01A09EDDECD8DC4 /* Pods-OpenGLZeroStudyDemo(5)-图形变换UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(5)-图形变换UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-5------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenGLZeroStudyDemo(5)-图形变换";
+			};
+			name = Debug;
+		};
+		24CBEFBA22E7EE0400D326DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F16228748FF0DA6EE68501 /* Pods-OpenGLZeroStudyDemo(5)-图形变换UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(5)-图形变换UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-5------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenGLZeroStudyDemo(5)-图形变换";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24CBEF8122E7EDFF00D326DD /* Build configuration list for PBXProject "OpenGLZeroStudyDemo(5)-图形变换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CBEFB022E7EE0400D326DD /* Debug */,
+				24CBEFB122E7EE0400D326DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24CBEFB222E7EE0400D326DD /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(5)-图形变换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CBEFB322E7EE0400D326DD /* Debug */,
+				24CBEFB422E7EE0400D326DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24CBEFB522E7EE0400D326DD /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(5)-图形变换Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CBEFB622E7EE0400D326DD /* Debug */,
+				24CBEFB722E7EE0400D326DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24CBEFB822E7EE0400D326DD /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(5)-图形变换UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CBEFB922E7EE0400D326DD /* Debug */,
+				24CBEFBA22E7EE0400D326DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24CBEF7E22E7EDFF00D326DD /* Project object */;
+}
