@@ -1,0 +1,16 @@
+PODS:
+  - OpenGLUtils (0.0.2)
+
+DEPENDENCIES:
+  - OpenGLUtils (from `../openGL`)
+
+EXTERNAL SOURCES:
+  OpenGLUtils:
+    :path: "../openGL"
+
+SPEC CHECKSUMS:
+  OpenGLUtils: af967be364e96fbf9569d7b9c15602ac63d2807d
+
+PODFILE CHECKSUM: 2733e147542f81e13c6862c9f7aae96e08a1e2d8
+
+COCOAPODS: 1.6.2

@@ -1,0 +1,26 @@
+{
+  "name": "OpenGLUtils",
+  "version": "0.0.2",
+  "summary": "OpenGLUtils.",
+  "description": "openGL学习简单封装库",
+  "homepage": "https//www.baidu.com",
+  "license": "MIT",
+  "authors": "温杰",
+  "source": {
+    "git": "",
+    "tag": "0.0.2"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "public_header_files": "Classes/**/*.h",
+  "frameworks": "OpenGLES",
+  "requires_arc": true,
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}
