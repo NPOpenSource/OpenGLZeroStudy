@@ -1,0 +1,964 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2471682622F3C9A700939648 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2471682522F3C9A700939648 /* AppDelegate.m */; };
+		2471682922F3C9A700939648 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2471682822F3C9A700939648 /* ViewController.m */; };
+		2471682C22F3C9A700939648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2471682A22F3C9A700939648 /* Main.storyboard */; };
+		2471682E22F3C9A800939648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2471682D22F3C9A800939648 /* Assets.xcassets */; };
+		2471683122F3C9A800939648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2471682F22F3C9A800939648 /* LaunchScreen.storyboard */; };
+		2471683422F3C9A800939648 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2471683322F3C9A800939648 /* main.m */; };
+		2471683E22F3C9A800939648 /* OpenGLZeroStudyDemo_7____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2471683D22F3C9A800939648 /* OpenGLZeroStudyDemo_7____Tests.m */; };
+		2471684922F3C9A800939648 /* OpenGLZeroStudyDemo_7____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2471684822F3C9A800939648 /* OpenGLZeroStudyDemo_7____UITests.m */; };
+		2471685822F3CAA300939648 /* GLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2471685622F3CAA300939648 /* GLBaseViewController.m */; };
+		2471685B22F3CAD400939648 /* GLBaseBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2471685922F3CAD400939648 /* GLBaseBindObject.m */; };
+		2471685F22F3CB0500939648 /* GLLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2471685E22F3CB0500939648 /* GLLightViewController.m */; };
+		2471686122F3CB9800939648 /* Earth512x256.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2471686022F3CB9800939648 /* Earth512x256.jpg */; };
+		2471686522F3CBA000939648 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2471686222F3CBA000939648 /* Shader.vsh */; };
+		2471686622F3CBA000939648 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2471686422F3CBA000939648 /* Shader.fsh */; };
+		2471686922F3CC1500939648 /* LightBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2471686822F3CC1500939648 /* LightBindObject.m */; };
+		248B6BB322F3D9F10029CAAB /* Shader1.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 248B6BB122F3D9F10029CAAB /* Shader1.fsh */; };
+		248B6BB422F3D9F10029CAAB /* Shader1.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 248B6BB222F3D9F10029CAAB /* Shader1.vsh */; };
+		248B6BC022F3E05E0029CAAB /* DiffuseLightingBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 248B6BBE22F3E05E0029CAAB /* DiffuseLightingBindObject.m */; };
+		248B6BC122F3E05E0029CAAB /* DiffuseLightingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248B6BBF22F3E05E0029CAAB /* DiffuseLightingViewController.m */; };
+		248B6BC422F3E3CD0029CAAB /* SphereManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 248B6BC322F3E3CD0029CAAB /* SphereManager.m */; };
+		248B6BC822F4254D0029CAAB /* SpecularLightingBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 248B6BC722F4254D0029CAAB /* SpecularLightingBindObject.m */; };
+		248B6BCB22F425680029CAAB /* SpecularLightingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248B6BCA22F425680029CAAB /* SpecularLightingViewController.m */; };
+		248B6BCE22F427670029CAAB /* Shader2.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 248B6BCC22F427660029CAAB /* Shader2.fsh */; };
+		248B6BCF22F427670029CAAB /* Shader2.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 248B6BCD22F427660029CAAB /* Shader2.vsh */; };
+		248B6BD822F428F10029CAAB /* CubeDefaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248B6BD722F428F10029CAAB /* CubeDefaultViewController.m */; };
+		248B6BDB22F429090029CAAB /* CubeDefaultBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 248B6BDA22F429090029CAAB /* CubeDefaultBindObject.m */; };
+		248B6BDE22F4293A0029CAAB /* CubeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 248B6BDD22F4293A0029CAAB /* CubeManager.m */; };
+		248B6BE122F429680029CAAB /* Cube.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 248B6BDF22F429680029CAAB /* Cube.fsh */; };
+		248B6BE222F429680029CAAB /* Cube.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 248B6BE022F429680029CAAB /* Cube.vsh */; };
+		248B6BE922F437770029CAAB /* CubeAmibentLightBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 248B6BE822F437770029CAAB /* CubeAmibentLightBindObject.m */; };
+		248B6BEC22F437900029CAAB /* CubeAmibenLightingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248B6BEB22F437900029CAAB /* CubeAmibenLightingViewController.m */; };
+		248B6BEF22F437D70029CAAB /* CubeAmibentLight.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 248B6BED22F437D70029CAAB /* CubeAmibentLight.fsh */; };
+		248B6BF022F437D70029CAAB /* CubeAmibentLight.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 248B6BEE22F437D70029CAAB /* CubeAmibentLight.vsh */; };
+		248B6BF322F43ECB0029CAAB /* CubeDiffuseLightingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248B6BF222F43ECB0029CAAB /* CubeDiffuseLightingViewController.m */; };
+		248B6BF622F43EF30029CAAB /* CubeDiffuseLightingBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 248B6BF522F43EF30029CAAB /* CubeDiffuseLightingBindObject.m */; };
+		248B6BF922F43F1A0029CAAB /* CubeDiffuseLighting.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 248B6BF722F43F1A0029CAAB /* CubeDiffuseLighting.vsh */; };
+		248B6BFA22F43F1A0029CAAB /* CubeDiffuseLighting.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 248B6BF822F43F1A0029CAAB /* CubeDiffuseLighting.fsh */; };
+		248B6C0022F453AE0029CAAB /* CubeSpecularLightingBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 248B6BFF22F453AE0029CAAB /* CubeSpecularLightingBindObject.m */; };
+		248B6C0322F453C40029CAAB /* CubeSpecularLightingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248B6C0222F453C40029CAAB /* CubeSpecularLightingViewController.m */; };
+		248B6C0622F453F80029CAAB /* CubeSpecularLighting.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 248B6C0422F453F80029CAAB /* CubeSpecularLighting.fsh */; };
+		248B6C0722F453F80029CAAB /* CubeSpecularLighting.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 248B6C0522F453F80029CAAB /* CubeSpecularLighting.vsh */; };
+		248B6C0A22F45A0A0029CAAB /* CubeMixLightingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248B6C0922F45A0A0029CAAB /* CubeMixLightingViewController.m */; };
+		248B6C0D22F45A200029CAAB /* CubeMixBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 248B6C0C22F45A200029CAAB /* CubeMixBindObject.m */; };
+		248B6C1022F45A470029CAAB /* CubeMix.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 248B6C0E22F45A460029CAAB /* CubeMix.fsh */; };
+		248B6C1122F45A470029CAAB /* CubeMix.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 248B6C0F22F45A470029CAAB /* CubeMix.vsh */; };
+		6AEC6F73C871E6C97ECFAB1B /* libPods-OpenGLZeroStudyDemo(7)-光照UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 507C2E652395AB8E95C432BA /* libPods-OpenGLZeroStudyDemo(7)-光照UITests.a */; };
+		89F9218DCC2C67A80B9CC239 /* libPods-OpenGLZeroStudyDemo(7)-光照.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD38FB1E7F6F2C5A5ADCB539 /* libPods-OpenGLZeroStudyDemo(7)-光照.a */; };
+		8A1DFA71B25DB7C547D523C2 /* libPods-OpenGLZeroStudyDemo(7)-光照Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F94C8C58E8EEFF9E3188543 /* libPods-OpenGLZeroStudyDemo(7)-光照Tests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2471683A22F3C9A800939648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2471681922F3C9A700939648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2471682022F3C9A700939648;
+			remoteInfo = "OpenGLZeroStudyDemo(7)-光照";
+		};
+		2471684522F3C9A800939648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2471681922F3C9A700939648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2471682022F3C9A700939648;
+			remoteInfo = "OpenGLZeroStudyDemo(7)-光照";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		177492DBA998E6004D677164 /* Pods-OpenGLZeroStudyDemo(7)-光照UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(7)-光照UITests.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(7)-光照UITests/Pods-OpenGLZeroStudyDemo(7)-光照UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F94C8C58E8EEFF9E3188543 /* libPods-OpenGLZeroStudyDemo(7)-光照Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(7)-光照Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2471682122F3C9A700939648 /* OpenGLZeroStudyDemo(7)-光照.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLZeroStudyDemo(7)-光照.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2471682422F3C9A700939648 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2471682522F3C9A700939648 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2471682722F3C9A700939648 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2471682822F3C9A700939648 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2471682B22F3C9A700939648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2471682D22F3C9A800939648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2471683022F3C9A800939648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2471683222F3C9A800939648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2471683322F3C9A800939648 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2471683922F3C9A800939648 /* OpenGLZeroStudyDemo(7)-光照Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLZeroStudyDemo(7)-光照Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2471683D22F3C9A800939648 /* OpenGLZeroStudyDemo_7____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGLZeroStudyDemo_7____Tests.m"; sourceTree = "<group>"; };
+		2471683F22F3C9A800939648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2471684422F3C9A800939648 /* OpenGLZeroStudyDemo(7)-光照UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLZeroStudyDemo(7)-光照UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2471684822F3C9A800939648 /* OpenGLZeroStudyDemo_7____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGLZeroStudyDemo_7____UITests.m"; sourceTree = "<group>"; };
+		2471684A22F3C9A800939648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2471685622F3CAA300939648 /* GLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLBaseViewController.m; sourceTree = "<group>"; };
+		2471685722F3CAA300939648 /* GLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBaseViewController.h; sourceTree = "<group>"; };
+		2471685922F3CAD400939648 /* GLBaseBindObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLBaseBindObject.m; sourceTree = "<group>"; };
+		2471685A22F3CAD400939648 /* GLBaseBindObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBaseBindObject.h; sourceTree = "<group>"; };
+		2471685D22F3CB0500939648 /* GLLightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLLightViewController.h; sourceTree = "<group>"; };
+		2471685E22F3CB0500939648 /* GLLightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLLightViewController.m; sourceTree = "<group>"; };
+		2471686022F3CB9800939648 /* Earth512x256.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth512x256.jpg; sourceTree = "<group>"; };
+		2471686222F3CBA000939648 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		2471686322F3CBA000939648 /* sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		2471686422F3CBA000939648 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		2471686722F3CC1500939648 /* LightBindObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightBindObject.h; sourceTree = "<group>"; };
+		2471686822F3CC1500939648 /* LightBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightBindObject.m; sourceTree = "<group>"; };
+		248B6BB122F3D9F10029CAAB /* Shader1.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader1.fsh; sourceTree = "<group>"; };
+		248B6BB222F3D9F10029CAAB /* Shader1.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader1.vsh; sourceTree = "<group>"; };
+		248B6BBC22F3E05E0029CAAB /* DiffuseLightingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiffuseLightingViewController.h; sourceTree = "<group>"; };
+		248B6BBD22F3E05E0029CAAB /* DiffuseLightingBindObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiffuseLightingBindObject.h; sourceTree = "<group>"; };
+		248B6BBE22F3E05E0029CAAB /* DiffuseLightingBindObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiffuseLightingBindObject.m; sourceTree = "<group>"; };
+		248B6BBF22F3E05E0029CAAB /* DiffuseLightingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiffuseLightingViewController.m; sourceTree = "<group>"; };
+		248B6BC222F3E3CD0029CAAB /* SphereManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SphereManager.h; sourceTree = "<group>"; };
+		248B6BC322F3E3CD0029CAAB /* SphereManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SphereManager.m; sourceTree = "<group>"; };
+		248B6BC622F4254D0029CAAB /* SpecularLightingBindObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecularLightingBindObject.h; sourceTree = "<group>"; };
+		248B6BC722F4254D0029CAAB /* SpecularLightingBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecularLightingBindObject.m; sourceTree = "<group>"; };
+		248B6BC922F425680029CAAB /* SpecularLightingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecularLightingViewController.h; sourceTree = "<group>"; };
+		248B6BCA22F425680029CAAB /* SpecularLightingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecularLightingViewController.m; sourceTree = "<group>"; };
+		248B6BCC22F427660029CAAB /* Shader2.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader2.fsh; sourceTree = "<group>"; };
+		248B6BCD22F427660029CAAB /* Shader2.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader2.vsh; sourceTree = "<group>"; };
+		248B6BD622F428F10029CAAB /* CubeDefaultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeDefaultViewController.h; sourceTree = "<group>"; };
+		248B6BD722F428F10029CAAB /* CubeDefaultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeDefaultViewController.m; sourceTree = "<group>"; };
+		248B6BD922F429090029CAAB /* CubeDefaultBindObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeDefaultBindObject.h; sourceTree = "<group>"; };
+		248B6BDA22F429090029CAAB /* CubeDefaultBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeDefaultBindObject.m; sourceTree = "<group>"; };
+		248B6BDC22F4293A0029CAAB /* CubeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeManager.h; sourceTree = "<group>"; };
+		248B6BDD22F4293A0029CAAB /* CubeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeManager.m; sourceTree = "<group>"; };
+		248B6BDF22F429680029CAAB /* Cube.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Cube.fsh; sourceTree = "<group>"; };
+		248B6BE022F429680029CAAB /* Cube.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Cube.vsh; sourceTree = "<group>"; };
+		248B6BE722F437770029CAAB /* CubeAmibentLightBindObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeAmibentLightBindObject.h; sourceTree = "<group>"; };
+		248B6BE822F437770029CAAB /* CubeAmibentLightBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeAmibentLightBindObject.m; sourceTree = "<group>"; };
+		248B6BEA22F437900029CAAB /* CubeAmibenLightingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeAmibenLightingViewController.h; sourceTree = "<group>"; };
+		248B6BEB22F437900029CAAB /* CubeAmibenLightingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeAmibenLightingViewController.m; sourceTree = "<group>"; };
+		248B6BED22F437D70029CAAB /* CubeAmibentLight.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CubeAmibentLight.fsh; sourceTree = "<group>"; };
+		248B6BEE22F437D70029CAAB /* CubeAmibentLight.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CubeAmibentLight.vsh; sourceTree = "<group>"; };
+		248B6BF122F43ECB0029CAAB /* CubeDiffuseLightingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeDiffuseLightingViewController.h; sourceTree = "<group>"; };
+		248B6BF222F43ECB0029CAAB /* CubeDiffuseLightingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeDiffuseLightingViewController.m; sourceTree = "<group>"; };
+		248B6BF422F43EF30029CAAB /* CubeDiffuseLightingBindObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeDiffuseLightingBindObject.h; sourceTree = "<group>"; };
+		248B6BF522F43EF30029CAAB /* CubeDiffuseLightingBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeDiffuseLightingBindObject.m; sourceTree = "<group>"; };
+		248B6BF722F43F1A0029CAAB /* CubeDiffuseLighting.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CubeDiffuseLighting.vsh; sourceTree = "<group>"; };
+		248B6BF822F43F1A0029CAAB /* CubeDiffuseLighting.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CubeDiffuseLighting.fsh; sourceTree = "<group>"; };
+		248B6BFE22F453AE0029CAAB /* CubeSpecularLightingBindObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeSpecularLightingBindObject.h; sourceTree = "<group>"; };
+		248B6BFF22F453AE0029CAAB /* CubeSpecularLightingBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeSpecularLightingBindObject.m; sourceTree = "<group>"; };
+		248B6C0122F453C40029CAAB /* CubeSpecularLightingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeSpecularLightingViewController.h; sourceTree = "<group>"; };
+		248B6C0222F453C40029CAAB /* CubeSpecularLightingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeSpecularLightingViewController.m; sourceTree = "<group>"; };
+		248B6C0422F453F80029CAAB /* CubeSpecularLighting.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CubeSpecularLighting.fsh; sourceTree = "<group>"; };
+		248B6C0522F453F80029CAAB /* CubeSpecularLighting.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CubeSpecularLighting.vsh; sourceTree = "<group>"; };
+		248B6C0822F45A0A0029CAAB /* CubeMixLightingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeMixLightingViewController.h; sourceTree = "<group>"; };
+		248B6C0922F45A0A0029CAAB /* CubeMixLightingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeMixLightingViewController.m; sourceTree = "<group>"; };
+		248B6C0B22F45A200029CAAB /* CubeMixBindObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeMixBindObject.h; sourceTree = "<group>"; };
+		248B6C0C22F45A200029CAAB /* CubeMixBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeMixBindObject.m; sourceTree = "<group>"; };
+		248B6C0E22F45A460029CAAB /* CubeMix.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CubeMix.fsh; sourceTree = "<group>"; };
+		248B6C0F22F45A470029CAAB /* CubeMix.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CubeMix.vsh; sourceTree = "<group>"; };
+		2D64B80DDAE3EC59A73A9551 /* Pods-OpenGLZeroStudyDemo(7)-光照Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(7)-光照Tests.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(7)-光照Tests/Pods-OpenGLZeroStudyDemo(7)-光照Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3B6730ABC93494E38B626253 /* Pods-OpenGLZeroStudyDemo(7)-光照Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(7)-光照Tests.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(7)-光照Tests/Pods-OpenGLZeroStudyDemo(7)-光照Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		507C2E652395AB8E95C432BA /* libPods-OpenGLZeroStudyDemo(7)-光照UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(7)-光照UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		559EA5E36CA175035E47735F /* Pods-OpenGLZeroStudyDemo(7)-光照.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(7)-光照.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(7)-光照/Pods-OpenGLZeroStudyDemo(7)-光照.release.xcconfig"; sourceTree = "<group>"; };
+		AF3DA0CBD7D0A6AF09A04773 /* Pods-OpenGLZeroStudyDemo(7)-光照.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(7)-光照.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(7)-光照/Pods-OpenGLZeroStudyDemo(7)-光照.debug.xcconfig"; sourceTree = "<group>"; };
+		CD38FB1E7F6F2C5A5ADCB539 /* libPods-OpenGLZeroStudyDemo(7)-光照.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(7)-光照.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FEB573F475E093DABE1C7F /* Pods-OpenGLZeroStudyDemo(7)-光照UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(7)-光照UITests.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(7)-光照UITests/Pods-OpenGLZeroStudyDemo(7)-光照UITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2471681E22F3C9A700939648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F9218DCC2C67A80B9CC239 /* libPods-OpenGLZeroStudyDemo(7)-光照.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2471683622F3C9A800939648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1DFA71B25DB7C547D523C2 /* libPods-OpenGLZeroStudyDemo(7)-光照Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2471684122F3C9A800939648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AEC6F73C871E6C97ECFAB1B /* libPods-OpenGLZeroStudyDemo(7)-光照UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2471681822F3C9A700939648 = {
+			isa = PBXGroup;
+			children = (
+				2471682322F3C9A700939648 /* OpenGLZeroStudyDemo(7)-光照 */,
+				2471683C22F3C9A800939648 /* OpenGLZeroStudyDemo(7)-光照Tests */,
+				2471684722F3C9A800939648 /* OpenGLZeroStudyDemo(7)-光照UITests */,
+				2471682222F3C9A700939648 /* Products */,
+				66D7C9967CE5F18336D3E746 /* Pods */,
+				BBDDDA2230B3CE94AB1F21EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2471682222F3C9A700939648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2471682122F3C9A700939648 /* OpenGLZeroStudyDemo(7)-光照.app */,
+				2471683922F3C9A800939648 /* OpenGLZeroStudyDemo(7)-光照Tests.xctest */,
+				2471684422F3C9A800939648 /* OpenGLZeroStudyDemo(7)-光照UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2471682322F3C9A700939648 /* OpenGLZeroStudyDemo(7)-光照 */ = {
+			isa = PBXGroup;
+			children = (
+				248B6BD022F428590029CAAB /* cube */,
+				248B6BC522F425160029CAAB /* SpecularLighting */,
+				248B6BAA22F3D9290029CAAB /* DiffuseLighting */,
+				2471685C22F3CAE400939648 /* AmbientLight */,
+				2471685A22F3CAD400939648 /* GLBaseBindObject.h */,
+				2471685922F3CAD400939648 /* GLBaseBindObject.m */,
+				2471685722F3CAA300939648 /* GLBaseViewController.h */,
+				2471685622F3CAA300939648 /* GLBaseViewController.m */,
+				2471686322F3CBA000939648 /* sphere.h */,
+				2471686022F3CB9800939648 /* Earth512x256.jpg */,
+				2471682422F3C9A700939648 /* AppDelegate.h */,
+				2471682522F3C9A700939648 /* AppDelegate.m */,
+				2471682722F3C9A700939648 /* ViewController.h */,
+				2471682822F3C9A700939648 /* ViewController.m */,
+				2471682A22F3C9A700939648 /* Main.storyboard */,
+				2471682D22F3C9A800939648 /* Assets.xcassets */,
+				2471682F22F3C9A800939648 /* LaunchScreen.storyboard */,
+				2471683222F3C9A800939648 /* Info.plist */,
+				2471683322F3C9A800939648 /* main.m */,
+				248B6BC222F3E3CD0029CAAB /* SphereManager.h */,
+				248B6BC322F3E3CD0029CAAB /* SphereManager.m */,
+			);
+			path = "OpenGLZeroStudyDemo(7)-光照";
+			sourceTree = "<group>";
+		};
+		2471683C22F3C9A800939648 /* OpenGLZeroStudyDemo(7)-光照Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2471683D22F3C9A800939648 /* OpenGLZeroStudyDemo_7____Tests.m */,
+				2471683F22F3C9A800939648 /* Info.plist */,
+			);
+			path = "OpenGLZeroStudyDemo(7)-光照Tests";
+			sourceTree = "<group>";
+		};
+		2471684722F3C9A800939648 /* OpenGLZeroStudyDemo(7)-光照UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2471684822F3C9A800939648 /* OpenGLZeroStudyDemo_7____UITests.m */,
+				2471684A22F3C9A800939648 /* Info.plist */,
+			);
+			path = "OpenGLZeroStudyDemo(7)-光照UITests";
+			sourceTree = "<group>";
+		};
+		2471685C22F3CAE400939648 /* AmbientLight */ = {
+			isa = PBXGroup;
+			children = (
+				2471686422F3CBA000939648 /* Shader.fsh */,
+				2471686222F3CBA000939648 /* Shader.vsh */,
+				2471685D22F3CB0500939648 /* GLLightViewController.h */,
+				2471685E22F3CB0500939648 /* GLLightViewController.m */,
+				2471686722F3CC1500939648 /* LightBindObject.h */,
+				2471686822F3CC1500939648 /* LightBindObject.m */,
+			);
+			path = AmbientLight;
+			sourceTree = "<group>";
+		};
+		248B6BAA22F3D9290029CAAB /* DiffuseLighting */ = {
+			isa = PBXGroup;
+			children = (
+				248B6BBD22F3E05E0029CAAB /* DiffuseLightingBindObject.h */,
+				248B6BBE22F3E05E0029CAAB /* DiffuseLightingBindObject.m */,
+				248B6BBC22F3E05E0029CAAB /* DiffuseLightingViewController.h */,
+				248B6BBF22F3E05E0029CAAB /* DiffuseLightingViewController.m */,
+				248B6BB122F3D9F10029CAAB /* Shader1.fsh */,
+				248B6BB222F3D9F10029CAAB /* Shader1.vsh */,
+			);
+			path = DiffuseLighting;
+			sourceTree = "<group>";
+		};
+		248B6BC522F425160029CAAB /* SpecularLighting */ = {
+			isa = PBXGroup;
+			children = (
+				248B6BCC22F427660029CAAB /* Shader2.fsh */,
+				248B6BCD22F427660029CAAB /* Shader2.vsh */,
+				248B6BC622F4254D0029CAAB /* SpecularLightingBindObject.h */,
+				248B6BC722F4254D0029CAAB /* SpecularLightingBindObject.m */,
+				248B6BC922F425680029CAAB /* SpecularLightingViewController.h */,
+				248B6BCA22F425680029CAAB /* SpecularLightingViewController.m */,
+			);
+			path = SpecularLighting;
+			sourceTree = "<group>";
+		};
+		248B6BD022F428590029CAAB /* cube */ = {
+			isa = PBXGroup;
+			children = (
+				248B6BD522F428C20029CAAB /* mixLighting */,
+				248B6BD422F428B50029CAAB /* SpecularLighting */,
+				248B6BD322F428A80029CAAB /* DiffuseLighting */,
+				248B6BD222F428960029CAAB /* AmibentLight */,
+				248B6BD122F428700029CAAB /* default */,
+				248B6BDC22F4293A0029CAAB /* CubeManager.h */,
+				248B6BDD22F4293A0029CAAB /* CubeManager.m */,
+			);
+			path = cube;
+			sourceTree = "<group>";
+		};
+		248B6BD122F428700029CAAB /* default */ = {
+			isa = PBXGroup;
+			children = (
+				248B6BDF22F429680029CAAB /* Cube.fsh */,
+				248B6BE022F429680029CAAB /* Cube.vsh */,
+				248B6BD622F428F10029CAAB /* CubeDefaultViewController.h */,
+				248B6BD722F428F10029CAAB /* CubeDefaultViewController.m */,
+				248B6BD922F429090029CAAB /* CubeDefaultBindObject.h */,
+				248B6BDA22F429090029CAAB /* CubeDefaultBindObject.m */,
+			);
+			path = default;
+			sourceTree = "<group>";
+		};
+		248B6BD222F428960029CAAB /* AmibentLight */ = {
+			isa = PBXGroup;
+			children = (
+				248B6BED22F437D70029CAAB /* CubeAmibentLight.fsh */,
+				248B6BEE22F437D70029CAAB /* CubeAmibentLight.vsh */,
+				248B6BE722F437770029CAAB /* CubeAmibentLightBindObject.h */,
+				248B6BE822F437770029CAAB /* CubeAmibentLightBindObject.m */,
+				248B6BEA22F437900029CAAB /* CubeAmibenLightingViewController.h */,
+				248B6BEB22F437900029CAAB /* CubeAmibenLightingViewController.m */,
+			);
+			path = AmibentLight;
+			sourceTree = "<group>";
+		};
+		248B6BD322F428A80029CAAB /* DiffuseLighting */ = {
+			isa = PBXGroup;
+			children = (
+				248B6BF822F43F1A0029CAAB /* CubeDiffuseLighting.fsh */,
+				248B6BF722F43F1A0029CAAB /* CubeDiffuseLighting.vsh */,
+				248B6BF122F43ECB0029CAAB /* CubeDiffuseLightingViewController.h */,
+				248B6BF222F43ECB0029CAAB /* CubeDiffuseLightingViewController.m */,
+				248B6BF422F43EF30029CAAB /* CubeDiffuseLightingBindObject.h */,
+				248B6BF522F43EF30029CAAB /* CubeDiffuseLightingBindObject.m */,
+			);
+			path = DiffuseLighting;
+			sourceTree = "<group>";
+		};
+		248B6BD422F428B50029CAAB /* SpecularLighting */ = {
+			isa = PBXGroup;
+			children = (
+				248B6C0422F453F80029CAAB /* CubeSpecularLighting.fsh */,
+				248B6C0522F453F80029CAAB /* CubeSpecularLighting.vsh */,
+				248B6BFE22F453AE0029CAAB /* CubeSpecularLightingBindObject.h */,
+				248B6BFF22F453AE0029CAAB /* CubeSpecularLightingBindObject.m */,
+				248B6C0122F453C40029CAAB /* CubeSpecularLightingViewController.h */,
+				248B6C0222F453C40029CAAB /* CubeSpecularLightingViewController.m */,
+			);
+			path = SpecularLighting;
+			sourceTree = "<group>";
+		};
+		248B6BD522F428C20029CAAB /* mixLighting */ = {
+			isa = PBXGroup;
+			children = (
+				248B6C0E22F45A460029CAAB /* CubeMix.fsh */,
+				248B6C0F22F45A470029CAAB /* CubeMix.vsh */,
+				248B6C0822F45A0A0029CAAB /* CubeMixLightingViewController.h */,
+				248B6C0922F45A0A0029CAAB /* CubeMixLightingViewController.m */,
+				248B6C0B22F45A200029CAAB /* CubeMixBindObject.h */,
+				248B6C0C22F45A200029CAAB /* CubeMixBindObject.m */,
+			);
+			path = mixLighting;
+			sourceTree = "<group>";
+		};
+		66D7C9967CE5F18336D3E746 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF3DA0CBD7D0A6AF09A04773 /* Pods-OpenGLZeroStudyDemo(7)-光照.debug.xcconfig */,
+				559EA5E36CA175035E47735F /* Pods-OpenGLZeroStudyDemo(7)-光照.release.xcconfig */,
+				3B6730ABC93494E38B626253 /* Pods-OpenGLZeroStudyDemo(7)-光照Tests.debug.xcconfig */,
+				2D64B80DDAE3EC59A73A9551 /* Pods-OpenGLZeroStudyDemo(7)-光照Tests.release.xcconfig */,
+				177492DBA998E6004D677164 /* Pods-OpenGLZeroStudyDemo(7)-光照UITests.debug.xcconfig */,
+				F3FEB573F475E093DABE1C7F /* Pods-OpenGLZeroStudyDemo(7)-光照UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BBDDDA2230B3CE94AB1F21EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD38FB1E7F6F2C5A5ADCB539 /* libPods-OpenGLZeroStudyDemo(7)-光照.a */,
+				1F94C8C58E8EEFF9E3188543 /* libPods-OpenGLZeroStudyDemo(7)-光照Tests.a */,
+				507C2E652395AB8E95C432BA /* libPods-OpenGLZeroStudyDemo(7)-光照UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2471682022F3C9A700939648 /* OpenGLZeroStudyDemo(7)-光照 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2471684D22F3C9A900939648 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(7)-光照" */;
+			buildPhases = (
+				EE62BD633C315F0224B035E4 /* [CP] Check Pods Manifest.lock */,
+				2471681D22F3C9A700939648 /* Sources */,
+				2471681E22F3C9A700939648 /* Frameworks */,
+				2471681F22F3C9A700939648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGLZeroStudyDemo(7)-光照";
+			productName = "OpenGLZeroStudyDemo(7)-光照";
+			productReference = 2471682122F3C9A700939648 /* OpenGLZeroStudyDemo(7)-光照.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2471683822F3C9A800939648 /* OpenGLZeroStudyDemo(7)-光照Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2471685022F3C9A900939648 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(7)-光照Tests" */;
+			buildPhases = (
+				2C909FDDBC37DF5F7EF21C09 /* [CP] Check Pods Manifest.lock */,
+				2471683522F3C9A800939648 /* Sources */,
+				2471683622F3C9A800939648 /* Frameworks */,
+				2471683722F3C9A800939648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2471683B22F3C9A800939648 /* PBXTargetDependency */,
+			);
+			name = "OpenGLZeroStudyDemo(7)-光照Tests";
+			productName = "OpenGLZeroStudyDemo(7)-光照Tests";
+			productReference = 2471683922F3C9A800939648 /* OpenGLZeroStudyDemo(7)-光照Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2471684322F3C9A800939648 /* OpenGLZeroStudyDemo(7)-光照UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2471685322F3C9A900939648 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(7)-光照UITests" */;
+			buildPhases = (
+				39A972E5376B4B3D4D8940A7 /* [CP] Check Pods Manifest.lock */,
+				2471684022F3C9A800939648 /* Sources */,
+				2471684122F3C9A800939648 /* Frameworks */,
+				2471684222F3C9A800939648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2471684622F3C9A800939648 /* PBXTargetDependency */,
+			);
+			name = "OpenGLZeroStudyDemo(7)-光照UITests";
+			productName = "OpenGLZeroStudyDemo(7)-光照UITests";
+			productReference = 2471684422F3C9A800939648 /* OpenGLZeroStudyDemo(7)-光照UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2471681922F3C9A700939648 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = glodon;
+				TargetAttributes = {
+					2471682022F3C9A700939648 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2471683822F3C9A800939648 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2471682022F3C9A700939648;
+					};
+					2471684322F3C9A800939648 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2471682022F3C9A700939648;
+					};
+				};
+			};
+			buildConfigurationList = 2471681C22F3C9A700939648 /* Build configuration list for PBXProject "OpenGLZeroStudyDemo(7)-光照" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2471681822F3C9A700939648;
+			productRefGroup = 2471682222F3C9A700939648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2471682022F3C9A700939648 /* OpenGLZeroStudyDemo(7)-光照 */,
+				2471683822F3C9A800939648 /* OpenGLZeroStudyDemo(7)-光照Tests */,
+				2471684322F3C9A800939648 /* OpenGLZeroStudyDemo(7)-光照UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2471681F22F3C9A700939648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2471686522F3CBA000939648 /* Shader.vsh in Resources */,
+				248B6BE122F429680029CAAB /* Cube.fsh in Resources */,
+				2471686122F3CB9800939648 /* Earth512x256.jpg in Resources */,
+				248B6BB422F3D9F10029CAAB /* Shader1.vsh in Resources */,
+				248B6BCE22F427670029CAAB /* Shader2.fsh in Resources */,
+				2471683122F3C9A800939648 /* LaunchScreen.storyboard in Resources */,
+				248B6BFA22F43F1A0029CAAB /* CubeDiffuseLighting.fsh in Resources */,
+				248B6C1122F45A470029CAAB /* CubeMix.vsh in Resources */,
+				2471686622F3CBA000939648 /* Shader.fsh in Resources */,
+				248B6BF922F43F1A0029CAAB /* CubeDiffuseLighting.vsh in Resources */,
+				2471682E22F3C9A800939648 /* Assets.xcassets in Resources */,
+				248B6C0622F453F80029CAAB /* CubeSpecularLighting.fsh in Resources */,
+				248B6BE222F429680029CAAB /* Cube.vsh in Resources */,
+				248B6BEF22F437D70029CAAB /* CubeAmibentLight.fsh in Resources */,
+				248B6C0722F453F80029CAAB /* CubeSpecularLighting.vsh in Resources */,
+				248B6BB322F3D9F10029CAAB /* Shader1.fsh in Resources */,
+				2471682C22F3C9A700939648 /* Main.storyboard in Resources */,
+				248B6C1022F45A470029CAAB /* CubeMix.fsh in Resources */,
+				248B6BF022F437D70029CAAB /* CubeAmibentLight.vsh in Resources */,
+				248B6BCF22F427670029CAAB /* Shader2.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2471683722F3C9A800939648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2471684222F3C9A800939648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C909FDDBC37DF5F7EF21C09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(7)-光照Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39A972E5376B4B3D4D8940A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(7)-光照UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE62BD633C315F0224B035E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(7)-光照-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2471681D22F3C9A700939648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248B6C0A22F45A0A0029CAAB /* CubeMixLightingViewController.m in Sources */,
+				248B6BC122F3E05E0029CAAB /* DiffuseLightingViewController.m in Sources */,
+				2471682922F3C9A700939648 /* ViewController.m in Sources */,
+				248B6BF622F43EF30029CAAB /* CubeDiffuseLightingBindObject.m in Sources */,
+				248B6BEC22F437900029CAAB /* CubeAmibenLightingViewController.m in Sources */,
+				248B6BE922F437770029CAAB /* CubeAmibentLightBindObject.m in Sources */,
+				248B6BDB22F429090029CAAB /* CubeDefaultBindObject.m in Sources */,
+				248B6C0022F453AE0029CAAB /* CubeSpecularLightingBindObject.m in Sources */,
+				2471683422F3C9A800939648 /* main.m in Sources */,
+				2471685F22F3CB0500939648 /* GLLightViewController.m in Sources */,
+				248B6BC822F4254D0029CAAB /* SpecularLightingBindObject.m in Sources */,
+				248B6BDE22F4293A0029CAAB /* CubeManager.m in Sources */,
+				248B6BF322F43ECB0029CAAB /* CubeDiffuseLightingViewController.m in Sources */,
+				2471686922F3CC1500939648 /* LightBindObject.m in Sources */,
+				2471685822F3CAA300939648 /* GLBaseViewController.m in Sources */,
+				2471682622F3C9A700939648 /* AppDelegate.m in Sources */,
+				248B6C0D22F45A200029CAAB /* CubeMixBindObject.m in Sources */,
+				248B6BC022F3E05E0029CAAB /* DiffuseLightingBindObject.m in Sources */,
+				248B6C0322F453C40029CAAB /* CubeSpecularLightingViewController.m in Sources */,
+				248B6BC422F3E3CD0029CAAB /* SphereManager.m in Sources */,
+				248B6BCB22F425680029CAAB /* SpecularLightingViewController.m in Sources */,
+				2471685B22F3CAD400939648 /* GLBaseBindObject.m in Sources */,
+				248B6BD822F428F10029CAAB /* CubeDefaultViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2471683522F3C9A800939648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2471683E22F3C9A800939648 /* OpenGLZeroStudyDemo_7____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2471684022F3C9A800939648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2471684922F3C9A800939648 /* OpenGLZeroStudyDemo_7____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2471683B22F3C9A800939648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2471682022F3C9A700939648 /* OpenGLZeroStudyDemo(7)-光照 */;
+			targetProxy = 2471683A22F3C9A800939648 /* PBXContainerItemProxy */;
+		};
+		2471684622F3C9A800939648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2471682022F3C9A700939648 /* OpenGLZeroStudyDemo(7)-光照 */;
+			targetProxy = 2471684522F3C9A800939648 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2471682A22F3C9A700939648 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2471682B22F3C9A700939648 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2471682F22F3C9A800939648 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2471683022F3C9A800939648 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2471684B22F3C9A900939648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2471684C22F3C9A900939648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2471684E22F3C9A900939648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF3DA0CBD7D0A6AF09A04773 /* Pods-OpenGLZeroStudyDemo(7)-光照.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(7)-光照/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-7----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2471684F22F3C9A900939648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 559EA5E36CA175035E47735F /* Pods-OpenGLZeroStudyDemo(7)-光照.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(7)-光照/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-7----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2471685122F3C9A900939648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B6730ABC93494E38B626253 /* Pods-OpenGLZeroStudyDemo(7)-光照Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(7)-光照Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-7----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLZeroStudyDemo(7)-光照.app/OpenGLZeroStudyDemo(7)-光照";
+			};
+			name = Debug;
+		};
+		2471685222F3C9A900939648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D64B80DDAE3EC59A73A9551 /* Pods-OpenGLZeroStudyDemo(7)-光照Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(7)-光照Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-7----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLZeroStudyDemo(7)-光照.app/OpenGLZeroStudyDemo(7)-光照";
+			};
+			name = Release;
+		};
+		2471685422F3C9A900939648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 177492DBA998E6004D677164 /* Pods-OpenGLZeroStudyDemo(7)-光照UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(7)-光照UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-7----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenGLZeroStudyDemo(7)-光照";
+			};
+			name = Debug;
+		};
+		2471685522F3C9A900939648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3FEB573F475E093DABE1C7F /* Pods-OpenGLZeroStudyDemo(7)-光照UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(7)-光照UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-7----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenGLZeroStudyDemo(7)-光照";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2471681C22F3C9A700939648 /* Build configuration list for PBXProject "OpenGLZeroStudyDemo(7)-光照" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2471684B22F3C9A900939648 /* Debug */,
+				2471684C22F3C9A900939648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2471684D22F3C9A900939648 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(7)-光照" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2471684E22F3C9A900939648 /* Debug */,
+				2471684F22F3C9A900939648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2471685022F3C9A900939648 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(7)-光照Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2471685122F3C9A900939648 /* Debug */,
+				2471685222F3C9A900939648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2471685322F3C9A900939648 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(7)-光照UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2471685422F3C9A900939648 /* Debug */,
+				2471685522F3C9A900939648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2471681922F3C9A700939648 /* Project object */;
+}
