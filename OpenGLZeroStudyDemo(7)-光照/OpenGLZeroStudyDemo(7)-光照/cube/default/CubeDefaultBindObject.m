@@ -10,6 +10,7 @@
 
 @implementation CubeDefaultBindObject
 -(void)BindAttribLocation:(GLuint)program{
+    [super BindAttribLocation:program];
     glBindAttribLocation(program, CubeDefaulttBindAttribLocationVertexColor, "vertexColor");
 }
 

@@ -66,7 +66,10 @@
     [self.vertexColor enableVertexInVertexAttrib:CubeAmibentLightBindAttribLocationVertexColor numberOfCoordinates:3 attribOffset:0];
     
 }
-
+///消除0x502 操作
+-(void)createTextureUnit{
+    
+}
 -(GLKMatrix4)getMVP{
     GLfloat aspectRatio= CGRectGetWidth([UIScreen mainScreen].bounds) / CGRectGetHeight([UIScreen mainScreen].bounds);
     GLKMatrix4 projectionMatrix =

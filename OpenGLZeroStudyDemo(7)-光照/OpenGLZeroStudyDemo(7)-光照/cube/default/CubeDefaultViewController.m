@@ -37,7 +37,13 @@
     }
 }
 
+///消除0x502 操作
+-(void)createTextureUnit{
+    
+}
+
 -(void)loadVertex{
+   
     //顶点数据缓存
     self.vertexPostion= [Vertex new];
     int vertexNum =[CubeManager getVertexNum];

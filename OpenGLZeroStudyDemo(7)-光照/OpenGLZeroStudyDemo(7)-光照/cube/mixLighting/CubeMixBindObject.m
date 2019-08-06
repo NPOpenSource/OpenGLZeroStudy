@@ -10,6 +10,8 @@
 
 @implementation CubeMixBindObject
 -(void)BindAttribLocation:(GLuint)program{
+    glBindAttribLocation(program, BeginPosition, "beginPostion");
+
     glBindAttribLocation(program, CubeMixBindAttribLocationVertexColor, "vertexColor");
     glBindAttribLocation(program, CubeMixBindAttribLocationNormal, "aNormal");
 }

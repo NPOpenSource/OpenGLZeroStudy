@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2454645222F94F6C006EF7A6 /* light.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2454645022F94F6C006EF7A6 /* light.vsh */; };
+		2454645322F94F6C006EF7A6 /* light.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2454645122F94F6C006EF7A6 /* light.fsh */; };
+		2454645622F94F77006EF7A6 /* LIghtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454645522F94F77006EF7A6 /* LIghtViewController.m */; };
+		2454645922F94F98006EF7A6 /* GLLightBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454645822F94F98006EF7A6 /* GLLightBindObject.m */; };
+		2454645C22F958BA006EF7A6 /* LightTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454645B22F958BA006EF7A6 /* LightTestViewController.m */; };
+		2454646022F99350006EF7A6 /* container2_specular.png in Resources */ = {isa = PBXBuildFile; fileRef = 2454645E22F99350006EF7A6 /* container2_specular.png */; };
+		2454646122F99350006EF7A6 /* container2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2454645F22F99350006EF7A6 /* container2.png */; };
+		2454646522F993A4006EF7A6 /* LightTextureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454646422F993A4006EF7A6 /* LightTextureViewController.m */; };
+		2454646822F9948F006EF7A6 /* LightTextureBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454646722F9948F006EF7A6 /* LightTextureBindObject.m */; };
+		2454646B22F9954D006EF7A6 /* LightTexture.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2454646922F9954D006EF7A6 /* LightTexture.vsh */; };
+		2454646C22F9954D006EF7A6 /* LightTexture.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2454646A22F9954D006EF7A6 /* LightTexture.fsh */; };
 		2471682622F3C9A700939648 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2471682522F3C9A700939648 /* AppDelegate.m */; };
 		2471682922F3C9A700939648 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2471682822F3C9A700939648 /* ViewController.m */; };
 		2471682C22F3C9A700939648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2471682A22F3C9A700939648 /* Main.storyboard */; };
@@ -52,6 +63,10 @@
 		248B6C0D22F45A200029CAAB /* CubeMixBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 248B6C0C22F45A200029CAAB /* CubeMixBindObject.m */; };
 		248B6C1022F45A470029CAAB /* CubeMix.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 248B6C0E22F45A460029CAAB /* CubeMix.fsh */; };
 		248B6C1122F45A470029CAAB /* CubeMix.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 248B6C0F22F45A470029CAAB /* CubeMix.vsh */; };
+		248B6C1922F90F6B0029CAAB /* material.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 248B6C1722F90F6B0029CAAB /* material.fsh */; };
+		248B6C1A22F90F6B0029CAAB /* material.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 248B6C1822F90F6B0029CAAB /* material.vsh */; };
+		248B6C1D22F90F820029CAAB /* GLMaterialBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 248B6C1C22F90F820029CAAB /* GLMaterialBindObject.m */; };
+		248B6C2022F90F9C0029CAAB /* MaterialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248B6C1F22F90F9C0029CAAB /* MaterialViewController.m */; };
 		6AEC6F73C871E6C97ECFAB1B /* libPods-OpenGLZeroStudyDemo(7)-光照UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 507C2E652395AB8E95C432BA /* libPods-OpenGLZeroStudyDemo(7)-光照UITests.a */; };
 		89F9218DCC2C67A80B9CC239 /* libPods-OpenGLZeroStudyDemo(7)-光照.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD38FB1E7F6F2C5A5ADCB539 /* libPods-OpenGLZeroStudyDemo(7)-光照.a */; };
 		8A1DFA71B25DB7C547D523C2 /* libPods-OpenGLZeroStudyDemo(7)-光照Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F94C8C58E8EEFF9E3188543 /* libPods-OpenGLZeroStudyDemo(7)-光照Tests.a */; };
@@ -77,6 +92,22 @@
 /* Begin PBXFileReference section */
 		177492DBA998E6004D677164 /* Pods-OpenGLZeroStudyDemo(7)-光照UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(7)-光照UITests.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(7)-光照UITests/Pods-OpenGLZeroStudyDemo(7)-光照UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F94C8C58E8EEFF9E3188543 /* libPods-OpenGLZeroStudyDemo(7)-光照Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(7)-光照Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2454645022F94F6C006EF7A6 /* light.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = light.vsh; sourceTree = "<group>"; };
+		2454645122F94F6C006EF7A6 /* light.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = light.fsh; sourceTree = "<group>"; };
+		2454645422F94F77006EF7A6 /* LIghtViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIghtViewController.h; sourceTree = "<group>"; };
+		2454645522F94F77006EF7A6 /* LIghtViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIghtViewController.m; sourceTree = "<group>"; };
+		2454645722F94F98006EF7A6 /* GLLightBindObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLLightBindObject.h; sourceTree = "<group>"; };
+		2454645822F94F98006EF7A6 /* GLLightBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLLightBindObject.m; sourceTree = "<group>"; };
+		2454645A22F958BA006EF7A6 /* LightTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightTestViewController.h; sourceTree = "<group>"; };
+		2454645B22F958BA006EF7A6 /* LightTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightTestViewController.m; sourceTree = "<group>"; };
+		2454645E22F99350006EF7A6 /* container2_specular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = container2_specular.png; sourceTree = "<group>"; };
+		2454645F22F99350006EF7A6 /* container2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = container2.png; sourceTree = "<group>"; };
+		2454646322F993A4006EF7A6 /* LightTextureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightTextureViewController.h; sourceTree = "<group>"; };
+		2454646422F993A4006EF7A6 /* LightTextureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightTextureViewController.m; sourceTree = "<group>"; };
+		2454646622F9948F006EF7A6 /* LightTextureBindObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightTextureBindObject.h; sourceTree = "<group>"; };
+		2454646722F9948F006EF7A6 /* LightTextureBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightTextureBindObject.m; sourceTree = "<group>"; };
+		2454646922F9954D006EF7A6 /* LightTexture.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = LightTexture.vsh; sourceTree = "<group>"; };
+		2454646A22F9954D006EF7A6 /* LightTexture.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = LightTexture.fsh; sourceTree = "<group>"; };
 		2471682122F3C9A700939648 /* OpenGLZeroStudyDemo(7)-光照.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLZeroStudyDemo(7)-光照.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2471682422F3C9A700939648 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2471682522F3C9A700939648 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -151,6 +182,12 @@
 		248B6C0C22F45A200029CAAB /* CubeMixBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeMixBindObject.m; sourceTree = "<group>"; };
 		248B6C0E22F45A460029CAAB /* CubeMix.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CubeMix.fsh; sourceTree = "<group>"; };
 		248B6C0F22F45A470029CAAB /* CubeMix.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CubeMix.vsh; sourceTree = "<group>"; };
+		248B6C1722F90F6B0029CAAB /* material.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = material.fsh; sourceTree = "<group>"; };
+		248B6C1822F90F6B0029CAAB /* material.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = material.vsh; sourceTree = "<group>"; };
+		248B6C1B22F90F820029CAAB /* GLMaterialBindObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLMaterialBindObject.h; sourceTree = "<group>"; };
+		248B6C1C22F90F820029CAAB /* GLMaterialBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLMaterialBindObject.m; sourceTree = "<group>"; };
+		248B6C1E22F90F9C0029CAAB /* MaterialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaterialViewController.h; sourceTree = "<group>"; };
+		248B6C1F22F90F9C0029CAAB /* MaterialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaterialViewController.m; sourceTree = "<group>"; };
 		2D64B80DDAE3EC59A73A9551 /* Pods-OpenGLZeroStudyDemo(7)-光照Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(7)-光照Tests.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(7)-光照Tests/Pods-OpenGLZeroStudyDemo(7)-光照Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3B6730ABC93494E38B626253 /* Pods-OpenGLZeroStudyDemo(7)-光照Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(7)-光照Tests.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(7)-光照Tests/Pods-OpenGLZeroStudyDemo(7)-光照Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		507C2E652395AB8E95C432BA /* libPods-OpenGLZeroStudyDemo(7)-光照UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(7)-光照UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -188,6 +225,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2454645D22F99300006EF7A6 /* LightTexture */ = {
+			isa = PBXGroup;
+			children = (
+				2454646222F99381006EF7A6 /* default */,
+				2454645E22F99350006EF7A6 /* container2_specular.png */,
+				2454645F22F99350006EF7A6 /* container2.png */,
+			);
+			path = LightTexture;
+			sourceTree = "<group>";
+		};
+		2454646222F99381006EF7A6 /* default */ = {
+			isa = PBXGroup;
+			children = (
+				2454646A22F9954D006EF7A6 /* LightTexture.fsh */,
+				2454646922F9954D006EF7A6 /* LightTexture.vsh */,
+				2454646322F993A4006EF7A6 /* LightTextureViewController.h */,
+				2454646422F993A4006EF7A6 /* LightTextureViewController.m */,
+				2454646622F9948F006EF7A6 /* LightTextureBindObject.h */,
+				2454646722F9948F006EF7A6 /* LightTextureBindObject.m */,
+			);
+			path = default;
+			sourceTree = "<group>";
+		};
 		2471681822F3C9A700939648 = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +273,9 @@
 		2471682322F3C9A700939648 /* OpenGLZeroStudyDemo(7)-光照 */ = {
 			isa = PBXGroup;
 			children = (
+				2454645D22F99300006EF7A6 /* LightTexture */,
+				248B6C2122F94F210029CAAB /* Light */,
+				248B6C1622F80C620029CAAB /* material */,
 				248B6BD022F428590029CAAB /* cube */,
 				248B6BC522F425160029CAAB /* SpecularLighting */,
 				248B6BAA22F3D9290029CAAB /* DiffuseLighting */,
@@ -374,6 +437,34 @@
 			path = mixLighting;
 			sourceTree = "<group>";
 		};
+		248B6C1622F80C620029CAAB /* material */ = {
+			isa = PBXGroup;
+			children = (
+				248B6C1722F90F6B0029CAAB /* material.fsh */,
+				248B6C1822F90F6B0029CAAB /* material.vsh */,
+				248B6C1B22F90F820029CAAB /* GLMaterialBindObject.h */,
+				248B6C1C22F90F820029CAAB /* GLMaterialBindObject.m */,
+				248B6C1E22F90F9C0029CAAB /* MaterialViewController.h */,
+				248B6C1F22F90F9C0029CAAB /* MaterialViewController.m */,
+			);
+			path = material;
+			sourceTree = "<group>";
+		};
+		248B6C2122F94F210029CAAB /* Light */ = {
+			isa = PBXGroup;
+			children = (
+				2454645122F94F6C006EF7A6 /* light.fsh */,
+				2454645022F94F6C006EF7A6 /* light.vsh */,
+				2454645422F94F77006EF7A6 /* LIghtViewController.h */,
+				2454645522F94F77006EF7A6 /* LIghtViewController.m */,
+				2454645722F94F98006EF7A6 /* GLLightBindObject.h */,
+				2454645822F94F98006EF7A6 /* GLLightBindObject.m */,
+				2454645A22F958BA006EF7A6 /* LightTestViewController.h */,
+				2454645B22F958BA006EF7A6 /* LightTestViewController.m */,
+			);
+			path = Light;
+			sourceTree = "<group>";
+		};
 		66D7C9967CE5F18336D3E746 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -508,18 +599,26 @@
 				2471686122F3CB9800939648 /* Earth512x256.jpg in Resources */,
 				248B6BB422F3D9F10029CAAB /* Shader1.vsh in Resources */,
 				248B6BCE22F427670029CAAB /* Shader2.fsh in Resources */,
+				248B6C1922F90F6B0029CAAB /* material.fsh in Resources */,
 				2471683122F3C9A800939648 /* LaunchScreen.storyboard in Resources */,
 				248B6BFA22F43F1A0029CAAB /* CubeDiffuseLighting.fsh in Resources */,
+				2454646C22F9954D006EF7A6 /* LightTexture.fsh in Resources */,
+				2454645322F94F6C006EF7A6 /* light.fsh in Resources */,
 				248B6C1122F45A470029CAAB /* CubeMix.vsh in Resources */,
 				2471686622F3CBA000939648 /* Shader.fsh in Resources */,
+				2454646022F99350006EF7A6 /* container2_specular.png in Resources */,
 				248B6BF922F43F1A0029CAAB /* CubeDiffuseLighting.vsh in Resources */,
+				2454646B22F9954D006EF7A6 /* LightTexture.vsh in Resources */,
 				2471682E22F3C9A800939648 /* Assets.xcassets in Resources */,
+				2454646122F99350006EF7A6 /* container2.png in Resources */,
 				248B6C0622F453F80029CAAB /* CubeSpecularLighting.fsh in Resources */,
 				248B6BE222F429680029CAAB /* Cube.vsh in Resources */,
+				248B6C1A22F90F6B0029CAAB /* material.vsh in Resources */,
 				248B6BEF22F437D70029CAAB /* CubeAmibentLight.fsh in Resources */,
 				248B6C0722F453F80029CAAB /* CubeSpecularLighting.vsh in Resources */,
 				248B6BB322F3D9F10029CAAB /* Shader1.fsh in Resources */,
 				2471682C22F3C9A700939648 /* Main.storyboard in Resources */,
+				2454645222F94F6C006EF7A6 /* light.vsh in Resources */,
 				248B6C1022F45A470029CAAB /* CubeMix.fsh in Resources */,
 				248B6BF022F437D70029CAAB /* CubeAmibentLight.vsh in Resources */,
 				248B6BCF22F427670029CAAB /* Shader2.vsh in Resources */,
@@ -616,21 +715,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2454645922F94F98006EF7A6 /* GLLightBindObject.m in Sources */,
 				248B6C0A22F45A0A0029CAAB /* CubeMixLightingViewController.m in Sources */,
 				248B6BC122F3E05E0029CAAB /* DiffuseLightingViewController.m in Sources */,
 				2471682922F3C9A700939648 /* ViewController.m in Sources */,
+				2454645622F94F77006EF7A6 /* LIghtViewController.m in Sources */,
 				248B6BF622F43EF30029CAAB /* CubeDiffuseLightingBindObject.m in Sources */,
 				248B6BEC22F437900029CAAB /* CubeAmibenLightingViewController.m in Sources */,
 				248B6BE922F437770029CAAB /* CubeAmibentLightBindObject.m in Sources */,
 				248B6BDB22F429090029CAAB /* CubeDefaultBindObject.m in Sources */,
+				248B6C1D22F90F820029CAAB /* GLMaterialBindObject.m in Sources */,
+				2454646822F9948F006EF7A6 /* LightTextureBindObject.m in Sources */,
 				248B6C0022F453AE0029CAAB /* CubeSpecularLightingBindObject.m in Sources */,
+				2454645C22F958BA006EF7A6 /* LightTestViewController.m in Sources */,
 				2471683422F3C9A800939648 /* main.m in Sources */,
 				2471685F22F3CB0500939648 /* GLLightViewController.m in Sources */,
 				248B6BC822F4254D0029CAAB /* SpecularLightingBindObject.m in Sources */,
 				248B6BDE22F4293A0029CAAB /* CubeManager.m in Sources */,
+				248B6C2022F90F9C0029CAAB /* MaterialViewController.m in Sources */,
 				248B6BF322F43ECB0029CAAB /* CubeDiffuseLightingViewController.m in Sources */,
 				2471686922F3CC1500939648 /* LightBindObject.m in Sources */,
 				2471685822F3CAA300939648 /* GLBaseViewController.m in Sources */,
+				2454646522F993A4006EF7A6 /* LightTextureViewController.m in Sources */,
 				2471682622F3C9A700939648 /* AppDelegate.m in Sources */,
 				248B6C0D22F45A200029CAAB /* CubeMixBindObject.m in Sources */,
 				248B6BC022F3E05E0029CAAB /* DiffuseLightingBindObject.m in Sources */,

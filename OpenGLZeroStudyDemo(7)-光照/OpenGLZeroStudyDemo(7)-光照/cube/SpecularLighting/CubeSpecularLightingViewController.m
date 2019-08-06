@@ -128,7 +128,9 @@
     //    [VertexElement drawElementIndexWithMode:GL_TRIANGLES indexNum:[CubeManager getVertexElementsNum] indexArr:[CubeManager getVertexElements]];
 }
 
-
-
+///消除0x502 操作
+-(void)createTextureUnit{
+    
+}
 
 @end

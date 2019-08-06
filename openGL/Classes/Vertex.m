@@ -96,6 +96,8 @@
             NSLog(@"GL Error: 0x%x", error);
         }
     }
+    //    GL_INVALID_OPERATION  operation;
+//    GL_INVALID_VALUE
 #endif
 }
 -(void)drawVertexWithMode:(GLenum)mode  startVertexIndex:(GLint)first

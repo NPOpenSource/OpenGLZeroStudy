@@ -10,12 +10,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "OpenGLZeroStudyDemo(7)-&#x5149;&#x7167;/DiffuseLighting/DiffuseLightingViewController.m"
-            timestampString = "586436121.642666"
+            timestampString = "586763549.362646"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "103"
             endingLineNumber = "103"
             landmarkName = "-glkView:drawInRect:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../openGL/Classes/VertexElement.m"
+            timestampString = "586751139.786833"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "-allocWithIndexNum:indexArr:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
