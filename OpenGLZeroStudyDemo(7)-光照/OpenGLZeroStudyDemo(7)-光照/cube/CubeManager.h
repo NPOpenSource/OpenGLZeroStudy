@@ -11,6 +11,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CubeManager : NSObject
+#pragma mark  - textureNormal
++(unsigned int)getTextureNormalVertexNum;
++(float *)getTextureNormalVertexs;
+
 +(unsigned int)getNormalVertexNum;
 +(float *)getNormalVertexs;
 

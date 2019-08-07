@@ -18,6 +18,14 @@
 		2454646822F9948F006EF7A6 /* LightTextureBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454646722F9948F006EF7A6 /* LightTextureBindObject.m */; };
 		2454646B22F9954D006EF7A6 /* LightTexture.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2454646922F9954D006EF7A6 /* LightTexture.vsh */; };
 		2454646C22F9954D006EF7A6 /* LightTexture.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2454646A22F9954D006EF7A6 /* LightTexture.fsh */; };
+		2454647022F9A499006EF7A6 /* DiffuseLightTextureBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454646F22F9A499006EF7A6 /* DiffuseLightTextureBindObject.m */; };
+		2454647322F9A4E6006EF7A6 /* DiffuseLightTextureviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454647222F9A4E6006EF7A6 /* DiffuseLightTextureviewController.m */; };
+		2454647622F9A548006EF7A6 /* DiffuseLightTexture.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2454647422F9A548006EF7A6 /* DiffuseLightTexture.fsh */; };
+		2454647722F9A548006EF7A6 /* DiffuseLightTexture.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2454647522F9A548006EF7A6 /* DiffuseLightTexture.vsh */; };
+		2454647B22FA6D40006EF7A6 /* SpecularLightTextureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454647A22FA6D40006EF7A6 /* SpecularLightTextureViewController.m */; };
+		2454647E22FA6D5F006EF7A6 /* SpecularLightTextureBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454647D22FA6D5F006EF7A6 /* SpecularLightTextureBindObject.m */; };
+		2454648122FA6DD7006EF7A6 /* SpecluarLightTexture.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2454647F22FA6DD7006EF7A6 /* SpecluarLightTexture.fsh */; };
+		2454648222FA6DD7006EF7A6 /* SpecluarLightTexture.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2454648022FA6DD7006EF7A6 /* SpecluarLightTexture.vsh */; };
 		2471682622F3C9A700939648 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2471682522F3C9A700939648 /* AppDelegate.m */; };
 		2471682922F3C9A700939648 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2471682822F3C9A700939648 /* ViewController.m */; };
 		2471682C22F3C9A700939648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2471682A22F3C9A700939648 /* Main.storyboard */; };
@@ -108,6 +116,18 @@
 		2454646722F9948F006EF7A6 /* LightTextureBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightTextureBindObject.m; sourceTree = "<group>"; };
 		2454646922F9954D006EF7A6 /* LightTexture.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = LightTexture.vsh; sourceTree = "<group>"; };
 		2454646A22F9954D006EF7A6 /* LightTexture.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = LightTexture.fsh; sourceTree = "<group>"; };
+		2454646E22F9A499006EF7A6 /* DiffuseLightTextureBindObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiffuseLightTextureBindObject.h; sourceTree = "<group>"; };
+		2454646F22F9A499006EF7A6 /* DiffuseLightTextureBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiffuseLightTextureBindObject.m; sourceTree = "<group>"; };
+		2454647122F9A4E6006EF7A6 /* DiffuseLightTextureviewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiffuseLightTextureviewController.h; sourceTree = "<group>"; };
+		2454647222F9A4E6006EF7A6 /* DiffuseLightTextureviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiffuseLightTextureviewController.m; sourceTree = "<group>"; };
+		2454647422F9A548006EF7A6 /* DiffuseLightTexture.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DiffuseLightTexture.fsh; sourceTree = "<group>"; };
+		2454647522F9A548006EF7A6 /* DiffuseLightTexture.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DiffuseLightTexture.vsh; sourceTree = "<group>"; };
+		2454647922FA6D40006EF7A6 /* SpecularLightTextureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecularLightTextureViewController.h; sourceTree = "<group>"; };
+		2454647A22FA6D40006EF7A6 /* SpecularLightTextureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecularLightTextureViewController.m; sourceTree = "<group>"; };
+		2454647C22FA6D5F006EF7A6 /* SpecularLightTextureBindObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecularLightTextureBindObject.h; sourceTree = "<group>"; };
+		2454647D22FA6D5F006EF7A6 /* SpecularLightTextureBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecularLightTextureBindObject.m; sourceTree = "<group>"; };
+		2454647F22FA6DD7006EF7A6 /* SpecluarLightTexture.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SpecluarLightTexture.fsh; sourceTree = "<group>"; };
+		2454648022FA6DD7006EF7A6 /* SpecluarLightTexture.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SpecluarLightTexture.vsh; sourceTree = "<group>"; };
 		2471682122F3C9A700939648 /* OpenGLZeroStudyDemo(7)-光照.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLZeroStudyDemo(7)-光照.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2471682422F3C9A700939648 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2471682522F3C9A700939648 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -228,6 +248,8 @@
 		2454645D22F99300006EF7A6 /* LightTexture */ = {
 			isa = PBXGroup;
 			children = (
+				2454647822FA6D0A006EF7A6 /* specular */,
+				2454646D22F9A422006EF7A6 /* diffuse */,
 				2454646222F99381006EF7A6 /* default */,
 				2454645E22F99350006EF7A6 /* container2_specular.png */,
 				2454645F22F99350006EF7A6 /* container2.png */,
@@ -246,6 +268,32 @@
 				2454646722F9948F006EF7A6 /* LightTextureBindObject.m */,
 			);
 			path = default;
+			sourceTree = "<group>";
+		};
+		2454646D22F9A422006EF7A6 /* diffuse */ = {
+			isa = PBXGroup;
+			children = (
+				2454647422F9A548006EF7A6 /* DiffuseLightTexture.fsh */,
+				2454647522F9A548006EF7A6 /* DiffuseLightTexture.vsh */,
+				2454646E22F9A499006EF7A6 /* DiffuseLightTextureBindObject.h */,
+				2454646F22F9A499006EF7A6 /* DiffuseLightTextureBindObject.m */,
+				2454647122F9A4E6006EF7A6 /* DiffuseLightTextureviewController.h */,
+				2454647222F9A4E6006EF7A6 /* DiffuseLightTextureviewController.m */,
+			);
+			path = diffuse;
+			sourceTree = "<group>";
+		};
+		2454647822FA6D0A006EF7A6 /* specular */ = {
+			isa = PBXGroup;
+			children = (
+				2454647F22FA6DD7006EF7A6 /* SpecluarLightTexture.fsh */,
+				2454648022FA6DD7006EF7A6 /* SpecluarLightTexture.vsh */,
+				2454647922FA6D40006EF7A6 /* SpecularLightTextureViewController.h */,
+				2454647A22FA6D40006EF7A6 /* SpecularLightTextureViewController.m */,
+				2454647C22FA6D5F006EF7A6 /* SpecularLightTextureBindObject.h */,
+				2454647D22FA6D5F006EF7A6 /* SpecularLightTextureBindObject.m */,
+			);
+			path = specular;
 			sourceTree = "<group>";
 		};
 		2471681822F3C9A700939648 = {
@@ -595,12 +643,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2471686522F3CBA000939648 /* Shader.vsh in Resources */,
+				2454648122FA6DD7006EF7A6 /* SpecluarLightTexture.fsh in Resources */,
 				248B6BE122F429680029CAAB /* Cube.fsh in Resources */,
 				2471686122F3CB9800939648 /* Earth512x256.jpg in Resources */,
 				248B6BB422F3D9F10029CAAB /* Shader1.vsh in Resources */,
 				248B6BCE22F427670029CAAB /* Shader2.fsh in Resources */,
 				248B6C1922F90F6B0029CAAB /* material.fsh in Resources */,
 				2471683122F3C9A800939648 /* LaunchScreen.storyboard in Resources */,
+				2454647722F9A548006EF7A6 /* DiffuseLightTexture.vsh in Resources */,
 				248B6BFA22F43F1A0029CAAB /* CubeDiffuseLighting.fsh in Resources */,
 				2454646C22F9954D006EF7A6 /* LightTexture.fsh in Resources */,
 				2454645322F94F6C006EF7A6 /* light.fsh in Resources */,
@@ -618,10 +668,12 @@
 				248B6C0722F453F80029CAAB /* CubeSpecularLighting.vsh in Resources */,
 				248B6BB322F3D9F10029CAAB /* Shader1.fsh in Resources */,
 				2471682C22F3C9A700939648 /* Main.storyboard in Resources */,
+				2454647622F9A548006EF7A6 /* DiffuseLightTexture.fsh in Resources */,
 				2454645222F94F6C006EF7A6 /* light.vsh in Resources */,
 				248B6C1022F45A470029CAAB /* CubeMix.fsh in Resources */,
 				248B6BF022F437D70029CAAB /* CubeAmibentLight.vsh in Resources */,
 				248B6BCF22F427670029CAAB /* Shader2.vsh in Resources */,
+				2454648222FA6DD7006EF7A6 /* SpecluarLightTexture.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -720,12 +772,15 @@
 				248B6BC122F3E05E0029CAAB /* DiffuseLightingViewController.m in Sources */,
 				2471682922F3C9A700939648 /* ViewController.m in Sources */,
 				2454645622F94F77006EF7A6 /* LIghtViewController.m in Sources */,
+				2454647022F9A499006EF7A6 /* DiffuseLightTextureBindObject.m in Sources */,
 				248B6BF622F43EF30029CAAB /* CubeDiffuseLightingBindObject.m in Sources */,
 				248B6BEC22F437900029CAAB /* CubeAmibenLightingViewController.m in Sources */,
 				248B6BE922F437770029CAAB /* CubeAmibentLightBindObject.m in Sources */,
+				2454647B22FA6D40006EF7A6 /* SpecularLightTextureViewController.m in Sources */,
 				248B6BDB22F429090029CAAB /* CubeDefaultBindObject.m in Sources */,
 				248B6C1D22F90F820029CAAB /* GLMaterialBindObject.m in Sources */,
 				2454646822F9948F006EF7A6 /* LightTextureBindObject.m in Sources */,
+				2454647322F9A4E6006EF7A6 /* DiffuseLightTextureviewController.m in Sources */,
 				248B6C0022F453AE0029CAAB /* CubeSpecularLightingBindObject.m in Sources */,
 				2454645C22F958BA006EF7A6 /* LightTestViewController.m in Sources */,
 				2471683422F3C9A800939648 /* main.m in Sources */,
@@ -744,6 +799,7 @@
 				248B6BC422F3E3CD0029CAAB /* SphereManager.m in Sources */,
 				248B6BCB22F425680029CAAB /* SpecularLightingViewController.m in Sources */,
 				2471685B22F3CAD400939648 /* GLBaseBindObject.m in Sources */,
+				2454647E22FA6D5F006EF7A6 /* SpecularLightTextureBindObject.m in Sources */,
 				248B6BD822F428F10029CAAB /* CubeDefaultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

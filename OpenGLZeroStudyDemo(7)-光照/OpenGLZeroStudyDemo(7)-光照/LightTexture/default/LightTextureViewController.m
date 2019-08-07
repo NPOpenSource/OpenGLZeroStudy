@@ -15,6 +15,7 @@
 @property (nonatomic ,strong) Vertex * vertexPostion ;
 @property (nonatomic ,strong) Vertex * vertexTexture ;
 @property (nonatomic ,strong) Vertex * vertexNormal ;
+@property (nonatomic ,strong) TextureUnit * texture ;
 @end
 
 @implementation LightTextureViewController
@@ -25,20 +26,12 @@
     self.bindObject = [LightTextureBindObject new];
     self.bindObject.uniformSetterBlock = ^(GLuint program) {
         weakSelf.bindObject->uniforms[MVPMatrix] = glGetUniformLocation(self.shader.program, "u_mvpMatrix");
-        weakSelf.bindObject->uniforms[LightTextureUniformLocationInvermodel] = glGetUniformLocation(self.shader.program, "u_model");
+        weakSelf.bindObject->uniforms[Samplers2D] = glGetUniformLocation(self.shader.program, "u_samplers2D");
+
+        weakSelf.bindObject->uniforms[LightTextureUniformLocationModel] = glGetUniformLocation(self.shader.program, "u_model");
         weakSelf.bindObject->uniforms[LightTextureUniformLocationInvermodel] = glGetUniformLocation(self.shader.program, "u_inverModel");
         weakSelf.bindObject->uniforms[LightTextureUniformLocationviewPos] = glGetUniformLocation(self.shader.program, "viewPos");
-        weakSelf.bindObject->uniforms[MaterialObjectUniformLocationMaterialAmbient] = glGetUniformLocation(self.shader.program, "material.ambient");
-        weakSelf.bindObject->uniforms[MaterialObjectUniformLocationMaterialDiffuse] = glGetUniformLocation(self.shader.program, "material.diffuse");
-        weakSelf.bindObject->uniforms[MaterialObjectUniformLocationMaterialsSpecular] = glGetUniformLocation(self.shader.program, "material.specular");
-        weakSelf.bindObject->uniforms[MaterialObjectUniformLocationMaterialShininess] = glGetUniformLocation(self.shader.program, "material.shininess");
-        
-        weakSelf.bindObject->uniforms[LightTextureUniformLocationLightTexturePos] = glGetUniformLocation(self.shader.program, "light.lightPos");
-        weakSelf.bindObject->uniforms[LightTextureUniformLocationLightTextureAmbient] = glGetUniformLocation(self.shader.program, "light.ambient");
-        weakSelf.bindObject->uniforms[LightTextureUniformLocationLightTexturesSpecular] = glGetUniformLocation(self.shader.program, "light.specular");
-        weakSelf.bindObject->uniforms[LightTextureUniformLocationLightTextureDiffuse] = glGetUniformLocation(self.shader.program, "light.diffuse");
-        
-        
+  
     };
 }
 
@@ -53,43 +46,47 @@
     if (self.bindObject.uniformSetterBlock) {
         self.bindObject.uniformSetterBlock(self.shader.program);
     }
-}///消除0x502 操作
+}
+
 -(void)createTextureUnit{
-    
+    UIImage *  image = [UIImage imageNamed:@"container2.png"];
+    self.texture = [TextureUnit new];
+    [self.texture setImage:image IntoTextureUnit:GL_TEXTURE0 andConfigTextureUnit:nil];
+    [self.texture bindtextureUnitLocationAndShaderUniformSamplerLocation:self.bindObject->uniforms[Samplers2D]];
 }
 -(void)loadVertex{
     //顶点数据缓存
     self.vertexPostion= [Vertex new];
-    int vertexNum =[CubeManager getNormalVertexNum];
+    int vertexNum =[CubeManager getTextureNormalVertexNum];
     [self.vertexPostion allocVertexNum:vertexNum andEachVertexNum:3];
     for (int i=0; i<vertexNum; i++) {
         float onevertex[3];
         for (int j=0; j<3; j++) {
-            onevertex[j]=[CubeManager getNormalVertexs][i*9+j];
+            onevertex[j]=[CubeManager getTextureNormalVertexs][i*8+j];
         }
         [self.vertexPostion setVertex:onevertex index:i];
     }
     [self.vertexPostion bindBufferWithUsage:GL_STATIC_DRAW];
     [self.vertexPostion enableVertexInVertexAttrib:BeginPosition numberOfCoordinates:3 attribOffset:0];
     
-    //    self.vertexColor = [Vertex new];
-    //    [self.vertexColor allocVertexNum:vertexNum andEachVertexNum:3];
-    //    for (int i=0; i<vertexNum; i++) {
-    //        float onevertex[3];
-    //        for (int j=0; j<3; j++) {
-    //            onevertex[j]=[CubeManager getNormalVertexs][i*9+j+6];
-    //        }
-    //        [self.vertexColor setVertex:onevertex index:i];
-    //    }
-    //    [self.vertexColor bindBufferWithUsage:GL_STATIC_DRAW];
-    //    [self.vertexColor enableVertexInVertexAttrib:LightBindAttribLocationVertexColor numberOfCoordinates:3 attribOffset:0];
+        self.vertexTexture = [Vertex new];
+        [self.vertexTexture allocVertexNum:vertexNum andEachVertexNum:2];
+        for (int i=0; i<vertexNum; i++) {
+            float onevertex[2];
+            for (int j=0; j<2; j++) {
+                onevertex[j]=[CubeManager getTextureNormalVertexs][i*8+j+6];
+            }
+            [self.vertexTexture setVertex:onevertex index:i];
+        }
+        [self.vertexTexture bindBufferWithUsage:GL_STATIC_DRAW];
+        [self.vertexTexture enableVertexInVertexAttrib:LightTextureBindAttribLocationTexture numberOfCoordinates:2 attribOffset:0];
     
     self.vertexNormal= [Vertex new];
     [self.vertexNormal allocVertexNum:vertexNum andEachVertexNum:3];
     for (int i=0; i<vertexNum; i++) {
         float onevertex[3];
         for (int j=0; j<3; j++) {
-            onevertex[j]=[CubeManager getNormalVertexs][i*9+j+3];
+            onevertex[j]=[CubeManager getTextureNormalVertexs][i*8+j+3];
         }
         [self.vertexNormal setVertex:onevertex index:i];
     }
@@ -97,27 +94,6 @@
     [self.vertexNormal enableVertexInVertexAttrib:LightTextureBindAttribLocationNormal numberOfCoordinates:3 attribOffset:0];
     
     GLKVector3 ambientLigh = GLKVector3Make(1.0, 1.0, 1.0);
-    //    emerald    0.0215    0.1745    0.0215    0.07568    0.61424    0.07568    0.633    0.727811    0.633    0.6
-    
-    LTMaterial material;
-    material.ambient = GLKVector3Make(0.0215, 0.1745, 0.0215);
-    material.diffuse =GLKVector3Make(0.07568, 0.61424, 0.07568);
-    material.specular =GLKVector3Make(0.633, 0.727811, 0.633);
-    material.shininess =0.6;
-    glUniform1fv(self.bindObject->uniforms[MaterialObjectUniformLocationMaterialShininess],1,&material.shininess);
-    glUniform3fv(self.bindObject->uniforms[MaterialObjectUniformLocationMaterialDiffuse], 1, &material.diffuse);
-    glUniform3fv(self.bindObject->uniforms[MaterialObjectUniformLocationMaterialsSpecular], 1, &material.specular);
-    glUniform3fv(self.bindObject->uniforms[MaterialObjectUniformLocationMaterialAmbient], 1, &material.ambient);
-    
-    LTLight light;
-    light.lightPos =  GLKVector3Make(5.0, 0.0,0);
-    light.ambient  =GLKVector3Make(0.2,0.2,0.2);
-    light.diffuse  =GLKVector3Make(0.5,0.5,0.5);
-    light.specular  =GLKVector3Make(1.0,1.0,1.0);
-    glUniform3fv(self.bindObject->uniforms[LightTextureUniformLocationLightTexturePos], 1, &light.lightPos);
-    glUniform3fv(self.bindObject->uniforms[LightTextureUniformLocationLightTextureAmbient], 1, &light.ambient);
-    glUniform3fv(self.bindObject->uniforms[LightTextureUniformLocationLightTexturesSpecular], 1, &light.specular);
-    glUniform3fv(self.bindObject->uniforms[LightTextureUniformLocationLightTextureDiffuse], 1, &light.diffuse);
     
 }
 

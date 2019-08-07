@@ -154,11 +154,11 @@ float textureNormalvertices[] = {
 
 
 @implementation CubeManager
-#pragma mark  - texture
+#pragma mark  - textureNormal
 +(unsigned int)getTextureNormalVertexNum{
     return cubetextureNormalNormalNumVerts;
 }
-+(float *)getTextureNormalVertex{
++(float *)getTextureNormalVertexs{
     return textureNormalvertices;
 }
 

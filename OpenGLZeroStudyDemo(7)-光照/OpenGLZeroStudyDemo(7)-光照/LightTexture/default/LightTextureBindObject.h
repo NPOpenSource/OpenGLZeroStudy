@@ -18,31 +18,11 @@ typedef enum {
 typedef union {
     struct {
         BaseBindAttribType baseBindAttrib;
-        GLKVector3 texture;
-        GLKVector2 normal;
+        GLKVector2 texture;
+        GLKVector3 normal;
     };
     float t[8];
 }LightTextureBindAttrib;
-
-typedef union{
-    struct {
-        GLKVector3 lightPos;
-        GLKVector3 ambient;
-        GLKVector3 diffuse;
-        GLKVector3 specular;
-    };
-    float m[12];
-}LTLight;
-
-typedef union{
-    struct {
-        GLKVector3 ambient;
-        GLKVector3 diffuse;
-        GLKVector3 specular;
-        float shininess;
-    };
-    float m[10];
-}LTMaterial;
 
 
 
@@ -51,14 +31,6 @@ typedef enum {
     LightTextureUniformLocationModel,
     LightTextureUniformLocationInvermodel,
     LightTextureUniformLocationviewPos,
-    LightTextureUniformLocationLightTexturePos, //
-    LightTextureUniformLocationLightTextureAmbient, //材质
-    LightTextureUniformLocationLightTextureDiffuse,
-    LightTextureUniformLocationLightTexturesSpecular,
-    MaterialObjectUniformLocationMaterialAmbient, //材质
-    MaterialObjectUniformLocationMaterialDiffuse,
-    MaterialObjectUniformLocationMaterialsSpecular,
-    MaterialObjectUniformLocationMaterialShininess
 }LightTextureUniformLocation;
 
 @interface LightTextureBindObject : GLBaseBindObject
