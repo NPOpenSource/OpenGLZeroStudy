@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2449DC6A22FAC8AF000BA8CD /* PointLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2449DC6922FAC8AF000BA8CD /* PointLightViewController.m */; };
+		2449DC6D22FAC8BD000BA8CD /* PointLightBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2449DC6C22FAC8BD000BA8CD /* PointLightBindObject.m */; };
+		2449DC7022FAC8EE000BA8CD /* PointLight.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2449DC6E22FAC8EE000BA8CD /* PointLight.fsh */; };
+		2449DC7122FAC8EE000BA8CD /* PointLight.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2449DC6F22FAC8EE000BA8CD /* PointLight.vsh */; };
+		2449DC7522FAE89A000BA8CD /* FlashlightBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2449DC7422FAE89A000BA8CD /* FlashlightBindObject.m */; };
+		2449DC7822FAE901000BA8CD /* FlashlightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2449DC7722FAE901000BA8CD /* FlashlightViewController.m */; };
+		2449DC7C22FAE95A000BA8CD /* Flashlight.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2449DC7A22FAE95A000BA8CD /* Flashlight.vsh */; };
+		2449DC7D22FAE95A000BA8CD /* Flashlight.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2449DC7B22FAE95A000BA8CD /* Flashlight.fsh */; };
 		2454645222F94F6C006EF7A6 /* light.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2454645022F94F6C006EF7A6 /* light.vsh */; };
 		2454645322F94F6C006EF7A6 /* light.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2454645122F94F6C006EF7A6 /* light.fsh */; };
 		2454645622F94F77006EF7A6 /* LIghtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454645522F94F77006EF7A6 /* LIghtViewController.m */; };
@@ -26,6 +34,14 @@
 		2454647E22FA6D5F006EF7A6 /* SpecularLightTextureBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454647D22FA6D5F006EF7A6 /* SpecularLightTextureBindObject.m */; };
 		2454648122FA6DD7006EF7A6 /* SpecluarLightTexture.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2454647F22FA6DD7006EF7A6 /* SpecluarLightTexture.fsh */; };
 		2454648222FA6DD7006EF7A6 /* SpecluarLightTexture.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2454648022FA6DD7006EF7A6 /* SpecluarLightTexture.vsh */; };
+		2454648B22FAB5E0006EF7A6 /* DirectionLightBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454648A22FAB5E0006EF7A6 /* DirectionLightBindObject.m */; };
+		2454648E22FAB5F5006EF7A6 /* DirectionLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454648D22FAB5F5006EF7A6 /* DirectionLightViewController.m */; };
+		2454649122FAB5FD006EF7A6 /* DirectionLight.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2454648F22FAB5FD006EF7A6 /* DirectionLight.vsh */; };
+		2454649222FAB5FD006EF7A6 /* DirectionLight.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2454649022FAB5FD006EF7A6 /* DirectionLight.fsh */; };
+		246A680F22FBF6C100AA322D /* FlashlightSmoothBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 246A680A22FBF6C100AA322D /* FlashlightSmoothBindObject.m */; };
+		246A681022FBF6C100AA322D /* FlashlightSmooth.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 246A680C22FBF6C100AA322D /* FlashlightSmooth.fsh */; };
+		246A681122FBF6C100AA322D /* FlashlightSmoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246A680D22FBF6C100AA322D /* FlashlightSmoothViewController.m */; };
+		246A681222FBF6C100AA322D /* FlashlightSmooth.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 246A680E22FBF6C100AA322D /* FlashlightSmooth.vsh */; };
 		2471682622F3C9A700939648 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2471682522F3C9A700939648 /* AppDelegate.m */; };
 		2471682922F3C9A700939648 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2471682822F3C9A700939648 /* ViewController.m */; };
 		2471682C22F3C9A700939648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2471682A22F3C9A700939648 /* Main.storyboard */; };
@@ -100,6 +116,18 @@
 /* Begin PBXFileReference section */
 		177492DBA998E6004D677164 /* Pods-OpenGLZeroStudyDemo(7)-光照UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(7)-光照UITests.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(7)-光照UITests/Pods-OpenGLZeroStudyDemo(7)-光照UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F94C8C58E8EEFF9E3188543 /* libPods-OpenGLZeroStudyDemo(7)-光照Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(7)-光照Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2449DC6822FAC8AF000BA8CD /* PointLightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointLightViewController.h; sourceTree = "<group>"; };
+		2449DC6922FAC8AF000BA8CD /* PointLightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointLightViewController.m; sourceTree = "<group>"; };
+		2449DC6B22FAC8BD000BA8CD /* PointLightBindObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointLightBindObject.h; sourceTree = "<group>"; };
+		2449DC6C22FAC8BD000BA8CD /* PointLightBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointLightBindObject.m; sourceTree = "<group>"; };
+		2449DC6E22FAC8EE000BA8CD /* PointLight.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PointLight.fsh; sourceTree = "<group>"; };
+		2449DC6F22FAC8EE000BA8CD /* PointLight.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PointLight.vsh; sourceTree = "<group>"; };
+		2449DC7322FAE89A000BA8CD /* FlashlightBindObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashlightBindObject.h; sourceTree = "<group>"; };
+		2449DC7422FAE89A000BA8CD /* FlashlightBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashlightBindObject.m; sourceTree = "<group>"; };
+		2449DC7622FAE901000BA8CD /* FlashlightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashlightViewController.h; sourceTree = "<group>"; };
+		2449DC7722FAE901000BA8CD /* FlashlightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashlightViewController.m; sourceTree = "<group>"; };
+		2449DC7A22FAE95A000BA8CD /* Flashlight.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Flashlight.vsh; sourceTree = "<group>"; };
+		2449DC7B22FAE95A000BA8CD /* Flashlight.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Flashlight.fsh; sourceTree = "<group>"; };
 		2454645022F94F6C006EF7A6 /* light.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = light.vsh; sourceTree = "<group>"; };
 		2454645122F94F6C006EF7A6 /* light.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = light.fsh; sourceTree = "<group>"; };
 		2454645422F94F77006EF7A6 /* LIghtViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIghtViewController.h; sourceTree = "<group>"; };
@@ -128,6 +156,18 @@
 		2454647D22FA6D5F006EF7A6 /* SpecularLightTextureBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecularLightTextureBindObject.m; sourceTree = "<group>"; };
 		2454647F22FA6DD7006EF7A6 /* SpecluarLightTexture.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SpecluarLightTexture.fsh; sourceTree = "<group>"; };
 		2454648022FA6DD7006EF7A6 /* SpecluarLightTexture.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SpecluarLightTexture.vsh; sourceTree = "<group>"; };
+		2454648922FAB5E0006EF7A6 /* DirectionLightBindObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectionLightBindObject.h; sourceTree = "<group>"; };
+		2454648A22FAB5E0006EF7A6 /* DirectionLightBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectionLightBindObject.m; sourceTree = "<group>"; };
+		2454648C22FAB5F5006EF7A6 /* DirectionLightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectionLightViewController.h; sourceTree = "<group>"; };
+		2454648D22FAB5F5006EF7A6 /* DirectionLightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectionLightViewController.m; sourceTree = "<group>"; };
+		2454648F22FAB5FD006EF7A6 /* DirectionLight.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DirectionLight.vsh; sourceTree = "<group>"; };
+		2454649022FAB5FD006EF7A6 /* DirectionLight.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DirectionLight.fsh; sourceTree = "<group>"; };
+		246A680922FBF6C100AA322D /* FlashlightSmoothBindObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashlightSmoothBindObject.h; sourceTree = "<group>"; };
+		246A680A22FBF6C100AA322D /* FlashlightSmoothBindObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashlightSmoothBindObject.m; sourceTree = "<group>"; };
+		246A680B22FBF6C100AA322D /* FlashlightSmoothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashlightSmoothViewController.h; sourceTree = "<group>"; };
+		246A680C22FBF6C100AA322D /* FlashlightSmooth.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = FlashlightSmooth.fsh; sourceTree = "<group>"; };
+		246A680D22FBF6C100AA322D /* FlashlightSmoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashlightSmoothViewController.m; sourceTree = "<group>"; };
+		246A680E22FBF6C100AA322D /* FlashlightSmooth.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = FlashlightSmooth.vsh; sourceTree = "<group>"; };
 		2471682122F3C9A700939648 /* OpenGLZeroStudyDemo(7)-光照.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLZeroStudyDemo(7)-光照.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2471682422F3C9A700939648 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2471682522F3C9A700939648 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -245,6 +285,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2449DC7222FAE885000BA8CD /* Flashlight */ = {
+			isa = PBXGroup;
+			children = (
+				2449DC7B22FAE95A000BA8CD /* Flashlight.fsh */,
+				2449DC7A22FAE95A000BA8CD /* Flashlight.vsh */,
+				2449DC7322FAE89A000BA8CD /* FlashlightBindObject.h */,
+				2449DC7422FAE89A000BA8CD /* FlashlightBindObject.m */,
+				2449DC7622FAE901000BA8CD /* FlashlightViewController.h */,
+				2449DC7722FAE901000BA8CD /* FlashlightViewController.m */,
+			);
+			path = Flashlight;
+			sourceTree = "<group>";
+		};
+		2449DC7E22FBF60D000BA8CD /* FlashlightSmooth */ = {
+			isa = PBXGroup;
+			children = (
+				246A680C22FBF6C100AA322D /* FlashlightSmooth.fsh */,
+				246A680E22FBF6C100AA322D /* FlashlightSmooth.vsh */,
+				246A680922FBF6C100AA322D /* FlashlightSmoothBindObject.h */,
+				246A680A22FBF6C100AA322D /* FlashlightSmoothBindObject.m */,
+				246A680B22FBF6C100AA322D /* FlashlightSmoothViewController.h */,
+				246A680D22FBF6C100AA322D /* FlashlightSmoothViewController.m */,
+			);
+			path = FlashlightSmooth;
+			sourceTree = "<group>";
+		};
 		2454645D22F99300006EF7A6 /* LightTexture */ = {
 			isa = PBXGroup;
 			children = (
@@ -296,6 +362,43 @@
 			path = specular;
 			sourceTree = "<group>";
 		};
+		2454648722FAB363006EF7A6 /* LightCaster */ = {
+			isa = PBXGroup;
+			children = (
+				2449DC7E22FBF60D000BA8CD /* FlashlightSmooth */,
+				2449DC7222FAE885000BA8CD /* Flashlight */,
+				2454649322FAC7ED006EF7A6 /* PointLight */,
+				2454648822FAB592006EF7A6 /* DirectionalLight */,
+			);
+			path = LightCaster;
+			sourceTree = "<group>";
+		};
+		2454648822FAB592006EF7A6 /* DirectionalLight */ = {
+			isa = PBXGroup;
+			children = (
+				2454649022FAB5FD006EF7A6 /* DirectionLight.fsh */,
+				2454648F22FAB5FD006EF7A6 /* DirectionLight.vsh */,
+				2454648922FAB5E0006EF7A6 /* DirectionLightBindObject.h */,
+				2454648A22FAB5E0006EF7A6 /* DirectionLightBindObject.m */,
+				2454648C22FAB5F5006EF7A6 /* DirectionLightViewController.h */,
+				2454648D22FAB5F5006EF7A6 /* DirectionLightViewController.m */,
+			);
+			path = DirectionalLight;
+			sourceTree = "<group>";
+		};
+		2454649322FAC7ED006EF7A6 /* PointLight */ = {
+			isa = PBXGroup;
+			children = (
+				2449DC6E22FAC8EE000BA8CD /* PointLight.fsh */,
+				2449DC6F22FAC8EE000BA8CD /* PointLight.vsh */,
+				2449DC6822FAC8AF000BA8CD /* PointLightViewController.h */,
+				2449DC6922FAC8AF000BA8CD /* PointLightViewController.m */,
+				2449DC6B22FAC8BD000BA8CD /* PointLightBindObject.h */,
+				2449DC6C22FAC8BD000BA8CD /* PointLightBindObject.m */,
+			);
+			path = PointLight;
+			sourceTree = "<group>";
+		};
 		2471681822F3C9A700939648 = {
 			isa = PBXGroup;
 			children = (
@@ -321,6 +424,7 @@
 		2471682322F3C9A700939648 /* OpenGLZeroStudyDemo(7)-光照 */ = {
 			isa = PBXGroup;
 			children = (
+				2454648722FAB363006EF7A6 /* LightCaster */,
 				2454645D22F99300006EF7A6 /* LightTexture */,
 				248B6C2122F94F210029CAAB /* Light */,
 				248B6C1622F80C620029CAAB /* material */,
@@ -643,7 +747,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2471686522F3CBA000939648 /* Shader.vsh in Resources */,
+				2449DC7022FAC8EE000BA8CD /* PointLight.fsh in Resources */,
 				2454648122FA6DD7006EF7A6 /* SpecluarLightTexture.fsh in Resources */,
+				2449DC7C22FAE95A000BA8CD /* Flashlight.vsh in Resources */,
 				248B6BE122F429680029CAAB /* Cube.fsh in Resources */,
 				2471686122F3CB9800939648 /* Earth512x256.jpg in Resources */,
 				248B6BB422F3D9F10029CAAB /* Shader1.vsh in Resources */,
@@ -651,17 +757,20 @@
 				248B6C1922F90F6B0029CAAB /* material.fsh in Resources */,
 				2471683122F3C9A800939648 /* LaunchScreen.storyboard in Resources */,
 				2454647722F9A548006EF7A6 /* DiffuseLightTexture.vsh in Resources */,
+				2449DC7D22FAE95A000BA8CD /* Flashlight.fsh in Resources */,
 				248B6BFA22F43F1A0029CAAB /* CubeDiffuseLighting.fsh in Resources */,
 				2454646C22F9954D006EF7A6 /* LightTexture.fsh in Resources */,
 				2454645322F94F6C006EF7A6 /* light.fsh in Resources */,
 				248B6C1122F45A470029CAAB /* CubeMix.vsh in Resources */,
 				2471686622F3CBA000939648 /* Shader.fsh in Resources */,
 				2454646022F99350006EF7A6 /* container2_specular.png in Resources */,
+				2454649122FAB5FD006EF7A6 /* DirectionLight.vsh in Resources */,
 				248B6BF922F43F1A0029CAAB /* CubeDiffuseLighting.vsh in Resources */,
 				2454646B22F9954D006EF7A6 /* LightTexture.vsh in Resources */,
 				2471682E22F3C9A800939648 /* Assets.xcassets in Resources */,
 				2454646122F99350006EF7A6 /* container2.png in Resources */,
 				248B6C0622F453F80029CAAB /* CubeSpecularLighting.fsh in Resources */,
+				2454649222FAB5FD006EF7A6 /* DirectionLight.fsh in Resources */,
 				248B6BE222F429680029CAAB /* Cube.vsh in Resources */,
 				248B6C1A22F90F6B0029CAAB /* material.vsh in Resources */,
 				248B6BEF22F437D70029CAAB /* CubeAmibentLight.fsh in Resources */,
@@ -670,7 +779,10 @@
 				2471682C22F3C9A700939648 /* Main.storyboard in Resources */,
 				2454647622F9A548006EF7A6 /* DiffuseLightTexture.fsh in Resources */,
 				2454645222F94F6C006EF7A6 /* light.vsh in Resources */,
+				2449DC7122FAC8EE000BA8CD /* PointLight.vsh in Resources */,
 				248B6C1022F45A470029CAAB /* CubeMix.fsh in Resources */,
+				246A681222FBF6C100AA322D /* FlashlightSmooth.vsh in Resources */,
+				246A681022FBF6C100AA322D /* FlashlightSmooth.fsh in Resources */,
 				248B6BF022F437D70029CAAB /* CubeAmibentLight.vsh in Resources */,
 				248B6BCF22F427670029CAAB /* Shader2.vsh in Resources */,
 				2454648222FA6DD7006EF7A6 /* SpecluarLightTexture.vsh in Resources */,
@@ -767,12 +879,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2454648B22FAB5E0006EF7A6 /* DirectionLightBindObject.m in Sources */,
 				2454645922F94F98006EF7A6 /* GLLightBindObject.m in Sources */,
+				2449DC7822FAE901000BA8CD /* FlashlightViewController.m in Sources */,
 				248B6C0A22F45A0A0029CAAB /* CubeMixLightingViewController.m in Sources */,
 				248B6BC122F3E05E0029CAAB /* DiffuseLightingViewController.m in Sources */,
 				2471682922F3C9A700939648 /* ViewController.m in Sources */,
 				2454645622F94F77006EF7A6 /* LIghtViewController.m in Sources */,
 				2454647022F9A499006EF7A6 /* DiffuseLightTextureBindObject.m in Sources */,
+				2449DC7522FAE89A000BA8CD /* FlashlightBindObject.m in Sources */,
 				248B6BF622F43EF30029CAAB /* CubeDiffuseLightingBindObject.m in Sources */,
 				248B6BEC22F437900029CAAB /* CubeAmibenLightingViewController.m in Sources */,
 				248B6BE922F437770029CAAB /* CubeAmibentLightBindObject.m in Sources */,
@@ -785,14 +900,18 @@
 				2454645C22F958BA006EF7A6 /* LightTestViewController.m in Sources */,
 				2471683422F3C9A800939648 /* main.m in Sources */,
 				2471685F22F3CB0500939648 /* GLLightViewController.m in Sources */,
+				2449DC6D22FAC8BD000BA8CD /* PointLightBindObject.m in Sources */,
 				248B6BC822F4254D0029CAAB /* SpecularLightingBindObject.m in Sources */,
 				248B6BDE22F4293A0029CAAB /* CubeManager.m in Sources */,
 				248B6C2022F90F9C0029CAAB /* MaterialViewController.m in Sources */,
 				248B6BF322F43ECB0029CAAB /* CubeDiffuseLightingViewController.m in Sources */,
 				2471686922F3CC1500939648 /* LightBindObject.m in Sources */,
 				2471685822F3CAA300939648 /* GLBaseViewController.m in Sources */,
+				2454648E22FAB5F5006EF7A6 /* DirectionLightViewController.m in Sources */,
 				2454646522F993A4006EF7A6 /* LightTextureViewController.m in Sources */,
+				246A681122FBF6C100AA322D /* FlashlightSmoothViewController.m in Sources */,
 				2471682622F3C9A700939648 /* AppDelegate.m in Sources */,
+				246A680F22FBF6C100AA322D /* FlashlightSmoothBindObject.m in Sources */,
 				248B6C0D22F45A200029CAAB /* CubeMixBindObject.m in Sources */,
 				248B6BC022F3E05E0029CAAB /* DiffuseLightingBindObject.m in Sources */,
 				248B6C0322F453C40029CAAB /* CubeSpecularLightingViewController.m in Sources */,
@@ -800,6 +919,7 @@
 				248B6BCB22F425680029CAAB /* SpecularLightingViewController.m in Sources */,
 				2471685B22F3CAD400939648 /* GLBaseBindObject.m in Sources */,
 				2454647E22FA6D5F006EF7A6 /* SpecularLightTextureBindObject.m in Sources */,
+				2449DC6A22FAC8AF000BA8CD /* PointLightViewController.m in Sources */,
 				248B6BD822F428F10029CAAB /* CubeDefaultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

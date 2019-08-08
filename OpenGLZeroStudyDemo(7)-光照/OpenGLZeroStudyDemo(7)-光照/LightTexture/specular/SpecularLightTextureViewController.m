@@ -115,7 +115,6 @@
     material.shininess =0.6;
     [self.textureDiffuse bindtextureUnitLocationAndShaderUniformSamplerLocation:self.bindObject->uniforms[SLT_MaterialTextureUniformLocationMaterialTextureDiffuse]];
      [self.textureSpecular bindtextureUnitLocationAndShaderUniformSamplerLocation:self.bindObject->uniforms[SLT_MaterialTextureUniformLocationMaterialTextureSpecular]];
-    glUniform3fv(self.bindObject->uniforms[SLT_MaterialTextureUniformLocationMaterialTextureSpecular], 1, &material.specular);
     glUniform1fv(self.bindObject->uniforms[SLT_MaterialTextureUniformLocationMaterialTextureShininess], 1, &material.shininess);
     
     SLT_Light light;
