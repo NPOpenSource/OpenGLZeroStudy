@@ -16,7 +16,7 @@
 @implementation ViewController
 
 -(NSArray *)buttonTitles{
-    return @[@[@"光照",@"GLLightViewController"],@[@"漫反射",@"DiffuseLightingViewController"],@[@"立方体正常",@"CubeDefaultViewController"],@[@"立方体光照",@"CubeAmibenLightingViewController"],@[@"漫反射",@"CubeDiffuseLightingViewController"],@[@"镜面反射",@"CubeSpecularLightingViewController"],@[@"混合光",@"CubeMixLightingViewController"],@[@"材质",@"MaterialViewController"],@[@"光照设置",@"LIghtViewController"],@[@"光照test",@"LightTestViewController"],@[@"光照贴图default",@"LightTextureViewController"],@[@"光照贴图漫散射",@"DiffuseLightTextureviewController"],@[@"光照贴图镜面反射",@"SpecularLightTextureViewController"],@[@"平行光",@"DirectionLightViewController"],@[@"点光源",@"PointLightViewController"],@[@"手电筒",@"FlashlightViewController"],@[@"光滑手电筒",@"FlashlightSmoothViewController"]];
+    return @[@[@"光照",@"GLLightViewController"],@[@"漫反射",@"DiffuseLightingViewController"],@[@"立方体正常",@"CubeDefaultViewController"],@[@"立方体光照",@"CubeAmibenLightingViewController"],@[@"漫反射",@"CubeDiffuseLightingViewController"],@[@"镜面反射",@"CubeSpecularLightingViewController"],@[@"混合光",@"CubeMixLightingViewController"],@[@"材质",@"MaterialViewController"],@[@"光照设置",@"LIghtViewController"],@[@"光照test",@"LightTestViewController"],@[@"光照贴图default",@"LightTextureViewController"],@[@"光照贴图漫散射",@"DiffuseLightTextureviewController"],@[@"光照贴图镜面反射",@"SpecularLightTextureViewController"],@[@"平行光",@"DirectionLightViewController"],@[@"点光源",@"PointLightViewController"],@[@"手电筒",@"FlashlightViewController"],@[@"光滑手电筒",@"FlashlightSmoothViewController"],@[@"多光源",@"MoreLightSourceViewController"]];
 }
 
 -(UIButton *)buttonCreate{

@@ -55,6 +55,26 @@
         [self _textureBaseConfig];
     }
 }
+-(void)setImage:(UIImage *)image andConfigTextureUnit:(nullable  void(^)(void))configTextureUnitBlock {
+    [self setImage:image andConfigTextureUnit:configTextureUnitBlock PixelFormat:GL_RGBA];
+}
+-(void)setImage:(UIImage *)image andConfigTextureUnit:(nullable  void(^)(void))configTextureUnitBlock  PixelFormat:(GLint)internalformat{
+    glBindTexture(GL_TEXTURE_2D,  _textureBuffer);
+    GLubyte *imageData = [self _getImageData:image];
+    glTexImage2D(GL_TEXTURE_2D, 0, internalformat , image.size.width, image.size.height, 0, internalformat, GL_UNSIGNED_BYTE, imageData);
+    free(imageData);
+    if (configTextureUnitBlock) {
+        configTextureUnitBlock();
+    }else{
+        [self _textureBaseConfig];
+    }
+}
+-(void)activeTextureUnit:(GLenum)textureUnit{
+    glActiveTexture(textureUnit);
+    glBindTexture(GL_TEXTURE_2D,  _textureBuffer);
+    self.textureUnitLocation = [self _getTextureBindLocationForTexture:textureUnit];
+}
+
 
 -(void)bindtextureUnitLocationAndShaderUniformSamplerLocation:(GLint) uniformSamplerLocation {
     if (self.textureUnitLocation == -1) {
@@ -62,6 +82,12 @@
         return;
     }
     glUniform1i(uniformSamplerLocation, self.textureUnitLocation);
+    GLenum error = glGetError();
+    if(GL_NO_ERROR != error)
+    {
+        NSLog(@"GL Error: bindtextureUnitLocationAndShaderUniformSamplerLocation 0x%x", error);
+    }
+    
 }
 
 #pragma mark  - private

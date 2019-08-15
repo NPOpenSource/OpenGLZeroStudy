@@ -28,6 +28,28 @@
     glGenBuffers(1, &_indexBuffer);
 }
 
+-(void)allocWithArray:(NSArray *)indexArr{
+    if (self.indexs) {
+        [self releaseIndexs];
+    }
+    self.count = indexArr.count;
+    self.indexs =(GLuint*)malloc( self.count *sizeof(GLuint));
+    memset( self.indexs, 0,   self.count *sizeof(GLuint));
+    for (int i =0; i< self.count; i++) {
+        self.indexs[i]=((NSNumber *)indexArr[i]).intValue;
+    }
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, self.indexBuffer);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER,  self.count *sizeof(GLuint),self.indexs, GL_STATIC_DRAW);
+#ifdef DEBUG
+    {  // Report any errors
+        GLenum error = glGetError();
+        if(GL_NO_ERROR != error)
+        {
+            NSLog(@"GL Error: 0x%x", error);
+        }
+    }
+#endif
+}
 
 -(void)allocWithIndexNum:(GLsizei)count  indexArr:(GLuint*)indexArr{
     if (self.indexs) {

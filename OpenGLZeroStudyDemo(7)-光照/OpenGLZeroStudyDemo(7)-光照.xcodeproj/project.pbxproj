@@ -42,6 +42,10 @@
 		246A681022FBF6C100AA322D /* FlashlightSmooth.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 246A680C22FBF6C100AA322D /* FlashlightSmooth.fsh */; };
 		246A681122FBF6C100AA322D /* FlashlightSmoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246A680D22FBF6C100AA322D /* FlashlightSmoothViewController.m */; };
 		246A681222FBF6C100AA322D /* FlashlightSmooth.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 246A680E22FBF6C100AA322D /* FlashlightSmooth.vsh */; };
+		246A681722FC09F600AA322D /* MoreLightSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246A681622FC09F600AA322D /* MoreLightSourceViewController.m */; };
+		246A681A22FC0A0200AA322D /* MoreLightSourceBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 246A681922FC0A0200AA322D /* MoreLightSourceBindObject.m */; };
+		246A681D22FC0A2200AA322D /* MoreLightSource.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 246A681B22FC0A2200AA322D /* MoreLightSource.fsh */; };
+		246A681E22FC0A2200AA322D /* MoreLightSource.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 246A681C22FC0A2200AA322D /* MoreLightSource.vsh */; };
 		2471682622F3C9A700939648 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2471682522F3C9A700939648 /* AppDelegate.m */; };
 		2471682922F3C9A700939648 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2471682822F3C9A700939648 /* ViewController.m */; };
 		2471682C22F3C9A700939648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2471682A22F3C9A700939648 /* Main.storyboard */; };
@@ -168,6 +172,12 @@
 		246A680C22FBF6C100AA322D /* FlashlightSmooth.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = FlashlightSmooth.fsh; sourceTree = "<group>"; };
 		246A680D22FBF6C100AA322D /* FlashlightSmoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashlightSmoothViewController.m; sourceTree = "<group>"; };
 		246A680E22FBF6C100AA322D /* FlashlightSmooth.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = FlashlightSmooth.vsh; sourceTree = "<group>"; };
+		246A681522FC09F600AA322D /* MoreLightSourceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreLightSourceViewController.h; sourceTree = "<group>"; };
+		246A681622FC09F600AA322D /* MoreLightSourceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreLightSourceViewController.m; sourceTree = "<group>"; };
+		246A681822FC0A0200AA322D /* MoreLightSourceBindObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreLightSourceBindObject.h; sourceTree = "<group>"; };
+		246A681922FC0A0200AA322D /* MoreLightSourceBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreLightSourceBindObject.m; sourceTree = "<group>"; };
+		246A681B22FC0A2200AA322D /* MoreLightSource.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = MoreLightSource.fsh; sourceTree = "<group>"; };
+		246A681C22FC0A2200AA322D /* MoreLightSource.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = MoreLightSource.vsh; sourceTree = "<group>"; };
 		2471682122F3C9A700939648 /* OpenGLZeroStudyDemo(7)-光照.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLZeroStudyDemo(7)-光照.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2471682422F3C9A700939648 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2471682522F3C9A700939648 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -399,6 +409,19 @@
 			path = PointLight;
 			sourceTree = "<group>";
 		};
+		246A681422FC09E800AA322D /* MoreLight */ = {
+			isa = PBXGroup;
+			children = (
+				246A681B22FC0A2200AA322D /* MoreLightSource.fsh */,
+				246A681C22FC0A2200AA322D /* MoreLightSource.vsh */,
+				246A681522FC09F600AA322D /* MoreLightSourceViewController.h */,
+				246A681622FC09F600AA322D /* MoreLightSourceViewController.m */,
+				246A681822FC0A0200AA322D /* MoreLightSourceBindObject.h */,
+				246A681922FC0A0200AA322D /* MoreLightSourceBindObject.m */,
+			);
+			path = MoreLight;
+			sourceTree = "<group>";
+		};
 		2471681822F3C9A700939648 = {
 			isa = PBXGroup;
 			children = (
@@ -424,6 +447,7 @@
 		2471682322F3C9A700939648 /* OpenGLZeroStudyDemo(7)-光照 */ = {
 			isa = PBXGroup;
 			children = (
+				246A681422FC09E800AA322D /* MoreLight */,
 				2454648722FAB363006EF7A6 /* LightCaster */,
 				2454645D22F99300006EF7A6 /* LightTexture */,
 				248B6C2122F94F210029CAAB /* Light */,
@@ -754,6 +778,7 @@
 				2471686122F3CB9800939648 /* Earth512x256.jpg in Resources */,
 				248B6BB422F3D9F10029CAAB /* Shader1.vsh in Resources */,
 				248B6BCE22F427670029CAAB /* Shader2.fsh in Resources */,
+				246A681D22FC0A2200AA322D /* MoreLightSource.fsh in Resources */,
 				248B6C1922F90F6B0029CAAB /* material.fsh in Resources */,
 				2471683122F3C9A800939648 /* LaunchScreen.storyboard in Resources */,
 				2454647722F9A548006EF7A6 /* DiffuseLightTexture.vsh in Resources */,
@@ -770,6 +795,7 @@
 				2471682E22F3C9A800939648 /* Assets.xcassets in Resources */,
 				2454646122F99350006EF7A6 /* container2.png in Resources */,
 				248B6C0622F453F80029CAAB /* CubeSpecularLighting.fsh in Resources */,
+				246A681E22FC0A2200AA322D /* MoreLightSource.vsh in Resources */,
 				2454649222FAB5FD006EF7A6 /* DirectionLight.fsh in Resources */,
 				248B6BE222F429680029CAAB /* Cube.vsh in Resources */,
 				248B6C1A22F90F6B0029CAAB /* material.vsh in Resources */,
@@ -905,8 +931,10 @@
 				248B6BDE22F4293A0029CAAB /* CubeManager.m in Sources */,
 				248B6C2022F90F9C0029CAAB /* MaterialViewController.m in Sources */,
 				248B6BF322F43ECB0029CAAB /* CubeDiffuseLightingViewController.m in Sources */,
+				246A681A22FC0A0200AA322D /* MoreLightSourceBindObject.m in Sources */,
 				2471686922F3CC1500939648 /* LightBindObject.m in Sources */,
 				2471685822F3CAA300939648 /* GLBaseViewController.m in Sources */,
+				246A681722FC09F600AA322D /* MoreLightSourceViewController.m in Sources */,
 				2454648E22FAB5F5006EF7A6 /* DirectionLightViewController.m in Sources */,
 				2454646522F993A4006EF7A6 /* LightTextureViewController.m in Sources */,
 				246A681122FBF6C100AA322D /* FlashlightSmoothViewController.m in Sources */,

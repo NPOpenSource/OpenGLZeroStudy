@@ -155,6 +155,8 @@ double SLM_radians(int angle){
     glUniform1fv(self.bindObject->uniforms[FLM_UniformLocationLightQuadratic], 1, &light.quadratic);
     glUniform3fv(self.bindObject->uniforms[FLM_UniformLocationLightDirection], 1, &light.direction);
     glUniform1fv(self.bindObject->uniforms[FLM_UniformLocationLightCutOff], 1, &light.cutOff);
+    glUniform1fv(self.bindObject->uniforms[FLM_UniformLocationLightOutCutOff], 1, &light.outcutOff);
+
 
 }
 

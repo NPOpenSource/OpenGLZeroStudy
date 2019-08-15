@@ -37,8 +37,6 @@ typedef union{
         float constant;
         float linear;
         float quadratic;
-        
-        
     };
     float m[20];
 }FLM_Light;

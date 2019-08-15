@@ -10,6 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface VertexElement : NSObject
+-(void)allocWithArray:(NSArray *)indexArr;
 -(void)allocWithIndexNum:(GLsizei)count  indexArr:(GLuint*)indexArr;
 -(void)releaseIndexs;
 -(void)drawElementIndexWithMode:(GLenum)mode;
