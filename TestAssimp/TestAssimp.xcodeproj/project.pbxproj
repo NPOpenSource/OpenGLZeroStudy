@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		240094DC2305761D0053B50D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 240094DB2305761D0053B50D /* AppDelegate.m */; };
+		240094DF2305761D0053B50D /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 240094DE2305761D0053B50D /* ViewController.mm */; };
+		240094E22305761D0053B50D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240094E02305761D0053B50D /* Main.storyboard */; };
+		240094E42305761F0053B50D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240094E32305761F0053B50D /* Assets.xcassets */; };
+		240094E72305761F0053B50D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240094E52305761F0053B50D /* LaunchScreen.storyboard */; };
+		240094EA2305761F0053B50D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 240094E92305761F0053B50D /* main.m */; };
+		240094F42305761F0053B50D /* TestAssimpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 240094F32305761F0053B50D /* TestAssimpTests.m */; };
+		240094FF2305761F0053B50D /* TestAssimpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 240094FE2305761F0053B50D /* TestAssimpUITests.m */; };
+		240095D723057B670053B50D /* libIrrXML-fat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2400957923057B660053B50D /* libIrrXML-fat.a */; };
+		240095D823057B670053B50D /* quaternion.inl in Resources */ = {isa = PBXBuildFile; fileRef = 2400958223057B660053B50D /* quaternion.inl */; };
+		240095D923057B670053B50D /* color4.inl in Resources */ = {isa = PBXBuildFile; fileRef = 2400959723057B670053B50D /* color4.inl */; };
+		240095DA23057B670053B50D /* config.h.in in Resources */ = {isa = PBXBuildFile; fileRef = 240095A223057B670053B50D /* config.h.in */; };
+		240095DB23057B670053B50D /* material.inl in Resources */ = {isa = PBXBuildFile; fileRef = 240095A423057B670053B50D /* material.inl */; };
+		240095DC23057B670053B50D /* .editorconfig in Resources */ = {isa = PBXBuildFile; fileRef = 240095AA23057B670053B50D /* .editorconfig */; };
+		240095DD23057B670053B50D /* vector2.inl in Resources */ = {isa = PBXBuildFile; fileRef = 240095AE23057B670053B50D /* vector2.inl */; };
+		240095DE23057B670053B50D /* matrix4x4.inl in Resources */ = {isa = PBXBuildFile; fileRef = 240095AF23057B670053B50D /* matrix4x4.inl */; };
+		240095DF23057B670053B50D /* vector3.inl in Resources */ = {isa = PBXBuildFile; fileRef = 240095B023057B670053B50D /* vector3.inl */; };
+		240095E023057B670053B50D /* matrix3x3.inl in Resources */ = {isa = PBXBuildFile; fileRef = 240095BF23057B670053B50D /* matrix3x3.inl */; };
+		240095E123057B670053B50D /* SmoothingGroups.inl in Resources */ = {isa = PBXBuildFile; fileRef = 240095D023057B670053B50D /* SmoothingGroups.inl */; };
+		240095E223057B670053B50D /* libzlibstatic-fat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 240095D523057B670053B50D /* libzlibstatic-fat.a */; };
+		240095E323057B670053B50D /* libassimp-fat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 240095D623057B670053B50D /* libassimp-fat.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		240094F02305761F0053B50D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 240094CF2305761D0053B50D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 240094D62305761D0053B50D;
+			remoteInfo = TestAssimp;
+		};
+		240094FB2305761F0053B50D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 240094CF2305761D0053B50D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 240094D62305761D0053B50D;
+			remoteInfo = TestAssimp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		240094D72305761D0053B50D /* TestAssimp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAssimp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		240094DA2305761D0053B50D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		240094DB2305761D0053B50D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		240094DD2305761D0053B50D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		240094DE2305761D0053B50D /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		240094E12305761D0053B50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		240094E32305761F0053B50D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		240094E62305761F0053B50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		240094E82305761F0053B50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240094E92305761F0053B50D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		240094EF2305761F0053B50D /* TestAssimpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAssimpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		240094F32305761F0053B50D /* TestAssimpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAssimpTests.m; sourceTree = "<group>"; };
+		240094F52305761F0053B50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240094FA2305761F0053B50D /* TestAssimpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAssimpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		240094FE2305761F0053B50D /* TestAssimpUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAssimpUITests.m; sourceTree = "<group>"; };
+		240095002305761F0053B50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2400957923057B660053B50D /* libIrrXML-fat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libIrrXML-fat.a"; sourceTree = "<group>"; };
+		2400957B23057B660053B50D /* ByteSwapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByteSwapper.h; sourceTree = "<group>"; };
+		2400957C23057B660053B50D /* IOSystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IOSystem.hpp; sourceTree = "<group>"; };
+		2400957D23057B660053B50D /* StreamReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamReader.h; sourceTree = "<group>"; };
+		2400957E23057B660053B50D /* Logger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Logger.hpp; sourceTree = "<group>"; };
+		2400957F23057B660053B50D /* IOStream.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IOStream.hpp; sourceTree = "<group>"; };
+		2400958023057B660053B50D /* SkeletonMeshBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkeletonMeshBuilder.h; sourceTree = "<group>"; };
+		2400958123057B660053B50D /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		2400958223057B660053B50D /* quaternion.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = quaternion.inl; sourceTree = "<group>"; };
+		2400958323057B660053B50D /* defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defs.h; sourceTree = "<group>"; };
+		2400958423057B660053B50D /* Subdivision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subdivision.h; sourceTree = "<group>"; };
+		2400958523057B660053B50D /* ParsingUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParsingUtils.h; sourceTree = "<group>"; };
+		2400958623057B660053B50D /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		2400958723057B660053B50D /* XMLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLTools.h; sourceTree = "<group>"; };
+		2400958823057B660053B50D /* StringComparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringComparison.h; sourceTree = "<group>"; };
+		2400958923057B660053B50D /* matrix4x4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix4x4.h; sourceTree = "<group>"; };
+		2400958A23057B660053B50D /* Importer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Importer.hpp; sourceTree = "<group>"; };
+		2400958B23057B660053B50D /* cfileio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cfileio.h; sourceTree = "<group>"; };
+		2400958C23057B660053B50D /* GenericProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericProperty.h; sourceTree = "<group>"; };
+		2400958D23057B660053B50D /* RemoveComments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoveComments.h; sourceTree = "<group>"; };
+		2400958E23057B660053B50D /* vector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector2.h; sourceTree = "<group>"; };
+		2400958F23057B660053B50D /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		2400959023057B660053B50D /* light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = light.h; sourceTree = "<group>"; };
+		2400959123057B660053B50D /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		2400959223057B660053B50D /* irrXMLWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = irrXMLWrapper.h; sourceTree = "<group>"; };
+		2400959323057B660053B50D /* MathFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathFunctions.h; sourceTree = "<group>"; };
+		2400959423057B660053B50D /* cimport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cimport.h; sourceTree = "<group>"; };
+		2400959523057B660053B50D /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		2400959623057B670053B50D /* matrix3x3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix3x3.h; sourceTree = "<group>"; };
+		2400959723057B670053B50D /* color4.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = color4.inl; sourceTree = "<group>"; };
+		2400959823057B670053B50D /* StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtils.h; sourceTree = "<group>"; };
+		2400959923057B670053B50D /* DefaultIOStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultIOStream.h; sourceTree = "<group>"; };
+		2400959A23057B670053B50D /* BaseImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseImporter.h; sourceTree = "<group>"; };
+		2400959B23057B670053B50D /* SceneCombiner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneCombiner.h; sourceTree = "<group>"; };
+		2400959C23057B670053B50D /* material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = material.h; sourceTree = "<group>"; };
+		2400959D23057B670053B50D /* ai_assert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ai_assert.h; sourceTree = "<group>"; };
+		2400959E23057B670053B50D /* NullLogger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NullLogger.hpp; sourceTree = "<group>"; };
+		2400959F23057B670053B50D /* SmoothingGroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothingGroups.h; sourceTree = "<group>"; };
+		240095A023057B670053B50D /* quaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quaternion.h; sourceTree = "<group>"; };
+		240095A123057B670053B50D /* LogAux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogAux.h; sourceTree = "<group>"; };
+		240095A223057B670053B50D /* config.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
+		240095A323057B670053B50D /* DefaultLogger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DefaultLogger.hpp; sourceTree = "<group>"; };
+		240095A423057B670053B50D /* material.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = material.inl; sourceTree = "<group>"; };
+		240095A523057B670053B50D /* metadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metadata.h; sourceTree = "<group>"; };
+		240095A623057B670053B50D /* mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mesh.h; sourceTree = "<group>"; };
+		240095A723057B670053B50D /* LineSplitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineSplitter.h; sourceTree = "<group>"; };
+		240095A823057B670053B50D /* CreateAnimMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAnimMesh.h; sourceTree = "<group>"; };
+		240095A923057B670053B50D /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		240095AA23057B670053B50D /* .editorconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .editorconfig; sourceTree = "<group>"; };
+		240095AB23057B670053B50D /* SpatialSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpatialSort.h; sourceTree = "<group>"; };
+		240095AC23057B670053B50D /* MemoryIOWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryIOWrapper.h; sourceTree = "<group>"; };
+		240095AD23057B670053B50D /* Exporter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Exporter.hpp; sourceTree = "<group>"; };
+		240095AE23057B670053B50D /* vector2.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vector2.inl; sourceTree = "<group>"; };
+		240095AF23057B670053B50D /* matrix4x4.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = matrix4x4.inl; sourceTree = "<group>"; };
+		240095B023057B670053B50D /* vector3.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vector3.inl; sourceTree = "<group>"; };
+		240095B123057B670053B50D /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		240095B223057B670053B50D /* ProgressHandler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProgressHandler.hpp; sourceTree = "<group>"; };
+		240095B323057B670053B50D /* cexport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cexport.h; sourceTree = "<group>"; };
+		240095B423057B670053B50D /* StreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamWriter.h; sourceTree = "<group>"; };
+		240095B523057B670053B50D /* color4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color4.h; sourceTree = "<group>"; };
+		240095B623057B670053B50D /* StandardShapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardShapes.h; sourceTree = "<group>"; };
+		240095B723057B670053B50D /* pbrmaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pbrmaterial.h; sourceTree = "<group>"; };
+		240095B823057B670053B50D /* fast_atof.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fast_atof.h; sourceTree = "<group>"; };
+		240095B923057B670053B50D /* anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = anim.h; sourceTree = "<group>"; };
+		240095BA23057B670053B50D /* postprocess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = postprocess.h; sourceTree = "<group>"; };
+		240095BB23057B670053B50D /* Exceptional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exceptional.h; sourceTree = "<group>"; };
+		240095BC23057B670053B50D /* texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = texture.h; sourceTree = "<group>"; };
+		240095BD23057B670053B50D /* ZipArchiveIOSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchiveIOSystem.h; sourceTree = "<group>"; };
+		240095BE23057B670053B50D /* BlobIOSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlobIOSystem.h; sourceTree = "<group>"; };
+		240095BF23057B670053B50D /* matrix3x3.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = matrix3x3.inl; sourceTree = "<group>"; };
+		240095C023057B670053B50D /* qnan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qnan.h; sourceTree = "<group>"; };
+		240095C323057B670053B50D /* AndroidJNIIOSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndroidJNIIOSystem.h; sourceTree = "<group>"; };
+		240095C423057B670053B50D /* Profiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profiler.h; sourceTree = "<group>"; };
+		240095C523057B670053B50D /* Bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bitmap.h; sourceTree = "<group>"; };
+		240095C623057B670053B50D /* importerdesc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = importerdesc.h; sourceTree = "<group>"; };
+		240095C723057B670053B50D /* TinyFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyFormatter.h; sourceTree = "<group>"; };
+		240095C923057B670053B50D /* poppack1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = poppack1.h; sourceTree = "<group>"; };
+		240095CA23057B670053B50D /* pstdint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pstdint.h; sourceTree = "<group>"; };
+		240095CB23057B670053B50D /* pushpack1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pushpack1.h; sourceTree = "<group>"; };
+		240095CC23057B670053B50D /* IOStreamBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOStreamBuffer.h; sourceTree = "<group>"; };
+		240095CD23057B670053B50D /* Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hash.h; sourceTree = "<group>"; };
+		240095CE23057B670053B50D /* SGSpatialSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSpatialSort.h; sourceTree = "<group>"; };
+		240095CF23057B670053B50D /* aabb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aabb.h; sourceTree = "<group>"; };
+		240095D023057B670053B50D /* SmoothingGroups.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SmoothingGroups.inl; sourceTree = "<group>"; };
+		240095D123057B670053B50D /* vector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector3.h; sourceTree = "<group>"; };
+		240095D223057B670053B50D /* DefaultIOSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultIOSystem.h; sourceTree = "<group>"; };
+		240095D323057B670053B50D /* scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scene.h; sourceTree = "<group>"; };
+		240095D423057B670053B50D /* LogStream.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LogStream.hpp; sourceTree = "<group>"; };
+		240095D523057B670053B50D /* libzlibstatic-fat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libzlibstatic-fat.a"; sourceTree = "<group>"; };
+		240095D623057B670053B50D /* libassimp-fat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libassimp-fat.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		240094D42305761D0053B50D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240095E323057B670053B50D /* libassimp-fat.a in Frameworks */,
+				240095E223057B670053B50D /* libzlibstatic-fat.a in Frameworks */,
+				240095D723057B670053B50D /* libIrrXML-fat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240094EC2305761F0053B50D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240094F72305761F0053B50D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		240094CE2305761D0053B50D = {
+			isa = PBXGroup;
+			children = (
+				240094D92305761D0053B50D /* TestAssimp */,
+				240094F22305761F0053B50D /* TestAssimpTests */,
+				240094FD2305761F0053B50D /* TestAssimpUITests */,
+				240094D82305761D0053B50D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		240094D82305761D0053B50D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				240094D72305761D0053B50D /* TestAssimp.app */,
+				240094EF2305761F0053B50D /* TestAssimpTests.xctest */,
+				240094FA2305761F0053B50D /* TestAssimpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		240094D92305761D0053B50D /* TestAssimp */ = {
+			isa = PBXGroup;
+			children = (
+				2400957823057B660053B50D /* assimpLib */,
+				240094DA2305761D0053B50D /* AppDelegate.h */,
+				240094DB2305761D0053B50D /* AppDelegate.m */,
+				240094DD2305761D0053B50D /* ViewController.h */,
+				240094DE2305761D0053B50D /* ViewController.mm */,
+				240094E02305761D0053B50D /* Main.storyboard */,
+				240094E32305761F0053B50D /* Assets.xcassets */,
+				240094E52305761F0053B50D /* LaunchScreen.storyboard */,
+				240094E82305761F0053B50D /* Info.plist */,
+				240094E92305761F0053B50D /* main.m */,
+			);
+			path = TestAssimp;
+			sourceTree = "<group>";
+		};
+		240094F22305761F0053B50D /* TestAssimpTests */ = {
+			isa = PBXGroup;
+			children = (
+				240094F32305761F0053B50D /* TestAssimpTests.m */,
+				240094F52305761F0053B50D /* Info.plist */,
+			);
+			path = TestAssimpTests;
+			sourceTree = "<group>";
+		};
+		240094FD2305761F0053B50D /* TestAssimpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				240094FE2305761F0053B50D /* TestAssimpUITests.m */,
+				240095002305761F0053B50D /* Info.plist */,
+			);
+			path = TestAssimpUITests;
+			sourceTree = "<group>";
+		};
+		2400957823057B660053B50D /* assimpLib */ = {
+			isa = PBXGroup;
+			children = (
+				2400957923057B660053B50D /* libIrrXML-fat.a */,
+				2400957A23057B660053B50D /* assimp */,
+				240095D523057B670053B50D /* libzlibstatic-fat.a */,
+				240095D623057B670053B50D /* libassimp-fat.a */,
+			);
+			path = assimpLib;
+			sourceTree = SOURCE_ROOT;
+		};
+		2400957A23057B660053B50D /* assimp */ = {
+			isa = PBXGroup;
+			children = (
+				2400957B23057B660053B50D /* ByteSwapper.h */,
+				2400957C23057B660053B50D /* IOSystem.hpp */,
+				2400957D23057B660053B50D /* StreamReader.h */,
+				2400957E23057B660053B50D /* Logger.hpp */,
+				2400957F23057B660053B50D /* IOStream.hpp */,
+				2400958023057B660053B50D /* SkeletonMeshBuilder.h */,
+				2400958123057B660053B50D /* Vertex.h */,
+				2400958223057B660053B50D /* quaternion.inl */,
+				2400958323057B660053B50D /* defs.h */,
+				2400958423057B660053B50D /* Subdivision.h */,
+				2400958523057B660053B50D /* ParsingUtils.h */,
+				2400958623057B660053B50D /* version.h */,
+				2400958723057B660053B50D /* XMLTools.h */,
+				2400958823057B660053B50D /* StringComparison.h */,
+				2400958923057B660053B50D /* matrix4x4.h */,
+				2400958A23057B660053B50D /* Importer.hpp */,
+				2400958B23057B660053B50D /* cfileio.h */,
+				2400958C23057B660053B50D /* GenericProperty.h */,
+				2400958D23057B660053B50D /* RemoveComments.h */,
+				2400958E23057B660053B50D /* vector2.h */,
+				2400958F23057B660053B50D /* config.h */,
+				2400959023057B660053B50D /* light.h */,
+				2400959123057B660053B50D /* types.h */,
+				2400959223057B660053B50D /* irrXMLWrapper.h */,
+				2400959323057B660053B50D /* MathFunctions.h */,
+				2400959423057B660053B50D /* cimport.h */,
+				2400959523057B660053B50D /* camera.h */,
+				2400959623057B670053B50D /* matrix3x3.h */,
+				2400959723057B670053B50D /* color4.inl */,
+				2400959823057B670053B50D /* StringUtils.h */,
+				2400959923057B670053B50D /* DefaultIOStream.h */,
+				2400959A23057B670053B50D /* BaseImporter.h */,
+				2400959B23057B670053B50D /* SceneCombiner.h */,
+				2400959C23057B670053B50D /* material.h */,
+				2400959D23057B670053B50D /* ai_assert.h */,
+				2400959E23057B670053B50D /* NullLogger.hpp */,
+				2400959F23057B670053B50D /* SmoothingGroups.h */,
+				240095A023057B670053B50D /* quaternion.h */,
+				240095A123057B670053B50D /* LogAux.h */,
+				240095A223057B670053B50D /* config.h.in */,
+				240095A323057B670053B50D /* DefaultLogger.hpp */,
+				240095A423057B670053B50D /* material.inl */,
+				240095A523057B670053B50D /* metadata.h */,
+				240095A623057B670053B50D /* mesh.h */,
+				240095A723057B670053B50D /* LineSplitter.h */,
+				240095A823057B670053B50D /* CreateAnimMesh.h */,
+				240095A923057B670053B50D /* Defines.h */,
+				240095AA23057B670053B50D /* .editorconfig */,
+				240095AB23057B670053B50D /* SpatialSort.h */,
+				240095AC23057B670053B50D /* MemoryIOWrapper.h */,
+				240095AD23057B670053B50D /* Exporter.hpp */,
+				240095AE23057B670053B50D /* vector2.inl */,
+				240095AF23057B670053B50D /* matrix4x4.inl */,
+				240095B023057B670053B50D /* vector3.inl */,
+				240095B123057B670053B50D /* Macros.h */,
+				240095B223057B670053B50D /* ProgressHandler.hpp */,
+				240095B323057B670053B50D /* cexport.h */,
+				240095B423057B670053B50D /* StreamWriter.h */,
+				240095B523057B670053B50D /* color4.h */,
+				240095B623057B670053B50D /* StandardShapes.h */,
+				240095B723057B670053B50D /* pbrmaterial.h */,
+				240095B823057B670053B50D /* fast_atof.h */,
+				240095B923057B670053B50D /* anim.h */,
+				240095BA23057B670053B50D /* postprocess.h */,
+				240095BB23057B670053B50D /* Exceptional.h */,
+				240095BC23057B670053B50D /* texture.h */,
+				240095BD23057B670053B50D /* ZipArchiveIOSystem.h */,
+				240095BE23057B670053B50D /* BlobIOSystem.h */,
+				240095BF23057B670053B50D /* matrix3x3.inl */,
+				240095C023057B670053B50D /* qnan.h */,
+				240095C123057B670053B50D /* port */,
+				240095C423057B670053B50D /* Profiler.h */,
+				240095C523057B670053B50D /* Bitmap.h */,
+				240095C623057B670053B50D /* importerdesc.h */,
+				240095C723057B670053B50D /* TinyFormatter.h */,
+				240095C823057B670053B50D /* Compiler */,
+				240095CC23057B670053B50D /* IOStreamBuffer.h */,
+				240095CD23057B670053B50D /* Hash.h */,
+				240095CE23057B670053B50D /* SGSpatialSort.h */,
+				240095CF23057B670053B50D /* aabb.h */,
+				240095D023057B670053B50D /* SmoothingGroups.inl */,
+				240095D123057B670053B50D /* vector3.h */,
+				240095D223057B670053B50D /* DefaultIOSystem.h */,
+				240095D323057B670053B50D /* scene.h */,
+				240095D423057B670053B50D /* LogStream.hpp */,
+			);
+			path = assimp;
+			sourceTree = "<group>";
+		};
+		240095C123057B670053B50D /* port */ = {
+			isa = PBXGroup;
+			children = (
+				240095C223057B670053B50D /* AndroidJNI */,
+			);
+			path = port;
+			sourceTree = "<group>";
+		};
+		240095C223057B670053B50D /* AndroidJNI */ = {
+			isa = PBXGroup;
+			children = (
+				240095C323057B670053B50D /* AndroidJNIIOSystem.h */,
+			);
+			path = AndroidJNI;
+			sourceTree = "<group>";
+		};
+		240095C823057B670053B50D /* Compiler */ = {
+			isa = PBXGroup;
+			children = (
+				240095C923057B670053B50D /* poppack1.h */,
+				240095CA23057B670053B50D /* pstdint.h */,
+				240095CB23057B670053B50D /* pushpack1.h */,
+			);
+			path = Compiler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		240094D62305761D0053B50D /* TestAssimp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24009503230576200053B50D /* Build configuration list for PBXNativeTarget "TestAssimp" */;
+			buildPhases = (
+				240094D32305761D0053B50D /* Sources */,
+				240094D42305761D0053B50D /* Frameworks */,
+				240094D52305761D0053B50D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestAssimp;
+			productName = TestAssimp;
+			productReference = 240094D72305761D0053B50D /* TestAssimp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		240094EE2305761F0053B50D /* TestAssimpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24009506230576200053B50D /* Build configuration list for PBXNativeTarget "TestAssimpTests" */;
+			buildPhases = (
+				240094EB2305761F0053B50D /* Sources */,
+				240094EC2305761F0053B50D /* Frameworks */,
+				240094ED2305761F0053B50D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				240094F12305761F0053B50D /* PBXTargetDependency */,
+			);
+			name = TestAssimpTests;
+			productName = TestAssimpTests;
+			productReference = 240094EF2305761F0053B50D /* TestAssimpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		240094F92305761F0053B50D /* TestAssimpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24009509230576200053B50D /* Build configuration list for PBXNativeTarget "TestAssimpUITests" */;
+			buildPhases = (
+				240094F62305761F0053B50D /* Sources */,
+				240094F72305761F0053B50D /* Frameworks */,
+				240094F82305761F0053B50D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				240094FC2305761F0053B50D /* PBXTargetDependency */,
+			);
+			name = TestAssimpUITests;
+			productName = TestAssimpUITests;
+			productReference = 240094FA2305761F0053B50D /* TestAssimpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		240094CF2305761D0053B50D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = glodon;
+				TargetAttributes = {
+					240094D62305761D0053B50D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					240094EE2305761F0053B50D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 240094D62305761D0053B50D;
+					};
+					240094F92305761F0053B50D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 240094D62305761D0053B50D;
+					};
+				};
+			};
+			buildConfigurationList = 240094D22305761D0053B50D /* Build configuration list for PBXProject "TestAssimp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 240094CE2305761D0053B50D;
+			productRefGroup = 240094D82305761D0053B50D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				240094D62305761D0053B50D /* TestAssimp */,
+				240094EE2305761F0053B50D /* TestAssimpTests */,
+				240094F92305761F0053B50D /* TestAssimpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		240094D52305761D0053B50D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240095DC23057B670053B50D /* .editorconfig in Resources */,
+				240095E023057B670053B50D /* matrix3x3.inl in Resources */,
+				240095D923057B670053B50D /* color4.inl in Resources */,
+				240095DB23057B670053B50D /* material.inl in Resources */,
+				240094E72305761F0053B50D /* LaunchScreen.storyboard in Resources */,
+				240095DD23057B670053B50D /* vector2.inl in Resources */,
+				240095DE23057B670053B50D /* matrix4x4.inl in Resources */,
+				240095DA23057B670053B50D /* config.h.in in Resources */,
+				240095D823057B670053B50D /* quaternion.inl in Resources */,
+				240094E42305761F0053B50D /* Assets.xcassets in Resources */,
+				240094E22305761D0053B50D /* Main.storyboard in Resources */,
+				240095DF23057B670053B50D /* vector3.inl in Resources */,
+				240095E123057B670053B50D /* SmoothingGroups.inl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240094ED2305761F0053B50D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240094F82305761F0053B50D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		240094D32305761D0053B50D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240094DF2305761D0053B50D /* ViewController.mm in Sources */,
+				240094EA2305761F0053B50D /* main.m in Sources */,
+				240094DC2305761D0053B50D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240094EB2305761F0053B50D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240094F42305761F0053B50D /* TestAssimpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240094F62305761F0053B50D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240094FF2305761F0053B50D /* TestAssimpUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		240094F12305761F0053B50D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 240094D62305761D0053B50D /* TestAssimp */;
+			targetProxy = 240094F02305761F0053B50D /* PBXContainerItemProxy */;
+		};
+		240094FC2305761F0053B50D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 240094D62305761D0053B50D /* TestAssimp */;
+			targetProxy = 240094FB2305761F0053B50D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		240094E02305761D0053B50D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				240094E12305761D0053B50D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		240094E52305761F0053B50D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				240094E62305761F0053B50D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24009501230576200053B50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24009502230576200053B50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24009504230576200053B50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/assimpLib";
+				INFOPLIST_FILE = TestAssimp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/assimpLib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.glodon.gld.TestAssimp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24009505230576200053B50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/assimpLib";
+				INFOPLIST_FILE = TestAssimp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/assimpLib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.glodon.gld.TestAssimp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24009507230576200053B50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = TestAssimpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.glodon.gld.TestAssimpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAssimp.app/TestAssimp";
+			};
+			name = Debug;
+		};
+		24009508230576200053B50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = TestAssimpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.glodon.gld.TestAssimpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAssimp.app/TestAssimp";
+			};
+			name = Release;
+		};
+		2400950A230576200053B50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = TestAssimpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.glodon.gld.TestAssimpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestAssimp;
+			};
+			name = Debug;
+		};
+		2400950B230576200053B50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = TestAssimpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.glodon.gld.TestAssimpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestAssimp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		240094D22305761D0053B50D /* Build configuration list for PBXProject "TestAssimp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24009501230576200053B50D /* Debug */,
+				24009502230576200053B50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24009503230576200053B50D /* Build configuration list for PBXNativeTarget "TestAssimp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24009504230576200053B50D /* Debug */,
+				24009505230576200053B50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24009506230576200053B50D /* Build configuration list for PBXNativeTarget "TestAssimpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24009507230576200053B50D /* Debug */,
+				24009508230576200053B50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24009509230576200053B50D /* Build configuration list for PBXNativeTarget "TestAssimpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2400950A230576200053B50D /* Debug */,
+				2400950B230576200053B50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 240094CF2305761D0053B50D /* Project object */;
+}
