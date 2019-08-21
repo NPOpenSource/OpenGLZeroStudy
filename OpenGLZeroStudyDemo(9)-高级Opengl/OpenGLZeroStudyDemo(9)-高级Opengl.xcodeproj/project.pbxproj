@@ -1,0 +1,921 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21EC193D9580E9FCAD2B08C1 /* libPods-OpenGLZeroStudyDemo(9)-高级Opengl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E48924F30FEAB6847250A41 /* libPods-OpenGLZeroStudyDemo(9)-高级Opengl.a */; };
+		240097802306948E0053B50D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2400977F2306948E0053B50D /* AppDelegate.m */; };
+		240097832306948E0053B50D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 240097822306948E0053B50D /* ViewController.m */; };
+		240097862306948E0053B50D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240097842306948E0053B50D /* Main.storyboard */; };
+		240097882306948F0053B50D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240097872306948F0053B50D /* Assets.xcassets */; };
+		2400978B2306948F0053B50D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240097892306948F0053B50D /* LaunchScreen.storyboard */; };
+		2400978E2306948F0053B50D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2400978D2306948F0053B50D /* main.m */; };
+		240097982306948F0053B50D /* OpenGLZeroStudyDemo_9____OpenglTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 240097972306948F0053B50D /* OpenGLZeroStudyDemo_9____OpenglTests.m */; };
+		240097A32306948F0053B50D /* OpenGLZeroStudyDemo_9____OpenglUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 240097A22306948F0053B50D /* OpenGLZeroStudyDemo_9____OpenglUITests.m */; };
+		240097B323069E4A0053B50D /* DepthTestBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 240097B223069E4A0053B50D /* DepthTestBindObject.m */; };
+		240097B623069E860053B50D /* DepthTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 240097B523069E860053B50D /* DepthTestViewController.m */; };
+		24371ECD2306A15200677277 /* DepthTest.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 24371ECB2306A15200677277 /* DepthTest.fsh */; };
+		24371ECE2306A15200677277 /* DepthTest.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 24371ECC2306A15200677277 /* DepthTest.vsh */; };
+		24371ED02306A5C300677277 /* marble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24371ECF2306A5C300677277 /* marble.jpg */; };
+		24371ED22306A64300677277 /* metal.png in Resources */ = {isa = PBXBuildFile; fileRef = 24371ED12306A64300677277 /* metal.png */; };
+		24371ED52306BCE900677277 /* DepthTestManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24371ED42306BCE900677277 /* DepthTestManagerViewController.m */; };
+		24371ED82306C54A00677277 /* DepthTestIsOpenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24371ED72306C54A00677277 /* DepthTestIsOpenViewController.m */; };
+		24371EDB2306C56000677277 /* DepthTestIsOpenBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 24371EDA2306C56000677277 /* DepthTestIsOpenBindObject.m */; };
+		24371EE32306C7E400677277 /* DepthTestIsOpen.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 24371EE12306C7E400677277 /* DepthTestIsOpen.vsh */; };
+		24371EE42306C7E400677277 /* DepthTestIsOpen.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 24371EE22306C7E400677277 /* DepthTestIsOpen.fsh */; };
+		244A3BEE230AC119009E0EC1 /* DepthTestOpenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A3BED230AC119009E0EC1 /* DepthTestOpenViewController.m */; };
+		244A3BF1230AC15A009E0EC1 /* DepthTestColseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A3BF0230AC15A009E0EC1 /* DepthTestColseViewController.m */; };
+		244A3BF5230AC452009E0EC1 /* DepthTestMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A3BF4230AC452009E0EC1 /* DepthTestMaskViewController.m */; };
+		244A3BF8230AC49D009E0EC1 /* DepthTestMaskBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A3BF7230AC49D009E0EC1 /* DepthTestMaskBindObject.m */; };
+		244A3BFC230B870D009E0EC1 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 244A3BF9230B870C009E0EC1 /* green.png */; };
+		244A3BFD230B870D009E0EC1 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 244A3BFA230B870C009E0EC1 /* red.png */; };
+		244A3BFE230B870D009E0EC1 /* texture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 244A3BFB230B870D009E0EC1 /* texture.jpg */; };
+		244A3C01230B89D9009E0EC1 /* DepthTestMask.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 244A3BFF230B89D9009E0EC1 /* DepthTestMask.vsh */; };
+		244A3C02230B89D9009E0EC1 /* DepthTestMask.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 244A3C00230B89D9009E0EC1 /* DepthTestMask.fsh */; };
+		244A3C09230B95D8009E0EC1 /* DepthTestMaskCloseDTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A3C08230B95D8009E0EC1 /* DepthTestMaskCloseDTViewController.m */; };
+		244A3C0C230B96E0009E0EC1 /* DepthTestMaskOpenDTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A3C0B230B96E0009E0EC1 /* DepthTestMaskOpenDTViewController.m */; };
+		244A3C0F230B9952009E0EC1 /* DepthTestCloseMaskOpenDTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A3C0E230B9952009E0EC1 /* DepthTestCloseMaskOpenDTViewController.m */; };
+		24D6FEF1230C089600C872E3 /* DepthTestFuncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6FEF0230C089600C872E3 /* DepthTestFuncViewController.m */; };
+		24D6FEF4230C08A900C872E3 /* DepthTestFuncBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6FEF3230C08A900C872E3 /* DepthTestFuncBindObject.m */; };
+		24D6FEF7230C08CC00C872E3 /* DepthTestFunc.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 24D6FEF5230C08CC00C872E3 /* DepthTestFunc.vsh */; };
+		24D6FEF8230C08CC00C872E3 /* DepthTestFunc.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 24D6FEF6230C08CC00C872E3 /* DepthTestFunc.fsh */; };
+		24D6FEFB230C0E1300C872E3 /* DepthTestAlwaysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6FEFA230C0E1300C872E3 /* DepthTestAlwaysViewController.m */; };
+		24D6FEFE230C0EED00C872E3 /* DepthTestFuncNeverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6FEFD230C0EED00C872E3 /* DepthTestFuncNeverViewController.m */; };
+		24D6FF01230C0F4B00C872E3 /* DepthTestFuncLessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6FF00230C0F4B00C872E3 /* DepthTestFuncLessViewController.m */; };
+		24D6FF04230C0F7700C872E3 /* DepthTestFuncEqualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6FF03230C0F7700C872E3 /* DepthTestFuncEqualViewController.m */; };
+		24D6FF07230C0FD500C872E3 /* DepthTestLequalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6FF06230C0FD500C872E3 /* DepthTestLequalViewController.m */; };
+		24D6FF0A230C0FF100C872E3 /* DepthTestGreaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6FF09230C0FF100C872E3 /* DepthTestGreaterViewController.m */; };
+		24D6FF0D230C102C00C872E3 /* DepthTestNotequalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6FF0C230C102C00C872E3 /* DepthTestNotequalViewController.m */; };
+		24D6FF10230C105400C872E3 /* DepthTestGequalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6FF0F230C105400C872E3 /* DepthTestGequalViewController.m */; };
+		561DFEE106D89817FA10F5B0 /* libPods-OpenGLZeroStudyDemo(9)-高级OpenglTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8DE9037A4570397A7859E3 /* libPods-OpenGLZeroStudyDemo(9)-高级OpenglTests.a */; };
+		68DFF699A7807CEEC9EEE777 /* libPods-OpenGLZeroStudyDemo(9)-高级OpenglUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 077B5C7B7EDFE118D5296852 /* libPods-OpenGLZeroStudyDemo(9)-高级OpenglUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		240097942306948F0053B50D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 240097732306948E0053B50D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2400977A2306948E0053B50D;
+			remoteInfo = "OpenGLZeroStudyDemo(9)-高级Opengl";
+		};
+		2400979F2306948F0053B50D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 240097732306948E0053B50D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2400977A2306948E0053B50D;
+			remoteInfo = "OpenGLZeroStudyDemo(9)-高级Opengl";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077B5C7B7EDFE118D5296852 /* libPods-OpenGLZeroStudyDemo(9)-高级OpenglUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(9)-高级OpenglUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BEFFB674470A6DD1FC6A2A1 /* Pods-OpenGLZeroStudyDemo(9)-高级OpenglUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(9)-高级OpenglUITests.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(9)-高级OpenglUITests/Pods-OpenGLZeroStudyDemo(9)-高级OpenglUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2400977B2306948E0053B50D /* OpenGLZeroStudyDemo(9)-高级Opengl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLZeroStudyDemo(9)-高级Opengl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2400977E2306948E0053B50D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2400977F2306948E0053B50D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		240097812306948E0053B50D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		240097822306948E0053B50D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		240097852306948E0053B50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		240097872306948F0053B50D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2400978A2306948F0053B50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2400978C2306948F0053B50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2400978D2306948F0053B50D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		240097932306948F0053B50D /* OpenGLZeroStudyDemo(9)-高级OpenglTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLZeroStudyDemo(9)-高级OpenglTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		240097972306948F0053B50D /* OpenGLZeroStudyDemo_9____OpenglTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGLZeroStudyDemo_9____OpenglTests.m"; sourceTree = "<group>"; };
+		240097992306948F0053B50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2400979E2306948F0053B50D /* OpenGLZeroStudyDemo(9)-高级OpenglUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLZeroStudyDemo(9)-高级OpenglUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		240097A22306948F0053B50D /* OpenGLZeroStudyDemo_9____OpenglUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGLZeroStudyDemo_9____OpenglUITests.m"; sourceTree = "<group>"; };
+		240097A42306948F0053B50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240097B123069E4A0053B50D /* DepthTestBindObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestBindObject.h; sourceTree = "<group>"; };
+		240097B223069E4A0053B50D /* DepthTestBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestBindObject.m; sourceTree = "<group>"; };
+		240097B423069E860053B50D /* DepthTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestViewController.h; sourceTree = "<group>"; };
+		240097B523069E860053B50D /* DepthTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestViewController.m; sourceTree = "<group>"; };
+		24371ECB2306A15200677277 /* DepthTest.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DepthTest.fsh; sourceTree = "<group>"; };
+		24371ECC2306A15200677277 /* DepthTest.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DepthTest.vsh; sourceTree = "<group>"; };
+		24371ECF2306A5C300677277 /* marble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marble.jpg; sourceTree = "<group>"; };
+		24371ED12306A64300677277 /* metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metal.png; sourceTree = "<group>"; };
+		24371ED32306BCE900677277 /* DepthTestManagerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestManagerViewController.h; sourceTree = "<group>"; };
+		24371ED42306BCE900677277 /* DepthTestManagerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestManagerViewController.m; sourceTree = "<group>"; };
+		24371ED62306C54A00677277 /* DepthTestIsOpenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestIsOpenViewController.h; sourceTree = "<group>"; };
+		24371ED72306C54A00677277 /* DepthTestIsOpenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestIsOpenViewController.m; sourceTree = "<group>"; };
+		24371ED92306C56000677277 /* DepthTestIsOpenBindObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestIsOpenBindObject.h; sourceTree = "<group>"; };
+		24371EDA2306C56000677277 /* DepthTestIsOpenBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestIsOpenBindObject.m; sourceTree = "<group>"; };
+		24371EE12306C7E400677277 /* DepthTestIsOpen.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DepthTestIsOpen.vsh; sourceTree = "<group>"; };
+		24371EE22306C7E400677277 /* DepthTestIsOpen.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DepthTestIsOpen.fsh; sourceTree = "<group>"; };
+		244A3BEC230AC119009E0EC1 /* DepthTestOpenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestOpenViewController.h; sourceTree = "<group>"; };
+		244A3BED230AC119009E0EC1 /* DepthTestOpenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestOpenViewController.m; sourceTree = "<group>"; };
+		244A3BEF230AC15A009E0EC1 /* DepthTestColseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestColseViewController.h; sourceTree = "<group>"; };
+		244A3BF0230AC15A009E0EC1 /* DepthTestColseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestColseViewController.m; sourceTree = "<group>"; };
+		244A3BF3230AC452009E0EC1 /* DepthTestMaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestMaskViewController.h; sourceTree = "<group>"; };
+		244A3BF4230AC452009E0EC1 /* DepthTestMaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestMaskViewController.m; sourceTree = "<group>"; };
+		244A3BF6230AC49D009E0EC1 /* DepthTestMaskBindObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestMaskBindObject.h; sourceTree = "<group>"; };
+		244A3BF7230AC49D009E0EC1 /* DepthTestMaskBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestMaskBindObject.m; sourceTree = "<group>"; };
+		244A3BF9230B870C009E0EC1 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		244A3BFA230B870C009E0EC1 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		244A3BFB230B870D009E0EC1 /* texture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture.jpg; sourceTree = "<group>"; };
+		244A3BFF230B89D9009E0EC1 /* DepthTestMask.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DepthTestMask.vsh; sourceTree = "<group>"; };
+		244A3C00230B89D9009E0EC1 /* DepthTestMask.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DepthTestMask.fsh; sourceTree = "<group>"; };
+		244A3C07230B95D8009E0EC1 /* DepthTestMaskCloseDTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestMaskCloseDTViewController.h; sourceTree = "<group>"; };
+		244A3C08230B95D8009E0EC1 /* DepthTestMaskCloseDTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestMaskCloseDTViewController.m; sourceTree = "<group>"; };
+		244A3C0A230B96E0009E0EC1 /* DepthTestMaskOpenDTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestMaskOpenDTViewController.h; sourceTree = "<group>"; };
+		244A3C0B230B96E0009E0EC1 /* DepthTestMaskOpenDTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestMaskOpenDTViewController.m; sourceTree = "<group>"; };
+		244A3C0D230B9951009E0EC1 /* DepthTestCloseMaskOpenDTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestCloseMaskOpenDTViewController.h; sourceTree = "<group>"; };
+		244A3C0E230B9952009E0EC1 /* DepthTestCloseMaskOpenDTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestCloseMaskOpenDTViewController.m; sourceTree = "<group>"; };
+		24D6FEEF230C089600C872E3 /* DepthTestFuncViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestFuncViewController.h; sourceTree = "<group>"; };
+		24D6FEF0230C089600C872E3 /* DepthTestFuncViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestFuncViewController.m; sourceTree = "<group>"; };
+		24D6FEF2230C08A900C872E3 /* DepthTestFuncBindObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestFuncBindObject.h; sourceTree = "<group>"; };
+		24D6FEF3230C08A900C872E3 /* DepthTestFuncBindObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestFuncBindObject.m; sourceTree = "<group>"; };
+		24D6FEF5230C08CC00C872E3 /* DepthTestFunc.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DepthTestFunc.vsh; sourceTree = "<group>"; };
+		24D6FEF6230C08CC00C872E3 /* DepthTestFunc.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DepthTestFunc.fsh; sourceTree = "<group>"; };
+		24D6FEF9230C0E1300C872E3 /* DepthTestAlwaysViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestAlwaysViewController.h; sourceTree = "<group>"; };
+		24D6FEFA230C0E1300C872E3 /* DepthTestAlwaysViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestAlwaysViewController.m; sourceTree = "<group>"; };
+		24D6FEFC230C0EED00C872E3 /* DepthTestFuncNeverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestFuncNeverViewController.h; sourceTree = "<group>"; };
+		24D6FEFD230C0EED00C872E3 /* DepthTestFuncNeverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestFuncNeverViewController.m; sourceTree = "<group>"; };
+		24D6FEFF230C0F4B00C872E3 /* DepthTestFuncLessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestFuncLessViewController.h; sourceTree = "<group>"; };
+		24D6FF00230C0F4B00C872E3 /* DepthTestFuncLessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestFuncLessViewController.m; sourceTree = "<group>"; };
+		24D6FF02230C0F7700C872E3 /* DepthTestFuncEqualViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestFuncEqualViewController.h; sourceTree = "<group>"; };
+		24D6FF03230C0F7700C872E3 /* DepthTestFuncEqualViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestFuncEqualViewController.m; sourceTree = "<group>"; };
+		24D6FF05230C0FD500C872E3 /* DepthTestLequalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestLequalViewController.h; sourceTree = "<group>"; };
+		24D6FF06230C0FD500C872E3 /* DepthTestLequalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestLequalViewController.m; sourceTree = "<group>"; };
+		24D6FF08230C0FF100C872E3 /* DepthTestGreaterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestGreaterViewController.h; sourceTree = "<group>"; };
+		24D6FF09230C0FF100C872E3 /* DepthTestGreaterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestGreaterViewController.m; sourceTree = "<group>"; };
+		24D6FF0B230C102C00C872E3 /* DepthTestNotequalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestNotequalViewController.h; sourceTree = "<group>"; };
+		24D6FF0C230C102C00C872E3 /* DepthTestNotequalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestNotequalViewController.m; sourceTree = "<group>"; };
+		24D6FF0E230C105400C872E3 /* DepthTestGequalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepthTestGequalViewController.h; sourceTree = "<group>"; };
+		24D6FF0F230C105400C872E3 /* DepthTestGequalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepthTestGequalViewController.m; sourceTree = "<group>"; };
+		5E48924F30FEAB6847250A41 /* libPods-OpenGLZeroStudyDemo(9)-高级Opengl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(9)-高级Opengl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6085104C0D9A64940399B2D0 /* Pods-OpenGLZeroStudyDemo(9)-高级OpenglTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(9)-高级OpenglTests.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(9)-高级OpenglTests/Pods-OpenGLZeroStudyDemo(9)-高级OpenglTests.release.xcconfig"; sourceTree = "<group>"; };
+		97BEF361D6F7B50B51ABE4DA /* Pods-OpenGLZeroStudyDemo(9)-高级OpenglUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(9)-高级OpenglUITests.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(9)-高级OpenglUITests/Pods-OpenGLZeroStudyDemo(9)-高级OpenglUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB8DE9037A4570397A7859E3 /* libPods-OpenGLZeroStudyDemo(9)-高级OpenglTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(9)-高级OpenglTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BF6E9E758B8189D5873BF6 /* Pods-OpenGLZeroStudyDemo(9)-高级Opengl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(9)-高级Opengl.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(9)-高级Opengl/Pods-OpenGLZeroStudyDemo(9)-高级Opengl.release.xcconfig"; sourceTree = "<group>"; };
+		DD4BFBD89D87C0ACEF7CF454 /* Pods-OpenGLZeroStudyDemo(9)-高级OpenglTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(9)-高级OpenglTests.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(9)-高级OpenglTests/Pods-OpenGLZeroStudyDemo(9)-高级OpenglTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4560B12311488A60FBD55A0 /* Pods-OpenGLZeroStudyDemo(9)-高级Opengl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(9)-高级Opengl.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(9)-高级Opengl/Pods-OpenGLZeroStudyDemo(9)-高级Opengl.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		240097782306948E0053B50D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EC193D9580E9FCAD2B08C1 /* libPods-OpenGLZeroStudyDemo(9)-高级Opengl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240097902306948F0053B50D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561DFEE106D89817FA10F5B0 /* libPods-OpenGLZeroStudyDemo(9)-高级OpenglTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2400979B2306948F0053B50D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DFF699A7807CEEC9EEE777 /* libPods-OpenGLZeroStudyDemo(9)-高级OpenglUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		240097722306948E0053B50D = {
+			isa = PBXGroup;
+			children = (
+				2400977D2306948E0053B50D /* OpenGLZeroStudyDemo(9)-高级Opengl */,
+				240097962306948F0053B50D /* OpenGLZeroStudyDemo(9)-高级OpenglTests */,
+				240097A12306948F0053B50D /* OpenGLZeroStudyDemo(9)-高级OpenglUITests */,
+				2400977C2306948E0053B50D /* Products */,
+				86243616439057AC772E4E7C /* Pods */,
+				7DB452D8357E9C8A66E89918 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2400977C2306948E0053B50D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2400977B2306948E0053B50D /* OpenGLZeroStudyDemo(9)-高级Opengl.app */,
+				240097932306948F0053B50D /* OpenGLZeroStudyDemo(9)-高级OpenglTests.xctest */,
+				2400979E2306948F0053B50D /* OpenGLZeroStudyDemo(9)-高级OpenglUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2400977D2306948E0053B50D /* OpenGLZeroStudyDemo(9)-高级Opengl */ = {
+			isa = PBXGroup;
+			children = (
+				240097B023069C8F0053B50D /* DepthTesting */,
+				2400977E2306948E0053B50D /* AppDelegate.h */,
+				2400977F2306948E0053B50D /* AppDelegate.m */,
+				240097812306948E0053B50D /* ViewController.h */,
+				240097822306948E0053B50D /* ViewController.m */,
+				240097842306948E0053B50D /* Main.storyboard */,
+				240097872306948F0053B50D /* Assets.xcassets */,
+				240097892306948F0053B50D /* LaunchScreen.storyboard */,
+				2400978C2306948F0053B50D /* Info.plist */,
+				2400978D2306948F0053B50D /* main.m */,
+			);
+			path = "OpenGLZeroStudyDemo(9)-高级Opengl";
+			sourceTree = "<group>";
+		};
+		240097962306948F0053B50D /* OpenGLZeroStudyDemo(9)-高级OpenglTests */ = {
+			isa = PBXGroup;
+			children = (
+				240097972306948F0053B50D /* OpenGLZeroStudyDemo_9____OpenglTests.m */,
+				240097992306948F0053B50D /* Info.plist */,
+			);
+			path = "OpenGLZeroStudyDemo(9)-高级OpenglTests";
+			sourceTree = "<group>";
+		};
+		240097A12306948F0053B50D /* OpenGLZeroStudyDemo(9)-高级OpenglUITests */ = {
+			isa = PBXGroup;
+			children = (
+				240097A22306948F0053B50D /* OpenGLZeroStudyDemo_9____OpenglUITests.m */,
+				240097A42306948F0053B50D /* Info.plist */,
+			);
+			path = "OpenGLZeroStudyDemo(9)-高级OpenglUITests";
+			sourceTree = "<group>";
+		};
+		240097B023069C8F0053B50D /* DepthTesting */ = {
+			isa = PBXGroup;
+			children = (
+				24D6FEEE230C083500C872E3 /* glDepthFunc */,
+				244A3BF2230AC38E009E0EC1 /* DepthTestMask */,
+				24371EDC2306C59B00677277 /* IsOpenDepthTesting */,
+				24371ECF2306A5C300677277 /* marble.jpg */,
+				24371ED12306A64300677277 /* metal.png */,
+				24371ECB2306A15200677277 /* DepthTest.fsh */,
+				24371ECC2306A15200677277 /* DepthTest.vsh */,
+				240097B123069E4A0053B50D /* DepthTestBindObject.h */,
+				240097B223069E4A0053B50D /* DepthTestBindObject.m */,
+				240097B423069E860053B50D /* DepthTestViewController.h */,
+				240097B523069E860053B50D /* DepthTestViewController.m */,
+				24371ED32306BCE900677277 /* DepthTestManagerViewController.h */,
+				24371ED42306BCE900677277 /* DepthTestManagerViewController.m */,
+			);
+			path = DepthTesting;
+			sourceTree = "<group>";
+		};
+		24371EDC2306C59B00677277 /* IsOpenDepthTesting */ = {
+			isa = PBXGroup;
+			children = (
+				24371EE22306C7E400677277 /* DepthTestIsOpen.fsh */,
+				24371EE12306C7E400677277 /* DepthTestIsOpen.vsh */,
+				24371ED62306C54A00677277 /* DepthTestIsOpenViewController.h */,
+				24371ED72306C54A00677277 /* DepthTestIsOpenViewController.m */,
+				24371ED92306C56000677277 /* DepthTestIsOpenBindObject.h */,
+				24371EDA2306C56000677277 /* DepthTestIsOpenBindObject.m */,
+				244A3BEC230AC119009E0EC1 /* DepthTestOpenViewController.h */,
+				244A3BED230AC119009E0EC1 /* DepthTestOpenViewController.m */,
+				244A3BEF230AC15A009E0EC1 /* DepthTestColseViewController.h */,
+				244A3BF0230AC15A009E0EC1 /* DepthTestColseViewController.m */,
+			);
+			path = IsOpenDepthTesting;
+			sourceTree = "<group>";
+		};
+		244A3BF2230AC38E009E0EC1 /* DepthTestMask */ = {
+			isa = PBXGroup;
+			children = (
+				244A3C00230B89D9009E0EC1 /* DepthTestMask.fsh */,
+				244A3BFF230B89D9009E0EC1 /* DepthTestMask.vsh */,
+				244A3BF9230B870C009E0EC1 /* green.png */,
+				244A3BFA230B870C009E0EC1 /* red.png */,
+				244A3BFB230B870D009E0EC1 /* texture.jpg */,
+				244A3BF3230AC452009E0EC1 /* DepthTestMaskViewController.h */,
+				244A3BF4230AC452009E0EC1 /* DepthTestMaskViewController.m */,
+				244A3BF6230AC49D009E0EC1 /* DepthTestMaskBindObject.h */,
+				244A3BF7230AC49D009E0EC1 /* DepthTestMaskBindObject.m */,
+				244A3C07230B95D8009E0EC1 /* DepthTestMaskCloseDTViewController.h */,
+				244A3C08230B95D8009E0EC1 /* DepthTestMaskCloseDTViewController.m */,
+				244A3C0A230B96E0009E0EC1 /* DepthTestMaskOpenDTViewController.h */,
+				244A3C0B230B96E0009E0EC1 /* DepthTestMaskOpenDTViewController.m */,
+				244A3C0D230B9951009E0EC1 /* DepthTestCloseMaskOpenDTViewController.h */,
+				244A3C0E230B9952009E0EC1 /* DepthTestCloseMaskOpenDTViewController.m */,
+			);
+			path = DepthTestMask;
+			sourceTree = "<group>";
+		};
+		24D6FEEE230C083500C872E3 /* glDepthFunc */ = {
+			isa = PBXGroup;
+			children = (
+				24D6FEF6230C08CC00C872E3 /* DepthTestFunc.fsh */,
+				24D6FEF5230C08CC00C872E3 /* DepthTestFunc.vsh */,
+				24D6FEEF230C089600C872E3 /* DepthTestFuncViewController.h */,
+				24D6FEF0230C089600C872E3 /* DepthTestFuncViewController.m */,
+				24D6FEF2230C08A900C872E3 /* DepthTestFuncBindObject.h */,
+				24D6FEF3230C08A900C872E3 /* DepthTestFuncBindObject.m */,
+				24D6FEF9230C0E1300C872E3 /* DepthTestAlwaysViewController.h */,
+				24D6FEFA230C0E1300C872E3 /* DepthTestAlwaysViewController.m */,
+				24D6FEFC230C0EED00C872E3 /* DepthTestFuncNeverViewController.h */,
+				24D6FEFD230C0EED00C872E3 /* DepthTestFuncNeverViewController.m */,
+				24D6FEFF230C0F4B00C872E3 /* DepthTestFuncLessViewController.h */,
+				24D6FF00230C0F4B00C872E3 /* DepthTestFuncLessViewController.m */,
+				24D6FF02230C0F7700C872E3 /* DepthTestFuncEqualViewController.h */,
+				24D6FF03230C0F7700C872E3 /* DepthTestFuncEqualViewController.m */,
+				24D6FF05230C0FD500C872E3 /* DepthTestLequalViewController.h */,
+				24D6FF06230C0FD500C872E3 /* DepthTestLequalViewController.m */,
+				24D6FF08230C0FF100C872E3 /* DepthTestGreaterViewController.h */,
+				24D6FF09230C0FF100C872E3 /* DepthTestGreaterViewController.m */,
+				24D6FF0B230C102C00C872E3 /* DepthTestNotequalViewController.h */,
+				24D6FF0C230C102C00C872E3 /* DepthTestNotequalViewController.m */,
+				24D6FF0E230C105400C872E3 /* DepthTestGequalViewController.h */,
+				24D6FF0F230C105400C872E3 /* DepthTestGequalViewController.m */,
+			);
+			path = glDepthFunc;
+			sourceTree = "<group>";
+		};
+		7DB452D8357E9C8A66E89918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E48924F30FEAB6847250A41 /* libPods-OpenGLZeroStudyDemo(9)-高级Opengl.a */,
+				BB8DE9037A4570397A7859E3 /* libPods-OpenGLZeroStudyDemo(9)-高级OpenglTests.a */,
+				077B5C7B7EDFE118D5296852 /* libPods-OpenGLZeroStudyDemo(9)-高级OpenglUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86243616439057AC772E4E7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4560B12311488A60FBD55A0 /* Pods-OpenGLZeroStudyDemo(9)-高级Opengl.debug.xcconfig */,
+				D2BF6E9E758B8189D5873BF6 /* Pods-OpenGLZeroStudyDemo(9)-高级Opengl.release.xcconfig */,
+				DD4BFBD89D87C0ACEF7CF454 /* Pods-OpenGLZeroStudyDemo(9)-高级OpenglTests.debug.xcconfig */,
+				6085104C0D9A64940399B2D0 /* Pods-OpenGLZeroStudyDemo(9)-高级OpenglTests.release.xcconfig */,
+				97BEF361D6F7B50B51ABE4DA /* Pods-OpenGLZeroStudyDemo(9)-高级OpenglUITests.debug.xcconfig */,
+				1BEFFB674470A6DD1FC6A2A1 /* Pods-OpenGLZeroStudyDemo(9)-高级OpenglUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2400977A2306948E0053B50D /* OpenGLZeroStudyDemo(9)-高级Opengl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 240097A72306948F0053B50D /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(9)-高级Opengl" */;
+			buildPhases = (
+				C419F36670F85701A59C8A4A /* [CP] Check Pods Manifest.lock */,
+				240097772306948E0053B50D /* Sources */,
+				240097782306948E0053B50D /* Frameworks */,
+				240097792306948E0053B50D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGLZeroStudyDemo(9)-高级Opengl";
+			productName = "OpenGLZeroStudyDemo(9)-高级Opengl";
+			productReference = 2400977B2306948E0053B50D /* OpenGLZeroStudyDemo(9)-高级Opengl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		240097922306948F0053B50D /* OpenGLZeroStudyDemo(9)-高级OpenglTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 240097AA2306948F0053B50D /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(9)-高级OpenglTests" */;
+			buildPhases = (
+				3695D5A854588E5683428A97 /* [CP] Check Pods Manifest.lock */,
+				2400978F2306948F0053B50D /* Sources */,
+				240097902306948F0053B50D /* Frameworks */,
+				240097912306948F0053B50D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				240097952306948F0053B50D /* PBXTargetDependency */,
+			);
+			name = "OpenGLZeroStudyDemo(9)-高级OpenglTests";
+			productName = "OpenGLZeroStudyDemo(9)-高级OpenglTests";
+			productReference = 240097932306948F0053B50D /* OpenGLZeroStudyDemo(9)-高级OpenglTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2400979D2306948F0053B50D /* OpenGLZeroStudyDemo(9)-高级OpenglUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 240097AD2306948F0053B50D /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(9)-高级OpenglUITests" */;
+			buildPhases = (
+				4A280681B2FCEAA30BAAFAD3 /* [CP] Check Pods Manifest.lock */,
+				2400979A2306948F0053B50D /* Sources */,
+				2400979B2306948F0053B50D /* Frameworks */,
+				2400979C2306948F0053B50D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				240097A02306948F0053B50D /* PBXTargetDependency */,
+			);
+			name = "OpenGLZeroStudyDemo(9)-高级OpenglUITests";
+			productName = "OpenGLZeroStudyDemo(9)-高级OpenglUITests";
+			productReference = 2400979E2306948F0053B50D /* OpenGLZeroStudyDemo(9)-高级OpenglUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		240097732306948E0053B50D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DepthTest;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = glodon;
+				TargetAttributes = {
+					2400977A2306948E0053B50D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					240097922306948F0053B50D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2400977A2306948E0053B50D;
+					};
+					2400979D2306948F0053B50D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2400977A2306948E0053B50D;
+					};
+				};
+			};
+			buildConfigurationList = 240097762306948E0053B50D /* Build configuration list for PBXProject "OpenGLZeroStudyDemo(9)-高级Opengl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 240097722306948E0053B50D;
+			productRefGroup = 2400977C2306948E0053B50D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2400977A2306948E0053B50D /* OpenGLZeroStudyDemo(9)-高级Opengl */,
+				240097922306948F0053B50D /* OpenGLZeroStudyDemo(9)-高级OpenglTests */,
+				2400979D2306948F0053B50D /* OpenGLZeroStudyDemo(9)-高级OpenglUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		240097792306948E0053B50D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24371ED22306A64300677277 /* metal.png in Resources */,
+				24D6FEF8230C08CC00C872E3 /* DepthTestFunc.fsh in Resources */,
+				24371ED02306A5C300677277 /* marble.jpg in Resources */,
+				2400978B2306948F0053B50D /* LaunchScreen.storyboard in Resources */,
+				244A3BFE230B870D009E0EC1 /* texture.jpg in Resources */,
+				240097882306948F0053B50D /* Assets.xcassets in Resources */,
+				24371ECE2306A15200677277 /* DepthTest.vsh in Resources */,
+				24371EE42306C7E400677277 /* DepthTestIsOpen.fsh in Resources */,
+				244A3C02230B89D9009E0EC1 /* DepthTestMask.fsh in Resources */,
+				24371EE32306C7E400677277 /* DepthTestIsOpen.vsh in Resources */,
+				244A3BFC230B870D009E0EC1 /* green.png in Resources */,
+				24D6FEF7230C08CC00C872E3 /* DepthTestFunc.vsh in Resources */,
+				244A3BFD230B870D009E0EC1 /* red.png in Resources */,
+				24371ECD2306A15200677277 /* DepthTest.fsh in Resources */,
+				240097862306948E0053B50D /* Main.storyboard in Resources */,
+				244A3C01230B89D9009E0EC1 /* DepthTestMask.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240097912306948F0053B50D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2400979C2306948F0053B50D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3695D5A854588E5683428A97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(9)-高级OpenglTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A280681B2FCEAA30BAAFAD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(9)-高级OpenglUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C419F36670F85701A59C8A4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(9)-高级Opengl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		240097772306948E0053B50D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244A3BF5230AC452009E0EC1 /* DepthTestMaskViewController.m in Sources */,
+				240097832306948E0053B50D /* ViewController.m in Sources */,
+				24D6FF04230C0F7700C872E3 /* DepthTestFuncEqualViewController.m in Sources */,
+				240097B323069E4A0053B50D /* DepthTestBindObject.m in Sources */,
+				244A3BEE230AC119009E0EC1 /* DepthTestOpenViewController.m in Sources */,
+				244A3C0F230B9952009E0EC1 /* DepthTestCloseMaskOpenDTViewController.m in Sources */,
+				24D6FEFE230C0EED00C872E3 /* DepthTestFuncNeverViewController.m in Sources */,
+				24D6FF10230C105400C872E3 /* DepthTestGequalViewController.m in Sources */,
+				244A3C09230B95D8009E0EC1 /* DepthTestMaskCloseDTViewController.m in Sources */,
+				24371ED52306BCE900677277 /* DepthTestManagerViewController.m in Sources */,
+				24D6FEF4230C08A900C872E3 /* DepthTestFuncBindObject.m in Sources */,
+				2400978E2306948F0053B50D /* main.m in Sources */,
+				24D6FEF1230C089600C872E3 /* DepthTestFuncViewController.m in Sources */,
+				240097B623069E860053B50D /* DepthTestViewController.m in Sources */,
+				24371EDB2306C56000677277 /* DepthTestIsOpenBindObject.m in Sources */,
+				24D6FF07230C0FD500C872E3 /* DepthTestLequalViewController.m in Sources */,
+				24D6FF01230C0F4B00C872E3 /* DepthTestFuncLessViewController.m in Sources */,
+				24371ED82306C54A00677277 /* DepthTestIsOpenViewController.m in Sources */,
+				244A3C0C230B96E0009E0EC1 /* DepthTestMaskOpenDTViewController.m in Sources */,
+				24D6FF0A230C0FF100C872E3 /* DepthTestGreaterViewController.m in Sources */,
+				24D6FF0D230C102C00C872E3 /* DepthTestNotequalViewController.m in Sources */,
+				244A3BF8230AC49D009E0EC1 /* DepthTestMaskBindObject.m in Sources */,
+				24D6FEFB230C0E1300C872E3 /* DepthTestAlwaysViewController.m in Sources */,
+				240097802306948E0053B50D /* AppDelegate.m in Sources */,
+				244A3BF1230AC15A009E0EC1 /* DepthTestColseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2400978F2306948F0053B50D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240097982306948F0053B50D /* OpenGLZeroStudyDemo_9____OpenglTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2400979A2306948F0053B50D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240097A32306948F0053B50D /* OpenGLZeroStudyDemo_9____OpenglUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		240097952306948F0053B50D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2400977A2306948E0053B50D /* OpenGLZeroStudyDemo(9)-高级Opengl */;
+			targetProxy = 240097942306948F0053B50D /* PBXContainerItemProxy */;
+		};
+		240097A02306948F0053B50D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2400977A2306948E0053B50D /* OpenGLZeroStudyDemo(9)-高级Opengl */;
+			targetProxy = 2400979F2306948F0053B50D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		240097842306948E0053B50D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				240097852306948E0053B50D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		240097892306948F0053B50D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2400978A2306948F0053B50D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		240097A52306948F0053B50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		240097A62306948F0053B50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		240097A82306948F0053B50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4560B12311488A60FBD55A0 /* Pods-OpenGLZeroStudyDemo(9)-高级Opengl.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(9)-高级Opengl/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-9----Opengl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		240097A92306948F0053B50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2BF6E9E758B8189D5873BF6 /* Pods-OpenGLZeroStudyDemo(9)-高级Opengl.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(9)-高级Opengl/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-9----Opengl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		240097AB2306948F0053B50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD4BFBD89D87C0ACEF7CF454 /* Pods-OpenGLZeroStudyDemo(9)-高级OpenglTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(9)-高级OpenglTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-9----OpenglTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLZeroStudyDemo(9)-高级Opengl.app/OpenGLZeroStudyDemo(9)-高级Opengl";
+			};
+			name = Debug;
+		};
+		240097AC2306948F0053B50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6085104C0D9A64940399B2D0 /* Pods-OpenGLZeroStudyDemo(9)-高级OpenglTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(9)-高级OpenglTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-9----OpenglTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLZeroStudyDemo(9)-高级Opengl.app/OpenGLZeroStudyDemo(9)-高级Opengl";
+			};
+			name = Release;
+		};
+		240097AE2306948F0053B50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97BEF361D6F7B50B51ABE4DA /* Pods-OpenGLZeroStudyDemo(9)-高级OpenglUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(9)-高级OpenglUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-9----OpenglUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenGLZeroStudyDemo(9)-高级Opengl";
+			};
+			name = Debug;
+		};
+		240097AF2306948F0053B50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BEFFB674470A6DD1FC6A2A1 /* Pods-OpenGLZeroStudyDemo(9)-高级OpenglUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(9)-高级OpenglUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glodon.gld.OpenGLZeroStudyDemo-9----OpenglUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenGLZeroStudyDemo(9)-高级Opengl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		240097762306948E0053B50D /* Build configuration list for PBXProject "OpenGLZeroStudyDemo(9)-高级Opengl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				240097A52306948F0053B50D /* Debug */,
+				240097A62306948F0053B50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		240097A72306948F0053B50D /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(9)-高级Opengl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				240097A82306948F0053B50D /* Debug */,
+				240097A92306948F0053B50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		240097AA2306948F0053B50D /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(9)-高级OpenglTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				240097AB2306948F0053B50D /* Debug */,
+				240097AC2306948F0053B50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		240097AD2306948F0053B50D /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(9)-高级OpenglUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				240097AE2306948F0053B50D /* Debug */,
+				240097AF2306948F0053B50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 240097732306948E0053B50D /* Project object */;
+}

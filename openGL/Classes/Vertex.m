@@ -93,7 +93,7 @@
         GLenum error = glGetError();
         if(GL_NO_ERROR != error)
         {
-            NSLog(@"GL Error: 0x%x", error);
+            NSLog(@"[GL Error]: enableVertex  0x%x", error);
         }
     }
     //    GL_INVALID_OPERATION  operation;
