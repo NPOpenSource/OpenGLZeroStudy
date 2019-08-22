@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///眼的位置在 0,0,1 看向 原点 ,眼的正方向是y轴,   看的区域是0.1 到20   角度是85
 -(GLKMatrix4 )mvp;
-
+-(void)createShader;
 -(void)loadVertex;
 -(void)initSubObject;
 -(void)createTextureUnit;

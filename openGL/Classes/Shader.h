@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Shader : NSObject
 @property (nonatomic ,readonly ) GLuint program;
-
+-(void)use;
 -(BOOL)compileLinkSuccessShaderName:(NSString *)shader completeBlock:(void(^)(GLuint program))completeBlock;
 
 @end

@@ -22,6 +22,10 @@
     return self;
 }
 
+-(void)use{
+    glUseProgram(self.program);
+}
+
 -(BOOL)compileLinkSuccessShaderName:(NSString *)shader completeBlock:(void(^)(GLuint program))completeBlock
 {
     
@@ -68,6 +72,7 @@
 
     return YES;
 }
+
 
 
 
