@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24275FCA230EAF29001859DF /* NotBlend.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 24275FC4230EAF29001859DF /* NotBlend.fsh */; };
+		24275FCB230EAF29001859DF /* NotBlendBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 24275FC5230EAF29001859DF /* NotBlendBindObject.m */; };
+		24275FCC230EAF29001859DF /* NotBlendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24275FC7230EAF29001859DF /* NotBlendViewController.m */; };
+		24275FCD230EAF29001859DF /* NotBlend.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 24275FC9230EAF29001859DF /* NotBlend.vsh */; };
+		24275FD0230EB088001859DF /* SortBlendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24275FCF230EB088001859DF /* SortBlendViewController.m */; };
+		24275FD8230EB318001859DF /* NotAlphaNotBlend.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 24275FD3230EB318001859DF /* NotAlphaNotBlend.fsh */; };
+		24275FD9230EB318001859DF /* NotAlphaNotBlendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24275FD4230EB318001859DF /* NotAlphaNotBlendViewController.m */; };
+		24275FDA230EB318001859DF /* NotAlphaNotBlendBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 24275FD5230EB318001859DF /* NotAlphaNotBlendBindObject.m */; };
+		24275FDB230EB318001859DF /* NotAlphaNotBlend.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 24275FD6230EB318001859DF /* NotAlphaNotBlend.vsh */; };
+		24952347230E78DF0075887D /* BlendBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 24952342230E78DF0075887D /* BlendBindObject.m */; };
+		24952348230E78DF0075887D /* Blend.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 24952343230E78DF0075887D /* Blend.vsh */; };
+		24952349230E78DF0075887D /* BlendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24952345230E78DF0075887D /* BlendViewController.m */; };
+		2495234A230E78DF0075887D /* Blend.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 24952346230E78DF0075887D /* Blend.fsh */; };
+		2495234D230E7A410075887D /* metal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2495234B230E7A410075887D /* metal.png */; };
+		2495234E230E7A410075887D /* marble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2495234C230E7A410075887D /* marble.jpg */; };
+		24952354230E90C00075887D /* grass.png in Resources */ = {isa = PBXBuildFile; fileRef = 24952353230E90C00075887D /* grass.png */; };
+		24952369230EAD990075887D /* window.png in Resources */ = {isa = PBXBuildFile; fileRef = 24952368230EAD990075887D /* window.png */; };
 		24D6FFB4230E6DB100C872E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6FFB3230E6DB100C872E3 /* AppDelegate.m */; };
 		24D6FFB7230E6DB100C872E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6FFB6230E6DB100C872E3 /* ViewController.m */; };
 		24D6FFBA230E6DB100C872E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D6FFB8230E6DB100C872E3 /* Main.storyboard */; };
@@ -15,6 +32,9 @@
 		24D6FFC2230E6DB300C872E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6FFC1230E6DB300C872E3 /* main.m */; };
 		24D6FFCC230E6DB300C872E3 /* OpenGLZeroStudyDemo_11____Opengl___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6FFCB230E6DB300C872E3 /* OpenGLZeroStudyDemo_11____Opengl___Tests.m */; };
 		24D6FFD7230E6DB300C872E3 /* OpenGLZeroStudyDemo_11____Opengl___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6FFD6230E6DB300C872E3 /* OpenGLZeroStudyDemo_11____Opengl___UITests.m */; };
+		7DA09B6AFAFCB0CE1A5210B5 /* libPods-OpenGLZeroStudyDemo(11)-高级Opengl-混合.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FD1A0603F0995C362E2B27 /* libPods-OpenGLZeroStudyDemo(11)-高级Opengl-混合.a */; };
+		CF589DE7B638F47DF81A6733 /* libPods-OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4545471AA9D0E58B6D47E419 /* libPods-OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests.a */; };
+		DEC709F4FC6322E510E8AADD /* libPods-OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CCC045398E8CB98F9866EF /* libPods-OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F1A4AF12A3518D0C331B976 /* Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests/Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		24275FC4230EAF29001859DF /* NotBlend.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = NotBlend.fsh; sourceTree = "<group>"; };
+		24275FC5230EAF29001859DF /* NotBlendBindObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotBlendBindObject.m; sourceTree = "<group>"; };
+		24275FC6230EAF29001859DF /* NotBlendBindObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotBlendBindObject.h; sourceTree = "<group>"; };
+		24275FC7230EAF29001859DF /* NotBlendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotBlendViewController.m; sourceTree = "<group>"; };
+		24275FC8230EAF29001859DF /* NotBlendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotBlendViewController.h; sourceTree = "<group>"; };
+		24275FC9230EAF29001859DF /* NotBlend.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = NotBlend.vsh; sourceTree = "<group>"; };
+		24275FCE230EB088001859DF /* SortBlendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortBlendViewController.h; sourceTree = "<group>"; };
+		24275FCF230EB088001859DF /* SortBlendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortBlendViewController.m; sourceTree = "<group>"; };
+		24275FD2230EB318001859DF /* NotAlphaNotBlendBindObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotAlphaNotBlendBindObject.h; sourceTree = "<group>"; };
+		24275FD3230EB318001859DF /* NotAlphaNotBlend.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = NotAlphaNotBlend.fsh; sourceTree = "<group>"; };
+		24275FD4230EB318001859DF /* NotAlphaNotBlendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotAlphaNotBlendViewController.m; sourceTree = "<group>"; };
+		24275FD5230EB318001859DF /* NotAlphaNotBlendBindObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotAlphaNotBlendBindObject.m; sourceTree = "<group>"; };
+		24275FD6230EB318001859DF /* NotAlphaNotBlend.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = NotAlphaNotBlend.vsh; sourceTree = "<group>"; };
+		24275FD7230EB318001859DF /* NotAlphaNotBlendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotAlphaNotBlendViewController.h; sourceTree = "<group>"; };
+		24952341230E78DF0075887D /* BlendBindObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlendBindObject.h; sourceTree = "<group>"; };
+		24952342230E78DF0075887D /* BlendBindObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlendBindObject.m; sourceTree = "<group>"; };
+		24952343230E78DF0075887D /* Blend.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Blend.vsh; sourceTree = "<group>"; };
+		24952344230E78DF0075887D /* BlendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlendViewController.h; sourceTree = "<group>"; };
+		24952345230E78DF0075887D /* BlendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlendViewController.m; sourceTree = "<group>"; };
+		24952346230E78DF0075887D /* Blend.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Blend.fsh; sourceTree = "<group>"; };
+		2495234B230E7A410075887D /* metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metal.png; sourceTree = "<group>"; };
+		2495234C230E7A410075887D /* marble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marble.jpg; sourceTree = "<group>"; };
+		24952353230E90C00075887D /* grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grass.png; sourceTree = "<group>"; };
+		24952368230EAD990075887D /* window.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = window.png; sourceTree = "<group>"; };
 		24D6FFAF230E6DB100C872E3 /* OpenGLZeroStudyDemo(11)-高级Opengl-混合.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLZeroStudyDemo(11)-高级Opengl-混合.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D6FFB2230E6DB100C872E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24D6FFB3230E6DB100C872E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +96,14 @@
 		24D6FFD2230E6DB300C872E3 /* OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D6FFD6230E6DB300C872E3 /* OpenGLZeroStudyDemo_11____Opengl___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGLZeroStudyDemo_11____Opengl___UITests.m"; sourceTree = "<group>"; };
 		24D6FFD8230E6DB300C872E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44CCC045398E8CB98F9866EF /* libPods-OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4545471AA9D0E58B6D47E419 /* libPods-OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AD46900ABD9EC33796CFB2 /* Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合/Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合.release.xcconfig"; sourceTree = "<group>"; };
+		52F4F586737C1218CFC8BA34 /* Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合/Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合.debug.xcconfig"; sourceTree = "<group>"; };
+		52FD1A0603F0995C362E2B27 /* libPods-OpenGLZeroStudyDemo(11)-高级Opengl-混合.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(11)-高级Opengl-混合.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53BC014971207A4B6AA967D7 /* Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests/Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests.release.xcconfig"; sourceTree = "<group>"; };
+		C22FE5C595DE14096FB43C34 /* Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests/Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EAFC0CD6CE28991684E2B627 /* Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests/Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DA09B6AFAFCB0CE1A5210B5 /* libPods-OpenGLZeroStudyDemo(11)-高级Opengl-混合.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF589DE7B638F47DF81A6733 /* libPods-OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +127,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC709F4FC6322E510E8AADD /* libPods-OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24275FD1230EB2FE001859DF /* NotAlpha */ = {
+			isa = PBXGroup;
+			children = (
+				24275FD3230EB318001859DF /* NotAlphaNotBlend.fsh */,
+				24275FD6230EB318001859DF /* NotAlphaNotBlend.vsh */,
+				24275FD2230EB318001859DF /* NotAlphaNotBlendBindObject.h */,
+				24275FD5230EB318001859DF /* NotAlphaNotBlendBindObject.m */,
+				24275FD7230EB318001859DF /* NotAlphaNotBlendViewController.h */,
+				24275FD4230EB318001859DF /* NotAlphaNotBlendViewController.m */,
+			);
+			path = NotAlpha;
+			sourceTree = "<group>";
+		};
+		24952340230E78CC0075887D /* blend */ = {
+			isa = PBXGroup;
+			children = (
+				24952368230EAD990075887D /* window.png */,
+				24952353230E90C00075887D /* grass.png */,
+				2495234C230E7A410075887D /* marble.jpg */,
+				2495234B230E7A410075887D /* metal.png */,
+				24952346230E78DF0075887D /* Blend.fsh */,
+				24952343230E78DF0075887D /* Blend.vsh */,
+				24952341230E78DF0075887D /* BlendBindObject.h */,
+				24952342230E78DF0075887D /* BlendBindObject.m */,
+				24952344230E78DF0075887D /* BlendViewController.h */,
+				24952345230E78DF0075887D /* BlendViewController.m */,
+				24275FCE230EB088001859DF /* SortBlendViewController.h */,
+				24275FCF230EB088001859DF /* SortBlendViewController.m */,
+			);
+			path = blend;
+			sourceTree = "<group>";
+		};
+		2495236A230EAEC30075887D /* notBlend */ = {
+			isa = PBXGroup;
+			children = (
+				24275FC4230EAF29001859DF /* NotBlend.fsh */,
+				24275FC9230EAF29001859DF /* NotBlend.vsh */,
+				24275FC6230EAF29001859DF /* NotBlendBindObject.h */,
+				24275FC5230EAF29001859DF /* NotBlendBindObject.m */,
+				24275FC8230EAF29001859DF /* NotBlendViewController.h */,
+				24275FC7230EAF29001859DF /* NotBlendViewController.m */,
+			);
+			path = notBlend;
+			sourceTree = "<group>";
+		};
 		24D6FFA6230E6DB100C872E3 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +186,8 @@
 				24D6FFCA230E6DB300C872E3 /* OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests */,
 				24D6FFD5230E6DB300C872E3 /* OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests */,
 				24D6FFB0230E6DB100C872E3 /* Products */,
+				B682BF7DD2747D955242D9F0 /* Pods */,
+				6ED0FCABCB69D08246FC4216 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +204,9 @@
 		24D6FFB1230E6DB100C872E3 /* OpenGLZeroStudyDemo(11)-高级Opengl-混合 */ = {
 			isa = PBXGroup;
 			children = (
+				24275FD1230EB2FE001859DF /* NotAlpha */,
+				2495236A230EAEC30075887D /* notBlend */,
+				24952340230E78CC0075887D /* blend */,
 				24D6FFB2230E6DB100C872E3 /* AppDelegate.h */,
 				24D6FFB3230E6DB100C872E3 /* AppDelegate.m */,
 				24D6FFB5230E6DB100C872E3 /* ViewController.h */,
@@ -132,6 +238,29 @@
 			path = "OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests";
 			sourceTree = "<group>";
 		};
+		6ED0FCABCB69D08246FC4216 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52FD1A0603F0995C362E2B27 /* libPods-OpenGLZeroStudyDemo(11)-高级Opengl-混合.a */,
+				4545471AA9D0E58B6D47E419 /* libPods-OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests.a */,
+				44CCC045398E8CB98F9866EF /* libPods-OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B682BF7DD2747D955242D9F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52F4F586737C1218CFC8BA34 /* Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合.debug.xcconfig */,
+				52AD46900ABD9EC33796CFB2 /* Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合.release.xcconfig */,
+				0F1A4AF12A3518D0C331B976 /* Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests.debug.xcconfig */,
+				C22FE5C595DE14096FB43C34 /* Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests.release.xcconfig */,
+				EAFC0CD6CE28991684E2B627 /* Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests.debug.xcconfig */,
+				53BC014971207A4B6AA967D7 /* Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24D6FFDB230E6DB300C872E3 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(11)-高级Opengl-混合" */;
 			buildPhases = (
+				B394E8D5415DA5049D606BE1 /* [CP] Check Pods Manifest.lock */,
 				24D6FFAB230E6DB100C872E3 /* Sources */,
 				24D6FFAC230E6DB100C872E3 /* Frameworks */,
 				24D6FFAD230E6DB100C872E3 /* Resources */,
@@ -156,6 +286,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24D6FFDE230E6DB300C872E3 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests" */;
 			buildPhases = (
+				A64FBA339953A27F276F455C /* [CP] Check Pods Manifest.lock */,
 				24D6FFC3230E6DB300C872E3 /* Sources */,
 				24D6FFC4230E6DB300C872E3 /* Frameworks */,
 				24D6FFC5230E6DB300C872E3 /* Resources */,
@@ -174,6 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24D6FFE1230E6DB300C872E3 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests" */;
 			buildPhases = (
+				BEE5C0762569EFA5499B0509 /* [CP] Check Pods Manifest.lock */,
 				24D6FFCE230E6DB300C872E3 /* Sources */,
 				24D6FFCF230E6DB300C872E3 /* Frameworks */,
 				24D6FFD0230E6DB300C872E3 /* Resources */,
@@ -235,7 +367,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24952348230E78DF0075887D /* Blend.vsh in Resources */,
+				24275FD8230EB318001859DF /* NotAlphaNotBlend.fsh in Resources */,
 				24D6FFBF230E6DB300C872E3 /* LaunchScreen.storyboard in Resources */,
+				2495234A230E78DF0075887D /* Blend.fsh in Resources */,
+				24275FCD230EAF29001859DF /* NotBlend.vsh in Resources */,
+				24275FCA230EAF29001859DF /* NotBlend.fsh in Resources */,
+				24275FDB230EB318001859DF /* NotAlphaNotBlend.vsh in Resources */,
+				2495234D230E7A410075887D /* metal.png in Resources */,
+				24952354230E90C00075887D /* grass.png in Resources */,
+				2495234E230E7A410075887D /* marble.jpg in Resources */,
+				24952369230EAD990075887D /* window.png in Resources */,
 				24D6FFBC230E6DB300C872E3 /* Assets.xcassets in Resources */,
 				24D6FFBA230E6DB100C872E3 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +399,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A64FBA339953A27F276F455C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B394E8D5415DA5049D606BE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEE5C0762569EFA5499B0509 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24D6FFAB230E6DB100C872E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24275FD0230EB088001859DF /* SortBlendViewController.m in Sources */,
+				24275FCC230EAF29001859DF /* NotBlendViewController.m in Sources */,
+				24952347230E78DF0075887D /* BlendBindObject.m in Sources */,
 				24D6FFB7230E6DB100C872E3 /* ViewController.m in Sources */,
+				24275FD9230EB318001859DF /* NotAlphaNotBlendViewController.m in Sources */,
+				24275FDA230EB318001859DF /* NotAlphaNotBlendBindObject.m in Sources */,
 				24D6FFC2230E6DB300C872E3 /* main.m in Sources */,
 				24D6FFB4230E6DB100C872E3 /* AppDelegate.m in Sources */,
+				24952349230E78DF0075887D /* BlendViewController.m in Sources */,
+				24275FCB230EAF29001859DF /* NotBlendBindObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +588,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -423,7 +641,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,6 +651,7 @@
 		};
 		24D6FFDC230E6DB300C872E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F4F586737C1218CFC8BA34 /* Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +669,7 @@
 		};
 		24D6FFDD230E6DB300C872E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52AD46900ABD9EC33796CFB2 /* Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +687,7 @@
 		};
 		24D6FFDF230E6DB300C872E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1A4AF12A3518D0C331B976 /* Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +707,7 @@
 		};
 		24D6FFE0230E6DB300C872E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C22FE5C595DE14096FB43C34 /* Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +727,7 @@
 		};
 		24D6FFE2230E6DB300C872E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAFC0CD6CE28991684E2B627 /* Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y4CZPABXLV;
@@ -523,6 +746,7 @@
 		};
 		24D6FFE3230E6DB300C872E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53BC014971207A4B6AA967D7 /* Pods-OpenGLZeroStudyDemo(11)-高级Opengl-混合UITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y4CZPABXLV;
