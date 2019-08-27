@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'OpenGLZeroStudyDemo(12)-高级Opengl-面剔除' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for OpenGLZeroStudyDemo(12)-高级Opengl-面剔除
+  pod 'OpenGLUtils', :path => '../openGL'
+  pod 'OpenGLBase', :path => '../openGLBase'
+  target 'OpenGLZeroStudyDemo(12)-高级Opengl-面剔除Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'OpenGLZeroStudyDemo(12)-高级Opengl-面剔除UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

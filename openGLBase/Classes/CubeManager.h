@@ -11,13 +11,19 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CubeManager : NSObject
+#pragma mark  - faceCulling
++(unsigned int)getFaceCullingVertexNum;
++(float *)getFaceCullingVertexs;
+
 #pragma mark  - textureNormal
 +(unsigned int)getTextureNormalVertexNum;
 +(float *)getTextureNormalVertexs;
 
+#pragma mark  - normal
 +(unsigned int)getNormalVertexNum;
 +(float *)getNormalVertexs;
 
+#pragma mark  - vertex
 +(unsigned int)getVertexNum;
 +(float *)getCubeVerts;
 +(float *)getCubeNormals;

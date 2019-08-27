@@ -151,9 +151,62 @@ float textureNormalvertices[] = {
     -0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f,  0.0f, 1.0f
 };
 
-
+unsigned int cubeFaceCullingVertuceNum = 36;
+float cubeFaceCullingVertices[] = {
+    // Back face
+    -0.5f, -0.5f, -0.5f,  0.0f, 0.0f, // Bottom-left
+    0.5f,  0.5f, -0.5f,  1.0f, 1.0f, // top-right
+    0.5f, -0.5f, -0.5f,  1.0f, 0.0f, // bottom-right
+    0.5f,  0.5f, -0.5f,  1.0f, 1.0f, // top-right
+    -0.5f, -0.5f, -0.5f,  0.0f, 0.0f, // bottom-left
+    -0.5f,  0.5f, -0.5f,  0.0f, 1.0f, // top-left
+    // Front face
+    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f, // bottom-left
+    0.5f, -0.5f,  0.5f,  1.0f, 0.0f, // bottom-right
+    0.5f,  0.5f,  0.5f,  1.0f, 1.0f, // top-right
+    0.5f,  0.5f,  0.5f,  1.0f, 1.0f, // top-right
+    -0.5f,  0.5f,  0.5f,  0.0f, 1.0f, // top-left
+    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f, // bottom-left
+    // Left face
+    -0.5f,  0.5f,  0.5f,  1.0f, 0.0f, // top-right
+    -0.5f,  0.5f, -0.5f,  1.0f, 1.0f, // top-left
+    -0.5f, -0.5f, -0.5f,  0.0f, 1.0f, // bottom-left
+    -0.5f, -0.5f, -0.5f,  0.0f, 1.0f, // bottom-left
+    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f, // bottom-right
+    -0.5f,  0.5f,  0.5f,  1.0f, 0.0f, // top-right
+    // Right face
+    0.5f,  0.5f,  0.5f,  1.0f, 0.0f, // top-left
+    0.5f, -0.5f, -0.5f,  0.0f, 1.0f, // bottom-right
+    0.5f,  0.5f, -0.5f,  1.0f, 1.0f, // top-right
+    0.5f, -0.5f, -0.5f,  0.0f, 1.0f, // bottom-right
+    0.5f,  0.5f,  0.5f,  1.0f, 0.0f, // top-left
+    0.5f, -0.5f,  0.5f,  0.0f, 0.0f, // bottom-left
+    // Bottom face
+    -0.5f, -0.5f, -0.5f,  0.0f, 1.0f, // top-right
+    0.5f, -0.5f, -0.5f,  1.0f, 1.0f, // top-left
+    0.5f, -0.5f,  0.5f,  1.0f, 0.0f, // bottom-left
+    0.5f, -0.5f,  0.5f,  1.0f, 0.0f, // bottom-left
+    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f, // bottom-right
+    -0.5f, -0.5f, -0.5f,  0.0f, 1.0f, // top-right
+    // Top face
+    -0.5f,  0.5f, -0.5f,  0.0f, 1.0f, // top-left
+    0.5f,  0.5f,  0.5f,  1.0f, 0.0f, // bottom-right
+    0.5f,  0.5f, -0.5f,  1.0f, 1.0f, // top-right
+    0.5f,  0.5f,  0.5f,  1.0f, 0.0f, // bottom-right
+    -0.5f,  0.5f, -0.5f,  0.0f, 1.0f, // top-left
+    -0.5f,  0.5f,  0.5f,  0.0f, 0.0f  // bottom-left
+};
 
 @implementation CubeManager
+#pragma mark  - faceCulling
++(unsigned int)getFaceCullingVertexNum{
+    return cubeFaceCullingVertuceNum;
+}
++(float *)getFaceCullingVertexs{
+    return cubeFaceCullingVertices;
+}
+
+
 #pragma mark  - textureNormal
 +(unsigned int)getTextureNormalVertexNum{
     return cubetextureNormalNormalNumVerts;
