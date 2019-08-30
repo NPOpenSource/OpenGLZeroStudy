@@ -1,0 +1,890 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2484C8BE23166DD500A8CB80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2484C8BD23166DD500A8CB80 /* AppDelegate.m */; };
+		2484C8C123166DD500A8CB80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2484C8C023166DD500A8CB80 /* ViewController.m */; };
+		2484C8C423166DD500A8CB80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2484C8C223166DD500A8CB80 /* Main.storyboard */; };
+		2484C8C623166DD700A8CB80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2484C8C523166DD700A8CB80 /* Assets.xcassets */; };
+		2484C8C923166DD700A8CB80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2484C8C723166DD700A8CB80 /* LaunchScreen.storyboard */; };
+		2484C8CC23166DD700A8CB80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2484C8CB23166DD700A8CB80 /* main.m */; };
+		2484C8D623166DD700A8CB80 /* OpenGLZeroStudyDemo_13____Opengl____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2484C8D523166DD700A8CB80 /* OpenGLZeroStudyDemo_13____Opengl____Tests.m */; };
+		2484C8E123166DD800A8CB80 /* OpenGLZeroStudyDemo_13____Opengl____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2484C8E023166DD800A8CB80 /* OpenGLZeroStudyDemo_13____Opengl____UITests.m */; };
+		2484C8FF231674C500A8CB80 /* marble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2484C8FD231674C400A8CB80 /* marble.jpg */; };
+		2484C900231674C500A8CB80 /* metal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2484C8FE231674C500A8CB80 /* metal.png */; };
+		24AA90862318B8AE00E296E4 /* OffScreenRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AA90802318B8AE00E296E4 /* OffScreenRenderViewController.m */; };
+		24AA90872318B8AE00E296E4 /* OffScreenRenderBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AA90812318B8AE00E296E4 /* OffScreenRenderBindObject.m */; };
+		24AA90882318B8AE00E296E4 /* OffScreenRender.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 24AA90822318B8AE00E296E4 /* OffScreenRender.fsh */; };
+		24AA90892318B8AE00E296E4 /* OffScreenRender.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 24AA90842318B8AE00E296E4 /* OffScreenRender.vsh */; };
+		24AA908E2318B99D00E296E4 /* FrameBufferBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AA908A2318B99D00E296E4 /* FrameBufferBindObject.m */; };
+		24AA908F2318B99D00E296E4 /* FrameBuffer.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 24AA908C2318B99D00E296E4 /* FrameBuffer.vsh */; };
+		24AA90902318B99D00E296E4 /* FrameBuffer.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 24AA908D2318B99D00E296E4 /* FrameBuffer.fsh */; };
+		24B5CDEB642ADD8EBCF80FBB /* libPods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E52E888F06BF1E84FFD86364 /* libPods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests.a */; };
+		24C6171D2318B7760078601C /* DefaultRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C617182318B7760078601C /* DefaultRenderViewController.m */; };
+		24C6171E2318B7760078601C /* DefaultRenderBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C617192318B7760078601C /* DefaultRenderBindObject.m */; };
+		24C6171F2318B7760078601C /* DefaultRender.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 24C6171A2318B7760078601C /* DefaultRender.fsh */; };
+		24C617202318B7760078601C /* DefaultRender.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 24C6171B2318B7760078601C /* DefaultRender.vsh */; };
+		24DAF6582319208700A19280 /* OppositionOffScreenRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DAF6572319208700A19280 /* OppositionOffScreenRenderViewController.m */; };
+		24DAF65C231920CF00A19280 /* OppositionOffScreenRender.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 24DAF65A231920CF00A19280 /* OppositionOffScreenRender.vsh */; };
+		24DAF65D231920CF00A19280 /* OppositionOffScreenRender.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 24DAF65B231920CF00A19280 /* OppositionOffScreenRender.fsh */; };
+		24DAF6612319288D00A19280 /* GrayscaleOffScreenRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DAF6602319288D00A19280 /* GrayscaleOffScreenRenderViewController.m */; };
+		24DAF664231928C000A19280 /* GrayscaleOffScreen.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 24DAF662231928C000A19280 /* GrayscaleOffScreen.vsh */; };
+		24DAF665231928C000A19280 /* GrayscaleOffScreen.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 24DAF663231928C000A19280 /* GrayscaleOffScreen.fsh */; };
+		24DAF6692319297000A19280 /* KernelSharpenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DAF6682319297000A19280 /* KernelSharpenViewController.m */; };
+		24DAF66C231929C400A19280 /* KernelBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DAF66B231929C400A19280 /* KernelBlurViewController.m */; };
+		24DAF67E23192A4100A19280 /* KernelEdgeDetectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DAF67D23192A4100A19280 /* KernelEdgeDetectionViewController.m */; };
+		24DAF68523192A6D00A19280 /* KernelSharpen.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 24DAF67F23192A6C00A19280 /* KernelSharpen.fsh */; };
+		24DAF68623192A6D00A19280 /* KernelBlur.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 24DAF68023192A6D00A19280 /* KernelBlur.vsh */; };
+		24DAF68723192A6D00A19280 /* KernelEdgeDetection.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 24DAF68123192A6D00A19280 /* KernelEdgeDetection.vsh */; };
+		24DAF68823192A6D00A19280 /* KernelEdgeDetection.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 24DAF68223192A6D00A19280 /* KernelEdgeDetection.fsh */; };
+		24DAF68923192A6D00A19280 /* KernelSharpen.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 24DAF68323192A6D00A19280 /* KernelSharpen.vsh */; };
+		24DAF68A23192A6D00A19280 /* KernelBlur.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 24DAF68423192A6D00A19280 /* KernelBlur.fsh */; };
+		8AB041A68FD668FCD89608DD /* libPods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6BFBFE4ACEF0E4AF7FF25F /* libPods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests.a */; };
+		FB81C40973802AF4B72E1D7A /* libPods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E002F8B1970F6C3CCC8843 /* libPods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2484C8D223166DD700A8CB80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2484C8B123166DD500A8CB80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2484C8B823166DD500A8CB80;
+			remoteInfo = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲";
+		};
+		2484C8DD23166DD800A8CB80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2484C8B123166DD500A8CB80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2484C8B823166DD500A8CB80;
+			remoteInfo = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E6BFBFE4ACEF0E4AF7FF25F /* libPods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1514CA73E01A35C6540FBC5F /* Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests/Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2484C8B923166DD500A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2484C8BC23166DD500A8CB80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2484C8BD23166DD500A8CB80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2484C8BF23166DD500A8CB80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2484C8C023166DD500A8CB80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2484C8C323166DD500A8CB80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2484C8C523166DD700A8CB80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2484C8C823166DD700A8CB80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2484C8CA23166DD700A8CB80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2484C8CB23166DD700A8CB80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2484C8D123166DD700A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2484C8D523166DD700A8CB80 /* OpenGLZeroStudyDemo_13____Opengl____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGLZeroStudyDemo_13____Opengl____Tests.m"; sourceTree = "<group>"; };
+		2484C8D723166DD700A8CB80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2484C8DC23166DD800A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2484C8E023166DD800A8CB80 /* OpenGLZeroStudyDemo_13____Opengl____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGLZeroStudyDemo_13____Opengl____UITests.m"; sourceTree = "<group>"; };
+		2484C8E223166DD800A8CB80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2484C8FD231674C400A8CB80 /* marble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marble.jpg; sourceTree = "<group>"; };
+		2484C8FE231674C500A8CB80 /* metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metal.png; sourceTree = "<group>"; };
+		24AA90802318B8AE00E296E4 /* OffScreenRenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffScreenRenderViewController.m; sourceTree = "<group>"; };
+		24AA90812318B8AE00E296E4 /* OffScreenRenderBindObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffScreenRenderBindObject.m; sourceTree = "<group>"; };
+		24AA90822318B8AE00E296E4 /* OffScreenRender.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = OffScreenRender.fsh; sourceTree = "<group>"; };
+		24AA90832318B8AE00E296E4 /* OffScreenRenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffScreenRenderViewController.h; sourceTree = "<group>"; };
+		24AA90842318B8AE00E296E4 /* OffScreenRender.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = OffScreenRender.vsh; sourceTree = "<group>"; };
+		24AA90852318B8AE00E296E4 /* OffScreenRenderBindObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffScreenRenderBindObject.h; sourceTree = "<group>"; };
+		24AA908A2318B99D00E296E4 /* FrameBufferBindObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameBufferBindObject.m; sourceTree = "<group>"; };
+		24AA908B2318B99D00E296E4 /* FrameBufferBindObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameBufferBindObject.h; sourceTree = "<group>"; };
+		24AA908C2318B99D00E296E4 /* FrameBuffer.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = FrameBuffer.vsh; sourceTree = "<group>"; };
+		24AA908D2318B99D00E296E4 /* FrameBuffer.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = FrameBuffer.fsh; sourceTree = "<group>"; };
+		24C617172318B7750078601C /* DefaultRenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultRenderViewController.h; sourceTree = "<group>"; };
+		24C617182318B7760078601C /* DefaultRenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultRenderViewController.m; sourceTree = "<group>"; };
+		24C617192318B7760078601C /* DefaultRenderBindObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultRenderBindObject.m; sourceTree = "<group>"; };
+		24C6171A2318B7760078601C /* DefaultRender.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DefaultRender.fsh; sourceTree = "<group>"; };
+		24C6171B2318B7760078601C /* DefaultRender.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DefaultRender.vsh; sourceTree = "<group>"; };
+		24C6171C2318B7760078601C /* DefaultRenderBindObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultRenderBindObject.h; sourceTree = "<group>"; };
+		24DAF6562319208700A19280 /* OppositionOffScreenRenderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OppositionOffScreenRenderViewController.h; sourceTree = "<group>"; };
+		24DAF6572319208700A19280 /* OppositionOffScreenRenderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OppositionOffScreenRenderViewController.m; sourceTree = "<group>"; };
+		24DAF65A231920CF00A19280 /* OppositionOffScreenRender.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = OppositionOffScreenRender.vsh; sourceTree = "<group>"; };
+		24DAF65B231920CF00A19280 /* OppositionOffScreenRender.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = OppositionOffScreenRender.fsh; sourceTree = "<group>"; };
+		24DAF65F2319288D00A19280 /* GrayscaleOffScreenRenderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrayscaleOffScreenRenderViewController.h; sourceTree = "<group>"; };
+		24DAF6602319288D00A19280 /* GrayscaleOffScreenRenderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrayscaleOffScreenRenderViewController.m; sourceTree = "<group>"; };
+		24DAF662231928C000A19280 /* GrayscaleOffScreen.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = GrayscaleOffScreen.vsh; sourceTree = "<group>"; };
+		24DAF663231928C000A19280 /* GrayscaleOffScreen.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = GrayscaleOffScreen.fsh; sourceTree = "<group>"; };
+		24DAF6672319297000A19280 /* KernelSharpenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KernelSharpenViewController.h; sourceTree = "<group>"; };
+		24DAF6682319297000A19280 /* KernelSharpenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KernelSharpenViewController.m; sourceTree = "<group>"; };
+		24DAF66A231929C400A19280 /* KernelBlurViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KernelBlurViewController.h; sourceTree = "<group>"; };
+		24DAF66B231929C400A19280 /* KernelBlurViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KernelBlurViewController.m; sourceTree = "<group>"; };
+		24DAF67C23192A4100A19280 /* KernelEdgeDetectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KernelEdgeDetectionViewController.h; sourceTree = "<group>"; };
+		24DAF67D23192A4100A19280 /* KernelEdgeDetectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KernelEdgeDetectionViewController.m; sourceTree = "<group>"; };
+		24DAF67F23192A6C00A19280 /* KernelSharpen.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = KernelSharpen.fsh; sourceTree = "<group>"; };
+		24DAF68023192A6D00A19280 /* KernelBlur.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = KernelBlur.vsh; sourceTree = "<group>"; };
+		24DAF68123192A6D00A19280 /* KernelEdgeDetection.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = KernelEdgeDetection.vsh; sourceTree = "<group>"; };
+		24DAF68223192A6D00A19280 /* KernelEdgeDetection.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = KernelEdgeDetection.fsh; sourceTree = "<group>"; };
+		24DAF68323192A6D00A19280 /* KernelSharpen.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = KernelSharpen.vsh; sourceTree = "<group>"; };
+		24DAF68423192A6D00A19280 /* KernelBlur.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = KernelBlur.fsh; sourceTree = "<group>"; };
+		56E002F8B1970F6C3CCC8843 /* libPods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B314074E246932095045879 /* Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests/Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7443E3D6D87B4EAA7047AC9D /* Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲/Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.debug.xcconfig"; sourceTree = "<group>"; };
+		748A0E14627AB151DD67453F /* Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲/Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.release.xcconfig"; sourceTree = "<group>"; };
+		8FDAF8DE982D6135ADA94EA5 /* Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests/Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		93D607DDFFB071EA3609D744 /* Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests/Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests.release.xcconfig"; sourceTree = "<group>"; };
+		E52E888F06BF1E84FFD86364 /* libPods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2484C8B623166DD500A8CB80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB81C40973802AF4B72E1D7A /* libPods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2484C8CE23166DD700A8CB80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B5CDEB642ADD8EBCF80FBB /* libPods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2484C8D923166DD800A8CB80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB041A68FD668FCD89608DD /* libPods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B191A9E96EF5D0E3C3CD73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7443E3D6D87B4EAA7047AC9D /* Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.debug.xcconfig */,
+				748A0E14627AB151DD67453F /* Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.release.xcconfig */,
+				8FDAF8DE982D6135ADA94EA5 /* Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests.debug.xcconfig */,
+				5B314074E246932095045879 /* Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests.release.xcconfig */,
+				1514CA73E01A35C6540FBC5F /* Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests.debug.xcconfig */,
+				93D607DDFFB071EA3609D744 /* Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2471F64223191FDA00D743FA /* OffScreenRenderEffect */ = {
+			isa = PBXGroup;
+			children = (
+				24DAF666231928F900A19280 /* KernelEffect */,
+				24DAF65E2319285400A19280 /* Grayscale */,
+				24DAF6592319208D00A19280 /* OppositionOffScreenRender */,
+			);
+			path = OffScreenRenderEffect;
+			sourceTree = "<group>";
+		};
+		2484C8B023166DD500A8CB80 = {
+			isa = PBXGroup;
+			children = (
+				2484C8BB23166DD500A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲 */,
+				2484C8D423166DD700A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests */,
+				2484C8DF23166DD800A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests */,
+				2484C8BA23166DD500A8CB80 /* Products */,
+				17B191A9E96EF5D0E3C3CD73 /* Pods */,
+				B3EB31EB2756014253BBE559 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2484C8BA23166DD500A8CB80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2484C8B923166DD500A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.app */,
+				2484C8D123166DD700A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests.xctest */,
+				2484C8DC23166DD800A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2484C8BB23166DD500A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲 */ = {
+			isa = PBXGroup;
+			children = (
+				2471F64223191FDA00D743FA /* OffScreenRenderEffect */,
+				24AA907F2318B88300E296E4 /* OffScreenRender */,
+				24C617162318B7400078601C /* defaultRender */,
+				2484C8FD231674C400A8CB80 /* marble.jpg */,
+				2484C8FE231674C500A8CB80 /* metal.png */,
+				2484C8EE23166E9D00A8CB80 /* default */,
+				2484C8BC23166DD500A8CB80 /* AppDelegate.h */,
+				2484C8BD23166DD500A8CB80 /* AppDelegate.m */,
+				2484C8BF23166DD500A8CB80 /* ViewController.h */,
+				2484C8C023166DD500A8CB80 /* ViewController.m */,
+				2484C8C223166DD500A8CB80 /* Main.storyboard */,
+				2484C8C523166DD700A8CB80 /* Assets.xcassets */,
+				2484C8C723166DD700A8CB80 /* LaunchScreen.storyboard */,
+				2484C8CA23166DD700A8CB80 /* Info.plist */,
+				2484C8CB23166DD700A8CB80 /* main.m */,
+			);
+			path = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲";
+			sourceTree = "<group>";
+		};
+		2484C8D423166DD700A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2484C8D523166DD700A8CB80 /* OpenGLZeroStudyDemo_13____Opengl____Tests.m */,
+				2484C8D723166DD700A8CB80 /* Info.plist */,
+			);
+			path = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests";
+			sourceTree = "<group>";
+		};
+		2484C8DF23166DD800A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2484C8E023166DD800A8CB80 /* OpenGLZeroStudyDemo_13____Opengl____UITests.m */,
+				2484C8E223166DD800A8CB80 /* Info.plist */,
+			);
+			path = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests";
+			sourceTree = "<group>";
+		};
+		2484C8EE23166E9D00A8CB80 /* default */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = default;
+			sourceTree = "<group>";
+		};
+		24AA907F2318B88300E296E4 /* OffScreenRender */ = {
+			isa = PBXGroup;
+			children = (
+				24AA908D2318B99D00E296E4 /* FrameBuffer.fsh */,
+				24AA908C2318B99D00E296E4 /* FrameBuffer.vsh */,
+				24AA908B2318B99D00E296E4 /* FrameBufferBindObject.h */,
+				24AA908A2318B99D00E296E4 /* FrameBufferBindObject.m */,
+				24AA90822318B8AE00E296E4 /* OffScreenRender.fsh */,
+				24AA90842318B8AE00E296E4 /* OffScreenRender.vsh */,
+				24AA90852318B8AE00E296E4 /* OffScreenRenderBindObject.h */,
+				24AA90812318B8AE00E296E4 /* OffScreenRenderBindObject.m */,
+				24AA90832318B8AE00E296E4 /* OffScreenRenderViewController.h */,
+				24AA90802318B8AE00E296E4 /* OffScreenRenderViewController.m */,
+			);
+			path = OffScreenRender;
+			sourceTree = "<group>";
+		};
+		24C617162318B7400078601C /* defaultRender */ = {
+			isa = PBXGroup;
+			children = (
+				24C6171A2318B7760078601C /* DefaultRender.fsh */,
+				24C6171B2318B7760078601C /* DefaultRender.vsh */,
+				24C6171C2318B7760078601C /* DefaultRenderBindObject.h */,
+				24C617192318B7760078601C /* DefaultRenderBindObject.m */,
+				24C617172318B7750078601C /* DefaultRenderViewController.h */,
+				24C617182318B7760078601C /* DefaultRenderViewController.m */,
+			);
+			path = defaultRender;
+			sourceTree = "<group>";
+		};
+		24DAF6592319208D00A19280 /* OppositionOffScreenRender */ = {
+			isa = PBXGroup;
+			children = (
+				24DAF65B231920CF00A19280 /* OppositionOffScreenRender.fsh */,
+				24DAF65A231920CF00A19280 /* OppositionOffScreenRender.vsh */,
+				24DAF6562319208700A19280 /* OppositionOffScreenRenderViewController.h */,
+				24DAF6572319208700A19280 /* OppositionOffScreenRenderViewController.m */,
+			);
+			path = OppositionOffScreenRender;
+			sourceTree = "<group>";
+		};
+		24DAF65E2319285400A19280 /* Grayscale */ = {
+			isa = PBXGroup;
+			children = (
+				24DAF663231928C000A19280 /* GrayscaleOffScreen.fsh */,
+				24DAF662231928C000A19280 /* GrayscaleOffScreen.vsh */,
+				24DAF65F2319288D00A19280 /* GrayscaleOffScreenRenderViewController.h */,
+				24DAF6602319288D00A19280 /* GrayscaleOffScreenRenderViewController.m */,
+			);
+			path = Grayscale;
+			sourceTree = "<group>";
+		};
+		24DAF666231928F900A19280 /* KernelEffect */ = {
+			isa = PBXGroup;
+			children = (
+				24DAF68423192A6D00A19280 /* KernelBlur.fsh */,
+				24DAF68023192A6D00A19280 /* KernelBlur.vsh */,
+				24DAF68223192A6D00A19280 /* KernelEdgeDetection.fsh */,
+				24DAF68123192A6D00A19280 /* KernelEdgeDetection.vsh */,
+				24DAF67F23192A6C00A19280 /* KernelSharpen.fsh */,
+				24DAF68323192A6D00A19280 /* KernelSharpen.vsh */,
+				24DAF6672319297000A19280 /* KernelSharpenViewController.h */,
+				24DAF6682319297000A19280 /* KernelSharpenViewController.m */,
+				24DAF66A231929C400A19280 /* KernelBlurViewController.h */,
+				24DAF66B231929C400A19280 /* KernelBlurViewController.m */,
+				24DAF67C23192A4100A19280 /* KernelEdgeDetectionViewController.h */,
+				24DAF67D23192A4100A19280 /* KernelEdgeDetectionViewController.m */,
+			);
+			path = KernelEffect;
+			sourceTree = "<group>";
+		};
+		B3EB31EB2756014253BBE559 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56E002F8B1970F6C3CCC8843 /* libPods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.a */,
+				E52E888F06BF1E84FFD86364 /* libPods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests.a */,
+				0E6BFBFE4ACEF0E4AF7FF25F /* libPods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2484C8B823166DD500A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2484C8E523166DD800A8CB80 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲" */;
+			buildPhases = (
+				C7008EFDE4A4AE47674CF208 /* [CP] Check Pods Manifest.lock */,
+				2484C8B523166DD500A8CB80 /* Sources */,
+				2484C8B623166DD500A8CB80 /* Frameworks */,
+				2484C8B723166DD500A8CB80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲";
+			productName = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲";
+			productReference = 2484C8B923166DD500A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2484C8D023166DD700A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2484C8E823166DD800A8CB80 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests" */;
+			buildPhases = (
+				4CAA83A4747CE79C9ADEE9ED /* [CP] Check Pods Manifest.lock */,
+				2484C8CD23166DD700A8CB80 /* Sources */,
+				2484C8CE23166DD700A8CB80 /* Frameworks */,
+				2484C8CF23166DD700A8CB80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2484C8D323166DD700A8CB80 /* PBXTargetDependency */,
+			);
+			name = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests";
+			productName = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests";
+			productReference = 2484C8D123166DD700A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2484C8DB23166DD800A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2484C8EB23166DD800A8CB80 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests" */;
+			buildPhases = (
+				0BFC216B562E6D30D743989B /* [CP] Check Pods Manifest.lock */,
+				2484C8D823166DD800A8CB80 /* Sources */,
+				2484C8D923166DD800A8CB80 /* Frameworks */,
+				2484C8DA23166DD800A8CB80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2484C8DE23166DD800A8CB80 /* PBXTargetDependency */,
+			);
+			name = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests";
+			productName = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests";
+			productReference = 2484C8DC23166DD800A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2484C8B123166DD500A8CB80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = openSource;
+				TargetAttributes = {
+					2484C8B823166DD500A8CB80 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2484C8D023166DD700A8CB80 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2484C8B823166DD500A8CB80;
+					};
+					2484C8DB23166DD800A8CB80 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2484C8B823166DD500A8CB80;
+					};
+				};
+			};
+			buildConfigurationList = 2484C8B423166DD500A8CB80 /* Build configuration list for PBXProject "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2484C8B023166DD500A8CB80;
+			productRefGroup = 2484C8BA23166DD500A8CB80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2484C8B823166DD500A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲 */,
+				2484C8D023166DD700A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests */,
+				2484C8DB23166DD800A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2484C8B723166DD500A8CB80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DAF665231928C000A19280 /* GrayscaleOffScreen.fsh in Resources */,
+				2484C900231674C500A8CB80 /* metal.png in Resources */,
+				24DAF68923192A6D00A19280 /* KernelSharpen.vsh in Resources */,
+				24DAF68523192A6D00A19280 /* KernelSharpen.fsh in Resources */,
+				2484C8FF231674C500A8CB80 /* marble.jpg in Resources */,
+				2484C8C923166DD700A8CB80 /* LaunchScreen.storyboard in Resources */,
+				2484C8C623166DD700A8CB80 /* Assets.xcassets in Resources */,
+				24DAF65D231920CF00A19280 /* OppositionOffScreenRender.fsh in Resources */,
+				24DAF68823192A6D00A19280 /* KernelEdgeDetection.fsh in Resources */,
+				2484C8C423166DD500A8CB80 /* Main.storyboard in Resources */,
+				24AA90902318B99D00E296E4 /* FrameBuffer.fsh in Resources */,
+				24DAF68A23192A6D00A19280 /* KernelBlur.fsh in Resources */,
+				24DAF68723192A6D00A19280 /* KernelEdgeDetection.vsh in Resources */,
+				24AA908F2318B99D00E296E4 /* FrameBuffer.vsh in Resources */,
+				24AA90892318B8AE00E296E4 /* OffScreenRender.vsh in Resources */,
+				24AA90882318B8AE00E296E4 /* OffScreenRender.fsh in Resources */,
+				24C6171F2318B7760078601C /* DefaultRender.fsh in Resources */,
+				24C617202318B7760078601C /* DefaultRender.vsh in Resources */,
+				24DAF65C231920CF00A19280 /* OppositionOffScreenRender.vsh in Resources */,
+				24DAF68623192A6D00A19280 /* KernelBlur.vsh in Resources */,
+				24DAF664231928C000A19280 /* GrayscaleOffScreen.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2484C8CF23166DD700A8CB80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2484C8DA23166DD800A8CB80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BFC216B562E6D30D743989B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CAA83A4747CE79C9ADEE9ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7008EFDE4A4AE47674CF208 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2484C8B523166DD500A8CB80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2484C8C123166DD500A8CB80 /* ViewController.m in Sources */,
+				24AA90872318B8AE00E296E4 /* OffScreenRenderBindObject.m in Sources */,
+				24DAF6692319297000A19280 /* KernelSharpenViewController.m in Sources */,
+				24DAF67E23192A4100A19280 /* KernelEdgeDetectionViewController.m in Sources */,
+				2484C8CC23166DD700A8CB80 /* main.m in Sources */,
+				2484C8BE23166DD500A8CB80 /* AppDelegate.m in Sources */,
+				24DAF6612319288D00A19280 /* GrayscaleOffScreenRenderViewController.m in Sources */,
+				24DAF66C231929C400A19280 /* KernelBlurViewController.m in Sources */,
+				24DAF6582319208700A19280 /* OppositionOffScreenRenderViewController.m in Sources */,
+				24AA908E2318B99D00E296E4 /* FrameBufferBindObject.m in Sources */,
+				24AA90862318B8AE00E296E4 /* OffScreenRenderViewController.m in Sources */,
+				24C6171D2318B7760078601C /* DefaultRenderViewController.m in Sources */,
+				24C6171E2318B7760078601C /* DefaultRenderBindObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2484C8CD23166DD700A8CB80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2484C8D623166DD700A8CB80 /* OpenGLZeroStudyDemo_13____Opengl____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2484C8D823166DD800A8CB80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2484C8E123166DD800A8CB80 /* OpenGLZeroStudyDemo_13____Opengl____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2484C8D323166DD700A8CB80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2484C8B823166DD500A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲 */;
+			targetProxy = 2484C8D223166DD700A8CB80 /* PBXContainerItemProxy */;
+		};
+		2484C8DE23166DD800A8CB80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2484C8B823166DD500A8CB80 /* OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲 */;
+			targetProxy = 2484C8DD23166DD800A8CB80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2484C8C223166DD500A8CB80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2484C8C323166DD500A8CB80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2484C8C723166DD700A8CB80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2484C8C823166DD700A8CB80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2484C8E323166DD800A8CB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2484C8E423166DD800A8CB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2484C8E623166DD800A8CB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7443E3D6D87B4EAA7047AC9D /* Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F733JW92J9;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.opensource.persion.OpenGLZeroStudyDemo-13----Opengl----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2484C8E723166DD800A8CB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 748A0E14627AB151DD67453F /* Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F733JW92J9;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.opensource.persion.OpenGLZeroStudyDemo-13----Opengl----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2484C8E923166DD800A8CB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FDAF8DE982D6135ADA94EA5 /* Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F733JW92J9;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.opensource.persion.OpenGLZeroStudyDemo-13----Opengl----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.app/OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲";
+			};
+			name = Debug;
+		};
+		2484C8EA23166DD800A8CB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B314074E246932095045879 /* Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F733JW92J9;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.opensource.persion.OpenGLZeroStudyDemo-13----Opengl----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲.app/OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲";
+			};
+			name = Release;
+		};
+		2484C8EC23166DD800A8CB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1514CA73E01A35C6540FBC5F /* Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F733JW92J9;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.opensource.persion.OpenGLZeroStudyDemo-13----Opengl----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲";
+			};
+			name = Debug;
+		};
+		2484C8ED23166DD800A8CB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93D607DDFFB071EA3609D744 /* Pods-OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F733JW92J9;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.opensource.persion.OpenGLZeroStudyDemo-13----Opengl----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2484C8B423166DD500A8CB80 /* Build configuration list for PBXProject "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2484C8E323166DD800A8CB80 /* Debug */,
+				2484C8E423166DD800A8CB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2484C8E523166DD800A8CB80 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2484C8E623166DD800A8CB80 /* Debug */,
+				2484C8E723166DD800A8CB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2484C8E823166DD800A8CB80 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2484C8E923166DD800A8CB80 /* Debug */,
+				2484C8EA23166DD800A8CB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2484C8EB23166DD800A8CB80 /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(13)-高级Opengl-帧缓冲UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2484C8EC23166DD800A8CB80 /* Debug */,
+				2484C8ED23166DD800A8CB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2484C8B123166DD500A8CB80 /* Project object */;
+}

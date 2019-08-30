@@ -8,7 +8,7 @@
 #import "TextureUnit.h"
 
 @interface TextureUnit ()
-@property (nonatomic, assign) GLuint textureBuffer;
+
 @property (nonatomic ,assign) int textureUnitLocation ;
 @end
 
@@ -90,7 +90,24 @@
     
 }
 
+//创建空的纹理单元
+-(void)createSpaceTextureUnit{
+    CGFloat scale = UIScreen.mainScreen.scale;
+    GLsizei fbo_width = [UIScreen mainScreen].bounds.size.width*scale;
+    GLsizei fbo_height =  [UIScreen mainScreen].bounds.size.height*scale;
+    glBindTexture(GL_TEXTURE_2D,  self.textureBuffer);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, fbo_width, fbo_height, 0, GL_RGBA, GL_UNSIGNED_BYTE, NULL);
+    glBindTexture(GL_TEXTURE_2D, 0);
+}
+
+
+
 #pragma mark  - private
+
 -(int)_getTextureBindLocationForTexture:(GLenum)texture{
     int textureLocation = texture-GL_TEXTURE0;
     if (textureLocation>=0 && textureLocation <32) {
