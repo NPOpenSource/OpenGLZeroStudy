@@ -137,4 +137,9 @@
     return  imageData;
 }
 
+- (void)dealloc
+{
+    glDeleteTextures(1, &_textureBuffer);
+}
+
 @end

@@ -14,4 +14,5 @@
 #import "TextureUnit.h"
 #import "FrameBuffer.h"
 #import "RenderBuffer.h"
+#import "CubeTextureUnit.h"
 #endif /* OpenGLUtilsHeader_h */

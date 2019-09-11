@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_OpenGLZeroStudyDemo_14____Opengl______UITests : NSObject
+@end
+@implementation PodsDummy_Pods_OpenGLZeroStudyDemo_14____Opengl______UITests
+@end

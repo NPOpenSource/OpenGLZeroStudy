@@ -70,7 +70,7 @@ float OSR_quadVertices[] = { // vertex attributes for a quad that fills the enti
         [buffer bingDepthAttachmentInRenderBuffer:self.renderBuffer.rbo];
         [buffer check];
     }];
-  
+
 }
 
 -(void)loadVertex{

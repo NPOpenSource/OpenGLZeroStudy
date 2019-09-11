@@ -11,6 +11,5 @@ void main()
     //    gl_FragColor = vec4(average,average,average,1.0);
     
     float average = 0.2126 * textureColor.r + 0.7152 * textureColor.g + 0.0722 * textureColor.b;
-    gl_FragColor = vec4(average,average,average,1.0);
 }
 
