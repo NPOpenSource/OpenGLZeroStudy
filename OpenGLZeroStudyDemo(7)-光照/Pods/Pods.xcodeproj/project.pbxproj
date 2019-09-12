@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0171A0C6BD636B451E7B2E564AAD5B3A /* TextureUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E532B7405DA5F8E8FDC61D05BE295 /* TextureUnit.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		072D1B4EC60A7400540FD9C5A88012AC /* Shader.h in Headers */ = {isa = PBXBuildFile; fileRef = 07514F5062AAE8D6E4D752CD6C0E55FF /* Shader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0E0AC3420379AAE3D23DB62E5A7DA764 /* Vertex.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BA92DCC9948AB1346FE80E5ADB13CF7 /* Vertex.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B1C6B50990D0C53B4E3A9A789B1B3B5 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E8751540FED210A12F78FD915EF7C /* Vertex.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1EE69A1EF4859A98B1972848B679EDA5 /* CubeTextureUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 26884901D955927E5272118CBAD1D12D /* CubeTextureUnit.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		2030E9DC2AB8E15E78A8C23562B97DC1 /* Pods-OpenGLZeroStudyDemo(7)-光照-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 082724F5B3F50073AE820D4224852C7F /* Pods-OpenGLZeroStudyDemo(7)-光照-dummy.m */; };
-		3591A3CE8E06A78D53A43C84833DF660 /* Shader.m in Sources */ = {isa = PBXBuildFile; fileRef = 623B61E14EE1D85C2C66D20E98BF5A23 /* Shader.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3B0AD7687479EEEA0C3DA0FE43EFAED4 /* OpenGLUtilsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B932C701BBE43F03A87B944F874D23C /* OpenGLUtilsHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		65D6C18C90C514E591C572E50E6D36A4 /* OpenGLUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1675DB68302FB5AF7EE10B0643A88F /* OpenGLUtils-dummy.m */; };
-		924B305DC95B98AA552AC1DE8C213153 /* VertexElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E807D371FE2E28A589D8845E0BE182 /* VertexElement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B48CFDBF601F7C1E974AC06486F90204 /* VertexElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 965F9EB9BAE8C0A95A79100ECCF689B6 /* VertexElement.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BE8CB4313ED5A2E2EF4DBEAC57E68CEE /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 65213C67B58D1B22C6D80F91D5D8A3B8 /* Vertex.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		23C23710583DBBCF30DFC7F9618C17C2 /* Vertex.h in Headers */ = {isa = PBXBuildFile; fileRef = AFF9C022DA06A4BF05D5F1493CD8B706 /* Vertex.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D9F064E7A294C4A3992D4C7C88C7A07 /* RenderBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 485ADA904AA45E7D6B9B76472F183BD9 /* RenderBuffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3322A4959B91B6960169351DC677429E /* OpenGLUtilsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C14EB8D1C17AEE70B9C348C1493B4C41 /* OpenGLUtilsHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38220E60D47DDCEEBAF5CE6CFB9DB0C7 /* TextureUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E7418CE38D6E00DB712DE9FEC4195E /* TextureUnit.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4F651D1DEC177DB0AA4DE92EB87EE1FE /* RenderBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4FF4943C4A8EEF15D01D5ADC3AEE23 /* RenderBuffer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		606B08893B77D47CAAF5F2E9031531EC /* FrameBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 992DF0CA56502E15D881254CA9E1FA51 /* FrameBuffer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6DE0FDC597AFE6591666A3EAD4E67472 /* TextureUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CF7D164FEC878C0B46ABC271C27AAC /* TextureUnit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		899A905A511B99536ADBD61170CC0D1E /* CubeTextureUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 050A0BD0840E95C0CC440A08A64D1410 /* CubeTextureUnit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9021E810D85D61AB50A73EB898CC1626 /* VertexElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8AAD0A2FC99D23A629B436EFCDB45A /* VertexElement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AC42796F5D049B3B7B612B306520070E /* FrameBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 86406D1D6EBF2BFB7399FA8868ECB255 /* FrameBuffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C00E22D60CEDD762A36A24A0587E0EF7 /* Pods-OpenGLZeroStudyDemo(7)-光照Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F63CBE3C4A9A69A40B71183AE66142 /* Pods-OpenGLZeroStudyDemo(7)-光照Tests-dummy.m */; };
-		CE5D1555189F965199F010631389D0C2 /* TextureUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9589D07505A1C5248620D0E9FDC5F653 /* TextureUnit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC9369970EC216F95605FD359C2980DF /* Shader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7739BB4390F2EBA75875710FDFE4F667 /* Shader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CDC5C5B2988EFCE50450813B538594A2 /* VertexElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F73CF6CB3ACABA3CFE86103C22467B /* VertexElement.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CEC06EA9C83773526D9652768DC5CA65 /* OpenGLUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DB952427F0639405FE09B0CAD63CA /* OpenGLUtils-dummy.m */; };
+		D66AFA1FEA789CE2E87939DE735A89FC /* Shader.m in Sources */ = {isa = PBXBuildFile; fileRef = EC15EFFCB06B8578A68298315EF3A365 /* Shader.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		DA97C6FC4A54199CAD1F13600D498E80 /* Pods-OpenGLZeroStudyDemo(7)-光照UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E413AE44DE7D37AA6E6C6ADF4B298BD1 /* Pods-OpenGLZeroStudyDemo(7)-光照UITests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -41,43 +47,49 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 786E4CD3705F586FB904A92B45B6E118;
+			remoteGlobalIDString = 359C039C5D91ACF7E0280A117E1CF8A8;
 			remoteInfo = OpenGLUtils;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03E807D371FE2E28A589D8845E0BE182 /* VertexElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VertexElement.m; path = Classes/VertexElement.m; sourceTree = "<group>"; };
+		050A0BD0840E95C0CC440A08A64D1410 /* CubeTextureUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CubeTextureUnit.h; path = Classes/CubeTextureUnit.h; sourceTree = "<group>"; };
 		06EBEA278D8894AC606EE0EB1AE11A18 /* Pods-OpenGLZeroStudyDemo(7)-光照Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenGLZeroStudyDemo(7)-光照Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		07514F5062AAE8D6E4D752CD6C0E55FF /* Shader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Shader.h; path = Classes/Shader.h; sourceTree = "<group>"; };
 		075203D87D6A0636C4AADC5D5D017621 /* Pods-OpenGLZeroStudyDemo(7)-光照UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenGLZeroStudyDemo(7)-光照UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		082724F5B3F50073AE820D4224852C7F /* Pods-OpenGLZeroStudyDemo(7)-光照-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenGLZeroStudyDemo(7)-光照-dummy.m"; sourceTree = "<group>"; };
+		0D3DB952427F0639405FE09B0CAD63CA /* OpenGLUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenGLUtils-dummy.m"; sourceTree = "<group>"; };
+		11E7418CE38D6E00DB712DE9FEC4195E /* TextureUnit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TextureUnit.m; path = Classes/TextureUnit.m; sourceTree = "<group>"; };
 		12D55926AD65C2DFEFF716AAE112BA89 /* Pods-OpenGLZeroStudyDemo(7)-光照UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenGLZeroStudyDemo(7)-光照UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1D14D1F39E9FBB47A61E48598E74BB47 /* libOpenGLUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libOpenGLUtils.a; path = libOpenGLUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		26884901D955927E5272118CBAD1D12D /* CubeTextureUnit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CubeTextureUnit.m; path = Classes/CubeTextureUnit.m; sourceTree = "<group>"; };
 		29F63CBE3C4A9A69A40B71183AE66142 /* Pods-OpenGLZeroStudyDemo(7)-光照Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenGLZeroStudyDemo(7)-光照Tests-dummy.m"; sourceTree = "<group>"; };
-		3B932C701BBE43F03A87B944F874D23C /* OpenGLUtilsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpenGLUtilsHeader.h; path = Classes/OpenGLUtilsHeader.h; sourceTree = "<group>"; };
+		3D8AAD0A2FC99D23A629B436EFCDB45A /* VertexElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VertexElement.m; path = Classes/VertexElement.m; sourceTree = "<group>"; };
+		485ADA904AA45E7D6B9B76472F183BD9 /* RenderBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RenderBuffer.h; path = Classes/RenderBuffer.h; sourceTree = "<group>"; };
 		48D772FCC3747F68A6C8217B0B146F6E /* libPods-OpenGLZeroStudyDemo(7)-光照.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OpenGLZeroStudyDemo(7)-光照.a"; path = "libPods-OpenGLZeroStudyDemo(7)-光照.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1B2D21AEE5BE21FD9B6AB5412EB6F1 /* Pods-OpenGLZeroStudyDemo(7)-光照-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenGLZeroStudyDemo(7)-光照-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4E1675DB68302FB5AF7EE10B0643A88F /* OpenGLUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenGLUtils-dummy.m"; sourceTree = "<group>"; };
-		623B61E14EE1D85C2C66D20E98BF5A23 /* Shader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Shader.m; path = Classes/Shader.m; sourceTree = "<group>"; };
-		65213C67B58D1B22C6D80F91D5D8A3B8 /* Vertex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Vertex.m; path = Classes/Vertex.m; sourceTree = "<group>"; };
-		6BA92DCC9948AB1346FE80E5ADB13CF7 /* Vertex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Vertex.h; path = Classes/Vertex.h; sourceTree = "<group>"; };
+		57BD597F334A2B145C7C5A2955FA30AE /* OpenGLUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenGLUtils-prefix.pch"; sourceTree = "<group>"; };
+		5CDDC26B8E57F060D8D151CDF8F89795 /* OpenGLUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenGLUtils.xcconfig; sourceTree = "<group>"; };
+		64F73CF6CB3ACABA3CFE86103C22467B /* VertexElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VertexElement.h; path = Classes/VertexElement.h; sourceTree = "<group>"; };
 		74EDD9BEB4EFAF67D372AC3CE5F8BF68 /* libPods-OpenGLZeroStudyDemo(7)-光照Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OpenGLZeroStudyDemo(7)-光照Tests.a"; path = "libPods-OpenGLZeroStudyDemo(7)-光照Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		766FE764237A1232A38ED6C6C266730C /* OpenGLUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenGLUtils.xcconfig; sourceTree = "<group>"; };
+		76CF7D164FEC878C0B46ABC271C27AAC /* TextureUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TextureUnit.h; path = Classes/TextureUnit.h; sourceTree = "<group>"; };
+		7739BB4390F2EBA75875710FDFE4F667 /* Shader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Shader.h; path = Classes/Shader.h; sourceTree = "<group>"; };
 		7DBB0026CFE4A5753597FCEC3FE5D6A1 /* Pods-OpenGLZeroStudyDemo(7)-光照.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenGLZeroStudyDemo(7)-光照.debug.xcconfig"; sourceTree = "<group>"; };
 		7EEBBCEADF9801487E3273DB181362B1 /* Pods-OpenGLZeroStudyDemo(7)-光照Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenGLZeroStudyDemo(7)-光照Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7F5E532B7405DA5F8E8FDC61D05BE295 /* TextureUnit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TextureUnit.m; path = Classes/TextureUnit.m; sourceTree = "<group>"; };
 		7F79DEBF2DC82D20897D03BB6E6AC197 /* Pods-OpenGLZeroStudyDemo(7)-光照UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenGLZeroStudyDemo(7)-光照UITests.release.xcconfig"; sourceTree = "<group>"; };
-		828DBD997AD9B17E587D460206F9789E /* OpenGLUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenGLUtils-prefix.pch"; sourceTree = "<group>"; };
-		8FB5943A7443E21C276A7718D287B3F8 /* OpenGLUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OpenGLUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		86406D1D6EBF2BFB7399FA8868ECB255 /* FrameBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FrameBuffer.h; path = Classes/FrameBuffer.h; sourceTree = "<group>"; };
 		9324254194F4144012754661E9ECE89E /* libPods-OpenGLZeroStudyDemo(7)-光照UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OpenGLZeroStudyDemo(7)-光照UITests.a"; path = "libPods-OpenGLZeroStudyDemo(7)-光照UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		934CC44EEED18541527679F20146A4E0 /* Pods-OpenGLZeroStudyDemo(7)-光照.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenGLZeroStudyDemo(7)-光照.release.xcconfig"; sourceTree = "<group>"; };
-		9589D07505A1C5248620D0E9FDC5F653 /* TextureUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TextureUnit.h; path = Classes/TextureUnit.h; sourceTree = "<group>"; };
-		965F9EB9BAE8C0A95A79100ECCF689B6 /* VertexElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VertexElement.h; path = Classes/VertexElement.h; sourceTree = "<group>"; };
 		98CB60F2D7674CD720668A39EA9F988F /* Pods-OpenGLZeroStudyDemo(7)-光照-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenGLZeroStudyDemo(7)-光照-acknowledgements.plist"; sourceTree = "<group>"; };
+		992DF0CA56502E15D881254CA9E1FA51 /* FrameBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FrameBuffer.m; path = Classes/FrameBuffer.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFF9C022DA06A4BF05D5F1493CD8B706 /* Vertex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Vertex.h; path = Classes/Vertex.h; sourceTree = "<group>"; };
+		BB4FF4943C4A8EEF15D01D5ADC3AEE23 /* RenderBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RenderBuffer.m; path = Classes/RenderBuffer.m; sourceTree = "<group>"; };
 		C08D7046870D336E8BC76B871D9D4DF3 /* Pods-OpenGLZeroStudyDemo(7)-光照Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenGLZeroStudyDemo(7)-光照Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C14EB8D1C17AEE70B9C348C1493B4C41 /* OpenGLUtilsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpenGLUtilsHeader.h; path = Classes/OpenGLUtilsHeader.h; sourceTree = "<group>"; };
+		DB3E8751540FED210A12F78FD915EF7C /* Vertex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Vertex.m; path = Classes/Vertex.m; sourceTree = "<group>"; };
+		DC56B2055D8D02D272627FF7249DC744 /* OpenGLUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OpenGLUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E413AE44DE7D37AA6E6C6ADF4B298BD1 /* Pods-OpenGLZeroStudyDemo(7)-光照UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenGLZeroStudyDemo(7)-光照UITests-dummy.m"; sourceTree = "<group>"; };
+		EC15EFFCB06B8578A68298315EF3A365 /* Shader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Shader.m; path = Classes/Shader.m; sourceTree = "<group>"; };
 		F6EB379710DA4F3AC61CC7907A0C0223 /* Pods-OpenGLZeroStudyDemo(7)-光照Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenGLZeroStudyDemo(7)-光照Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FEA47B48756D28117FFD308EEA4D60B0 /* Pods-OpenGLZeroStudyDemo(7)-光照UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenGLZeroStudyDemo(7)-光照UITests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,7 +102,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8A11C7553928D28D7CA80681088FA7A /* Frameworks */ = {
+		71ACB650A2E6A27D131F856683D3F42F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -114,15 +126,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		158921E3474B0EA1EE4C0F96D95905F9 /* Support Files */ = {
+		1AB8B43D82A4AA663D1B117D2228E41E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				766FE764237A1232A38ED6C6C266730C /* OpenGLUtils.xcconfig */,
-				4E1675DB68302FB5AF7EE10B0643A88F /* OpenGLUtils-dummy.m */,
-				828DBD997AD9B17E587D460206F9789E /* OpenGLUtils-prefix.pch */,
+				4EB2CC99103AC177CC9DE9E5D2119A32 /* OpenGLUtils */,
 			);
-			name = "Support Files";
-			path = "../OpenGLZeroStudyDemo(7)-光照/Pods/Target Support Files/OpenGLUtils";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		25AFDFAAE7DE10B7243718A3EDDFCF54 /* Pods-OpenGLZeroStudyDemo(7)-光照 */ = {
@@ -138,20 +147,29 @@
 			path = "Target Support Files/Pods-OpenGLZeroStudyDemo(7)-光照";
 			sourceTree = "<group>";
 		};
-		4F70CA280C01E11BF54A7A07A936A7B3 /* Development Pods */ = {
+		4EB2CC99103AC177CC9DE9E5D2119A32 /* OpenGLUtils */ = {
 			isa = PBXGroup;
 			children = (
-				E8732C3559C5CA5A76CABC18CE83A87D /* OpenGLUtils */,
+				050A0BD0840E95C0CC440A08A64D1410 /* CubeTextureUnit.h */,
+				26884901D955927E5272118CBAD1D12D /* CubeTextureUnit.m */,
+				86406D1D6EBF2BFB7399FA8868ECB255 /* FrameBuffer.h */,
+				992DF0CA56502E15D881254CA9E1FA51 /* FrameBuffer.m */,
+				C14EB8D1C17AEE70B9C348C1493B4C41 /* OpenGLUtilsHeader.h */,
+				485ADA904AA45E7D6B9B76472F183BD9 /* RenderBuffer.h */,
+				BB4FF4943C4A8EEF15D01D5ADC3AEE23 /* RenderBuffer.m */,
+				7739BB4390F2EBA75875710FDFE4F667 /* Shader.h */,
+				EC15EFFCB06B8578A68298315EF3A365 /* Shader.m */,
+				76CF7D164FEC878C0B46ABC271C27AAC /* TextureUnit.h */,
+				11E7418CE38D6E00DB712DE9FEC4195E /* TextureUnit.m */,
+				AFF9C022DA06A4BF05D5F1493CD8B706 /* Vertex.h */,
+				DB3E8751540FED210A12F78FD915EF7C /* Vertex.m */,
+				64F73CF6CB3ACABA3CFE86103C22467B /* VertexElement.h */,
+				3D8AAD0A2FC99D23A629B436EFCDB45A /* VertexElement.m */,
+				A5B98D89DC567C6AFCADDDB79C36119A /* Pod */,
+				C29CE221159D8D4BE68A86EFEB71393E /* Support Files */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		8C29063EEB4F063C165B8373335061E7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8FB5943A7443E21C276A7718D287B3F8 /* OpenGLUtils.podspec */,
-			);
-			name = Pod;
+			name = OpenGLUtils;
+			path = ../../openGL;
 			sourceTree = "<group>";
 		};
 		9BA0E21CEF1260EB12468EE832D4E909 /* Products */ = {
@@ -163,6 +181,25 @@
 				9324254194F4144012754661E9ECE89E /* libPods-OpenGLZeroStudyDemo(7)-光照UITests.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A5B98D89DC567C6AFCADDDB79C36119A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DC56B2055D8D02D272627FF7249DC744 /* OpenGLUtils.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C29CE221159D8D4BE68A86EFEB71393E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CDDC26B8E57F060D8D151CDF8F89795 /* OpenGLUtils.xcconfig */,
+				0D3DB952427F0639405FE09B0CAD63CA /* OpenGLUtils-dummy.m */,
+				57BD597F334A2B145C7C5A2955FA30AE /* OpenGLUtils-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../OpenGLZeroStudyDemo(7)-光照/Pods/Target Support Files/OpenGLUtils";
 			sourceTree = "<group>";
 		};
 		C5080C6876ABB09631FC39C631538D30 /* Targets Support Files */ = {
@@ -179,7 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4F70CA280C01E11BF54A7A07A936A7B3 /* Development Pods */,
+				1AB8B43D82A4AA663D1B117D2228E41E /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				9BA0E21CEF1260EB12468EE832D4E909 /* Products */,
 				C5080C6876ABB09631FC39C631538D30 /* Targets Support Files */,
@@ -204,25 +241,6 @@
 			);
 			name = "Pods-OpenGLZeroStudyDemo(7)-光照Tests";
 			path = "Target Support Files/Pods-OpenGLZeroStudyDemo(7)-光照Tests";
-			sourceTree = "<group>";
-		};
-		E8732C3559C5CA5A76CABC18CE83A87D /* OpenGLUtils */ = {
-			isa = PBXGroup;
-			children = (
-				3B932C701BBE43F03A87B944F874D23C /* OpenGLUtilsHeader.h */,
-				07514F5062AAE8D6E4D752CD6C0E55FF /* Shader.h */,
-				623B61E14EE1D85C2C66D20E98BF5A23 /* Shader.m */,
-				9589D07505A1C5248620D0E9FDC5F653 /* TextureUnit.h */,
-				7F5E532B7405DA5F8E8FDC61D05BE295 /* TextureUnit.m */,
-				6BA92DCC9948AB1346FE80E5ADB13CF7 /* Vertex.h */,
-				65213C67B58D1B22C6D80F91D5D8A3B8 /* Vertex.m */,
-				965F9EB9BAE8C0A95A79100ECCF689B6 /* VertexElement.h */,
-				03E807D371FE2E28A589D8845E0BE182 /* VertexElement.m */,
-				8C29063EEB4F063C165B8373335061E7 /* Pod */,
-				158921E3474B0EA1EE4C0F96D95905F9 /* Support Files */,
-			);
-			name = OpenGLUtils;
-			path = ../../openGL;
 			sourceTree = "<group>";
 		};
 		F11EF7BE47F343AD4B7B5FC0FC694BBF /* Pods-OpenGLZeroStudyDemo(7)-光照UITests */ = {
@@ -255,15 +273,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEAC7207A809F05F218E20FA2C483DB5 /* Headers */ = {
+		DCA5038B3EFBE00C5E2F73C9679FE491 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B0AD7687479EEEA0C3DA0FE43EFAED4 /* OpenGLUtilsHeader.h in Headers */,
-				072D1B4EC60A7400540FD9C5A88012AC /* Shader.h in Headers */,
-				CE5D1555189F965199F010631389D0C2 /* TextureUnit.h in Headers */,
-				0E0AC3420379AAE3D23DB62E5A7DA764 /* Vertex.h in Headers */,
-				B48CFDBF601F7C1E974AC06486F90204 /* VertexElement.h in Headers */,
+				899A905A511B99536ADBD61170CC0D1E /* CubeTextureUnit.h in Headers */,
+				AC42796F5D049B3B7B612B306520070E /* FrameBuffer.h in Headers */,
+				3322A4959B91B6960169351DC677429E /* OpenGLUtilsHeader.h in Headers */,
+				2D9F064E7A294C4A3992D4C7C88C7A07 /* RenderBuffer.h in Headers */,
+				CC9369970EC216F95605FD359C2980DF /* Shader.h in Headers */,
+				6DE0FDC597AFE6591666A3EAD4E67472 /* TextureUnit.h in Headers */,
+				23C23710583DBBCF30DFC7F9618C17C2 /* Vertex.h in Headers */,
+				CDC5C5B2988EFCE50450813B538594A2 /* VertexElement.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,13 +298,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		786E4CD3705F586FB904A92B45B6E118 /* OpenGLUtils */ = {
+		359C039C5D91ACF7E0280A117E1CF8A8 /* OpenGLUtils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26CA80E95749F0F7BDD49F1932123795 /* Build configuration list for PBXNativeTarget "OpenGLUtils" */;
+			buildConfigurationList = FD2A93B287BF1D28840C2DFDA877CDB3 /* Build configuration list for PBXNativeTarget "OpenGLUtils" */;
 			buildPhases = (
-				BEAC7207A809F05F218E20FA2C483DB5 /* Headers */,
-				0C1B8E66935E64BF638B059648DB1C91 /* Sources */,
-				A8A11C7553928D28D7CA80681088FA7A /* Frameworks */,
+				DCA5038B3EFBE00C5E2F73C9679FE491 /* Headers */,
+				D4A0D488B5D9ECD67D4D4E4EA7BB3696 /* Sources */,
+				71ACB650A2E6A27D131F856683D3F42F /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -369,7 +390,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				786E4CD3705F586FB904A92B45B6E118 /* OpenGLUtils */,
+				359C039C5D91ACF7E0280A117E1CF8A8 /* OpenGLUtils */,
 				EBE8FDABC672CFAA42EFB2D9C180CA19 /* Pods-OpenGLZeroStudyDemo(7)-光照 */,
 				A420B3F6B7C7B9D2A11F1D15928DA83B /* Pods-OpenGLZeroStudyDemo(7)-光照Tests */,
 				84D3DDFDB8A569009112761DFCE7B10E /* Pods-OpenGLZeroStudyDemo(7)-光照UITests */,
@@ -386,18 +407,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0C1B8E66935E64BF638B059648DB1C91 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				65D6C18C90C514E591C572E50E6D36A4 /* OpenGLUtils-dummy.m in Sources */,
-				3591A3CE8E06A78D53A43C84833DF660 /* Shader.m in Sources */,
-				0171A0C6BD636B451E7B2E564AAD5B3A /* TextureUnit.m in Sources */,
-				BE8CB4313ED5A2E2EF4DBEAC57E68CEE /* Vertex.m in Sources */,
-				924B305DC95B98AA552AC1DE8C213153 /* VertexElement.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		66E8D19A3F3A4DCCDB18B219A3F92B9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -411,6 +420,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				2030E9DC2AB8E15E78A8C23562B97DC1 /* Pods-OpenGLZeroStudyDemo(7)-光照-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A0D488B5D9ECD67D4D4E4EA7BB3696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE69A1EF4859A98B1972848B679EDA5 /* CubeTextureUnit.m in Sources */,
+				606B08893B77D47CAAF5F2E9031531EC /* FrameBuffer.m in Sources */,
+				CEC06EA9C83773526D9652768DC5CA65 /* OpenGLUtils-dummy.m in Sources */,
+				4F651D1DEC177DB0AA4DE92EB87EE1FE /* RenderBuffer.m in Sources */,
+				D66AFA1FEA789CE2E87939DE735A89FC /* Shader.m in Sources */,
+				38220E60D47DDCEEBAF5CE6CFB9DB0C7 /* TextureUnit.m in Sources */,
+				0B1C6B50990D0C53B4E3A9A789B1B3B5 /* Vertex.m in Sources */,
+				9021E810D85D61AB50A73EB898CC1626 /* VertexElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +456,7 @@
 		473E91F4786D35796A0F81C23E9CADDE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OpenGLUtils;
-			target = 786E4CD3705F586FB904A92B45B6E118 /* OpenGLUtils */;
+			target = 359C039C5D91ACF7E0280A117E1CF8A8 /* OpenGLUtils */;
 			targetProxy = 9C706055D792D3D8BEB4AC6BECE1EE30 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -455,31 +479,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		23F85AD394111ECEF93DF27257D68F57 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 766FE764237A1232A38ED6C6C266730C /* OpenGLUtils.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/OpenGLUtils/OpenGLUtils-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = OpenGLUtils;
-				PRODUCT_NAME = OpenGLUtils;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -528,9 +527,9 @@
 			};
 			name = Debug;
 		};
-		85FDD39B3568486F52CB023C4A01B130 /* Debug */ = {
+		8E475627568FD2B61B5295BBF31F0581 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 766FE764237A1232A38ED6C6C266730C /* OpenGLUtils.xcconfig */;
+			baseConfigurationReference = 5CDDC26B8E57F060D8D151CDF8F89795 /* OpenGLUtils.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -549,8 +548,9 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -740,6 +740,30 @@
 			};
 			name = Release;
 		};
+		F815C03CD0FF4AD134A9F599A55DFC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CDDC26B8E57F060D8D151CDF8F89795 /* OpenGLUtils.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenGLUtils/OpenGLUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OpenGLUtils;
+				PRODUCT_NAME = OpenGLUtils;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -748,15 +772,6 @@
 			buildConfigurations = (
 				64080DE6D75477ACBBEF0277C84B333F /* Debug */,
 				4844947E68A42525DC97A756BD43ADD0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		26CA80E95749F0F7BDD49F1932123795 /* Build configuration list for PBXNativeTarget "OpenGLUtils" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				85FDD39B3568486F52CB023C4A01B130 /* Debug */,
-				23F85AD394111ECEF93DF27257D68F57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -784,6 +799,15 @@
 			buildConfigurations = (
 				A84872BEAE5E84EB4375B0AE73E15B6A /* Debug */,
 				B16895961C418299635BF6BF25877CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD2A93B287BF1D28840C2DFDA877CDB3 /* Build configuration list for PBXNativeTarget "OpenGLUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F815C03CD0FF4AD134A9F599A55DFC27 /* Debug */,
+				8E475627568FD2B61B5295BBF31F0581 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

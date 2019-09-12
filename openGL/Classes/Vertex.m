@@ -77,8 +77,25 @@
     
 }
 
+///通过指针设置buffer数据
+-(void)writeBufferData{
+    glBindBuffer(GL_ARRAY_BUFFER,
+                 self.vertexBuffers);
+        glBindBuffer(GL_ARRAY_BUFFER,
+                     self.vertexBuffers);
+        void *ptr = glMapBufferOES(GL_ARRAY_BUFFER, GL_WRITE_ONLY_OES);
+        memcpy(ptr, self.vertex, self.getAllocSpaceByteNum);
+        glUnmapBufferOES(GL_ARRAY_BUFFER);
 
--(void)enableVertexInVertexAttrib:(GLuint)index   numberOfCoordinates:(GLint)count attribOffset:(GLsizeiptr)offset{
+}
+
+-(void)writeBufferInOffset:(int)offset dataSize:(float)size Data:(void*)ptr{
+    glBindBuffer(GL_ARRAY_BUFFER,
+                 self.vertexBuffers);
+    glBufferSubData(GL_ARRAY_BUFFER, offset, size, ptr);
+}
+
+-(void)enableVertexInVertexAttrib:(GLuint)index  numberOfCoordinates:(GLint)count attribOffset:(GLsizeiptr)offset vertexWidth:(GLsizei)width{
     glBindBuffer(GL_ARRAY_BUFFER,
                  self.vertexBuffers);
     glEnableVertexAttribArray(index);
@@ -86,7 +103,7 @@
                           count,               // number of coordinates for attribute
                           GL_FLOAT,            // data is floating point
                           GL_FALSE,            // no fixed point scaling
-                          self.getVertexWidth ,         // total num bytes stored per vertex
+                          width ,         // total num bytes stored per vertex
                           NULL + offset);
 #ifdef DEBUG
     {  // Report any errors
@@ -97,9 +114,15 @@
         }
     }
     //    GL_INVALID_OPERATION  operation;
-//    GL_INVALID_VALUE
+    //    GL_INVALID_VALUE
 #endif
 }
+
+-(void)enableVertexInVertexAttrib:(GLuint)index  numberOfCoordinates:(GLint)count attribOffset:(GLsizeiptr)offset{
+    [self enableVertexInVertexAttrib:index numberOfCoordinates:count attribOffset:offset vertexWidth:[self getVertexWidth]];
+}
+
+
 -(void)drawVertexWithMode:(GLenum)mode  startVertexIndex:(GLint)first
          numberOfVertices:(GLsizei)count {
     NSAssert([self getAllocSpaceByteNum] >=

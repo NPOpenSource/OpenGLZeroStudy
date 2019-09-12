@@ -10,6 +10,7 @@
 
 @implementation LightBindObject
 -(void)BindAttribLocation:(GLuint)program{
+    [super BindAttribLocation:program];
     glBindAttribLocation(program, LightBindAttribLocationTexture, "texture");
 }
 

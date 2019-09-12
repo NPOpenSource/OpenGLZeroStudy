@@ -192,8 +192,8 @@
 				24DAF70B231930C000A19280 /* DefaultRender.vsh */,
 				24DAF709231930C000A19280 /* DefaultRenderBindObject.m */,
 				24DAF70C231930C000A19280 /* DefaultRenderBindObject.h */,
-				24DAF70A231930C000A19280 /* DefaultRenderViewController.m */,
 				24DAF70D231930C000A19280 /* DefaultRenderViewController.h */,
+				24DAF70A231930C000A19280 /* DefaultRenderViewController.m */,
 				24DAF738231D2D2400A19280 /* SkyBindObject.h */,
 				24DAF739231D2D2400A19280 /* SkyBindObject.m */,
 			);

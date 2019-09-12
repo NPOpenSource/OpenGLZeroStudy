@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+target 'OpenGLZeroStudyDemo(15)-高级Opengl-高级数据和高级glsl' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for OpenGLZeroStudyDemo(15)-高级Opengl-高级数据和高级glsl
+  pod 'OpenGLUtils', :path => '../openGL'
+  pod 'OpenGLBase', :path => '../openGLBase'
+  target 'OpenGLZeroStudyDemo(15)-高级Opengl-高级数据和高级glslTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'OpenGLZeroStudyDemo(15)-高级Opengl-高级数据和高级glslUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

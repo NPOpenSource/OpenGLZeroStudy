@@ -14,7 +14,7 @@ texture coords : 390
 
  unsigned int sphereNumVerts = 1944;
 
-float sphereVerts [] = {
+ float sphereVerts [] = {
   // f 28/1/1 1/2/2 21/3/3
   7.6687116638888e-09, 0.466097, 0.115308018404908,
   -0.0265919923312883, 0.466097, 0.112200018404908,

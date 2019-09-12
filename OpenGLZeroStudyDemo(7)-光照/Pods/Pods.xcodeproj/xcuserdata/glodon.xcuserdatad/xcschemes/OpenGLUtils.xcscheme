@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "786E4CD3705F586FB904A92B45B6E118"
+               BlueprintIdentifier = "359C039C5D91ACF7E0280A117E1CF8A8"
                BuildableName = "libOpenGLUtils.a"
                BlueprintName = "OpenGLUtils"
                ReferencedContainer = "container:Pods.xcodeproj">
