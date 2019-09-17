@@ -133,6 +133,20 @@
      glDrawArrays(mode, first, count);
 }
 
+-(void)drawVertexWithMode:(GLenum)mode  startVertexIndex:(GLint)first
+         numberOfVertices:(GLsizei)count RepeatCount:(GLsizei)repeatCount {
+    glBindBuffer(GL_ARRAY_BUFFER,
+                 self.vertexBuffers);
+    glDrawArraysInstancedEXT(mode, first,count, repeatCount);
+
+}
+
+-(void)setVertexDivisor:(GLuint) index  divisor:(GLuint)divisor{
+    glBindBuffer(GL_ARRAY_BUFFER,
+                 self.vertexBuffers);
+    glVertexAttribDivisorEXT(2,1);
+}
+
 - (void)dealloc
 {
     [self releaseVertex];

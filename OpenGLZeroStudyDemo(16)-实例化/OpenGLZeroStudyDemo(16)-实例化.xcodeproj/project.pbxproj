@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		246F8D7C2330B0DD00EE8B14 /* InstanceIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246F8D762330B0DD00EE8B14 /* InstanceIDViewController.m */; };
+		246F8D7D2330B0DD00EE8B14 /* InstanceID.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 246F8D772330B0DD00EE8B14 /* InstanceID.vsh */; };
+		246F8D7E2330B0DD00EE8B14 /* InstanceIDBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 246F8D782330B0DD00EE8B14 /* InstanceIDBindObject.m */; };
+		246F8D7F2330B0DD00EE8B14 /* InstanceID.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 246F8D7A2330B0DD00EE8B14 /* InstanceID.fsh */; };
+		246F8D872330B76D00EE8B14 /* Divisor.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 246F8D812330B76C00EE8B14 /* Divisor.fsh */; };
+		246F8D882330B76D00EE8B14 /* DivisorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246F8D832330B76D00EE8B14 /* DivisorViewController.m */; };
+		246F8D892330B76D00EE8B14 /* Divisor.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 246F8D842330B76D00EE8B14 /* Divisor.vsh */; };
+		246F8D8A2330B76D00EE8B14 /* DivisorBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 246F8D852330B76D00EE8B14 /* DivisorBindObject.m */; };
+		246F8D922330BDF000EE8B14 /* Divisor2.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 246F8D8C2330BDF000EE8B14 /* Divisor2.fsh */; };
+		246F8D932330BDF000EE8B14 /* Divisor2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246F8D8D2330BDF000EE8B14 /* Divisor2ViewController.m */; };
+		246F8D942330BDF000EE8B14 /* Divisor2BindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 246F8D8E2330BDF000EE8B14 /* Divisor2BindObject.m */; };
+		246F8D952330BDF000EE8B14 /* Divisor2.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 246F8D902330BDF000EE8B14 /* Divisor2.vsh */; };
+		24C3FF85232A43FC0045421D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C3FF84232A43FC0045421D /* AppDelegate.m */; };
+		24C3FF88232A43FC0045421D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C3FF87232A43FC0045421D /* ViewController.m */; };
+		24C3FF8B232A43FC0045421D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C3FF89232A43FC0045421D /* Main.storyboard */; };
+		24C3FF8D232A43FF0045421D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C3FF8C232A43FF0045421D /* Assets.xcassets */; };
+		24C3FF90232A43FF0045421D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C3FF8E232A43FF0045421D /* LaunchScreen.storyboard */; };
+		24C3FF93232A43FF0045421D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C3FF92232A43FF0045421D /* main.m */; };
+		24C3FF9D232A43FF0045421D /* OpenGLZeroStudyDemo_16_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C3FF9C232A43FF0045421D /* OpenGLZeroStudyDemo_16_____Tests.m */; };
+		24C3FFA8232A43FF0045421D /* OpenGLZeroStudyDemo_16_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C3FFA7232A43FF0045421D /* OpenGLZeroStudyDemo_16_____UITests.m */; };
+		24C3FFE3232F9E220045421D /* Default.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 24C3FFDF232F9E210045421D /* Default.fsh */; };
+		24C3FFE4232F9E220045421D /* DefaultBindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C3FFE0232F9E210045421D /* DefaultBindObject.m */; };
+		24C3FFE5232F9E220045421D /* Default.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 24C3FFE2232F9E220045421D /* Default.vsh */; };
+		24C3FFE8232F9E360045421D /* DefaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C3FFE6232F9E350045421D /* DefaultViewController.m */; };
+		48B288B79484330EDEBD0410 /* libPods-OpenGLZeroStudyDemo(16)-实例化Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 482CB4AA64292F64C4CB5C2F /* libPods-OpenGLZeroStudyDemo(16)-实例化Tests.a */; };
+		7A1695FE70097D2AF34031AE /* libPods-OpenGLZeroStudyDemo(16)-实例化.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6462A4D7DBA67000A2C6B2F7 /* libPods-OpenGLZeroStudyDemo(16)-实例化.a */; };
+		994754033244EEE9D865B7A5 /* libPods-OpenGLZeroStudyDemo(16)-实例化UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D33A8A88DD1B1DD8329DB50 /* libPods-OpenGLZeroStudyDemo(16)-实例化UITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24C3FF99232A43FF0045421D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24C3FF78232A43FC0045421D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24C3FF7F232A43FC0045421D;
+			remoteInfo = "OpenGLZeroStudyDemo(16)-实例化";
+		};
+		24C3FFA4232A43FF0045421D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24C3FF78232A43FC0045421D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24C3FF7F232A43FC0045421D;
+			remoteInfo = "OpenGLZeroStudyDemo(16)-实例化";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		246F8D762330B0DD00EE8B14 /* InstanceIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstanceIDViewController.m; sourceTree = "<group>"; };
+		246F8D772330B0DD00EE8B14 /* InstanceID.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = InstanceID.vsh; sourceTree = "<group>"; };
+		246F8D782330B0DD00EE8B14 /* InstanceIDBindObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstanceIDBindObject.m; sourceTree = "<group>"; };
+		246F8D792330B0DD00EE8B14 /* InstanceIDBindObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstanceIDBindObject.h; sourceTree = "<group>"; };
+		246F8D7A2330B0DD00EE8B14 /* InstanceID.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = InstanceID.fsh; sourceTree = "<group>"; };
+		246F8D7B2330B0DD00EE8B14 /* InstanceIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstanceIDViewController.h; sourceTree = "<group>"; };
+		246F8D812330B76C00EE8B14 /* Divisor.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Divisor.fsh; sourceTree = "<group>"; };
+		246F8D822330B76D00EE8B14 /* DivisorBindObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivisorBindObject.h; sourceTree = "<group>"; };
+		246F8D832330B76D00EE8B14 /* DivisorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisorViewController.m; sourceTree = "<group>"; };
+		246F8D842330B76D00EE8B14 /* Divisor.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Divisor.vsh; sourceTree = "<group>"; };
+		246F8D852330B76D00EE8B14 /* DivisorBindObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisorBindObject.m; sourceTree = "<group>"; };
+		246F8D862330B76D00EE8B14 /* DivisorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivisorViewController.h; sourceTree = "<group>"; };
+		246F8D8C2330BDF000EE8B14 /* Divisor2.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Divisor2.fsh; sourceTree = "<group>"; };
+		246F8D8D2330BDF000EE8B14 /* Divisor2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Divisor2ViewController.m; sourceTree = "<group>"; };
+		246F8D8E2330BDF000EE8B14 /* Divisor2BindObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Divisor2BindObject.m; sourceTree = "<group>"; };
+		246F8D8F2330BDF000EE8B14 /* Divisor2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Divisor2ViewController.h; sourceTree = "<group>"; };
+		246F8D902330BDF000EE8B14 /* Divisor2.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Divisor2.vsh; sourceTree = "<group>"; };
+		246F8D912330BDF000EE8B14 /* Divisor2BindObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Divisor2BindObject.h; sourceTree = "<group>"; };
+		24C3FF80232A43FC0045421D /* OpenGLZeroStudyDemo(16)-实例化.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLZeroStudyDemo(16)-实例化.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C3FF83232A43FC0045421D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24C3FF84232A43FC0045421D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24C3FF86232A43FC0045421D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		24C3FF87232A43FC0045421D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24C3FF8A232A43FC0045421D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24C3FF8C232A43FF0045421D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24C3FF8F232A43FF0045421D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24C3FF91232A43FF0045421D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24C3FF92232A43FF0045421D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24C3FF98232A43FF0045421D /* OpenGLZeroStudyDemo(16)-实例化Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLZeroStudyDemo(16)-实例化Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C3FF9C232A43FF0045421D /* OpenGLZeroStudyDemo_16_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGLZeroStudyDemo_16_____Tests.m"; sourceTree = "<group>"; };
+		24C3FF9E232A43FF0045421D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24C3FFA3232A43FF0045421D /* OpenGLZeroStudyDemo(16)-实例化UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGLZeroStudyDemo(16)-实例化UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C3FFA7232A43FF0045421D /* OpenGLZeroStudyDemo_16_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGLZeroStudyDemo_16_____UITests.m"; sourceTree = "<group>"; };
+		24C3FFA9232A43FF0045421D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24C3FFDF232F9E210045421D /* Default.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Default.fsh; sourceTree = "<group>"; };
+		24C3FFE0232F9E210045421D /* DefaultBindObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultBindObject.m; sourceTree = "<group>"; };
+		24C3FFE1232F9E210045421D /* DefaultBindObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultBindObject.h; sourceTree = "<group>"; };
+		24C3FFE2232F9E220045421D /* Default.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Default.vsh; sourceTree = "<group>"; };
+		24C3FFE6232F9E350045421D /* DefaultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultViewController.m; sourceTree = "<group>"; };
+		24C3FFE7232F9E360045421D /* DefaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultViewController.h; sourceTree = "<group>"; };
+		482CB4AA64292F64C4CB5C2F /* libPods-OpenGLZeroStudyDemo(16)-实例化Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(16)-实例化Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6462A4D7DBA67000A2C6B2F7 /* libPods-OpenGLZeroStudyDemo(16)-实例化.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(16)-实例化.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D33A8A88DD1B1DD8329DB50 /* libPods-OpenGLZeroStudyDemo(16)-实例化UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLZeroStudyDemo(16)-实例化UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2CBAD5A460A7E5F3C7972CE /* Pods-OpenGLZeroStudyDemo(16)-实例化.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(16)-实例化.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(16)-实例化/Pods-OpenGLZeroStudyDemo(16)-实例化.debug.xcconfig"; sourceTree = "<group>"; };
+		C58458CF5FBDC4B7C48D56CC /* Pods-OpenGLZeroStudyDemo(16)-实例化.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(16)-实例化.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(16)-实例化/Pods-OpenGLZeroStudyDemo(16)-实例化.release.xcconfig"; sourceTree = "<group>"; };
+		CEC78545FC6039C15CCB5742 /* Pods-OpenGLZeroStudyDemo(16)-实例化Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(16)-实例化Tests.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(16)-实例化Tests/Pods-OpenGLZeroStudyDemo(16)-实例化Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3BA756F6F0B2FECEB2F8A2A /* Pods-OpenGLZeroStudyDemo(16)-实例化UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(16)-实例化UITests.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(16)-实例化UITests/Pods-OpenGLZeroStudyDemo(16)-实例化UITests.release.xcconfig"; sourceTree = "<group>"; };
+		E6E6C463F777C3B4BB720029 /* Pods-OpenGLZeroStudyDemo(16)-实例化Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(16)-实例化Tests.release.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(16)-实例化Tests/Pods-OpenGLZeroStudyDemo(16)-实例化Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EA644ED5A5F10941F134E27D /* Pods-OpenGLZeroStudyDemo(16)-实例化UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLZeroStudyDemo(16)-实例化UITests.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLZeroStudyDemo(16)-实例化UITests/Pods-OpenGLZeroStudyDemo(16)-实例化UITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24C3FF7D232A43FC0045421D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1695FE70097D2AF34031AE /* libPods-OpenGLZeroStudyDemo(16)-实例化.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C3FF95232A43FF0045421D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B288B79484330EDEBD0410 /* libPods-OpenGLZeroStudyDemo(16)-实例化Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C3FFA0232A43FF0045421D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994754033244EEE9D865B7A5 /* libPods-OpenGLZeroStudyDemo(16)-实例化UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		203C8E6CF61BFED1ADE40148 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2CBAD5A460A7E5F3C7972CE /* Pods-OpenGLZeroStudyDemo(16)-实例化.debug.xcconfig */,
+				C58458CF5FBDC4B7C48D56CC /* Pods-OpenGLZeroStudyDemo(16)-实例化.release.xcconfig */,
+				CEC78545FC6039C15CCB5742 /* Pods-OpenGLZeroStudyDemo(16)-实例化Tests.debug.xcconfig */,
+				E6E6C463F777C3B4BB720029 /* Pods-OpenGLZeroStudyDemo(16)-实例化Tests.release.xcconfig */,
+				EA644ED5A5F10941F134E27D /* Pods-OpenGLZeroStudyDemo(16)-实例化UITests.debug.xcconfig */,
+				D3BA756F6F0B2FECEB2F8A2A /* Pods-OpenGLZeroStudyDemo(16)-实例化UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		246F8D6A2330B07200EE8B14 /* InstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				246F8D7A2330B0DD00EE8B14 /* InstanceID.fsh */,
+				246F8D772330B0DD00EE8B14 /* InstanceID.vsh */,
+				246F8D792330B0DD00EE8B14 /* InstanceIDBindObject.h */,
+				246F8D782330B0DD00EE8B14 /* InstanceIDBindObject.m */,
+				246F8D7B2330B0DD00EE8B14 /* InstanceIDViewController.h */,
+				246F8D762330B0DD00EE8B14 /* InstanceIDViewController.m */,
+			);
+			path = InstanceID;
+			sourceTree = "<group>";
+		};
+		246F8D802330B71500EE8B14 /* Divisor */ = {
+			isa = PBXGroup;
+			children = (
+				246F8D812330B76C00EE8B14 /* Divisor.fsh */,
+				246F8D842330B76D00EE8B14 /* Divisor.vsh */,
+				246F8D822330B76D00EE8B14 /* DivisorBindObject.h */,
+				246F8D852330B76D00EE8B14 /* DivisorBindObject.m */,
+				246F8D862330B76D00EE8B14 /* DivisorViewController.h */,
+				246F8D832330B76D00EE8B14 /* DivisorViewController.m */,
+			);
+			path = Divisor;
+			sourceTree = "<group>";
+		};
+		246F8D8B2330BD8A00EE8B14 /* Divisor2 */ = {
+			isa = PBXGroup;
+			children = (
+				246F8D8C2330BDF000EE8B14 /* Divisor2.fsh */,
+				246F8D902330BDF000EE8B14 /* Divisor2.vsh */,
+				246F8D912330BDF000EE8B14 /* Divisor2BindObject.h */,
+				246F8D8E2330BDF000EE8B14 /* Divisor2BindObject.m */,
+				246F8D8F2330BDF000EE8B14 /* Divisor2ViewController.h */,
+				246F8D8D2330BDF000EE8B14 /* Divisor2ViewController.m */,
+			);
+			path = Divisor2;
+			sourceTree = "<group>";
+		};
+		24C3FF77232A43FB0045421D = {
+			isa = PBXGroup;
+			children = (
+				24C3FF82232A43FC0045421D /* OpenGLZeroStudyDemo(16)-实例化 */,
+				24C3FF9B232A43FF0045421D /* OpenGLZeroStudyDemo(16)-实例化Tests */,
+				24C3FFA6232A43FF0045421D /* OpenGLZeroStudyDemo(16)-实例化UITests */,
+				24C3FF81232A43FC0045421D /* Products */,
+				203C8E6CF61BFED1ADE40148 /* Pods */,
+				9ACB07DBB4E4DA6602A786D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24C3FF81232A43FC0045421D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24C3FF80232A43FC0045421D /* OpenGLZeroStudyDemo(16)-实例化.app */,
+				24C3FF98232A43FF0045421D /* OpenGLZeroStudyDemo(16)-实例化Tests.xctest */,
+				24C3FFA3232A43FF0045421D /* OpenGLZeroStudyDemo(16)-实例化UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24C3FF82232A43FC0045421D /* OpenGLZeroStudyDemo(16)-实例化 */ = {
+			isa = PBXGroup;
+			children = (
+				246F8D8B2330BD8A00EE8B14 /* Divisor2 */,
+				246F8D802330B71500EE8B14 /* Divisor */,
+				246F8D6A2330B07200EE8B14 /* InstanceID */,
+				24C3FFDD232F9DE20045421D /* default */,
+				24C3FF83232A43FC0045421D /* AppDelegate.h */,
+				24C3FF84232A43FC0045421D /* AppDelegate.m */,
+				24C3FF86232A43FC0045421D /* ViewController.h */,
+				24C3FF87232A43FC0045421D /* ViewController.m */,
+				24C3FF89232A43FC0045421D /* Main.storyboard */,
+				24C3FF8C232A43FF0045421D /* Assets.xcassets */,
+				24C3FF8E232A43FF0045421D /* LaunchScreen.storyboard */,
+				24C3FF91232A43FF0045421D /* Info.plist */,
+				24C3FF92232A43FF0045421D /* main.m */,
+			);
+			path = "OpenGLZeroStudyDemo(16)-实例化";
+			sourceTree = "<group>";
+		};
+		24C3FF9B232A43FF0045421D /* OpenGLZeroStudyDemo(16)-实例化Tests */ = {
+			isa = PBXGroup;
+			children = (
+				24C3FF9C232A43FF0045421D /* OpenGLZeroStudyDemo_16_____Tests.m */,
+				24C3FF9E232A43FF0045421D /* Info.plist */,
+			);
+			path = "OpenGLZeroStudyDemo(16)-实例化Tests";
+			sourceTree = "<group>";
+		};
+		24C3FFA6232A43FF0045421D /* OpenGLZeroStudyDemo(16)-实例化UITests */ = {
+			isa = PBXGroup;
+			children = (
+				24C3FFA7232A43FF0045421D /* OpenGLZeroStudyDemo_16_____UITests.m */,
+				24C3FFA9232A43FF0045421D /* Info.plist */,
+			);
+			path = "OpenGLZeroStudyDemo(16)-实例化UITests";
+			sourceTree = "<group>";
+		};
+		24C3FFDD232F9DE20045421D /* default */ = {
+			isa = PBXGroup;
+			children = (
+				24C3FFE7232F9E360045421D /* DefaultViewController.h */,
+				24C3FFE6232F9E350045421D /* DefaultViewController.m */,
+				24C3FFDF232F9E210045421D /* Default.fsh */,
+				24C3FFE2232F9E220045421D /* Default.vsh */,
+				24C3FFE1232F9E210045421D /* DefaultBindObject.h */,
+				24C3FFE0232F9E210045421D /* DefaultBindObject.m */,
+			);
+			path = default;
+			sourceTree = "<group>";
+		};
+		9ACB07DBB4E4DA6602A786D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6462A4D7DBA67000A2C6B2F7 /* libPods-OpenGLZeroStudyDemo(16)-实例化.a */,
+				482CB4AA64292F64C4CB5C2F /* libPods-OpenGLZeroStudyDemo(16)-实例化Tests.a */,
+				9D33A8A88DD1B1DD8329DB50 /* libPods-OpenGLZeroStudyDemo(16)-实例化UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24C3FF7F232A43FC0045421D /* OpenGLZeroStudyDemo(16)-实例化 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C3FFAC232A43FF0045421D /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(16)-实例化" */;
+			buildPhases = (
+				DF05B8348F9E36BFD12F288F /* [CP] Check Pods Manifest.lock */,
+				24C3FF7C232A43FC0045421D /* Sources */,
+				24C3FF7D232A43FC0045421D /* Frameworks */,
+				24C3FF7E232A43FC0045421D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGLZeroStudyDemo(16)-实例化";
+			productName = "OpenGLZeroStudyDemo(16)-实例化";
+			productReference = 24C3FF80232A43FC0045421D /* OpenGLZeroStudyDemo(16)-实例化.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24C3FF97232A43FF0045421D /* OpenGLZeroStudyDemo(16)-实例化Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C3FFAF232A43FF0045421D /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(16)-实例化Tests" */;
+			buildPhases = (
+				8400CD57EFC6CB69A7272E35 /* [CP] Check Pods Manifest.lock */,
+				24C3FF94232A43FF0045421D /* Sources */,
+				24C3FF95232A43FF0045421D /* Frameworks */,
+				24C3FF96232A43FF0045421D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24C3FF9A232A43FF0045421D /* PBXTargetDependency */,
+			);
+			name = "OpenGLZeroStudyDemo(16)-实例化Tests";
+			productName = "OpenGLZeroStudyDemo(16)-实例化Tests";
+			productReference = 24C3FF98232A43FF0045421D /* OpenGLZeroStudyDemo(16)-实例化Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24C3FFA2232A43FF0045421D /* OpenGLZeroStudyDemo(16)-实例化UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C3FFB2232A43FF0045421D /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(16)-实例化UITests" */;
+			buildPhases = (
+				3BA03F541CA0442B343B2AB9 /* [CP] Check Pods Manifest.lock */,
+				24C3FF9F232A43FF0045421D /* Sources */,
+				24C3FFA0232A43FF0045421D /* Frameworks */,
+				24C3FFA1232A43FF0045421D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24C3FFA5232A43FF0045421D /* PBXTargetDependency */,
+			);
+			name = "OpenGLZeroStudyDemo(16)-实例化UITests";
+			productName = "OpenGLZeroStudyDemo(16)-实例化UITests";
+			productReference = 24C3FFA3232A43FF0045421D /* OpenGLZeroStudyDemo(16)-实例化UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24C3FF78232A43FC0045421D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = persion;
+				TargetAttributes = {
+					24C3FF7F232A43FC0045421D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					24C3FF97232A43FF0045421D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 24C3FF7F232A43FC0045421D;
+					};
+					24C3FFA2232A43FF0045421D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 24C3FF7F232A43FC0045421D;
+					};
+				};
+			};
+			buildConfigurationList = 24C3FF7B232A43FC0045421D /* Build configuration list for PBXProject "OpenGLZeroStudyDemo(16)-实例化" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24C3FF77232A43FB0045421D;
+			productRefGroup = 24C3FF81232A43FC0045421D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24C3FF7F232A43FC0045421D /* OpenGLZeroStudyDemo(16)-实例化 */,
+				24C3FF97232A43FF0045421D /* OpenGLZeroStudyDemo(16)-实例化Tests */,
+				24C3FFA2232A43FF0045421D /* OpenGLZeroStudyDemo(16)-实例化UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24C3FF7E232A43FC0045421D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C3FF90232A43FF0045421D /* LaunchScreen.storyboard in Resources */,
+				24C3FF8D232A43FF0045421D /* Assets.xcassets in Resources */,
+				246F8D872330B76D00EE8B14 /* Divisor.fsh in Resources */,
+				24C3FF8B232A43FC0045421D /* Main.storyboard in Resources */,
+				24C3FFE3232F9E220045421D /* Default.fsh in Resources */,
+				246F8D952330BDF000EE8B14 /* Divisor2.vsh in Resources */,
+				24C3FFE5232F9E220045421D /* Default.vsh in Resources */,
+				246F8D892330B76D00EE8B14 /* Divisor.vsh in Resources */,
+				246F8D922330BDF000EE8B14 /* Divisor2.fsh in Resources */,
+				246F8D7F2330B0DD00EE8B14 /* InstanceID.fsh in Resources */,
+				246F8D7D2330B0DD00EE8B14 /* InstanceID.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C3FF96232A43FF0045421D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C3FFA1232A43FF0045421D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BA03F541CA0442B343B2AB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(16)-实例化UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8400CD57EFC6CB69A7272E35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(16)-实例化Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF05B8348F9E36BFD12F288F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLZeroStudyDemo(16)-实例化-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24C3FF7C232A43FC0045421D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C3FF88232A43FC0045421D /* ViewController.m in Sources */,
+				246F8D882330B76D00EE8B14 /* DivisorViewController.m in Sources */,
+				246F8D932330BDF000EE8B14 /* Divisor2ViewController.m in Sources */,
+				24C3FFE8232F9E360045421D /* DefaultViewController.m in Sources */,
+				246F8D7C2330B0DD00EE8B14 /* InstanceIDViewController.m in Sources */,
+				246F8D7E2330B0DD00EE8B14 /* InstanceIDBindObject.m in Sources */,
+				24C3FF93232A43FF0045421D /* main.m in Sources */,
+				24C3FFE4232F9E220045421D /* DefaultBindObject.m in Sources */,
+				246F8D942330BDF000EE8B14 /* Divisor2BindObject.m in Sources */,
+				246F8D8A2330B76D00EE8B14 /* DivisorBindObject.m in Sources */,
+				24C3FF85232A43FC0045421D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C3FF94232A43FF0045421D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C3FF9D232A43FF0045421D /* OpenGLZeroStudyDemo_16_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C3FF9F232A43FF0045421D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C3FFA8232A43FF0045421D /* OpenGLZeroStudyDemo_16_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24C3FF9A232A43FF0045421D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24C3FF7F232A43FC0045421D /* OpenGLZeroStudyDemo(16)-实例化 */;
+			targetProxy = 24C3FF99232A43FF0045421D /* PBXContainerItemProxy */;
+		};
+		24C3FFA5232A43FF0045421D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24C3FF7F232A43FC0045421D /* OpenGLZeroStudyDemo(16)-实例化 */;
+			targetProxy = 24C3FFA4232A43FF0045421D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24C3FF89232A43FC0045421D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C3FF8A232A43FC0045421D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24C3FF8E232A43FF0045421D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C3FF8F232A43FF0045421D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24C3FFAA232A43FF0045421D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24C3FFAB232A43FF0045421D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24C3FFAD232A43FF0045421D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2CBAD5A460A7E5F3C7972CE /* Pods-OpenGLZeroStudyDemo(16)-实例化.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F733JW92J9;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(16)-实例化/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.persion.OpenGLZeroStudyDemo-16-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24C3FFAE232A43FF0045421D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C58458CF5FBDC4B7C48D56CC /* Pods-OpenGLZeroStudyDemo(16)-实例化.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F733JW92J9;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(16)-实例化/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.persion.OpenGLZeroStudyDemo-16-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24C3FFB0232A43FF0045421D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC78545FC6039C15CCB5742 /* Pods-OpenGLZeroStudyDemo(16)-实例化Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F733JW92J9;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(16)-实例化Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.persion.OpenGLZeroStudyDemo-16-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLZeroStudyDemo(16)-实例化.app/OpenGLZeroStudyDemo(16)-实例化";
+			};
+			name = Debug;
+		};
+		24C3FFB1232A43FF0045421D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E6C463F777C3B4BB720029 /* Pods-OpenGLZeroStudyDemo(16)-实例化Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F733JW92J9;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(16)-实例化Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.persion.OpenGLZeroStudyDemo-16-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLZeroStudyDemo(16)-实例化.app/OpenGLZeroStudyDemo(16)-实例化";
+			};
+			name = Release;
+		};
+		24C3FFB3232A43FF0045421D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA644ED5A5F10941F134E27D /* Pods-OpenGLZeroStudyDemo(16)-实例化UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F733JW92J9;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(16)-实例化UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.persion.OpenGLZeroStudyDemo-16-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenGLZeroStudyDemo(16)-实例化";
+			};
+			name = Debug;
+		};
+		24C3FFB4232A43FF0045421D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3BA756F6F0B2FECEB2F8A2A /* Pods-OpenGLZeroStudyDemo(16)-实例化UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F733JW92J9;
+				INFOPLIST_FILE = "OpenGLZeroStudyDemo(16)-实例化UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.persion.OpenGLZeroStudyDemo-16-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenGLZeroStudyDemo(16)-实例化";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24C3FF7B232A43FC0045421D /* Build configuration list for PBXProject "OpenGLZeroStudyDemo(16)-实例化" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C3FFAA232A43FF0045421D /* Debug */,
+				24C3FFAB232A43FF0045421D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C3FFAC232A43FF0045421D /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(16)-实例化" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C3FFAD232A43FF0045421D /* Debug */,
+				24C3FFAE232A43FF0045421D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C3FFAF232A43FF0045421D /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(16)-实例化Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C3FFB0232A43FF0045421D /* Debug */,
+				24C3FFB1232A43FF0045421D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C3FFB2232A43FF0045421D /* Build configuration list for PBXNativeTarget "OpenGLZeroStudyDemo(16)-实例化UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C3FFB3232A43FF0045421D /* Debug */,
+				24C3FFB4232A43FF0045421D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24C3FF78232A43FC0045421D /* Project object */;
+}

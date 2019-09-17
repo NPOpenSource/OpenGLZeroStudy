@@ -46,8 +46,6 @@
         [self.bindObject BindAttribLocation:program];
     }];
     [self.bindObject setUniformLocation:self.shader.program];
-    
- 
 }
 
 -(void)loadVertex{

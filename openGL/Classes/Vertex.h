@@ -29,6 +29,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(void)drawVertexWithMode:(GLenum)mode  startVertexIndex:(GLint)first
          numberOfVertices:(GLsizei)count;
+///一次性绘制
+-(void)drawVertexWithMode:(GLenum)mode  startVertexIndex:(GLint)first
+         numberOfVertices:(GLsizei)count RepeatCount:(GLsizei)repeatCount;
+
+/**
+ 设置分割顶点
+
+ @param index 分割的顶点宽度
+ @param divisor 一次取顶点宽度多少个
+ 参考实例化demo使用.  可能上述描述不是很准确
+ */
+-(void)setVertexDivisor:(GLuint) index  divisor:(GLuint)divisor;
 @end
 
 NS_ASSUME_NONNULL_END
