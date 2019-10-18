@@ -1,0 +1,20 @@
+{
+  "name": "openGLResource",
+  "version": "0.0.1",
+  "summary": "openGLResource.",
+  "description": "openGL资源文件",
+  "homepage": "https//www.baidu.com",
+  "license": "MIT",
+  "authors": "xxx",
+  "source": {
+    "git": "",
+    "tag": "0.0.1"
+  },
+  "resources": "Resources/*",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

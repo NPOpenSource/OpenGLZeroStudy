@@ -104,7 +104,19 @@
     glBindTexture(GL_TEXTURE_2D, 0);
 }
 
+-(void)createDepthTextureUnit{
+    CGFloat scale = UIScreen.mainScreen.scale;
+       GLsizei fbo_width = [UIScreen mainScreen].bounds.size.width*scale;
+       GLsizei fbo_height =  [UIScreen mainScreen].bounds.size.height*scale;
+       glBindTexture(GL_TEXTURE_2D,  self.textureBuffer);
+       glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+       glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+       glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+       glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
+       glTexImage2D(GL_TEXTURE_2D, 0, GL_DEPTH_COMPONENT16, fbo_width, fbo_height, 0, GL_DEPTH_COMPONENT, GL_FLOAT, NULL);
+       glBindTexture(GL_TEXTURE_2D, 0);
 
+}
 
 #pragma mark  - private
 

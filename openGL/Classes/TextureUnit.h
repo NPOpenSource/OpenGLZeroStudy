@@ -13,7 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) GLuint textureBuffer;
 //创建空的纹理单元
 -(void)createSpaceTextureUnit;
-
+///创建空的 深度纹理单元
+-(void)createDepthTextureUnit;
 -(void)setImage:(UIImage *)image andConfigTextureUnit:(nullable  void(^)(void))configTextureUnitBlock;
 -(void)activeTextureUnit:(GLenum)textureUnit;
 

@@ -1,0 +1,27 @@
+PODS:
+  - OpenGLBase (0.0.1):
+    - OpenGLUtils (~> 0.0.2)
+  - openGLResource (0.0.1)
+  - OpenGLUtils (0.0.2)
+
+DEPENDENCIES:
+  - OpenGLBase (from `../openGLBase`)
+  - openGLResource (from `../openGLResource`)
+  - OpenGLUtils (from `../openGL`)
+
+EXTERNAL SOURCES:
+  OpenGLBase:
+    :path: "../openGLBase"
+  openGLResource:
+    :path: "../openGLResource"
+  OpenGLUtils:
+    :path: "../openGL"
+
+SPEC CHECKSUMS:
+  OpenGLBase: 9da68b1d2029b14d63b10f8e427af7392ee79525
+  openGLResource: cd6c8d7c1612f6cd6fc423848b4a2b877f8cee31
+  OpenGLUtils: af967be364e96fbf9569d7b9c15602ac63d2807d
+
+PODFILE CHECKSUM: bb08b801af40aec8513360a1e4a23aa91405ab24
+
+COCOAPODS: 1.8.1

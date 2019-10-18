@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0FC05A3A-CF93-4C1B-A34D-01BDAA019ADA"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D125554-DEEF-4056-9001-BF634A7EF5AE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OpenGLZeroStudyDemo(18)-&#x9ad8;&#x7ea7;&#x5149;&#x7167;&#x4e4b;&#x9634;&#x5f71;/&#x9634;&#x5f71;&#x6620;&#x5c04;/ShadowViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "228"
+            endingLineNumber = "228"
+            landmarkName = "-glkView:drawInRect:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18459F20-5A04-4673-BF70-2579B1540371"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OpenGLZeroStudyDemo(18)-&#x9ad8;&#x7ea7;&#x5149;&#x7167;&#x4e4b;&#x9634;&#x5f71;/&#x9634;&#x5f71;&#x6620;&#x5c04;/ShadowBindObject.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "-setUniformLocation:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22731C65-40B6-4DCD-9E75-B824A23326AB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OpenGLZeroStudyDemo(18)-&#x9ad8;&#x7ea7;&#x5149;&#x7167;&#x4e4b;&#x9634;&#x5f71;/&#x9634;&#x5f71;&#x6620;&#x5c04;/ShadowViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "-createShader"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

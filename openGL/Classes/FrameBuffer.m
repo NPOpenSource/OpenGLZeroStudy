@@ -51,6 +51,11 @@
     glFramebufferTexture2D(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_TEXTURE_2D, texture, 0);
 }
 
+-(void)bindDepthAttachmentInTexture:(GLuint) texture{
+    glFramebufferTexture2D(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, GL_TEXTURE_2D, texture, 0);
+}
+
+
 -(void)bingDepthAttachmentInRenderBuffer:(GLint)renderBuffer{
     glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, GL_RENDERBUFFER, renderBuffer);
 
